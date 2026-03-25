@@ -1,9 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
     <loc>https://www.topmoneyapps.com/</loc>
-    <lastmod>2026-03-24</lastmod>
+    <lastmod>2026-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <url>
+    <loc>https://www.topmoneyapps.com/acorns-vs-robinhood.html</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.topmoneyapps.com/ynab-review.html</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.topmoneyapps.com/chime-vs-sofi.html</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.topmoneyapps.com/chase-sapphire-reserve-vs-amex-platinum.html</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.topmoneyapps.com/best-investing-apps-beginners.html</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.topmoneyapps.com/best-budgeting-apps.html</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
