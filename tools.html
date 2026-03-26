@@ -245,26 +245,33 @@
     .field-value:focus { border-color: var(--green); }
 
     /* Sliders */
+    .range-wrap {
+      /* hard wall — overflow:hidden on the direct parent is the reliable iOS fix */
+      overflow: hidden;
+      width: 100%;
+      padding: 6px 0; /* vertical touch target without adding width */
+      contain: paint;
+    }
     input[type="range"] {
       -webkit-appearance: none; appearance: none;
-      /* pull track in from edges so thumb never touches the container boundary */
-      width: calc(100% - 24px); margin: 0 12px;
+      /* 18px inset each side: thumb half-width (9px) + 9px breathing room */
+      width: calc(100% - 36px); margin: 0 18px;
       height: 4px;
       background: var(--border); border-radius: 2px; outline: none; cursor: pointer;
       display: block;
-      touch-action: none; /* tell iOS this element owns the touch — not a scroll gesture */
+      touch-action: none; /* slider owns this touch, not the page scroll */
       user-select: none; -webkit-user-select: none;
     }
     input[type="range"]::-webkit-slider-thumb {
       -webkit-appearance: none; appearance: none;
-      width: 22px; height: 22px; border-radius: 50%;
+      width: 18px; height: 18px; border-radius: 50%;
       background: var(--green); cursor: pointer;
-      box-shadow: 0 0 8px var(--green-glow);
+      box-shadow: 0 0 6px var(--green-glow);
       transition: transform .15s;
     }
-    input[type="range"]::-webkit-slider-thumb:active { transform: scale(1.1); }
+    input[type="range"]::-webkit-slider-thumb:active { transform: scale(1.15); }
     input[type="range"]::-moz-range-thumb {
-      width: 22px; height: 22px; border-radius: 50%; border: none;
+      width: 18px; height: 18px; border-radius: 50%; border: none;
       background: var(--green); cursor: pointer;
     }
     .range-hints { display: flex; justify-content: space-between; font-size: 0.7rem; color: var(--text3); }
@@ -400,7 +407,9 @@
           <label class="field-label" for="r-current-age">Current Age</label>
           <span class="field-value" id="r-current-age-val">30</span>
         </div>
-        <input type="range" id="r-current-age" min="18" max="70" value="30" step="1" aria-label="Current age" />
+        <div class="range-wrap">
+          <input type="range" id="r-current-age" min="18" max="70" value="30" step="1" aria-label="Current age" />
+        </div>
         <div class="range-hints"><span>18</span><span>70</span></div>
       </div>
 
@@ -409,7 +418,9 @@
           <label class="field-label" for="r-retire-age">Retirement Age</label>
           <span class="field-value" id="r-retire-age-val">65</span>
         </div>
-        <input type="range" id="r-retire-age" min="40" max="80" value="65" step="1" aria-label="Retirement age" />
+        <div class="range-wrap">
+          <input type="range" id="r-retire-age" min="40" max="80" value="65" step="1" aria-label="Retirement age" />
+        </div>
         <div class="range-hints"><span>40</span><span>80</span></div>
       </div>
 
@@ -434,7 +445,9 @@
           <label class="field-label" for="r-return">Expected Annual Return</label>
           <span class="field-value" id="r-return-val">7%</span>
         </div>
-        <input type="range" id="r-return" min="1" max="15" value="7" step="0.5" aria-label="Expected annual return" />
+        <div class="range-wrap">
+          <input type="range" id="r-return" min="1" max="15" value="7" step="0.5" aria-label="Expected annual return" />
+        </div>
         <div class="range-hints"><span>1%</span><span>15%</span></div>
       </div>
 
@@ -443,7 +456,9 @@
           <label class="field-label" for="r-inflation">Inflation Rate</label>
           <span class="field-value" id="r-inflation-val">3%</span>
         </div>
-        <input type="range" id="r-inflation" min="0" max="8" value="3" step="0.5" aria-label="Inflation rate" />
+        <div class="range-wrap">
+          <input type="range" id="r-inflation" min="0" max="8" value="3" step="0.5" aria-label="Inflation rate" />
+        </div>
         <div class="range-hints"><span>0%</span><span>8%</span></div>
       </div>
     </div>
@@ -524,7 +539,9 @@
           <label class="field-label" for="c-rate">Annual Return Rate</label>
           <span class="field-value" id="c-rate-val">8%</span>
         </div>
-        <input type="range" id="c-rate" min="1" max="20" value="8" step="0.5" aria-label="Annual return rate" />
+        <div class="range-wrap">
+          <input type="range" id="c-rate" min="1" max="20" value="8" step="0.5" aria-label="Annual return rate" />
+        </div>
         <div class="range-hints"><span>1%</span><span>20%</span></div>
       </div>
 
@@ -533,7 +550,9 @@
           <label class="field-label" for="c-years">Time Period</label>
           <span class="field-value" id="c-years-val">20 yrs</span>
         </div>
-        <input type="range" id="c-years" min="1" max="50" value="20" step="1" aria-label="Time period in years" />
+        <div class="range-wrap">
+          <input type="range" id="c-years" min="1" max="50" value="20" step="1" aria-label="Time period in years" />
+        </div>
         <div class="range-hints"><span>1 yr</span><span>50 yrs</span></div>
       </div>
 
