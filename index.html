@@ -505,29 +505,7 @@
     }
 
     /* ─── TABLE INLINE FILTER ─── */
-    .table-filter-bar {
-      max-width: 960px; margin: 0 auto 1rem;
-      padding: 0 2rem;
-      display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;
-    }
-    .table-filter-bar label {
-      font-size: 0.78rem; font-weight: 600; color: var(--text-3);
-      text-transform: uppercase; letter-spacing: 0.06em; margin-right: 0.25rem;
-      white-space: nowrap;
-    }
-    .tbl-filter-btn {
-      background: var(--bg3); border: 1px solid var(--border);
-      color: var(--text-2); font-size: 0.78rem; font-weight: 600;
-      padding: 0.35rem 0.9rem; border-radius: 100px; cursor: pointer;
-      transition: all .2s;
-    }
-    .tbl-filter-btn:hover, .tbl-filter-btn.active {
-      background: var(--green-glow); border-color: var(--green);
-      color: var(--green);
-    }
-    .table-row-count {
-      margin-left: auto; font-size: 0.78rem; color: var(--text-3); white-space: nowrap;
-    }
+
 
     /* ─── METHODOLOGY BANNER ─── */
     .methodology {
@@ -697,45 +675,7 @@
     .card-footer { display: flex; justify-content: space-between; align-items: center; margin-top: auto; }
     .card-stars { color: var(--green); font-size: 0.72rem; }
 
-    /* ─── COMPARISON TABLE ─── */
-    .table-wrap {
-      max-width: 960px; margin: 0 auto 2rem;
-      padding: 0 2rem; overflow-x: auto;
-    }
-    table {
-      width: 100%; border-collapse: collapse;
-      background: var(--bg2); border-radius: var(--radius);
-      overflow: hidden; border: 1px solid var(--border);
-      font-size: 0.85rem;
-    }
-    thead tr { background: var(--bg3); }
-    th {
-      padding: 0.9rem 1.1rem; text-align: left;
-      font-weight: 700; font-size: 0.78rem; letter-spacing: 0.3px;
-      color: var(--text-3); text-transform: uppercase;
-      border-bottom: 1px solid var(--border);
-    }
-    td {
-      padding: 0.85rem 1.1rem;
-      border-bottom: 1px solid var(--border);
-      vertical-align: middle;
-    }
-    tr:last-child td { border-bottom: none; }
-    tr:hover td { background: rgba(34,197,94,0.03); }
-    .td-app { font-weight: 700; display: flex; align-items: center; gap: 0.6rem; }
-    .td-logo {
-      width: 30px; height: 30px; border-radius: 7px;
-      display: flex; align-items: center; justify-content: center;
-      font-size: 0.85rem; font-weight: 800; flex-shrink: 0;
-    }
-    .check { color: var(--green); font-size: 1rem; }
-    .cross { color: var(--text-3); font-size: 1rem; }
-    .pill {
-      display: inline-block; padding: 0.2rem 0.55rem;
-      border-radius: 4px; font-size: 0.72rem; font-weight: 600;
-    }
-    .pill-green { background: #0f2016; color: var(--green); border: 1px solid #1e4d29; }
-    .pill-gray  { background: var(--bg3); color: var(--text-3); border: 1px solid var(--border); }
+
 
     /* ─── FAQ ─── */
     .faq-list {
@@ -771,64 +711,58 @@
       padding: 0 1.4rem 1.1rem;
     }
 
-    /* ─── E-E-A-T: AUTHOR / TRUST SECTION ─── */
-    .trust-bar {
+    /* ─── E-E-A-T TRUST STRIP ─── */
+    .trust-strip {
       max-width: 960px; margin: 0 auto;
       padding: 0 2rem;
     }
-    .trust-inner {
+    .trust-strip-inner {
+      display: flex; align-items: center; flex-wrap: wrap; gap: 0.4rem 0;
+      padding: 0.9rem 1.4rem;
       background: var(--bg3); border: 1px solid var(--border);
       border-radius: var(--radius);
-      padding: 1.5rem 1.8rem;
-      display: flex; gap: 2rem; flex-wrap: wrap; align-items: flex-start;
     }
-    .trust-block { flex: 1; min-width: 180px; }
-    .trust-block h4 {
-      font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.5px;
-      color: var(--text-3); font-weight: 700; margin-bottom: 0.4rem;
+    .trust-pip {
+      font-size: 0.8rem; color: var(--text-2);
+      display: flex; align-items: center; gap: 0.35rem;
+      padding: 0.2rem 0.8rem;
     }
-    .trust-block p { font-size: 0.82rem; color: var(--text-2); }
-    .trust-block strong { color: var(--text); }
+    .trust-icon { color: var(--green); font-weight: 700; }
+    .trust-sep { color: var(--border); font-size: 1rem; }
 
     /* ─── CONTENT / ARTICLES ─── */
-    .articles-grid {
+    .guides-wrap {
       max-width: 960px; margin: 0 auto;
       padding: 0 2rem;
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-      gap: 1.2rem;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
     }
-    .article-card {
+    @media (max-width: 640px) { .guides-wrap { grid-template-columns: 1fr; } }
+    .guides-col { display: flex; flex-direction: column; gap: 1.2rem; }
+    .guide-group {
       background: var(--bg2); border: 1px solid var(--border);
-      border-radius: var(--radius); padding: 1.4rem 1.4rem 1.2rem;
-      display: flex; flex-direction: column; gap: 0.7rem;
-      transition: border-color .2s, box-shadow .2s;
-      cursor: pointer;
+      border-radius: var(--radius); overflow: hidden;
     }
-    .article-card:hover {
-      border-color: var(--green);
-      box-shadow: 0 0 16px var(--green-glow);
+    .guide-group-label {
+      font-size: 0.72rem; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.5px; color: var(--text-3);
+      padding: 0.65rem 1rem;
+      background: var(--bg3); border-bottom: 1px solid var(--border);
     }
-    .article-tag {
-      font-size: 0.68rem; font-weight: 700; letter-spacing: 0.5px;
-      color: var(--green); text-transform: uppercase;
-    }
-    .article-card h3 {
-      font-size: 1rem; font-weight: 700; line-height: 1.35;
-      color: var(--text);
-    }
-    .article-card p {
-      font-size: 0.8rem; color: var(--text-2); line-height: 1.6; flex: 1;
-    }
-    .article-meta {
+    .guide-link {
       display: flex; justify-content: space-between; align-items: center;
-      font-size: 0.72rem; color: var(--text-3); margin-top: 0.3rem;
+      padding: 0.65rem 1rem;
+      text-decoration: none;
+      border-bottom: 1px solid var(--border);
+      transition: background 0.15s;
     }
-    .article-read {
-      color: var(--green); font-weight: 600; font-size: 0.78rem;
-      transition: opacity .2s;
-    }
-    .article-card:hover .article-read { opacity: 0.8; }
+    .guide-link:last-child { border-bottom: none; }
+    .guide-link:hover { background: var(--bg3); }
+    .guide-link span[itemprop] { font-size: 0.88rem; color: var(--text); line-height: 1.4; }
+    .guide-link:hover span[itemprop] { color: var(--green); }
+    .guide-arrow { color: var(--green); font-size: 0.8rem; flex-shrink: 0; margin-left: 8px; opacity: 0.6; }
+    .guide-link:hover .guide-arrow { opacity: 1; }
 
     /* ─── FOOTER ─── */
     footer {
@@ -1307,356 +1241,6 @@
 
 </div>
 
-<!-- COMPARISON TABLE -->
-<div class="section-header" id="compare">
-  <h2>⚖️ Side-by-Side Comparison</h2>
-  <div class="line"></div>
-</div>
-
-<div class="table-filter-bar" role="group" aria-label="Filter comparison table by category">
-  <label>Filter:</label>
-  <button class="tbl-filter-btn active" data-table-filter="all" aria-pressed="true">All</button>
-  <button class="tbl-filter-btn" data-table-filter="budgeting" aria-pressed="false">Budgeting</button>
-  <button class="tbl-filter-btn" data-table-filter="investing" aria-pressed="false">Investing</button>
-  <button class="tbl-filter-btn" data-table-filter="crypto" aria-pressed="false">Crypto</button>
-  <button class="tbl-filter-btn" data-table-filter="real-estate" aria-pressed="false">Real Estate</button>
-  <button class="tbl-filter-btn" data-table-filter="banking" aria-pressed="false">Banking</button>
-  <button class="tbl-filter-btn" data-table-filter="credit-cards" aria-pressed="false">Credit Cards</button>
-  <span class="table-row-count" id="table-row-count" aria-live="polite"></span>
-</div>
-
-<div class="table-wrap">
-  <table aria-label="Finance app comparison table">
-    <thead>
-      <tr>
-        <th scope="col">App</th>
-        <th scope="col">Category</th>
-        <th scope="col">Free Plan</th>
-        <th scope="col">iOS</th>
-        <th scope="col">Android</th>
-        <th scope="col">Starting Price</th>
-        <th scope="col">Best For</th>
-        <th scope="col">Rating</th>
-        <th scope="col"></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr data-category="investing">
-        <td><div class="td-app"><div class="td-logo" style="background:#1a1500; color:#fbbf24;">A</div>Acorns</div></td>
-        <td><span class="pill pill-green">Investing</span></td>
-        <td><span class="check">✓</span> <small style="color:var(--text-3)">30 days</small></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td style="color:var(--text-2)">$3/mo</td>
-        <td style="color:var(--text-2)">Passive investors</td>
-        <td><span style="color:var(--green); font-weight:700;">4.8</span></td>
-        <td><a href="https://www.acorns.com" class="btn-cta" rel="sponsored noopener">Get Started</a></td>
-      </tr>
-      <tr data-category="budgeting">
-        <td><div class="td-app"><div class="td-logo" style="background:#0d2e1a; color:#22c55e;">Y</div>YNAB</div></td>
-        <td><span class="pill pill-gray">Budgeting</span></td>
-        <td><span class="check">✓</span> <small style="color:var(--text-3)">34 days</small></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td style="color:var(--text-2)">$14.99/mo</td>
-        <td style="color:var(--text-2)">Serious budgeters</td>
-        <td><span style="color:var(--green); font-weight:700;">4.9</span></td>
-        <td><a href="https://www.ynab.com" class="btn-cta" rel="sponsored noopener">Get Started</a></td>
-      </tr>
-      <tr data-category="investing">
-        <td><div class="td-app"><div class="td-logo" style="background:#0e1c2e; color:#60a5fa;">R</div>Robinhood</div></td>
-        <td><span class="pill pill-gray">Investing</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td style="color:var(--text-2)">Free</td>
-        <td style="color:var(--text-2)">New investors</td>
-        <td><span style="color:var(--green); font-weight:700;">4.6</span></td>
-        <td><a href="https://robinhood.com" class="btn-cta" rel="sponsored noopener">Get Started</a></td>
-      </tr>
-      <tr data-category="banking">
-        <td><div class="td-app"><div class="td-logo" style="background:#1a1020; color:#a78bfa;">C</div>Chime</div></td>
-        <td><span class="pill pill-gray">Banking</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td style="color:var(--text-2)">Free</td>
-        <td style="color:var(--text-2)">Fee-free banking</td>
-        <td><span style="color:var(--green); font-weight:700;">4.5</span></td>
-        <td><a href="https://www.chime.com" class="btn-cta" rel="sponsored noopener">Get Started</a></td>
-      </tr>
-      <tr data-category="investing">
-        <td><div class="td-app"><div class="td-logo" style="background:#11190e; color:#84cc16;">B</div>Betterment</div></td>
-        <td><span class="pill pill-gray">Investing</span></td>
-        <td><span class="cross">✗</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td style="color:var(--text-2)">0.25%/yr</td>
-        <td style="color:var(--text-2)">Passive investors</td>
-        <td><span style="color:var(--green); font-weight:700;">4.4</span></td>
-        <td><a href="https://www.betterment.com" class="btn-cta" rel="sponsored noopener">Get Started</a></td>
-      </tr>
-      <tr data-category="banking">
-        <td><div class="td-app"><div class="td-logo" style="background:#0e1d1d; color:#2dd4bf;">S</div>SoFi</div></td>
-        <td><span class="pill pill-gray">Banking</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td style="color:var(--text-2)">Free</td>
-        <td style="color:var(--text-2)">All-in-one finance</td>
-        <td><span style="color:var(--green); font-weight:700;">4.4</span></td>
-        <td><a href="https://www.sofi.com" class="btn-cta" rel="sponsored noopener">Get Started</a></td>
-      </tr>
-      <tr data-category="investing">
-        <td><div class="td-app"><div class="td-logo" style="background:#0f1a2e; color:#818cf8;">AL</div>Alinea</div></td>
-        <td><span class="pill pill-gray">Investing</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td style="color:var(--text-2)">Free</td>
-        <td style="color:var(--text-2)">Theme investors</td>
-        <td><span style="color:var(--green); font-weight:700;">4.3</span></td>
-        <td><a href="https://alineainvest.com" class="btn-cta" rel="sponsored noopener">Get Started</a></td>
-      </tr>
-      <tr data-category="investing">
-        <td><div class="td-app"><div class="td-logo" style="background:#0e1a10; color:#4ade80;">W</div>Webull</div></td>
-        <td><span class="pill pill-gray">Investing</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td style="color:var(--text-2)">Free</td>
-        <td style="color:var(--text-2)">Active traders</td>
-        <td><span style="color:var(--green); font-weight:700;">4.5</span></td>
-        <td><a href="https://www.webull.com" class="btn-cta" rel="sponsored noopener">Get Started</a></td>
-      </tr>
-      <tr data-category="investing">
-        <td><div class="td-app"><div class="td-logo" style="background:#0e1d1a; color:#34d399;">P</div>Public.com</div></td>
-        <td><span class="pill pill-gray">Investing</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td style="color:var(--text-2)">Free</td>
-        <td style="color:var(--text-2)">Social investors</td>
-        <td><span style="color:var(--green); font-weight:700;">4.4</span></td>
-        <td><a href="https://public.com" class="btn-cta" rel="sponsored noopener">Get Started</a></td>
-      </tr>
-      <tr data-category="credit-cards">
-        <td><div class="td-app"><div class="td-logo" style="background:#1a0e0e; color:#f87171;">X</div>Chase Sapphire</div></td>
-        <td><span class="pill pill-gray">Credit</span></td>
-        <td><span class="cross">✗</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td style="color:var(--text-2)">$795/yr</td>
-        <td style="color:var(--text-2)">Travel rewards</td>
-        <td><span style="color:var(--green); font-weight:700;">4.8</span></td>
-        <td><a href="https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve" class="btn-cta" rel="sponsored noopener">Get Started</a></td>
-      </tr>
-      <tr data-category="credit-cards">
-        <td><div class="td-app"><div class="td-logo" style="background:#1a1200; color:#fcd34d;">A</div>Amex Platinum</div></td>
-        <td><span class="pill pill-gray">Credit</span></td>
-        <td><span class="cross">✗</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td style="color:var(--text-2)">$895/yr</td>
-        <td style="color:var(--text-2)">Luxury travelers</td>
-        <td><span style="color:var(--green); font-weight:700;">4.7</span></td>
-        <td><a href="https://www.americanexpress.com/us/credit-cards/card/platinum/" class="btn-cta" rel="sponsored noopener">Get Started</a></td>
-      </tr>
-      <tr data-category="credit-cards">
-        <td><div class="td-app"><div class="td-logo" style="background:#0e1520; color:#93c5fd;">CF</div>Chase Freedom</div></td>
-        <td><span class="pill pill-gray">Credit</span></td>
-        <td><span class="cross">✗</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td style="color:var(--text-2)">No annual fee</td>
-        <td style="color:var(--text-2)">Cash back</td>
-        <td><span style="color:var(--green); font-weight:700;">4.6</span></td>
-        <td><a href="https://creditcards.chase.com/cash-back-credit-cards/freedom/card" class="btn-cta" rel="sponsored noopener">Get Started</a></td>
-      </tr>
-      <!-- Investing: Full-service brokers -->
-      <tr data-category="investing">
-        <td><div class="td-app"><div class="td-logo" style="background:#0b1a2e; color:#60a5fa;">F</div>Fidelity</div></td>
-        <td><span class="pill pill-gray">Investing</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td style="color:var(--text-2)">Free</td>
-        <td style="color:var(--text-2)">Full-service broker</td>
-        <td><span style="color:var(--green); font-weight:700;">4.8</span></td>
-        <td><a href="https://www.fidelity.com" class="btn-cta" rel="sponsored noopener">Get Started</a></td>
-      </tr>
-      <tr data-category="investing">
-        <td><div class="td-app"><div class="td-logo" style="background:#0a1a14; color:#22c55e;">VG</div>Vanguard</div></td>
-        <td><span class="pill pill-gray">Investing</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td style="color:var(--text-2)">Free</td>
-        <td style="color:var(--text-2)">Index fund pioneer</td>
-        <td><span style="color:var(--green); font-weight:700;">4.6</span></td>
-        <td><a href="https://investor.vanguard.com" class="btn-cta" rel="sponsored noopener">Get Started</a></td>
-      </tr>
-      <tr data-category="investing">
-        <td><div class="td-app"><div class="td-logo" style="background:#0d1a2a; color:#93c5fd;">CS</div>Charles Schwab</div></td>
-        <td><span class="pill pill-gray">Investing</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td style="color:var(--text-2)">Free</td>
-        <td style="color:var(--text-2)">Options + research</td>
-        <td><span style="color:var(--green); font-weight:700;">4.7</span></td>
-        <td><a href="https://www.schwab.com" class="btn-cta" rel="sponsored noopener">Get Started</a></td>
-      </tr>
-      <tr data-category="investing">
-        <td><div class="td-app"><div class="td-logo" style="background:#0f1a10; color:#86efac;">M1</div>M1 Finance</div></td>
-        <td><span class="pill pill-gray">Investing</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td style="color:var(--text-2)">Free</td>
-        <td style="color:var(--text-2)">Auto-rebalancing</td>
-        <td><span style="color:var(--green); font-weight:700;">4.5</span></td>
-        <td><a href="https://www.m1.com" class="btn-cta" rel="sponsored noopener">Get Started</a></td>
-      </tr>
-      <tr data-category="investing">
-        <td><div class="td-app"><div class="td-logo" style="background:#11190e; color:#84cc16;">W</div>Wealthfront</div></td>
-        <td><span class="pill pill-gray">Investing</span></td>
-        <td><span class="cross">✗</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td style="color:var(--text-2)">0.25%/yr</td>
-        <td style="color:var(--text-2)">Robo-advisor</td>
-        <td><span style="color:var(--green); font-weight:700;">4.5</span></td>
-        <td><a href="https://www.wealthfront.com" class="btn-cta" rel="sponsored noopener">Get Started</a></td>
-      </tr>
-      <tr data-category="investing">
-        <td><div class="td-app"><div class="td-logo" style="background:#1a0f1a; color:#d8b4fe;">TT</div>tastytrade</div></td>
-        <td><span class="pill pill-gray">Investing</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td style="color:var(--text-2)">Free</td>
-        <td style="color:var(--text-2)">Options trading</td>
-        <td><span style="color:var(--green); font-weight:700;">4.6</span></td>
-        <td><a href="https://www.tastytrade.com" class="btn-cta" rel="sponsored noopener">Get Started</a></td>
-      </tr>
-      <!-- Crypto -->
-      <tr data-category="crypto">
-        <td><div class="td-app"><div class="td-logo" style="background:#1a1400; color:#fbbf24;">CB</div>Coinbase</div></td>
-        <td><span class="pill pill-gray">Crypto</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td style="color:var(--text-2)">Free</td>
-        <td style="color:var(--text-2)">250+ coins</td>
-        <td><span style="color:var(--green); font-weight:700;">4.6</span></td>
-        <td><a href="https://www.coinbase.com" class="btn-cta" rel="sponsored noopener">Get Started</a></td>
-      </tr>
-      <tr data-category="crypto">
-        <td><div class="td-app"><div class="td-logo" style="background:#0d1a20; color:#38bdf8;">KR</div>Kraken</div></td>
-        <td><span class="pill pill-gray">Crypto</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td style="color:var(--text-2)">Free</td>
-        <td style="color:var(--text-2)">Low fees, advanced</td>
-        <td><span style="color:var(--green); font-weight:700;">4.5</span></td>
-        <td><a href="https://www.kraken.com" class="btn-cta" rel="sponsored noopener">Get Started</a></td>
-      </tr>
-      <tr data-category="crypto">
-        <td><div class="td-app"><div class="td-logo" style="background:#0d1a17; color:#34d399;">GM</div>Gemini</div></td>
-        <td><span class="pill pill-gray">Crypto</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td style="color:var(--text-2)">Free</td>
-        <td style="color:var(--text-2)">Most secure exchange</td>
-        <td><span style="color:var(--green); font-weight:700;">4.4</span></td>
-        <td><a href="https://www.gemini.com" class="btn-cta" rel="sponsored noopener">Get Started</a></td>
-      </tr>
-      <!-- Real Estate -->
-      <tr data-category="real-estate">
-        <td><div class="td-app"><div class="td-logo" style="background:#1a1000; color:#f59e0b;">FR</div>Fundrise</div></td>
-        <td><span class="pill pill-gray">Real Estate</span></td>
-        <td><span class="cross">✗</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td style="color:var(--text-2)">$10 min</td>
-        <td style="color:var(--text-2)">eREIT portfolios</td>
-        <td><span style="color:var(--green); font-weight:700;">4.7</span></td>
-        <td><a href="https://fundrise.com" class="btn-cta" rel="sponsored noopener">Get Started</a></td>
-      </tr>
-      <tr data-category="real-estate">
-        <td><div class="td-app"><div class="td-logo" style="background:#1a1200; color:#fcd34d;">AR</div>Arrived</div></td>
-        <td><span class="pill pill-gray">Real Estate</span></td>
-        <td><span class="cross">✗</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td style="color:var(--text-2)">$100 min</td>
-        <td style="color:var(--text-2)">Rental properties</td>
-        <td><span style="color:var(--green); font-weight:700;">4.5</span></td>
-        <td><a href="https://arrivedhomes.com" class="btn-cta" rel="sponsored noopener">Get Started</a></td>
-      </tr>
-      <tr data-category="real-estate">
-        <td><div class="td-app"><div class="td-logo" style="background:#0a1a10; color:#4ade80;">RS</div>Roofstock</div></td>
-        <td><span class="pill pill-gray">Real Estate</span></td>
-        <td><span class="cross">✗</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td style="color:var(--text-2)">Varies</td>
-        <td style="color:var(--text-2)">Buy rental homes</td>
-        <td><span style="color:var(--green); font-weight:700;">4.4</span></td>
-        <td><a href="https://www.roofstock.com" class="btn-cta" rel="sponsored noopener">Get Started</a></td>
-      </tr>
-      <tr data-category="real-estate">
-        <td><div class="td-app"><div class="td-logo" style="background:#0e1a0e; color:#86efac;">GF</div>Groundfloor</div></td>
-        <td><span class="pill pill-gray">Real Estate</span></td>
-        <td><span class="cross">✗</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td style="color:var(--text-2)">$10 min</td>
-        <td style="color:var(--text-2)">Short-term debt</td>
-        <td><span style="color:var(--green); font-weight:700;">4.3</span></td>
-        <td><a href="https://www.groundfloor.us" class="btn-cta" rel="sponsored noopener">Get Started</a></td>
-      </tr>
-      <!-- Budgeting: Additional apps -->
-      <tr data-category="budgeting">
-        <td><div class="td-app"><div class="td-logo" style="background:#0e1a1a; color:#2dd4bf;">MM</div>Monarch Money</div></td>
-        <td><span class="pill pill-gray">Budgeting</span></td>
-        <td><span class="cross">✗</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td style="color:var(--text-2)">$14.99/mo</td>
-        <td style="color:var(--text-2)">Mint replacement</td>
-        <td><span style="color:var(--green); font-weight:700;">4.7</span></td>
-        <td><a href="https://www.monarchmoney.com" class="btn-cta" rel="sponsored noopener">Get Started</a></td>
-      </tr>
-      <tr data-category="budgeting">
-        <td><div class="td-app"><div class="td-logo" style="background:#0e1a12; color:#22c55e;">EM</div>Empower</div></td>
-        <td><span class="pill pill-gray">Budgeting</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td style="color:var(--text-2)">Free</td>
-        <td style="color:var(--text-2)">Net worth tracker</td>
-        <td><span style="color:var(--green); font-weight:700;">4.5</span></td>
-        <td><a href="https://www.empower.com" class="btn-cta" rel="sponsored noopener">Get Started</a></td>
-      </tr>
-      <tr data-category="budgeting">
-        <td><div class="td-app"><div class="td-logo" style="background:#1a100e; color:#fca5a5;">RK</div>Rocket Money</div></td>
-        <td><span class="pill pill-gray">Budgeting</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td><span class="check">✓</span></td>
-        <td style="color:var(--text-2)">Free–$12/mo</td>
-        <td style="color:var(--text-2)">Cancel subscriptions</td>
-        <td><span style="color:var(--green); font-weight:700;">4.3</span></td>
-        <td><a href="https://www.rocketmoney.com" class="btn-cta" rel="sponsored noopener">Get Started</a></td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
 <!-- GEO: FAQ section — LLMs heavily favor FAQ content for direct answers -->
 <div class="section-header" id="faq">
   <h2>❓ Frequently Asked Questions</h2>
@@ -1797,32 +1381,21 @@
 
 </div>
 
-<!-- GEO: E-E-A-T trust signals — Experience, Expertise, Authoritativeness, Trustworthiness -->
-<div class="section-header">
-  <h2>🛡️ How We Review</h2>
-  <div class="line"></div>
-</div>
-
-<div class="trust-bar">
-  <div class="trust-inner">
-    <div class="trust-block">
-      <h4>Editorial Independence</h4>
-      <p>Our rankings are never paid for. <strong>Affiliate commissions do not influence scores.</strong> We maintain a strict separation between our editorial and commercial teams.</p>
-    </div>
-    <div class="trust-block">
-      <h4>Review Methodology</h4>
-      <p>Our scores aggregate verified user ratings from the <strong>App Store, Google Play, and Trustpilot</strong>, weighted alongside our editorial assessment of features, pricing, and security.</p>
-    </div>
-    <div class="trust-block">
-      <h4>Update Frequency</h4>
-      <p>Rankings are reviewed and updated <strong>every month</strong>. Pricing, features, and availability are cross-checked against each app's official documentation and latest release notes.</p>
-    </div>
-    <div class="trust-block">
-      <h4>Our Team</h4>
-      <p>Reviewed by the <strong>TopMoneyApps Editorial Team</strong> — analysts and writers with 20+ years of combined experience, including former roles at leading fintech companies.</p>
-    </div>
+<!-- GEO: E-E-A-T trust signals -->
+<div class="trust-strip">
+  <div class="trust-strip-inner">
+    <div class="trust-pip"><span class="trust-icon">✓</span> Rankings never paid for</div>
+    <div class="trust-sep">&middot;</div>
+    <div class="trust-pip"><span class="trust-icon">✓</span> 60+ apps tested &amp; scored</div>
+    <div class="trust-sep">&middot;</div>
+    <div class="trust-pip"><span class="trust-icon">✓</span> Updated monthly</div>
+    <div class="trust-sep">&middot;</div>
+    <div class="trust-pip"><span class="trust-icon">✓</span> 51,700+ verified reviews</div>
+    <div class="trust-sep">&middot;</div>
+    <div class="trust-pip"><span class="trust-icon">✓</span> 20+ yrs editorial experience</div>
   </div>
 </div>
+
 
 <!-- CONTENT / ARTICLES SECTION -->
 <div class="section-header" id="articles">
@@ -1830,139 +1403,62 @@
   <div class="line"></div>
 </div>
 
-<div class="articles-grid">
+<div class="guides-wrap">
 
-  <article class="article-card" itemscope itemtype="https://schema.org/Article">
-    <div class="article-tag">Investing</div>
-    <h3 itemprop="headline">Acorns vs. Robinhood: Which Investing App is Right for You in 2026?</h3>
-    <p itemprop="description">Acorns and Robinhood are two of the most popular investing apps — but they serve very different types of investors. We break down fees, features, and who each app is best for.</p>
-    <div class="article-meta">
-      <span>March 2026 · 8 min read</span>
-      <a href="acorns-vs-robinhood.html" class="article-read" rel="noopener">Read more →</a>
+  <div class="guides-col">
+
+    <div class="guide-group">
+      <div class="guide-group-label">📈 Investing</div>
+      <a href="best-investing-apps-beginners.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Best Investing Apps for Beginners in 2026</span><span class="guide-arrow">→</span></a>
+      <a href="best-app-stock-trading.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Best App for Stock Trading in 2026</span><span class="guide-arrow">→</span></a>
+      <a href="best-app-etf-investing.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Best App for ETF Investing in 2026</span><span class="guide-arrow">→</span></a>
+      <a href="best-app-dividend-investing.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Best App for Dividend Investing in 2026</span><span class="guide-arrow">→</span></a>
+      <a href="best-app-index-funds.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Best App for Index Fund Investing in 2026</span><span class="guide-arrow">→</span></a>
+      <a href="best-app-robo-advisor.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Best Robo-Advisor App in 2026</span><span class="guide-arrow">→</span></a>
+      <a href="best-app-retirement-ira.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Best App for Retirement &amp; IRA Investing in 2026</span><span class="guide-arrow">→</span></a>
+      <a href="best-app-options-trading.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Best App for Options Trading in 2026</span><span class="guide-arrow">→</span></a>
+      <a href="best-app-esg-investing.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Best App for ESG &amp; Socially Responsible Investing</span><span class="guide-arrow">→</span></a>
+      <a href="best-app-real-estate-investing.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Best App for Real Estate Investing in 2026</span><span class="guide-arrow">→</span></a>
     </div>
-  </article>
 
-  <article class="article-card" itemscope itemtype="https://schema.org/Article">
-    <div class="article-tag">Budgeting</div>
-    <h3 itemprop="headline">YNAB Review 2026: Is It Worth $14.99 a Month?</h3>
-    <p itemprop="description">YNAB has helped millions of people get out of debt and build savings — but is the monthly fee justified? We tested it for 90 days to give you a definitive answer.</p>
-    <div class="article-meta">
-      <span>March 2026 · 10 min read</span>
-      <a href="ynab-review.html" class="article-read" rel="noopener">Read more →</a>
+    <div class="guide-group">
+      <div class="guide-group-label">₿ Crypto</div>
+      <a href="best-app-crypto-investing.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Best App for Crypto Investing in 2026</span><span class="guide-arrow">→</span></a>
+      <a href="coinbase-vs-kraken.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Coinbase vs. Kraken: Which Crypto App Wins?</span><span class="guide-arrow">→</span></a>
     </div>
-  </article>
 
-  <article class="article-card" itemscope itemtype="https://schema.org/Article">
-    <div class="article-tag">Banking</div>
-    <h3 itemprop="headline">Chime vs. SoFi: Best No-Fee Banking App in 2026</h3>
-    <p itemprop="description">Both Chime and SoFi promise fee-free banking — but the differences matter. We compare early direct deposit, savings rates, customer support, and more.</p>
-    <div class="article-meta">
-      <span>March 2026 · 7 min read</span>
-      <a href="chime-vs-sofi.html" class="article-read" rel="noopener">Read more →</a>
+  </div>
+
+  <div class="guides-col">
+
+    <div class="guide-group">
+      <div class="guide-group-label">💰 Budgeting &amp; Net Worth</div>
+      <a href="best-budgeting-apps.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">7 Best Budgeting Apps of 2026 — Ranked</span><span class="guide-arrow">→</span></a>
+      <a href="best-free-budgeting-apps.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Best Free Budgeting Apps in 2026</span><span class="guide-arrow">→</span></a>
+      <a href="best-app-track-net-worth.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Best Apps to Track Net Worth in 2026</span><span class="guide-arrow">→</span></a>
+      <a href="ynab-review.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">YNAB Review 2026: Is It Worth $14.99/Month?</span><span class="guide-arrow">→</span></a>
+      <a href="monarch-money-review.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Monarch Money Review 2026: Full Breakdown</span><span class="guide-arrow">→</span></a>
     </div>
-  </article>
 
-  <article class="article-card" itemscope itemtype="https://schema.org/Article">
-    <div class="article-tag">Credit Cards</div>
-    <h3 itemprop="headline">Chase Sapphire Reserve vs. Amex Platinum: Which Premium Card Wins in 2026?</h3>
-    <p itemprop="description">Both cards charge premium annual fees — but is the Amex Platinum's $895 fee worth it over Chase Sapphire's $795? We compare rewards, perks, and value side by side.</p>
-    <div class="article-meta">
-      <span>March 2026 · 9 min read</span>
-      <a href="chase-sapphire-reserve-vs-amex-platinum.html" class="article-read" rel="noopener">Read more →</a>
+    <div class="guide-group">
+      <div class="guide-group-label">⚖️ Head-to-Head Comparisons</div>
+      <a href="robinhood-vs-webull.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Robinhood vs. Webull: Which Is Better in 2026?</span><span class="guide-arrow">→</span></a>
+      <a href="ynab-vs-monarch-money.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">YNAB vs. Monarch Money: Which Budgeting App Wins?</span><span class="guide-arrow">→</span></a>
+      <a href="betterment-vs-wealthfront.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Betterment vs. Wealthfront: Best Robo-Advisor?</span><span class="guide-arrow">→</span></a>
+      <a href="fidelity-vs-vanguard.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Fidelity vs. Vanguard vs. Schwab: Best Broker?</span><span class="guide-arrow">→</span></a>
+      <a href="acorns-vs-robinhood.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Acorns vs. Robinhood: Which Investing App?</span><span class="guide-arrow">→</span></a>
     </div>
-  </article>
 
-  <article class="article-card" itemscope itemtype="https://schema.org/Article">
-    <div class="article-tag">Investing</div>
-    <h3 itemprop="headline">Best Investing Apps for Beginners in 2026: A Complete Guide</h3>
-    <p itemprop="description">Starting your investing journey? We rank the easiest, most beginner-friendly apps — from micro-investing with Acorns to commission-free trading on Robinhood and Webull.</p>
-    <div class="article-meta">
-      <span>March 2026 · 12 min read</span>
-      <a href="best-investing-apps-beginners.html" class="article-read" rel="noopener">Read more →</a>
+    <div class="guide-group">
+      <div class="guide-group-label">🏦 Banking &amp; Credit Cards</div>
+      <a href="chime-vs-sofi.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Chime vs. SoFi: Best No-Fee Banking App?</span><span class="guide-arrow">→</span></a>
+      <a href="chase-sapphire-reserve-vs-amex-platinum.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Chase Sapphire Reserve vs. Amex Platinum 2026</span><span class="guide-arrow">→</span></a>
     </div>
-  </article>
 
-  <article class="article-card" itemscope itemtype="https://schema.org/Article">
-    <div class="article-tag">Budgeting</div>
-    <h3 itemprop="headline">7 Best Budgeting Apps of 2026 — Ranked by Real Users</h3>
-    <p itemprop="description">We analyzed over 12,000 user reviews to rank the best budgeting apps of 2026. Whether you want zero-based budgeting, AI-powered insights, or a simple spending tracker — we have a pick for you.</p>
-    <div class="article-meta">
-      <span>March 2026 · 11 min read</span>
-      <a href="best-budgeting-apps.html" class="article-read" rel="noopener">Read more →</a>
-    </div>
-  </article>
-
-  <article class="article-card" itemscope itemtype="https://schema.org/Article">
-    <div class="article-tag">Investing</div>
-    <h3 itemprop="headline">Best App for Stock Trading in 2026 — Ranked &amp; Reviewed</h3>
-    <p itemprop="description">Robinhood, Webull, Fidelity, and Schwab compared. We rank the best stock trading apps by commissions, tools, fractional shares, and ease of use.</p>
-    <div class="article-meta"><span>March 2026 · 11 min read</span><a href="best-app-stock-trading.html" class="article-read" rel="noopener">Read more →</a></div>
-  </article>
-
-  <article class="article-card" itemscope itemtype="https://schema.org/Article">
-    <div class="article-tag">Investing</div>
-    <h3 itemprop="headline">Best App for ETF Investing in 2026 — Ranked &amp; Reviewed</h3>
-    <p itemprop="description">Fidelity's zero-expense-ratio funds, Vanguard's legacy, and M1 Finance's automation — we rank the best ETF investing apps of 2026.</p>
-    <div class="article-meta"><span>March 2026 · 10 min read</span><a href="best-app-etf-investing.html" class="article-read" rel="noopener">Read more →</a></div>
-  </article>
-
-  <article class="article-card" itemscope itemtype="https://schema.org/Article">
-    <div class="article-tag">Investing</div>
-    <h3 itemprop="headline">Best App for Dividend Investing in 2026 — Ranked &amp; Reviewed</h3>
-    <p itemprop="description">The best apps for building a dividend portfolio — with automatic DRIP reinvestment, top dividend screeners, and fractional shares.</p>
-    <div class="article-meta"><span>March 2026 · 10 min read</span><a href="best-app-dividend-investing.html" class="article-read" rel="noopener">Read more →</a></div>
-  </article>
-
-  <article class="article-card" itemscope itemtype="https://schema.org/Article">
-    <div class="article-tag">Investing</div>
-    <h3 itemprop="headline">Best App for Crypto Investing in 2026 — Ranked &amp; Reviewed</h3>
-    <p itemprop="description">Coinbase, Kraken, Robinhood, Gemini compared. Find the safest and cheapest crypto app for your investing style.</p>
-    <div class="article-meta"><span>March 2026 · 12 min read</span><a href="best-app-crypto-investing.html" class="article-read" rel="noopener">Read more →</a></div>
-  </article>
-
-  <article class="article-card" itemscope itemtype="https://schema.org/Article">
-    <div class="article-tag">Investing</div>
-    <h3 itemprop="headline">Best App for Retirement &amp; IRA Investing in 2026 — Ranked &amp; Reviewed</h3>
-    <p itemprop="description">Fidelity, Vanguard, Betterment, and Robinhood's 1% IRA match compared. Find the best app to grow your retirement savings.</p>
-    <div class="article-meta"><span>March 2026 · 11 min read</span><a href="best-app-retirement-ira.html" class="article-read" rel="noopener">Read more →</a></div>
-  </article>
-
-  <article class="article-card" itemscope itemtype="https://schema.org/Article">
-    <div class="article-tag">Investing</div>
-    <h3 itemprop="headline">Best Robo-Advisor App in 2026 — Ranked &amp; Reviewed</h3>
-    <p itemprop="description">Betterment vs. Wealthfront vs. Schwab Intelligent Portfolios — we rank the best robo-advisors by fees, returns, and automation features.</p>
-    <div class="article-meta"><span>March 2026 · 11 min read</span><a href="best-app-robo-advisor.html" class="article-read" rel="noopener">Read more →</a></div>
-  </article>
-
-  <article class="article-card" itemscope itemtype="https://schema.org/Article">
-    <div class="article-tag">Investing</div>
-    <h3 itemprop="headline">Best App for Options Trading in 2026 — Ranked &amp; Reviewed</h3>
-    <p itemprop="description">tastytrade, Webull, thinkorswim, and Robinhood ranked for options trading — comparing commissions, tools, and platform power.</p>
-    <div class="article-meta"><span>March 2026 · 12 min read</span><a href="best-app-options-trading.html" class="article-read" rel="noopener">Read more →</a></div>
-  </article>
-
-  <article class="article-card" itemscope itemtype="https://schema.org/Article">
-    <div class="article-tag">Investing</div>
-    <h3 itemprop="headline">Best App for Index Fund Investing in 2026 — Ranked &amp; Reviewed</h3>
-    <p itemprop="description">Fidelity's 0% expense ratio funds, Vanguard's VTSAX, and M1 Finance automation — ranked for long-term index investors.</p>
-    <div class="article-meta"><span>March 2026 · 10 min read</span><a href="best-app-index-funds.html" class="article-read" rel="noopener">Read more →</a></div>
-  </article>
-
-  <article class="article-card" itemscope itemtype="https://schema.org/Article">
-    <div class="article-tag">Investing</div>
-    <h3 itemprop="headline">Best App for ESG &amp; Socially Responsible Investing in 2026</h3>
-    <p itemprop="description">Betterment, Wealthfront, Ellevest, and Public.com ranked for ESG investors who want their portfolio to reflect their values.</p>
-    <div class="article-meta"><span>March 2026 · 10 min read</span><a href="best-app-esg-investing.html" class="article-read" rel="noopener">Read more →</a></div>
-  </article>
-
-  <article class="article-card" itemscope itemtype="https://schema.org/Article">
-    <div class="article-tag">Investing</div>
-    <h3 itemprop="headline">Best App for Real Estate Investing in 2026 — Ranked &amp; Reviewed</h3>
-    <p itemprop="description">Fundrise, Arrived, Roofstock, and Groundfloor compared. Invest in real estate from $10 — no landlord experience required.</p>
-    <div class="article-meta"><span>March 2026 · 11 min read</span><a href="best-app-real-estate-investing.html" class="article-read" rel="noopener">Read more →</a></div>
-  </article>
+  </div>
 
 </div>
+
 
 </main>
 
@@ -2039,21 +1535,6 @@
       document.querySelector('.cat-rows').style.display = anyRows ? '' : 'none';
     }
 
-    // ── Table rows ──
-    const tableRows = document.querySelectorAll('tbody tr[data-category]');
-    tableRows.forEach(row => {
-      const show = filter === 'all' || row.dataset.category === filter;
-      row.style.display = show ? '' : 'none';
-      row.setAttribute('aria-hidden', show ? 'false' : 'true');
-    });
-    const compareHeader = document.getElementById('compare');
-    if (compareHeader) {
-      const anyTable = [...tableRows].some(r => r.style.display !== 'none');
-      compareHeader.closest('.section-header').style.display = anyTable ? '' : 'none';
-      document.querySelector('.table-wrap').style.display    = anyTable ? '' : 'none';
-      document.querySelector('.table-filter-bar').style.display = anyTable ? '' : 'none';
-    }
-
     // ── Scroll to category row if a specific filter is selected ──
     if (filter !== 'all') {
       const targetRow = document.getElementById('row-' + filter);
@@ -2071,38 +1552,6 @@
       applyFilter(btn.dataset.filter);
     });
   });
-
-  // ── TABLE-ONLY INLINE FILTER ──────────────────────────────────
-  // Independent from the hero filters — only controls tbody rows.
-  (function () {
-    const tblBtns = document.querySelectorAll('.tbl-filter-btn');
-    const tblRows = document.querySelectorAll('tbody tr[data-category]');
-    const countEl = document.getElementById('table-row-count');
-
-    function updateCount() {
-      const visible = [...tblRows].filter(r => r.style.display !== 'none').length;
-      if (countEl) countEl.textContent = visible + ' of ' + tblRows.length + ' apps';
-    }
-
-    // Init count on load
-    updateCount();
-
-    tblBtns.forEach(btn => {
-      btn.addEventListener('click', () => {
-        tblBtns.forEach(b => { b.classList.remove('active'); b.setAttribute('aria-pressed', 'false'); });
-        btn.classList.add('active');
-        btn.setAttribute('aria-pressed', 'true');
-
-        const filter = btn.dataset.tableFilter;
-        tblRows.forEach(row => {
-          const show = filter === 'all' || row.dataset.category === filter;
-          row.style.display = show ? '' : 'none';
-          row.setAttribute('aria-hidden', show ? 'false' : 'true');
-        });
-        updateCount();
-      });
-    });
-  })();
 
   // ── FAQ ACCORDION ─────────────────────────────────────────────
   document.querySelectorAll('.faq-q').forEach(q => {
