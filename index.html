@@ -504,6 +504,31 @@
       color: var(--green);
     }
 
+    /* ─── TABLE INLINE FILTER ─── */
+    .table-filter-bar {
+      max-width: 960px; margin: 0 auto 1rem;
+      padding: 0 2rem;
+      display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;
+    }
+    .table-filter-bar label {
+      font-size: 0.78rem; font-weight: 600; color: var(--text-3);
+      text-transform: uppercase; letter-spacing: 0.06em; margin-right: 0.25rem;
+      white-space: nowrap;
+    }
+    .tbl-filter-btn {
+      background: var(--bg3); border: 1px solid var(--border);
+      color: var(--text-2); font-size: 0.78rem; font-weight: 600;
+      padding: 0.35rem 0.9rem; border-radius: 100px; cursor: pointer;
+      transition: all .2s;
+    }
+    .tbl-filter-btn:hover, .tbl-filter-btn.active {
+      background: var(--green-glow); border-color: var(--green);
+      color: var(--green);
+    }
+    .table-row-count {
+      margin-left: auto; font-size: 0.78rem; color: var(--text-3); white-space: nowrap;
+    }
+
     /* ─── METHODOLOGY BANNER ─── */
     .methodology {
       max-width: 960px; margin: 2rem auto 0;
@@ -1351,6 +1376,18 @@
   <div class="line"></div>
 </div>
 
+<div class="table-filter-bar" role="group" aria-label="Filter comparison table by category">
+  <label>Filter:</label>
+  <button class="tbl-filter-btn active" data-table-filter="all" aria-pressed="true">All</button>
+  <button class="tbl-filter-btn" data-table-filter="budgeting" aria-pressed="false">Budgeting</button>
+  <button class="tbl-filter-btn" data-table-filter="investing" aria-pressed="false">Investing</button>
+  <button class="tbl-filter-btn" data-table-filter="crypto" aria-pressed="false">Crypto</button>
+  <button class="tbl-filter-btn" data-table-filter="real-estate" aria-pressed="false">Real Estate</button>
+  <button class="tbl-filter-btn" data-table-filter="banking" aria-pressed="false">Banking</button>
+  <button class="tbl-filter-btn" data-table-filter="credit-cards" aria-pressed="false">Credit Cards</button>
+  <span class="table-row-count" id="table-row-count" aria-live="polite"></span>
+</div>
+
 <div class="table-wrap">
   <table aria-label="Finance app comparison table">
     <thead>
@@ -2093,6 +2130,38 @@
       updateSectionVisibility(filter);
     });
   });
+
+  // ── TABLE-ONLY INLINE FILTER ──────────────────────────────────
+  // Independent from the hero filters — only controls tbody rows.
+  (function () {
+    const tblBtns = document.querySelectorAll('.tbl-filter-btn');
+    const tblRows = document.querySelectorAll('tbody tr[data-category]');
+    const countEl = document.getElementById('table-row-count');
+
+    function updateCount() {
+      const visible = [...tblRows].filter(r => r.style.display !== 'none').length;
+      if (countEl) countEl.textContent = visible + ' of ' + tblRows.length + ' apps';
+    }
+
+    // Init count on load
+    updateCount();
+
+    tblBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        tblBtns.forEach(b => { b.classList.remove('active'); b.setAttribute('aria-pressed', 'false'); });
+        btn.classList.add('active');
+        btn.setAttribute('aria-pressed', 'true');
+
+        const filter = btn.dataset.tableFilter;
+        tblRows.forEach(row => {
+          const show = filter === 'all' || row.dataset.category === filter;
+          row.style.display = show ? '' : 'none';
+          row.setAttribute('aria-hidden', show ? 'false' : 'true');
+        });
+        updateCount();
+      });
+    });
+  })();
 
   // ── FAQ ACCORDION ─────────────────────────────────────────────
   document.querySelectorAll('.faq-q').forEach(q => {
