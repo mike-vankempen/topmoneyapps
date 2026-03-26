@@ -113,6 +113,7 @@
 
     /* ── NAV ── */
     nav {
+      position: relative;
       background: rgba(10,10,15,0.96); backdrop-filter: blur(12px);
       border-bottom: 1px solid var(--border);
       padding: 0 24px; position: sticky; top: 0; z-index: 100;
@@ -124,6 +125,44 @@
     .nav-links a { color: var(--text2); text-decoration: none; font-size: 0.9rem; transition: color .2s; }
     .nav-links a:hover { color: var(--text); }
     .nav-links a.active { color: var(--green); font-weight: 600; }
+
+    /* ─── HAMBURGER ─── */
+    .nav-hamburger {
+      display: none;
+      flex-direction: column; justify-content: center; gap: 5px;
+      background: none; border: none; cursor: pointer;
+      padding: 6px; border-radius: 6px; transition: background .2s;
+    }
+    .nav-hamburger:hover { background: var(--bg3); }
+    .nav-hamburger span {
+      display: block; width: 22px; height: 2px;
+      background: var(--text); border-radius: 2px;
+      transition: transform .25s, opacity .25s;
+    }
+    .nav-hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .nav-hamburger.open span:nth-child(2) { opacity: 0; }
+    .nav-hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    @media (max-width: 600px) {
+      .nav-hamburger { display: flex; }
+      .nav-links {
+        display: none;
+        position: absolute; top: 60px; left: 0; right: 0;
+        background: var(--bg2); border-bottom: 1px solid var(--border);
+        flex-direction: column; gap: 0;
+        z-index: 200; padding: 0;
+      }
+      .nav-links.open { display: flex; }
+      .nav-links a {
+        padding: 14px 24px !important;
+        border-bottom: 1px solid var(--border);
+        font-size: 0.95rem;
+      }
+      .tool-tabs { gap: 4px; }
+      .tool-tab { padding: 12px 14px; font-size: 0.82rem; }
+      .calc-grid { grid-template-columns: 1fr; }
+      .result-stats { grid-template-columns: 1fr 1fr; }
+    }
 
     /* ── BREADCRUMB ── */
     .breadcrumb { max-width: 1040px; margin: 0 auto; padding: 18px 24px 0; font-size: 0.82rem; color: var(--text3); }
@@ -302,6 +341,9 @@
 
 <nav>
   <a href="/" class="nav-logo">Top<span>Money</span>Apps</a>
+  <button class="nav-hamburger" aria-label="Toggle navigation" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
   <div class="nav-links">
     <a href="/">Home</a>
     <a href="/#investing">Investing</a>
@@ -871,6 +913,32 @@ window.addEventListener('resize', () => {
   if (activeTab === 'retirement') calcRetirement();
   if (activeTab === 'compound')   calcCompound();
 });
+
+  // ── HAMBURGER MENU ──────────────────────────────────────────
+  (function() {
+    const hamburger = document.querySelector('.nav-hamburger');
+    const navLinks  = document.querySelector('.nav-links');
+    if (!hamburger || !navLinks) return;
+    hamburger.addEventListener('click', () => {
+      const isOpen = navLinks.classList.toggle('open');
+      hamburger.classList.toggle('open', isOpen);
+      hamburger.setAttribute('aria-expanded', String(isOpen));
+    });
+    navLinks.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+        hamburger.classList.remove('open');
+        hamburger.setAttribute('aria-expanded', 'false');
+      });
+    });
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('nav')) {
+        navLinks.classList.remove('open');
+        hamburger.classList.remove('open');
+        hamburger.setAttribute('aria-expanded', 'false');
+      }
+    });
+  })();
 </script>
 </body>
 </html>

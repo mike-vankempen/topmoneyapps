@@ -422,6 +422,7 @@
 
     /* ─── NAV ─── */
     nav {
+      position: relative;
       position: sticky; top: 0; z-index: 100;
       background: rgba(13,15,14,0.85);
       backdrop-filter: blur(14px);
@@ -779,14 +780,44 @@
     .footer-links a { font-size: 0.8rem; font-weight: 500; border: none; }
 
     /* ─── RESPONSIVE ─── */
+    /* ─── HAMBURGER MENU ─── */
+    .nav-hamburger {
+      display: none;
+      flex-direction: column; justify-content: center; gap: 5px;
+      background: none; border: none; cursor: pointer;
+      padding: 6px; border-radius: 6px;
+      transition: background .2s;
+    }
+    .nav-hamburger:hover { background: var(--bg3); }
+    .nav-hamburger span {
+      display: block; width: 22px; height: 2px;
+      background: var(--text); border-radius: 2px;
+      transition: transform .25s, opacity .25s;
+    }
+    .nav-hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .nav-hamburger.open span:nth-child(2) { opacity: 0; }
+    .nav-hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
     @media (max-width: 600px) {
       .rank-card { flex-wrap: wrap; }
       .rank-meta { flex-direction: row; align-items: center; width: 100%; justify-content: space-between; }
-      .nav-links { display: none; }
       .cat-rows { padding: 0 1rem; }
       .app-card { min-width: 175px; max-width: 175px; padding: 1rem 0.9rem; }
       .stat-strip { gap: 1.2rem; }
+      .nav-cta { display: none; }
+      .nav-hamburger { display: flex; }
+      .nav-links {
+        display: none;
+        position: absolute; top: 60px; left: 0; right: 0;
+        background: var(--bg2); border-bottom: 1px solid var(--border);
+        flex-direction: column; gap: 0; list-style: none;
+        z-index: 200; padding: 0;
+      }
+      .nav-links.open { display: flex; }
+      .nav-links li { border-bottom: 1px solid var(--border); }
+      .nav-links li a { display: block; padding: 14px 24px; font-size: 0.95rem; }
     }
+
   </style>
 </head>
 
@@ -795,6 +826,9 @@
 <!-- GEO: semantic landmark — helps AI parsers identify nav context -->
 <nav aria-label="Main navigation">
   <div class="nav-logo">Top<span>MoneyApps</span></div>
+  <button class="nav-hamburger" aria-label="Toggle navigation" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
   <ul class="nav-links" role="list">
     <li><a href="#ranked">Rankings</a></li>
     <li><a href="#apps">All Apps</a></li>
@@ -1572,6 +1606,37 @@
       if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); }
     });
   });
+
+  // ── HAMBURGER MENU ──────────────────────────────────────────
+  (function() {
+    const hamburger = document.querySelector('.nav-hamburger');
+    const navLinks  = document.querySelector('.nav-links');
+    if (!hamburger || !navLinks) return;
+
+    hamburger.addEventListener('click', () => {
+      const isOpen = navLinks.classList.toggle('open');
+      hamburger.classList.toggle('open', isOpen);
+      hamburger.setAttribute('aria-expanded', String(isOpen));
+    });
+
+    // Close menu when any nav link is clicked
+    navLinks.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+        hamburger.classList.remove('open');
+        hamburger.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    // Close menu on outside click
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('nav')) {
+        navLinks.classList.remove('open');
+        hamburger.classList.remove('open');
+        hamburger.setAttribute('aria-expanded', 'false');
+      }
+    });
+  })();
 </script>
 
 </body>
