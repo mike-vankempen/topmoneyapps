@@ -248,46 +248,55 @@
     .field-value:focus { border-color: var(--green); }
 
     /* Sliders — native input is hidden; custom div slider handles touch */
-    .range-wrap { width: 100%; }
-    input[type="range"] { display: none; } /* hidden — custom slider below drives value */
+    /* --pct (0–1) is set by JS; thumb/fill use calc() so they're      */
+    /* mathematically constrained within the container — no overflow.   */
+    .range-wrap {
+      width: 100%;
+      overflow: hidden; /* safety net for any sub-pixel rounding */
+    }
+    input[type="range"] { display: none; }
 
-    /* Custom slider */
     .cslider {
       position: relative;
-      height: 32px; width: 100%;
+      height: 36px; width: 100%;
       cursor: pointer;
       -webkit-tap-highlight-color: transparent;
       user-select: none; -webkit-user-select: none;
     }
+    /* track spans between the two thumb-center endpoints (10px inset each side) */
     .cslider-track {
       position: absolute;
-      left: 0; right: 0; top: 50%;
+      left: 10px; right: 10px; top: 50%;
       height: 4px;
       background: var(--border); border-radius: 2px;
       transform: translateY(-50%);
-      overflow: hidden; /* clips fill to track bounds */
     }
-    /* separate element so it isn't clipped */
+    /* fill: starts at left:10px, width grows with --pct */
     .cslider-fill {
       position: absolute;
-      left: 0; right: 0; top: 50%;
+      left: 10px; top: 50%;
       height: 4px;
       background: var(--green); border-radius: 2px;
       transform: translateY(-50%);
-      transform-origin: left center;
-      width: 0%;
+      /* at --pct=0 → width:0  |  at --pct=1 → width:(100%-20px) */
+      width: calc(var(--pct, 0) * (100% - 20px));
     }
+    /* thumb center = 10px + pct*(100%-20px)
+       so at pct=0: center=10px, left-edge=0     (flush with container)
+       at pct=1: center=100%-10px, right-edge=100% (flush with container)
+       → thumb NEVER goes outside the .cslider box */
     .cslider-thumb {
       position: absolute;
       top: 50%;
       width: 20px; height: 20px;
       background: var(--green); border-radius: 50%;
+      /* translate(-50%) offsets for thumb's own width */
       transform: translate(-50%, -50%);
+      left: calc(10px + var(--pct, 0) * (100% - 20px));
       box-shadow: 0 0 8px var(--green-glow);
-      transition: transform .1s;
-      left: 0%;
+      transition: box-shadow .1s;
     }
-    .cslider-thumb.active { transform: translate(-50%, -50%) scale(1.15); }
+    .cslider-thumb.active { box-shadow: 0 0 0 8px rgba(34,197,94,.18), 0 0 8px var(--green-glow); }
     .range-hints { display: flex; justify-content: space-between; font-size: 0.7rem; color: var(--text3); }
 
     /* Number inputs */
@@ -1030,19 +1039,18 @@ window.addEventListener('resize', () => {
       /* insert after the hidden native input */
       native.parentNode.insertBefore(wrap, native.nextSibling);
 
-      function pct(v) {
-        return ((v - min) / (max - min)) * 100;
-      }
-
       function snap(raw) {
         var stepped = Math.round((raw - min) / step) * step + min;
         return Math.max(min, Math.min(max, parseFloat(stepped.toFixed(10))));
       }
 
+      /* render: sets --pct on the cslider element.
+         CSS does: left: calc(10px + var(--pct) * (100% - 20px))
+         so the thumb center is always between 10px and (width-10px) —
+         the thumb edges are always FLUSH with or inside the container. */
       function render(v) {
-        var p = pct(v);
-        fill.style.width  = p + '%';
-        thumb.style.left  = p + '%';
+        var p = (v - min) / (max - min); /* 0.0 – 1.0 */
+        wrap.style.setProperty('--pct', p);
         wrap.setAttribute('aria-valuenow', v);
       }
 
@@ -1050,9 +1058,12 @@ window.addEventListener('resize', () => {
         return e.touches ? e.touches[0].clientX : e.clientX;
       }
 
+      /* mirror the CSS calc: usable range is [left+10px, left+width-10px] */
       function valueFromClientX(cx) {
-        var rect  = wrap.getBoundingClientRect();
-        var ratio = Math.max(0, Math.min(1, (cx - rect.left) / rect.width));
+        var rect       = wrap.getBoundingClientRect();
+        var HALF       = 10;
+        var usableW    = rect.width - HALF * 2;
+        var ratio      = Math.max(0, Math.min(1, (cx - rect.left - HALF) / usableW));
         return snap(min + ratio * (max - min));
       }
 
