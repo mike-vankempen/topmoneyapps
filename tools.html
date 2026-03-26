@@ -247,36 +247,47 @@
     }
     .field-value:focus { border-color: var(--green); }
 
-    /* Sliders */
-    .range-wrap {
-      /* hard wall — overflow:hidden on the direct parent is the reliable iOS fix */
-      overflow: hidden;
-      width: 100%;
-      padding: 6px 0; /* vertical touch target without adding width */
-      contain: paint;
-    }
-    input[type="range"] {
-      -webkit-appearance: none; appearance: none;
-      /* 18px inset each side: thumb half-width (9px) + 9px breathing room */
-      width: calc(100% - 36px); margin: 0 18px;
-      height: 4px;
-      background: var(--border); border-radius: 2px; outline: none; cursor: pointer;
-      display: block;
-      touch-action: none; /* slider owns this touch, not the page scroll */
+    /* Sliders — native input is hidden; custom div slider handles touch */
+    .range-wrap { width: 100%; }
+    input[type="range"] { display: none; } /* hidden — custom slider below drives value */
+
+    /* Custom slider */
+    .cslider {
+      position: relative;
+      height: 32px; width: 100%;
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
       user-select: none; -webkit-user-select: none;
     }
-    input[type="range"]::-webkit-slider-thumb {
-      -webkit-appearance: none; appearance: none;
-      width: 18px; height: 18px; border-radius: 50%;
-      background: var(--green); cursor: pointer;
-      box-shadow: 0 0 6px var(--green-glow);
-      transition: transform .15s;
+    .cslider-track {
+      position: absolute;
+      left: 0; right: 0; top: 50%;
+      height: 4px;
+      background: var(--border); border-radius: 2px;
+      transform: translateY(-50%);
+      overflow: hidden; /* clips fill to track bounds */
     }
-    input[type="range"]::-webkit-slider-thumb:active { transform: scale(1.15); }
-    input[type="range"]::-moz-range-thumb {
-      width: 18px; height: 18px; border-radius: 50%; border: none;
-      background: var(--green); cursor: pointer;
+    /* separate element so it isn't clipped */
+    .cslider-fill {
+      position: absolute;
+      left: 0; right: 0; top: 50%;
+      height: 4px;
+      background: var(--green); border-radius: 2px;
+      transform: translateY(-50%);
+      transform-origin: left center;
+      width: 0%;
     }
+    .cslider-thumb {
+      position: absolute;
+      top: 50%;
+      width: 20px; height: 20px;
+      background: var(--green); border-radius: 50%;
+      transform: translate(-50%, -50%);
+      box-shadow: 0 0 8px var(--green-glow);
+      transition: transform .1s;
+      left: 0%;
+    }
+    .cslider-thumb.active { transform: translate(-50%, -50%) scale(1.15); }
     .range-hints { display: flex; justify-content: space-between; font-size: 0.7rem; color: var(--text3); }
 
     /* Number inputs */
@@ -980,26 +991,129 @@ window.addEventListener('resize', () => {
     });
   })();
 
-  /* ── PREVENT HORIZONTAL SCROLL ON SLIDER DRAG (iOS fix) ──────────────
-     iOS Safari can temporarily expand scrollWidth when a range thumb is
-     dragged near the container edge. This listener detects any horizontal
-     scroll that slips through and immediately snaps it back to 0.
+  /* ── CUSTOM SLIDERS ────────────────────────────────────────────────
+     Native input[type="range"] is hidden. Each one gets a div-based
+     custom slider that calls e.preventDefault() on touchmove so iOS
+     Safari CANNOT treat the drag as a horizontal scroll gesture.
+     The hidden native input value is kept in sync and 'input' events
+     are dispatched so the existing calculator logic needs no changes.
   ──────────────────────────────────────────────────────────────────── */
-  (function() {
-    // Snap horizontal scroll back to 0 immediately if it ever occurs
-    window.addEventListener('scroll', function() {
-      if (window.scrollX !== 0) {
-        window.scrollTo(0, window.scrollY);
-      }
-    }, { passive: true });
+  (function () {
+    function initSlider(native) {
+      var min   = parseFloat(native.min)   || 0;
+      var max   = parseFloat(native.max)   || 100;
+      var step  = parseFloat(native.step)  || 1;
+      var val   = parseFloat(native.value) || min;
 
-    // On touchmove over a range input, prevent the page from being
-    // treated as a horizontal scroll target for that touch sequence
-    document.querySelectorAll('input[type="range"]').forEach(function(slider) {
-      slider.addEventListener('touchstart', function(e) {
-        e.stopPropagation();
+      /* build DOM */
+      var wrap  = document.createElement('div');
+      wrap.className = 'cslider';
+      wrap.setAttribute('role', 'slider');
+      wrap.setAttribute('aria-valuemin', min);
+      wrap.setAttribute('aria-valuemax', max);
+      wrap.setAttribute('aria-valuenow', val);
+      wrap.setAttribute('tabindex', '0');
+
+      var track = document.createElement('div');
+      track.className = 'cslider-track';
+
+      var fill  = document.createElement('div');
+      fill.className = 'cslider-fill';
+
+      var thumb = document.createElement('div');
+      thumb.className = 'cslider-thumb';
+
+      wrap.appendChild(track);
+      wrap.appendChild(fill);
+      wrap.appendChild(thumb);
+
+      /* insert after the hidden native input */
+      native.parentNode.insertBefore(wrap, native.nextSibling);
+
+      function pct(v) {
+        return ((v - min) / (max - min)) * 100;
+      }
+
+      function snap(raw) {
+        var stepped = Math.round((raw - min) / step) * step + min;
+        return Math.max(min, Math.min(max, parseFloat(stepped.toFixed(10))));
+      }
+
+      function render(v) {
+        var p = pct(v);
+        fill.style.width  = p + '%';
+        thumb.style.left  = p + '%';
+        wrap.setAttribute('aria-valuenow', v);
+      }
+
+      function clientXFromEvent(e) {
+        return e.touches ? e.touches[0].clientX : e.clientX;
+      }
+
+      function valueFromClientX(cx) {
+        var rect  = wrap.getBoundingClientRect();
+        var ratio = Math.max(0, Math.min(1, (cx - rect.left) / rect.width));
+        return snap(min + ratio * (max - min));
+      }
+
+      function update(e) {
+        var newVal = valueFromClientX(clientXFromEvent(e));
+        if (newVal !== val) {
+          val = newVal;
+          native.value = val;
+          render(val);
+          native.dispatchEvent(new Event('input', { bubbles: true }));
+        }
+      }
+
+      /* touch handlers — passive:false lets us call preventDefault() */
+      wrap.addEventListener('touchstart', function (e) {
+        e.preventDefault();          /* ← kills iOS horizontal scroll */
+        thumb.classList.add('active');
+        update(e);
+      }, { passive: false });
+
+      wrap.addEventListener('touchmove', function (e) {
+        e.preventDefault();          /* ← kills iOS horizontal scroll */
+        update(e);
+      }, { passive: false });
+
+      wrap.addEventListener('touchend', function () {
+        thumb.classList.remove('active');
       }, { passive: true });
-    });
+
+      /* mouse handlers for desktop */
+      var dragging = false;
+      wrap.addEventListener('mousedown', function (e) {
+        dragging = true;
+        thumb.classList.add('active');
+        update(e);
+      });
+      document.addEventListener('mousemove', function (e) {
+        if (dragging) update(e);
+      });
+      document.addEventListener('mouseup', function () {
+        dragging = false;
+        thumb.classList.remove('active');
+      });
+
+      /* keyboard for accessibility */
+      wrap.addEventListener('keydown', function (e) {
+        var delta = 0;
+        if (e.key === 'ArrowRight' || e.key === 'ArrowUp')   delta =  step;
+        if (e.key === 'ArrowLeft'  || e.key === 'ArrowDown')  delta = -step;
+        if (!delta) return;
+        e.preventDefault();
+        val = snap(val + delta);
+        native.value = val;
+        render(val);
+        native.dispatchEvent(new Event('input', { bubbles: true }));
+      });
+
+      render(val);
+    }
+
+    document.querySelectorAll('input[type="range"]').forEach(initSlider);
   })();
 </script>
 </body>
