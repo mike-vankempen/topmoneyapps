@@ -229,7 +229,10 @@
       border-radius: var(--radius); padding: 24px;
       display: flex; flex-direction: column; gap: 22px;
       overflow: hidden; min-width: 0;
-      contain: paint; /* prevents thumb from affecting scroll width on iOS */
+      contain: paint;
+      /* clip-path is a harder clip than overflow:hidden — iOS can't extend
+         scroll width past an element with clip-path */
+      clip-path: inset(0 0 0 0 round var(--radius));
     }
     .input-panel h2 { font-size: 1rem; font-weight: 700; color: var(--text); padding-bottom: 16px; border-bottom: 1px solid var(--border); }
 
@@ -974,6 +977,28 @@ window.addEventListener('resize', () => {
         hamburger.classList.remove('open');
         hamburger.setAttribute('aria-expanded', 'false');
       }
+    });
+  })();
+
+  /* ── PREVENT HORIZONTAL SCROLL ON SLIDER DRAG (iOS fix) ──────────────
+     iOS Safari can temporarily expand scrollWidth when a range thumb is
+     dragged near the container edge. This listener detects any horizontal
+     scroll that slips through and immediately snaps it back to 0.
+  ──────────────────────────────────────────────────────────────────── */
+  (function() {
+    // Snap horizontal scroll back to 0 immediately if it ever occurs
+    window.addEventListener('scroll', function() {
+      if (window.scrollX !== 0) {
+        window.scrollTo(0, window.scrollY);
+      }
+    }, { passive: true });
+
+    // On touchmove over a range input, prevent the page from being
+    // treated as a horizontal scroll target for that touch sequence
+    document.querySelectorAll('input[type="range"]').forEach(function(slider) {
+      slider.addEventListener('touchstart', function(e) {
+        e.stopPropagation();
+      }, { passive: true });
     });
   })();
 </script>
