@@ -358,7 +358,7 @@
     .chart-legend { display: flex; gap: 20px; margin-bottom: 14px; flex-wrap: wrap; }
     .legend-item { display: flex; align-items: center; gap: 6px; font-size: 0.78rem; color: var(--text2); }
     .legend-dot { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
-    canvas { width: 100%; display: block; border-radius: 6px; }
+    canvas { width: 100%; height: 200px; display: block; border-radius: 6px; }
 
     /* ── INSIGHT BOX ── */
     .insight-box {
@@ -700,18 +700,22 @@ function drawStackedChart(canvasId, years, contribData, gainsData, xLabels) {
   const canvas = document.getElementById(canvasId);
   if (!canvas) return;
 
-  // Resize canvas to match display size
-  const rect = canvas.parentElement.getBoundingClientRect();
-  const W = rect.width - 40; // account for padding
+  // Let CSS width:100% control the display size — never set canvas.style.width inline
+  // (setting a px width via JS was causing the container to expand on iOS every redraw)
+  const dpr = window.devicePixelRatio || 1;
   const H = 200;
-  canvas.width  = Math.max(W, 200) * window.devicePixelRatio;
-  canvas.height = H * window.devicePixelRatio;
-  canvas.style.width  = Math.max(W, 200) + 'px';
-  canvas.style.height = H + 'px';
+  // Read the actual rendered width; cap to viewport so it can never cause overflow
+  const displayW = Math.min(
+    canvas.getBoundingClientRect().width || canvas.clientWidth || 300,
+    window.innerWidth
+  );
+  canvas.width  = Math.round(displayW * dpr);
+  canvas.height = Math.round(H * dpr);
+  // Do NOT touch canvas.style.width or canvas.style.height — CSS handles it
 
   const ctx = canvas.getContext('2d');
-  ctx.scale(window.devicePixelRatio, window.devicePixelRatio);
-  const w = Math.max(W, 200);
+  ctx.scale(dpr, dpr);
+  const w = displayW;
   const h = H;
 
   // Margins
