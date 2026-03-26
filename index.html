@@ -637,17 +637,49 @@
     .btn-outline:hover { border-color: var(--green); color: var(--green); }
 
     /* ─── CARD GRID ─── */
-    .card-grid {
+    /* ─── CATEGORY ROWS (Netflix-style) ─── */
+    .cat-rows {
       max-width: 960px; margin: 0 auto;
       padding: 0 2rem;
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      gap: 1rem;
+      display: flex; flex-direction: column; gap: 2.5rem;
     }
+    .cat-row-header {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 0.8rem;
+    }
+    .cat-row-title {
+      display: flex; align-items: center; gap: 0.55rem;
+    }
+    .cat-row-title h3 {
+      font-size: 1rem; font-weight: 700; color: var(--text-1); margin: 0;
+    }
+    .cat-row-badge {
+      font-size: 0.72rem; color: var(--text-3);
+      background: var(--bg3); border: 1px solid var(--border);
+      padding: 0.15rem 0.55rem; border-radius: 100px; font-weight: 600;
+    }
+    .cat-row-guide {
+      font-size: 0.78rem; color: var(--green); text-decoration: none; font-weight: 600;
+      white-space: nowrap; opacity: 0.85;
+    }
+    .cat-row-guide:hover { opacity: 1; text-decoration: underline; }
+    .cat-row-scroll {
+      display: flex; overflow-x: auto; gap: 1rem;
+      padding-bottom: 0.6rem;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+    }
+    .cat-row-scroll::-webkit-scrollbar { height: 3px; }
+    .cat-row-scroll::-webkit-scrollbar-track { background: var(--bg3); border-radius: 2px; }
+    .cat-row-scroll::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+    .cat-row-scroll::-webkit-scrollbar-thumb:hover { background: var(--green); }
+    /* Fixed-width cards inside scroll rows */
     .app-card {
+      min-width: 215px; max-width: 215px;
+      flex-shrink: 0; scroll-snap-align: start;
       background: var(--bg2); border: 1px solid var(--border);
-      border-radius: var(--radius); padding: 1.4rem 1.2rem;
-      display: flex; flex-direction: column; gap: 0.8rem;
+      border-radius: var(--radius); padding: 1.3rem 1.1rem;
+      display: flex; flex-direction: column; gap: 0.75rem;
       transition: border-color .2s, box-shadow .2s; cursor: pointer;
     }
     .app-card:hover {
@@ -655,14 +687,14 @@
       box-shadow: 0 0 16px var(--green-glow);
     }
     .card-logo {
-      width: 48px; height: 48px; border-radius: 10px;
+      width: 44px; height: 44px; border-radius: 9px;
       display: flex; align-items: center; justify-content: center;
-      font-size: 1.4rem; font-weight: 800;
+      font-size: 1.2rem; font-weight: 800;
     }
-    .app-card h3 { font-size: 0.95rem; font-weight: 700; }
-    .app-card .cat { font-size: 0.72rem; color: var(--green); font-weight: 600; }
-    .app-card p { font-size: 0.78rem; color: var(--text-2); flex: 1; }
-    .card-footer { display: flex; justify-content: space-between; align-items: center; }
+    .app-card h3 { font-size: 0.92rem; font-weight: 700; }
+    .app-card .cat { display: none; } /* label already shown in row header */
+    .app-card p { font-size: 0.76rem; color: var(--text-2); flex: 1; line-height: 1.45; }
+    .card-footer { display: flex; justify-content: space-between; align-items: center; margin-top: auto; }
     .card-stars { color: var(--green); font-size: 0.72rem; }
 
     /* ─── COMPARISON TABLE ─── */
@@ -817,7 +849,8 @@
       .rank-card { flex-wrap: wrap; }
       .rank-meta { flex-direction: row; align-items: center; width: 100%; justify-content: space-between; }
       .nav-links { display: none; }
-      .card-grid { grid-template-columns: 1fr 1fr; }
+      .cat-rows { padding: 0 1rem; }
+      .app-card { min-width: 175px; max-width: 175px; padding: 1rem 0.9rem; }
       .stat-strip { gap: 1.2rem; }
     }
   </style>
@@ -988,385 +1021,289 @@
   <div class="line"></div>
 </div>
 
-<div class="card-grid" role="list">
+<div class="cat-rows">
 
-  <article class="app-card" role="listitem" data-category="investing" itemscope itemtype="https://schema.org/SoftwareApplication">
-    <div class="card-logo" style="background:#1a1500; color:#fbbf24;">A</div>
-    <div class="cat" itemprop="applicationCategory">Investing</div>
-    <h3 itemprop="name">Acorns</h3>
-    <p itemprop="description">Round-up micro-investing. Starts at $3/month. Perfect for hands-off investors.</p>
-    <div class="card-footer">
-      <span class="card-stars" aria-label="4.8 stars">★★★★★</span>
-      <a href="https://www.acorns.com" class="btn-outline" rel="sponsored noopener">Get Started</a>
+  <!-- ── INVESTING ── -->
+  <section class="cat-row" data-category="investing" id="row-investing">
+    <div class="cat-row-header">
+      <div class="cat-row-title">
+        <h3>📈 Investing</h3>
+        <span class="cat-row-badge">14 apps</span>
+      </div>
+      <a href="best-investing-apps-beginners.html" class="cat-row-guide">See full guide →</a>
     </div>
-  </article>
+    <div class="cat-row-scroll">
+      <article class="app-card" role="listitem" data-category="investing" itemscope itemtype="https://schema.org/SoftwareApplication">
+        <div class="card-logo" style="background:#0b1a2e; color:#60a5fa;">F</div>
+        <h3 itemprop="name">Fidelity</h3>
+        <p itemprop="description">Best full-service broker of 2026. Zero commissions, 0% expense-ratio index funds (FZROX), award-winning research. No account minimum.</p>
+        <div class="card-footer"><span class="card-stars" aria-label="4.8 stars">★★★★★</span><a href="https://www.fidelity.com" class="btn-outline" rel="sponsored noopener">Get Started</a></div>
+      </article>
+      <article class="app-card" role="listitem" data-category="investing" itemscope itemtype="https://schema.org/SoftwareApplication">
+        <div class="card-logo" style="background:#1a1500; color:#fbbf24;">A</div>
+        <h3 itemprop="name">Acorns</h3>
+        <p itemprop="description">Round-up micro-investing. Starts at $3/month. Perfect for hands-off investors who want to build wealth automatically.</p>
+        <div class="card-footer"><span class="card-stars" aria-label="4.8 stars">★★★★★</span><a href="https://www.acorns.com" class="btn-outline" rel="sponsored noopener">Get Started</a></div>
+      </article>
+      <article class="app-card" role="listitem" data-category="investing" itemscope itemtype="https://schema.org/SoftwareApplication">
+        <div class="card-logo" style="background:#0e1c2e; color:#60a5fa;">R</div>
+        <h3 itemprop="name">Robinhood</h3>
+        <p itemprop="description">Commission-free trading. Fractional shares from $1. Crypto available. Best for casual self-directed investors. Free to use.</p>
+        <div class="card-footer"><span class="card-stars" aria-label="4.6 stars">★★★★☆</span><a href="https://robinhood.com" class="btn-outline" rel="sponsored noopener">Get Started</a></div>
+      </article>
+      <article class="app-card" role="listitem" data-category="investing" itemscope itemtype="https://schema.org/SoftwareApplication">
+        <div class="card-logo" style="background:#0d1a2a; color:#93c5fd;">CS</div>
+        <h3 itemprop="name">Charles Schwab</h3>
+        <p itemprop="description">Full-service broker with zero commissions, thinkorswim advanced platform, and deep research tools. Best for serious long-term investors.</p>
+        <div class="card-footer"><span class="card-stars" aria-label="4.7 stars">★★★★★</span><a href="https://www.schwab.com" class="btn-outline" rel="sponsored noopener">Get Started</a></div>
+      </article>
+      <article class="app-card" role="listitem" data-category="investing" itemscope itemtype="https://schema.org/SoftwareApplication">
+        <div class="card-logo" style="background:#0a1a14; color:#22c55e;">VG</div>
+        <h3 itemprop="name">Vanguard</h3>
+        <p itemprop="description">Pioneer of index fund investing. Home of VTSAX and VTI — best for long-term, low-cost buy-and-hold investors. No commissions.</p>
+        <div class="card-footer"><span class="card-stars" aria-label="4.6 stars">★★★★☆</span><a href="https://investor.vanguard.com" class="btn-outline" rel="sponsored noopener">Get Started</a></div>
+      </article>
+      <article class="app-card" role="listitem" data-category="investing" itemscope itemtype="https://schema.org/SoftwareApplication">
+        <div class="card-logo" style="background:#11190e; color:#84cc16;">B</div>
+        <h3 itemprop="name">Betterment</h3>
+        <p itemprop="description">Robo-advisor with automated tax-loss harvesting and goal-based planning. 0.25% annual fee. Great for hands-off investors.</p>
+        <div class="card-footer"><span class="card-stars" aria-label="4.4 stars">★★★★☆</span><a href="https://www.betterment.com" class="btn-outline" rel="sponsored noopener">Get Started</a></div>
+      </article>
+      <article class="app-card" role="listitem" data-category="investing" itemscope itemtype="https://schema.org/SoftwareApplication">
+        <div class="card-logo" style="background:#0f1a10; color:#86efac;">M1</div>
+        <h3 itemprop="name">M1 Finance</h3>
+        <p itemprop="description">Automated "pie" portfolio investing with free auto-rebalancing and dividend reinvestment. Best for set-and-forget portfolios. Free.</p>
+        <div class="card-footer"><span class="card-stars" aria-label="4.5 stars">★★★★☆</span><a href="https://www.m1.com" class="btn-outline" rel="sponsored noopener">Get Started</a></div>
+      </article>
+      <article class="app-card" role="listitem" data-category="investing" itemscope itemtype="https://schema.org/SoftwareApplication">
+        <div class="card-logo" style="background:#11190e; color:#84cc16;">W</div>
+        <h3 itemprop="name">Wealthfront</h3>
+        <p itemprop="description">Top robo-advisor with tax-loss harvesting, financial planning tools, and a high-yield cash account. 0.25%/year. $500 minimum.</p>
+        <div class="card-footer"><span class="card-stars" aria-label="4.5 stars">★★★★☆</span><a href="https://www.wealthfront.com" class="btn-outline" rel="sponsored noopener">Get Started</a></div>
+      </article>
+      <article class="app-card" role="listitem" data-category="investing" itemscope itemtype="https://schema.org/SoftwareApplication">
+        <div class="card-logo" style="background:#1a0f1a; color:#d8b4fe;">TT</div>
+        <h3 itemprop="name">tastytrade</h3>
+        <p itemprop="description">Best options trading platform of 2026. Commissions capped at $10/leg, built specifically for options and futures traders. Free to open.</p>
+        <div class="card-footer"><span class="card-stars" aria-label="4.6 stars">★★★★☆</span><a href="https://www.tastytrade.com" class="btn-outline" rel="sponsored noopener">Get Started</a></div>
+      </article>
+      <article class="app-card" role="listitem" data-category="investing" itemscope itemtype="https://schema.org/SoftwareApplication">
+        <div class="card-logo" style="background:#1a100a; color:#fb923c;">ET</div>
+        <h3 itemprop="name">E*TRADE</h3>
+        <p itemprop="description">Full-service broker with zero commissions, Power E*TRADE platform for options, and a strong mobile app. Owned by Morgan Stanley.</p>
+        <div class="card-footer"><span class="card-stars" aria-label="4.5 stars">★★★★☆</span><a href="https://us.etrade.com" class="btn-outline" rel="sponsored noopener">Get Started</a></div>
+      </article>
+      <article class="app-card" role="listitem" data-category="investing" itemscope itemtype="https://schema.org/SoftwareApplication">
+        <div class="card-logo" style="background:#0e1a10; color:#4ade80;">W</div>
+        <h3 itemprop="name">Webull</h3>
+        <p itemprop="description">Advanced commission-free trading with extended hours, options, and in-depth charting tools. Free.</p>
+        <div class="card-footer"><span class="card-stars" aria-label="4.5 stars">★★★★☆</span><a href="https://www.webull.com" class="btn-outline" rel="sponsored noopener">Get Started</a></div>
+      </article>
+      <article class="app-card" role="listitem" data-category="investing" itemscope itemtype="https://schema.org/SoftwareApplication">
+        <div class="card-logo" style="background:#0e1d1a; color:#34d399;">P</div>
+        <h3 itemprop="name">Public.com</h3>
+        <p itemprop="description">Social investing platform with stocks, ETFs, crypto, and bonds. Earn yield on uninvested cash. Free.</p>
+        <div class="card-footer"><span class="card-stars" aria-label="4.4 stars">★★★★☆</span><a href="https://public.com" class="btn-outline" rel="sponsored noopener">Get Started</a></div>
+      </article>
+      <article class="app-card" role="listitem" data-category="investing" itemscope itemtype="https://schema.org/SoftwareApplication">
+        <div class="card-logo" style="background:#0f1a2e; color:#818cf8;">AL</div>
+        <h3 itemprop="name">Alinea</h3>
+        <p itemprop="description">Theme-based investing app for Gen Z. Build portfolios around trends you believe in. Free to start.</p>
+        <div class="card-footer"><span class="card-stars" aria-label="4.3 stars">★★★★☆</span><a href="https://alineainvest.com" class="btn-outline" rel="sponsored noopener">Get Started</a></div>
+      </article>
+      <article class="app-card" role="listitem" data-category="investing" itemscope itemtype="https://schema.org/SoftwareApplication">
+        <div class="card-logo" style="background:#1a0f16; color:#f9a8d4;">EL</div>
+        <h3 itemprop="name">Ellevest</h3>
+        <p itemprop="description">Women-focused robo-advisor with salary-based investing algorithms and ESG portfolio options. Membership from $12/month.</p>
+        <div class="card-footer"><span class="card-stars" aria-label="4.3 stars">★★★★☆</span><a href="https://www.ellevest.com" class="btn-outline" rel="sponsored noopener">Get Started</a></div>
+      </article>
+    </div>
+  </section>
 
-  <article class="app-card" role="listitem" data-category="budgeting" itemscope itemtype="https://schema.org/SoftwareApplication">
-    <div class="card-logo" style="background:#0d2e1a; color:#22c55e;">Y</div>
-    <div class="cat" itemprop="applicationCategory">Budgeting</div>
-    <h3 itemprop="name">YNAB</h3>
-    <p itemprop="description">Zero-based budgeting that actually works. 34-day free trial. Best for serious budgeters.</p>
-    <div class="card-footer">
-      <span class="card-stars" aria-label="4.9 stars">★★★★★</span>
-      <a href="https://www.ynab.com" class="btn-outline" rel="sponsored noopener">Get Started</a>
+  <!-- ── BUDGETING ── -->
+  <section class="cat-row" data-category="budgeting" id="row-budgeting">
+    <div class="cat-row-header">
+      <div class="cat-row-title">
+        <h3>💰 Budgeting</h3>
+        <span class="cat-row-badge">7 apps</span>
+      </div>
+      <a href="best-budgeting-apps.html" class="cat-row-guide">See full guide →</a>
     </div>
-  </article>
-
-  <article class="app-card" role="listitem" data-category="budgeting" itemscope itemtype="https://schema.org/SoftwareApplication">
-    <div class="card-logo" style="background:#0e1820; color:#38bdf8;">C</div>
-    <div class="cat" itemprop="applicationCategory">Budgeting</div>
-    <h3 itemprop="name">Copilot</h3>
-    <p itemprop="description">AI-powered budgeting with beautiful design. Apple ecosystem only. $13/month.</p>
-    <div class="card-footer">
-      <span class="card-stars" aria-label="4.8 stars">★★★★★</span>
-      <a href="https://copilot.money" class="btn-outline" rel="sponsored noopener">Get Started</a>
+    <div class="cat-row-scroll">
+      <article class="app-card" role="listitem" data-category="budgeting" itemscope itemtype="https://schema.org/SoftwareApplication">
+        <div class="card-logo" style="background:#0d2e1a; color:#22c55e;">Y</div>
+        <h3 itemprop="name">YNAB</h3>
+        <p itemprop="description">Zero-based budgeting that actually works. 34-day free trial. Best for serious budgeters who want full control of every dollar.</p>
+        <div class="card-footer"><span class="card-stars" aria-label="4.9 stars">★★★★★</span><a href="https://www.ynab.com" class="btn-outline" rel="sponsored noopener">Get Started</a></div>
+      </article>
+      <article class="app-card" role="listitem" data-category="budgeting" itemscope itemtype="https://schema.org/SoftwareApplication">
+        <div class="card-logo" style="background:#0e1a1a; color:#2dd4bf;">MM</div>
+        <h3 itemprop="name">Monarch Money</h3>
+        <p itemprop="description">Best Mint replacement of 2026. Tracks budgets, investments, and net worth in one app. Ideal for couples. $14.99/month or $99/year.</p>
+        <div class="card-footer"><span class="card-stars" aria-label="4.7 stars">★★★★★</span><a href="https://www.monarchmoney.com" class="btn-outline" rel="sponsored noopener">Get Started</a></div>
+      </article>
+      <article class="app-card" role="listitem" data-category="budgeting" itemscope itemtype="https://schema.org/SoftwareApplication">
+        <div class="card-logo" style="background:#0e1820; color:#38bdf8;">C</div>
+        <h3 itemprop="name">Copilot</h3>
+        <p itemprop="description">AI-powered budgeting with beautiful design. Apple ecosystem only. $13/month.</p>
+        <div class="card-footer"><span class="card-stars" aria-label="4.8 stars">★★★★★</span><a href="https://copilot.money" class="btn-outline" rel="sponsored noopener">Get Started</a></div>
+      </article>
+      <article class="app-card" role="listitem" data-category="budgeting" itemscope itemtype="https://schema.org/SoftwareApplication">
+        <div class="card-logo" style="background:#0e1a12; color:#22c55e;">EM</div>
+        <h3 itemprop="name">Empower</h3>
+        <p itemprop="description">Best free financial dashboard. Tracks spending, net worth, investments, and retirement readiness — all at no cost. Formerly Personal Capital.</p>
+        <div class="card-footer"><span class="card-stars" aria-label="4.5 stars">★★★★☆</span><a href="https://www.empower.com" class="btn-outline" rel="sponsored noopener">Get Started</a></div>
+      </article>
+      <article class="app-card" role="listitem" data-category="budgeting" itemscope itemtype="https://schema.org/SoftwareApplication">
+        <div class="card-logo" style="background:#1a100e; color:#fca5a5;">RM</div>
+        <h3 itemprop="name">Rocket Money</h3>
+        <p itemprop="description">Finds and cancels unwanted subscriptions automatically. Spending tracker + bill negotiation. Free tier; premium from $6/month.</p>
+        <div class="card-footer"><span class="card-stars" aria-label="4.3 stars">★★★★☆</span><a href="https://www.rocketmoney.com" class="btn-outline" rel="sponsored noopener">Get Started</a></div>
+      </article>
+      <article class="app-card" role="listitem" data-category="budgeting" itemscope itemtype="https://schema.org/SoftwareApplication">
+        <div class="card-logo" style="background:#0d1a10; color:#bbf7d0;">SI</div>
+        <h3 itemprop="name">Simplifi by Quicken</h3>
+        <p itemprop="description">Clean, modern budgeting with real-time tracking and savings goals. $5.99/month. 30-day free trial.</p>
+        <div class="card-footer"><span class="card-stars" aria-label="4.4 stars">★★★★☆</span><a href="https://www.quicken.com/simplifi" class="btn-outline" rel="sponsored noopener">Get Started</a></div>
+      </article>
+      <article class="app-card" role="listitem" data-category="budgeting" itemscope itemtype="https://schema.org/SoftwareApplication">
+        <div class="card-logo" style="background:#1a1500; color:#fde68a;">TI</div>
+        <h3 itemprop="name">Tiller Money</h3>
+        <p itemprop="description">Auto-fills your Google Sheets or Excel with daily bank transactions. Best for spreadsheet-native budgeters. $79/year.</p>
+        <div class="card-footer"><span class="card-stars" aria-label="4.4 stars">★★★★☆</span><a href="https://www.tillerhq.com" class="btn-outline" rel="sponsored noopener">Get Started</a></div>
+      </article>
     </div>
-  </article>
-
-  <article class="app-card" role="listitem" data-category="investing" itemscope itemtype="https://schema.org/SoftwareApplication">
-    <div class="card-logo" style="background:#0e1c2e; color:#60a5fa;">R</div>
-    <div class="cat" itemprop="applicationCategory">Investing</div>
-    <h3 itemprop="name">Robinhood</h3>
-    <p itemprop="description">Commission-free trading. Fractional shares from $1. Free to use.</p>
-    <div class="card-footer">
-      <span class="card-stars" aria-label="4.6 stars">★★★★☆</span>
-      <a href="https://robinhood.com" class="btn-outline" rel="sponsored noopener">Get Started</a>
-    </div>
-  </article>
-
-  <article class="app-card" role="listitem" data-category="investing" itemscope itemtype="https://schema.org/SoftwareApplication">
-    <div class="card-logo" style="background:#11190e; color:#84cc16;">B</div>
-    <div class="cat" itemprop="applicationCategory">Investing</div>
-    <h3 itemprop="name">Betterment</h3>
-    <p itemprop="description">Robo-advisor with automated tax-loss harvesting. 0.25% annual fee.</p>
-    <div class="card-footer">
-      <span class="card-stars" aria-label="4.4 stars">★★★★☆</span>
-      <a href="https://www.betterment.com" class="btn-outline" rel="sponsored noopener">Get Started</a>
-    </div>
-  </article>
-
-  <article class="app-card" role="listitem" data-category="banking" itemscope itemtype="https://schema.org/SoftwareApplication">
-    <div class="card-logo" style="background:#1a1020; color:#a78bfa;">C</div>
-    <div class="cat" itemprop="applicationCategory">Banking</div>
-    <h3 itemprop="name">Chime</h3>
-    <p itemprop="description">No hidden fees. Direct deposit up to 2 days early. No minimum balance.</p>
-    <div class="card-footer">
-      <span class="card-stars" aria-label="4.5 stars">★★★★☆</span>
-      <a href="https://www.chime.com" class="btn-outline" rel="sponsored noopener">Get Started</a>
-    </div>
-  </article>
-
-  <article class="app-card" role="listitem" data-category="banking" itemscope itemtype="https://schema.org/SoftwareApplication">
-    <div class="card-logo" style="background:#0e1d1d; color:#2dd4bf;">S</div>
-    <div class="cat" itemprop="applicationCategory">Banking</div>
-    <h3 itemprop="name">SoFi</h3>
-    <p itemprop="description">High-yield savings, checking, and investing all in one app. No monthly fees.</p>
-    <div class="card-footer">
-      <span class="card-stars" aria-label="4.4 stars">★★★★☆</span>
-      <a href="https://www.sofi.com" class="btn-outline" rel="sponsored noopener">Get Started</a>
-    </div>
-  </article>
-
-  <article class="app-card" role="listitem" data-category="credit-cards" itemscope itemtype="https://schema.org/SoftwareApplication">
-    <div class="card-logo" style="background:#1a0e0e; color:#f87171;">X</div>
-    <div class="cat" itemprop="applicationCategory">Credit Cards</div>
-    <h3 itemprop="name">Chase Sapphire Reserve</h3>
-    <p itemprop="description">Best-in-class travel rewards. 3x on dining, 2x on travel. $795 annual fee.</p>
-    <div class="card-footer">
-      <span class="card-stars" aria-label="4.8 stars">★★★★★</span>
-      <a href="https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve" class="btn-outline" rel="sponsored noopener">Get Started</a>
-    </div>
-  </article>
-
-  <article class="app-card" role="listitem" data-category="credit-cards" itemscope itemtype="https://schema.org/SoftwareApplication">
-    <div class="card-logo" style="background:#1a1200; color:#fcd34d;">A</div>
-    <div class="cat" itemprop="applicationCategory">Credit Cards</div>
-    <h3 itemprop="name">Amex Platinum</h3>
-    <p itemprop="description">Premium travel card with 5x points on flights, lounge access, and $200 airline credit. $895/yr.</p>
-    <div class="card-footer">
-      <span class="card-stars" aria-label="4.7 stars">★★★★★</span>
-      <a href="https://www.americanexpress.com/us/credit-cards/card/platinum/" class="btn-outline" rel="sponsored noopener">Get Started</a>
-    </div>
-  </article>
-
-  <article class="app-card" role="listitem" data-category="credit-cards" itemscope itemtype="https://schema.org/SoftwareApplication">
-    <div class="card-logo" style="background:#0e1520; color:#93c5fd;">CF</div>
-    <div class="cat" itemprop="applicationCategory">Credit Cards</div>
-    <h3 itemprop="name">Chase Freedom</h3>
-    <p itemprop="description">5% cash back on rotating categories, no annual fee. One of the best no-fee cash back cards available.</p>
-    <div class="card-footer">
-      <span class="card-stars" aria-label="4.6 stars">★★★★☆</span>
-      <a href="https://creditcards.chase.com/cash-back-credit-cards/freedom/card" class="btn-outline" rel="sponsored noopener">Get Started</a>
-    </div>
-  </article>
-
-  <article class="app-card" role="listitem" data-category="investing" itemscope itemtype="https://schema.org/SoftwareApplication">
-    <div class="card-logo" style="background:#0f1a2e; color:#818cf8;">AL</div>
-    <div class="cat" itemprop="applicationCategory">Investing</div>
-    <h3 itemprop="name">Alinea</h3>
-    <p itemprop="description">Theme-based investing app for Gen Z. Build portfolios around trends you believe in. Free to start.</p>
-    <div class="card-footer">
-      <span class="card-stars" aria-label="4.3 stars">★★★★☆</span>
-      <a href="https://alineainvest.com" class="btn-outline" rel="sponsored noopener">Get Started</a>
-    </div>
-  </article>
-
-  <article class="app-card" role="listitem" data-category="investing" itemscope itemtype="https://schema.org/SoftwareApplication">
-    <div class="card-logo" style="background:#0e1a10; color:#4ade80;">W</div>
-    <div class="cat" itemprop="applicationCategory">Investing</div>
-    <h3 itemprop="name">Webull</h3>
-    <p itemprop="description">Advanced commission-free trading with extended hours, options, and in-depth charting tools. Free.</p>
-    <div class="card-footer">
-      <span class="card-stars" aria-label="4.5 stars">★★★★☆</span>
-      <a href="https://www.webull.com" class="btn-outline" rel="sponsored noopener">Get Started</a>
-    </div>
-  </article>
-
-  <article class="app-card" role="listitem" data-category="investing" itemscope itemtype="https://schema.org/SoftwareApplication">
-    <div class="card-logo" style="background:#0e1d1a; color:#34d399;">P</div>
-    <div class="cat" itemprop="applicationCategory">Investing</div>
-    <h3 itemprop="name">Public.com</h3>
-    <p itemprop="description">Social investing platform with stocks, ETFs, crypto, and bonds. Earn yield on uninvested cash. Free.</p>
-    <div class="card-footer">
-      <span class="card-stars" aria-label="4.4 stars">★★★★☆</span>
-      <a href="https://public.com" class="btn-outline" rel="sponsored noopener">Get Started</a>
-    </div>
-  </article>
-
-  <!-- ── INVESTING: Full-service brokers & robo-advisors ── -->
-  <article class="app-card" role="listitem" data-category="investing" itemscope itemtype="https://schema.org/SoftwareApplication">
-    <div class="card-logo" style="background:#0b1a2e; color:#60a5fa;">F</div>
-    <div class="cat" itemprop="applicationCategory">Investing</div>
-    <h3 itemprop="name">Fidelity</h3>
-    <p itemprop="description">Best full-service broker of 2026. Zero commissions, 0% expense-ratio index funds (FZROX), and award-winning research tools. No account minimum.</p>
-    <div class="card-footer">
-      <span class="card-stars" aria-label="4.8 stars">★★★★★</span>
-      <a href="https://www.fidelity.com" class="btn-outline" rel="sponsored noopener">Get Started</a>
-    </div>
-  </article>
-
-  <article class="app-card" role="listitem" data-category="investing" itemscope itemtype="https://schema.org/SoftwareApplication">
-    <div class="card-logo" style="background:#0a1a14; color:#22c55e;">VG</div>
-    <div class="cat" itemprop="applicationCategory">Investing</div>
-    <h3 itemprop="name">Vanguard</h3>
-    <p itemprop="description">The pioneer of index fund investing. Home of VTSAX and VTI — best for long-term, low-cost buy-and-hold investors. No commissions.</p>
-    <div class="card-footer">
-      <span class="card-stars" aria-label="4.6 stars">★★★★☆</span>
-      <a href="https://investor.vanguard.com" class="btn-outline" rel="sponsored noopener">Get Started</a>
-    </div>
-  </article>
-
-  <article class="app-card" role="listitem" data-category="investing" itemscope itemtype="https://schema.org/SoftwareApplication">
-    <div class="card-logo" style="background:#0d1a2a; color:#93c5fd;">CS</div>
-    <div class="cat" itemprop="applicationCategory">Investing</div>
-    <h3 itemprop="name">Charles Schwab</h3>
-    <p itemprop="description">Full-service broker with zero commissions, thinkorswim advanced trading platform, and deep research tools. Best for serious long-term investors.</p>
-    <div class="card-footer">
-      <span class="card-stars" aria-label="4.7 stars">★★★★★</span>
-      <a href="https://www.schwab.com" class="btn-outline" rel="sponsored noopener">Get Started</a>
-    </div>
-  </article>
-
-  <article class="app-card" role="listitem" data-category="investing" itemscope itemtype="https://schema.org/SoftwareApplication">
-    <div class="card-logo" style="background:#0f1a10; color:#86efac;">M1</div>
-    <div class="cat" itemprop="applicationCategory">Investing</div>
-    <h3 itemprop="name">M1 Finance</h3>
-    <p itemprop="description">Automated "pie" portfolio investing with free auto-rebalancing and dividend reinvestment. Best for set-and-forget ETF and stock portfolios. Free.</p>
-    <div class="card-footer">
-      <span class="card-stars" aria-label="4.5 stars">★★★★☆</span>
-      <a href="https://www.m1.com" class="btn-outline" rel="sponsored noopener">Get Started</a>
-    </div>
-  </article>
-
-  <article class="app-card" role="listitem" data-category="investing" itemscope itemtype="https://schema.org/SoftwareApplication">
-    <div class="card-logo" style="background:#11190e; color:#84cc16;">W</div>
-    <div class="cat" itemprop="applicationCategory">Investing</div>
-    <h3 itemprop="name">Wealthfront</h3>
-    <p itemprop="description">Top robo-advisor with automated tax-loss harvesting, financial planning tools, and a high-yield cash account. 0.25%/year. $500 minimum.</p>
-    <div class="card-footer">
-      <span class="card-stars" aria-label="4.5 stars">★★★★☆</span>
-      <a href="https://www.wealthfront.com" class="btn-outline" rel="sponsored noopener">Get Started</a>
-    </div>
-  </article>
-
-  <article class="app-card" role="listitem" data-category="investing" itemscope itemtype="https://schema.org/SoftwareApplication">
-    <div class="card-logo" style="background:#1a0f1a; color:#d8b4fe;">TT</div>
-    <div class="cat" itemprop="applicationCategory">Investing</div>
-    <h3 itemprop="name">tastytrade</h3>
-    <p itemprop="description">Best options trading platform of 2026. Commissions capped at $10/leg, built specifically for options and futures traders. Free to open.</p>
-    <div class="card-footer">
-      <span class="card-stars" aria-label="4.6 stars">★★★★☆</span>
-      <a href="https://www.tastytrade.com" class="btn-outline" rel="sponsored noopener">Get Started</a>
-    </div>
-  </article>
-
-  <article class="app-card" role="listitem" data-category="investing" itemscope itemtype="https://schema.org/SoftwareApplication">
-    <div class="card-logo" style="background:#1a100a; color:#fb923c;">ET</div>
-    <div class="cat" itemprop="applicationCategory">Investing</div>
-    <h3 itemprop="name">E*TRADE</h3>
-    <p itemprop="description">Full-service broker with zero commissions, Power E*TRADE platform for options, and a strong mobile app. Owned by Morgan Stanley.</p>
-    <div class="card-footer">
-      <span class="card-stars" aria-label="4.5 stars">★★★★☆</span>
-      <a href="https://us.etrade.com" class="btn-outline" rel="sponsored noopener">Get Started</a>
-    </div>
-  </article>
-
-  <article class="app-card" role="listitem" data-category="investing" itemscope itemtype="https://schema.org/SoftwareApplication">
-    <div class="card-logo" style="background:#1a0f16; color:#f9a8d4;">EL</div>
-    <div class="cat" itemprop="applicationCategory">Investing</div>
-    <h3 itemprop="name">Ellevest</h3>
-    <p itemprop="description">Women-focused robo-advisor with salary-based investing algorithms and ESG portfolio options. Membership from $12/month.</p>
-    <div class="card-footer">
-      <span class="card-stars" aria-label="4.3 stars">★★★★☆</span>
-      <a href="https://www.ellevest.com" class="btn-outline" rel="sponsored noopener">Get Started</a>
-    </div>
-  </article>
+  </section>
 
   <!-- ── CRYPTO ── -->
-  <article class="app-card" role="listitem" data-category="crypto" itemscope itemtype="https://schema.org/SoftwareApplication">
-    <div class="card-logo" style="background:#1a1400; color:#fbbf24;">CB</div>
-    <div class="cat" itemprop="applicationCategory">Crypto</div>
-    <h3 itemprop="name">Coinbase</h3>
-    <p itemprop="description">The most trusted US crypto exchange. 250+ coins, beginner-friendly, FDIC-insured USD balances. Coinbase One removes all trading fees for $29.99/mo.</p>
-    <div class="card-footer">
-      <span class="card-stars" aria-label="4.6 stars">★★★★☆</span>
-      <a href="https://www.coinbase.com" class="btn-outline" rel="sponsored noopener">Get Started</a>
+  <section class="cat-row" data-category="crypto" id="row-crypto">
+    <div class="cat-row-header">
+      <div class="cat-row-title">
+        <h3>₿ Crypto</h3>
+        <span class="cat-row-badge">3 apps</span>
+      </div>
+      <a href="best-app-crypto-investing.html" class="cat-row-guide">See full guide →</a>
     </div>
-  </article>
-
-  <article class="app-card" role="listitem" data-category="crypto" itemscope itemtype="https://schema.org/SoftwareApplication">
-    <div class="card-logo" style="background:#0d1a20; color:#38bdf8;">KR</div>
-    <div class="cat" itemprop="applicationCategory">Crypto</div>
-    <h3 itemprop="name">Kraken</h3>
-    <p itemprop="description">Best crypto exchange for advanced traders. 200+ coins, low maker fees starting at 0.16%, and powerful charting tools via Kraken Pro. Free to open.</p>
-    <div class="card-footer">
-      <span class="card-stars" aria-label="4.5 stars">★★★★☆</span>
-      <a href="https://www.kraken.com" class="btn-outline" rel="sponsored noopener">Get Started</a>
+    <div class="cat-row-scroll">
+      <article class="app-card" role="listitem" data-category="crypto" itemscope itemtype="https://schema.org/SoftwareApplication">
+        <div class="card-logo" style="background:#1a1400; color:#fbbf24;">CB</div>
+        <h3 itemprop="name">Coinbase</h3>
+        <p itemprop="description">The most trusted US crypto exchange. 250+ coins, beginner-friendly, FDIC-insured USD balances. Coinbase One removes trading fees for $29.99/mo.</p>
+        <div class="card-footer"><span class="card-stars" aria-label="4.6 stars">★★★★☆</span><a href="https://www.coinbase.com" class="btn-outline" rel="sponsored noopener">Get Started</a></div>
+      </article>
+      <article class="app-card" role="listitem" data-category="crypto" itemscope itemtype="https://schema.org/SoftwareApplication">
+        <div class="card-logo" style="background:#0d1a20; color:#38bdf8;">KR</div>
+        <h3 itemprop="name">Kraken</h3>
+        <p itemprop="description">Best crypto exchange for advanced traders. 200+ coins, low maker fees from 0.16%, and powerful charting tools via Kraken Pro. Free to open.</p>
+        <div class="card-footer"><span class="card-stars" aria-label="4.5 stars">★★★★☆</span><a href="https://www.kraken.com" class="btn-outline" rel="sponsored noopener">Get Started</a></div>
+      </article>
+      <article class="app-card" role="listitem" data-category="crypto" itemscope itemtype="https://schema.org/SoftwareApplication">
+        <div class="card-logo" style="background:#0d1a17; color:#34d399;">GM</div>
+        <h3 itemprop="name">Gemini</h3>
+        <p itemprop="description">SOC 2-certified crypto exchange founded by the Winklevoss twins. Best for security-conscious investors. ActiveTrader reduces fees to 0.03% maker.</p>
+        <div class="card-footer"><span class="card-stars" aria-label="4.4 stars">★★★★☆</span><a href="https://www.gemini.com" class="btn-outline" rel="sponsored noopener">Get Started</a></div>
+      </article>
     </div>
-  </article>
-
-  <article class="app-card" role="listitem" data-category="crypto" itemscope itemtype="https://schema.org/SoftwareApplication">
-    <div class="card-logo" style="background:#0d1a17; color:#34d399;">GM</div>
-    <div class="cat" itemprop="applicationCategory">Crypto</div>
-    <h3 itemprop="name">Gemini</h3>
-    <p itemprop="description">SOC 2-certified crypto exchange founded by the Winklevoss twins. Best for security-conscious investors. ActiveTrader reduces fees to 0.03% maker.</p>
-    <div class="card-footer">
-      <span class="card-stars" aria-label="4.4 stars">★★★★☆</span>
-      <a href="https://www.gemini.com" class="btn-outline" rel="sponsored noopener">Get Started</a>
-    </div>
-  </article>
+  </section>
 
   <!-- ── REAL ESTATE ── -->
-  <article class="app-card" role="listitem" data-category="real-estate" itemscope itemtype="https://schema.org/SoftwareApplication">
-    <div class="card-logo" style="background:#1a1000; color:#f59e0b;">FR</div>
-    <div class="cat" itemprop="applicationCategory">Real Estate</div>
-    <h3 itemprop="name">Fundrise</h3>
-    <p itemprop="description">The #1 real estate crowdfunding app. Invest in diversified eREIT portfolios from $10. Historical returns of 5–12% annually. Open to all investors.</p>
-    <div class="card-footer">
-      <span class="card-stars" aria-label="4.7 stars">★★★★★</span>
-      <a href="https://fundrise.com" class="btn-outline" rel="sponsored noopener">Get Started</a>
+  <section class="cat-row" data-category="real-estate" id="row-real-estate">
+    <div class="cat-row-header">
+      <div class="cat-row-title">
+        <h3>🏠 Real Estate</h3>
+        <span class="cat-row-badge">5 apps</span>
+      </div>
+      <a href="best-app-real-estate-investing.html" class="cat-row-guide">See full guide →</a>
     </div>
-  </article>
+    <div class="cat-row-scroll">
+      <article class="app-card" role="listitem" data-category="real-estate" itemscope itemtype="https://schema.org/SoftwareApplication">
+        <div class="card-logo" style="background:#1a1000; color:#f59e0b;">FR</div>
+        <h3 itemprop="name">Fundrise</h3>
+        <p itemprop="description">The #1 real estate crowdfunding app. Invest in diversified eREIT portfolios from $10. Historical returns of 5–12% annually. Open to all investors.</p>
+        <div class="card-footer"><span class="card-stars" aria-label="4.7 stars">★★★★★</span><a href="https://fundrise.com" class="btn-outline" rel="sponsored noopener">Get Started</a></div>
+      </article>
+      <article class="app-card" role="listitem" data-category="real-estate" itemscope itemtype="https://schema.org/SoftwareApplication">
+        <div class="card-logo" style="background:#1a1200; color:#fcd34d;">AR</div>
+        <h3 itemprop="name">Arrived</h3>
+        <p itemprop="description">Invest in individual rental properties from $100 and earn passive rental income quarterly. No landlord experience needed. SEC-qualified.</p>
+        <div class="card-footer"><span class="card-stars" aria-label="4.5 stars">★★★★☆</span><a href="https://arrivedhomes.com" class="btn-outline" rel="sponsored noopener">Get Started</a></div>
+      </article>
+      <article class="app-card" role="listitem" data-category="real-estate" itemscope itemtype="https://schema.org/SoftwareApplication">
+        <div class="card-logo" style="background:#0a1a10; color:#4ade80;">RS</div>
+        <h3 itemprop="name">Roofstock</h3>
+        <p itemprop="description">Buy single-family rental properties online as a remote landlord. Properties come with tenants in place and management options.</p>
+        <div class="card-footer"><span class="card-stars" aria-label="4.4 stars">★★★★☆</span><a href="https://www.roofstock.com" class="btn-outline" rel="sponsored noopener">Get Started</a></div>
+      </article>
+      <article class="app-card" role="listitem" data-category="real-estate" itemscope itemtype="https://schema.org/SoftwareApplication">
+        <div class="card-logo" style="background:#1a0e0e; color:#f87171;">RM</div>
+        <h3 itemprop="name">RealtyMogul</h3>
+        <p itemprop="description">Commercial real estate crowdfunding with REITs (non-accredited) and individual deals (accredited). $5,000 minimum investment.</p>
+        <div class="card-footer"><span class="card-stars" aria-label="4.3 stars">★★★★☆</span><a href="https://www.realtymogul.com" class="btn-outline" rel="sponsored noopener">Get Started</a></div>
+      </article>
+      <article class="app-card" role="listitem" data-category="real-estate" itemscope itemtype="https://schema.org/SoftwareApplication">
+        <div class="card-logo" style="background:#0e1a0e; color:#86efac;">GF</div>
+        <h3 itemprop="name">Groundfloor</h3>
+        <p itemprop="description">Short-term real estate debt investments (6–12 months) from $10. Average historical returns of 10%+ on fix-and-flip loan portfolios. Open to all.</p>
+        <div class="card-footer"><span class="card-stars" aria-label="4.3 stars">★★★★☆</span><a href="https://www.groundfloor.us" class="btn-outline" rel="sponsored noopener">Get Started</a></div>
+      </article>
+    </div>
+  </section>
 
-  <article class="app-card" role="listitem" data-category="real-estate" itemscope itemtype="https://schema.org/SoftwareApplication">
-    <div class="card-logo" style="background:#1a1200; color:#fcd34d;">AR</div>
-    <div class="cat" itemprop="applicationCategory">Real Estate</div>
-    <h3 itemprop="name">Arrived</h3>
-    <p itemprop="description">Invest in individual rental properties from $100 and earn passive rental income quarterly. No landlord experience needed. SEC-qualified offerings.</p>
-    <div class="card-footer">
-      <span class="card-stars" aria-label="4.5 stars">★★★★☆</span>
-      <a href="https://arrivedhomes.com" class="btn-outline" rel="sponsored noopener">Get Started</a>
+  <!-- ── BANKING ── -->
+  <section class="cat-row" data-category="banking" id="row-banking">
+    <div class="cat-row-header">
+      <div class="cat-row-title">
+        <h3>🏦 Banking</h3>
+        <span class="cat-row-badge">2 apps</span>
+      </div>
+      <a href="chime-vs-sofi.html" class="cat-row-guide">See full guide →</a>
     </div>
-  </article>
+    <div class="cat-row-scroll">
+      <article class="app-card" role="listitem" data-category="banking" itemscope itemtype="https://schema.org/SoftwareApplication">
+        <div class="card-logo" style="background:#1a1020; color:#a78bfa;">C</div>
+        <h3 itemprop="name">Chime</h3>
+        <p itemprop="description">No hidden fees. Direct deposit up to 2 days early. No minimum balance. Over 13 million Americans use Chime as their primary bank.</p>
+        <div class="card-footer"><span class="card-stars" aria-label="4.5 stars">★★★★☆</span><a href="https://www.chime.com" class="btn-outline" rel="sponsored noopener">Get Started</a></div>
+      </article>
+      <article class="app-card" role="listitem" data-category="banking" itemscope itemtype="https://schema.org/SoftwareApplication">
+        <div class="card-logo" style="background:#0e1d1d; color:#2dd4bf;">S</div>
+        <h3 itemprop="name">SoFi</h3>
+        <p itemprop="description">High-yield savings, checking, and investing all in one app. No monthly fees. Great for those who want banking + investing under one roof.</p>
+        <div class="card-footer"><span class="card-stars" aria-label="4.4 stars">★★★★☆</span><a href="https://www.sofi.com" class="btn-outline" rel="sponsored noopener">Get Started</a></div>
+      </article>
+    </div>
+  </section>
 
-  <article class="app-card" role="listitem" data-category="real-estate" itemscope itemtype="https://schema.org/SoftwareApplication">
-    <div class="card-logo" style="background:#0a1a10; color:#4ade80;">RS</div>
-    <div class="cat" itemprop="applicationCategory">Real Estate</div>
-    <h3 itemprop="name">Roofstock</h3>
-    <p itemprop="description">Buy single-family rental properties online as a remote landlord. Properties come with tenants in place and property management options.</p>
-    <div class="card-footer">
-      <span class="card-stars" aria-label="4.4 stars">★★★★☆</span>
-      <a href="https://www.roofstock.com" class="btn-outline" rel="sponsored noopener">Get Started</a>
+  <!-- ── CREDIT CARDS ── -->
+  <section class="cat-row" data-category="credit-cards" id="row-credit-cards">
+    <div class="cat-row-header">
+      <div class="cat-row-title">
+        <h3>💳 Credit Cards</h3>
+        <span class="cat-row-badge">3 apps</span>
+      </div>
+      <a href="chase-sapphire-reserve-vs-amex-platinum.html" class="cat-row-guide">See full guide →</a>
     </div>
-  </article>
-
-  <article class="app-card" role="listitem" data-category="real-estate" itemscope itemtype="https://schema.org/SoftwareApplication">
-    <div class="card-logo" style="background:#1a0e0e; color:#f87171;">RM</div>
-    <div class="cat" itemprop="applicationCategory">Real Estate</div>
-    <h3 itemprop="name">RealtyMogul</h3>
-    <p itemprop="description">Commercial real estate crowdfunding with both REITs (non-accredited) and individual deals (accredited). $5,000 minimum investment.</p>
-    <div class="card-footer">
-      <span class="card-stars" aria-label="4.3 stars">★★★★☆</span>
-      <a href="https://www.realtymogul.com" class="btn-outline" rel="sponsored noopener">Get Started</a>
+    <div class="cat-row-scroll">
+      <article class="app-card" role="listitem" data-category="credit-cards" itemscope itemtype="https://schema.org/SoftwareApplication">
+        <div class="card-logo" style="background:#1a0e0e; color:#f87171;">X</div>
+        <h3 itemprop="name">Chase Sapphire Reserve</h3>
+        <p itemprop="description">Best-in-class travel rewards. 3x on dining, 2x on travel. Up to $750 sign-up bonus. $795 annual fee.</p>
+        <div class="card-footer"><span class="card-stars" aria-label="4.8 stars">★★★★★</span><a href="https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve" class="btn-outline" rel="sponsored noopener">Get Started</a></div>
+      </article>
+      <article class="app-card" role="listitem" data-category="credit-cards" itemscope itemtype="https://schema.org/SoftwareApplication">
+        <div class="card-logo" style="background:#1a1200; color:#fcd34d;">A</div>
+        <h3 itemprop="name">Amex Platinum</h3>
+        <p itemprop="description">Premium travel card with 5x points on flights, lounge access, and $200 airline credit. $895/yr annual fee.</p>
+        <div class="card-footer"><span class="card-stars" aria-label="4.7 stars">★★★★★</span><a href="https://www.americanexpress.com/us/credit-cards/card/platinum/" class="btn-outline" rel="sponsored noopener">Get Started</a></div>
+      </article>
+      <article class="app-card" role="listitem" data-category="credit-cards" itemscope itemtype="https://schema.org/SoftwareApplication">
+        <div class="card-logo" style="background:#0e1520; color:#93c5fd;">CF</div>
+        <h3 itemprop="name">Chase Freedom</h3>
+        <p itemprop="description">5% cash back on rotating categories. No annual fee. One of the best no-fee cash back cards available.</p>
+        <div class="card-footer"><span class="card-stars" aria-label="4.6 stars">★★★★☆</span><a href="https://creditcards.chase.com/cash-back-credit-cards/freedom/card" class="btn-outline" rel="sponsored noopener">Get Started</a></div>
+      </article>
     </div>
-  </article>
-
-  <article class="app-card" role="listitem" data-category="real-estate" itemscope itemtype="https://schema.org/SoftwareApplication">
-    <div class="card-logo" style="background:#0e1a0e; color:#86efac;">GF</div>
-    <div class="cat" itemprop="applicationCategory">Real Estate</div>
-    <h3 itemprop="name">Groundfloor</h3>
-    <p itemprop="description">Short-term real estate debt investments (6–12 months) from $10. Average historical returns of 10%+ on fix-and-flip loan portfolios. Open to all investors.</p>
-    <div class="card-footer">
-      <span class="card-stars" aria-label="4.3 stars">★★★★☆</span>
-      <a href="https://www.groundfloor.us" class="btn-outline" rel="sponsored noopener">Get Started</a>
-    </div>
-  </article>
-
-  <!-- ── BUDGETING: Additional apps ── -->
-  <article class="app-card" role="listitem" data-category="budgeting" itemscope itemtype="https://schema.org/SoftwareApplication">
-    <div class="card-logo" style="background:#0e1a1a; color:#2dd4bf;">MM</div>
-    <div class="cat" itemprop="applicationCategory">Budgeting</div>
-    <h3 itemprop="name">Monarch Money</h3>
-    <p itemprop="description">Best Mint replacement of 2026. Tracks budgets, investments, and net worth in one app. Ideal for couples. $14.99/month or $99/year.</p>
-    <div class="card-footer">
-      <span class="card-stars" aria-label="4.7 stars">★★★★★</span>
-      <a href="https://www.monarchmoney.com" class="btn-outline" rel="sponsored noopener">Get Started</a>
-    </div>
-  </article>
-
-  <article class="app-card" role="listitem" data-category="budgeting" itemscope itemtype="https://schema.org/SoftwareApplication">
-    <div class="card-logo" style="background:#0e1a12; color:#22c55e;">EM</div>
-    <div class="cat" itemprop="applicationCategory">Budgeting</div>
-    <h3 itemprop="name">Empower</h3>
-    <p itemprop="description">Best free financial dashboard. Tracks spending, net worth, investment portfolio, and retirement readiness — all at no cost. Formerly Personal Capital.</p>
-    <div class="card-footer">
-      <span class="card-stars" aria-label="4.5 stars">★★★★☆</span>
-      <a href="https://www.empower.com" class="btn-outline" rel="sponsored noopener">Get Started</a>
-    </div>
-  </article>
-
-  <article class="app-card" role="listitem" data-category="budgeting" itemscope itemtype="https://schema.org/SoftwareApplication">
-    <div class="card-logo" style="background:#1a100e; color:#fca5a5;">RM</div>
-    <div class="cat" itemprop="applicationCategory">Budgeting</div>
-    <h3 itemprop="name">Rocket Money</h3>
-    <p itemprop="description">Finds and cancels unwanted subscriptions automatically. Spending tracker + bill negotiation service. Free tier available; premium from $6/month.</p>
-    <div class="card-footer">
-      <span class="card-stars" aria-label="4.3 stars">★★★★☆</span>
-      <a href="https://www.rocketmoney.com" class="btn-outline" rel="sponsored noopener">Get Started</a>
-    </div>
-  </article>
-
-  <article class="app-card" role="listitem" data-category="budgeting" itemscope itemtype="https://schema.org/SoftwareApplication">
-    <div class="card-logo" style="background:#0d1a10; color:#bbf7d0;">SI</div>
-    <div class="cat" itemprop="applicationCategory">Budgeting</div>
-    <h3 itemprop="name">Simplifi by Quicken</h3>
-    <p itemprop="description">Clean, modern budgeting app from Quicken. Spending plan with real-time tracking and savings goals. $5.99/month. 30-day free trial.</p>
-    <div class="card-footer">
-      <span class="card-stars" aria-label="4.4 stars">★★★★☆</span>
-      <a href="https://www.quicken.com/simplifi" class="btn-outline" rel="sponsored noopener">Get Started</a>
-    </div>
-  </article>
-
-  <article class="app-card" role="listitem" data-category="budgeting" itemscope itemtype="https://schema.org/SoftwareApplication">
-    <div class="card-logo" style="background:#1a1500; color:#fde68a;">TI</div>
-    <div class="cat" itemprop="applicationCategory">Budgeting</div>
-    <h3 itemprop="name">Tiller Money</h3>
-    <p itemprop="description">Auto-fills your Google Sheets or Excel spreadsheet with daily bank and credit card transactions. Best for spreadsheet-native budgeters. $79/year.</p>
-    <div class="card-footer">
-      <span class="card-stars" aria-label="4.4 stars">★★★★☆</span>
-      <a href="https://www.tillerhq.com" class="btn-outline" rel="sponsored noopener">Get Started</a>
-    </div>
-  </article>
+  </section>
 
 </div>
 
@@ -2060,74 +1997,78 @@
   })();
 
   // ── CATEGORY FILTER ──────────────────────────────────────────
-  // Filterable elements: rank cards, app cards, and table rows
-  // Each has a data-category attribute matching the filter value.
-  // Section headers and non-filterable elements are always visible.
+  // Hero filter buttons control: rank cards, cat-rows, and table rows.
+  // Clicking a specific category scrolls to that cat-row AND filters
+  // everything else on the page. "All" restores full view.
 
   const filterBtns = document.querySelectorAll('.filter-btn');
-  const filterTargets = document.querySelectorAll('[data-category]');
 
-  // Section visibility helpers — hide a section header when all its
-  // filterable children are hidden, to keep the layout clean.
-  function updateSectionVisibility(filter) {
-    // Ranked list section header
-    const rankedHeader = document.querySelector('#ranked').closest('.section-header') ||
-                         document.getElementById('ranked').parentElement;
-    const rankedCards  = document.querySelectorAll('.rank-card[data-category]');
-    const anyRanked    = [...rankedCards].some(c => filter === 'all' || c.dataset.category === filter);
-    document.getElementById('ranked').closest
-      ? null : null; // always show ranked header
-
-    // Card grid section header
-    const appCards  = document.querySelectorAll('.app-card[data-category]');
-    const anyCards  = [...appCards].some(c => filter === 'all' || c.dataset.category === filter);
-    const appsHeader = document.getElementById('apps');
-    if (appsHeader) {
-      appsHeader.closest('.section-header').style.display = anyCards ? '' : 'none';
-      document.querySelector('.card-grid').style.display  = anyCards ? '' : 'none';
+  function applyFilter(filter) {
+    // ── Rank cards ──
+    const rankedCards = document.querySelectorAll('.rank-card[data-category]');
+    rankedCards.forEach(card => {
+      const show = filter === 'all' || card.dataset.category === filter;
+      card.style.display = show ? '' : 'none';
+      card.setAttribute('aria-hidden', show ? 'false' : 'true');
+    });
+    // Re-number visible rank cards
+    let visibleRank = 1;
+    rankedCards.forEach(card => {
+      if (card.style.display !== 'none') {
+        const numEl = card.querySelector('.rank-number');
+        if (numEl) numEl.textContent = visibleRank++;
+      }
+    });
+    // Ranked section header: always visible (there's always at least one rank card)
+    const rankedSection = document.getElementById('ranked');
+    if (rankedSection) {
+      const anyRanked = [...rankedCards].some(c => c.style.display !== 'none');
+      rankedSection.closest('.section-header').style.display = anyRanked ? '' : 'none';
     }
 
-    // Table section header + wrap
-    const tableRows   = document.querySelectorAll('tbody tr[data-category]');
-    const anyRows     = [...tableRows].some(r => filter === 'all' || r.dataset.category === filter);
+    // ── Cat-rows: show/hide entire rows ──
+    const catRows = document.querySelectorAll('.cat-row[data-category]');
+    catRows.forEach(row => {
+      const show = filter === 'all' || row.dataset.category === filter;
+      row.style.display = show ? '' : 'none';
+    });
+    const appsHeader = document.getElementById('apps');
+    if (appsHeader) {
+      const anyRows = [...catRows].some(r => r.style.display !== 'none');
+      appsHeader.closest('.section-header').style.display = anyRows ? '' : 'none';
+      document.querySelector('.cat-rows').style.display = anyRows ? '' : 'none';
+    }
+
+    // ── Table rows ──
+    const tableRows = document.querySelectorAll('tbody tr[data-category]');
+    tableRows.forEach(row => {
+      const show = filter === 'all' || row.dataset.category === filter;
+      row.style.display = show ? '' : 'none';
+      row.setAttribute('aria-hidden', show ? 'false' : 'true');
+    });
     const compareHeader = document.getElementById('compare');
     if (compareHeader) {
-      compareHeader.closest('.section-header').style.display = anyRows ? '' : 'none';
-      document.querySelector('.table-wrap').style.display    = anyRows ? '' : 'none';
+      const anyTable = [...tableRows].some(r => r.style.display !== 'none');
+      compareHeader.closest('.section-header').style.display = anyTable ? '' : 'none';
+      document.querySelector('.table-wrap').style.display    = anyTable ? '' : 'none';
+      document.querySelector('.table-filter-bar').style.display = anyTable ? '' : 'none';
+    }
+
+    // ── Scroll to category row if a specific filter is selected ──
+    if (filter !== 'all') {
+      const targetRow = document.getElementById('row-' + filter);
+      if (targetRow) {
+        setTimeout(() => targetRow.scrollIntoView({ behavior: 'smooth', block: 'start' }), 80);
+      }
     }
   }
 
   filterBtns.forEach(btn => {
     btn.addEventListener('click', () => {
-      // Update button states
       filterBtns.forEach(b => { b.classList.remove('active'); b.setAttribute('aria-pressed', 'false'); });
       btn.classList.add('active');
       btn.setAttribute('aria-pressed', 'true');
-
-      const filter = btn.dataset.filter;
-
-      // Show / hide each filterable item
-      filterTargets.forEach(el => {
-        if (filter === 'all' || el.dataset.category === filter) {
-          el.style.display = '';
-          el.setAttribute('aria-hidden', 'false');
-        } else {
-          el.style.display = 'none';
-          el.setAttribute('aria-hidden', 'true');
-        }
-      });
-
-      // Re-number visible rank cards so numbering stays sequential
-      let visibleRank = 1;
-      document.querySelectorAll('.rank-card[data-category]').forEach(card => {
-        if (card.style.display !== 'none') {
-          const numEl = card.querySelector('.rank-number');
-          if (numEl) numEl.textContent = visibleRank++;
-        }
-      });
-
-      // Update section header visibility
-      updateSectionVisibility(filter);
+      applyFilter(btn.dataset.filter);
     });
   });
 
