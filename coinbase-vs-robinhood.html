@@ -174,6 +174,17 @@
     footer p { font-size: 0.75rem; color: var(--text-3); line-height: 1.8; }
 
     @media (max-width: 600px) { .article-wrap { padding: 2rem 1.2rem 4rem; } }
+  
+    /* Related comparisons block */
+    .related-comparisons { margin: 0 0 2rem; }
+    .rel-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.75rem; margin-top: 1.2rem; }
+    .rel-card { display: flex; align-items: center; gap: 0.7rem; background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 0.85rem 1.1rem; transition: border-color .2s, background .2s; text-decoration: none; }
+    .rel-card:hover { border-color: var(--green); background: var(--bg3); }
+    .rel-icon { font-size: 1.1rem; flex-shrink: 0; }
+    .rel-label { font-size: 0.85rem; font-weight: 600; color: var(--text); flex: 1; }
+    .rel-arrow { font-size: 0.8rem; color: var(--text-3); transition: color .2s; }
+    .rel-card:hover .rel-arrow { color: var(--green); }
+
   </style>
 </head>
 <body>
@@ -328,6 +339,34 @@
 
 </div>
 </main>
+
+
+  <hr class="divider"/>
+
+  <section class="related-comparisons">
+    <h2 style="margin-top:0;">More App Comparisons</h2>
+    <p>Compare other top finance apps side-by-side:</p>
+    <div class="rel-grid">
+      <a href="robinhood-vs-webull.html" class="rel-card">
+        <span class="rel-icon">📊</span>
+        <span class="rel-label">Robinhood vs Webull</span>
+        <span class="rel-arrow">→</span>
+      </a>
+      <a href="coinbase-vs-kraken.html" class="rel-card">
+        <span class="rel-icon">🪙</span>
+        <span class="rel-label">Coinbase vs Kraken</span>
+        <span class="rel-arrow">→</span>
+      </a>
+      <a href="sofi-vs-robinhood.html" class="rel-card">
+        <span class="rel-icon">🏦</span>
+        <span class="rel-label">SoFi vs Robinhood</span>
+        <span class="rel-arrow">→</span>
+      </a>
+    </div>
+    <div style="text-align:center; margin-top:1.5rem;">
+      <a href="index.html" class="btn-outline">← See All Ranked Finance Apps</a>
+    </div>
+  </section>
 
 <footer>
   <p>© 2026 TopMoneyApps. <a href="index.html" style="color:var(--green);">Back to Rankings</a> · <strong>Affiliate Disclosure:</strong> TopMoneyApps may earn a commission from links on this page. This does not influence our editorial opinions.</p>
