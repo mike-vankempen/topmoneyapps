@@ -820,171 +820,101 @@
 
 
     /* ─── QUIZ ─── */
-    .quiz-section {
-      max-width: 760px; margin: 0 auto; padding: 56px 24px 64px;
-    }
-    .quiz-intro {
-      text-align: center; margin-bottom: 32px;
-    }
+    .quiz-section { max-width: 760px; margin: 0 auto; padding: 56px 24px 64px; }
+    .quiz-intro { text-align: center; margin-bottom: 32px; }
     .quiz-tag {
       display: inline-block; background: var(--green-glow); color: var(--green);
       border: 1px solid var(--green); border-radius: 20px;
       padding: 4px 14px; font-size: 0.76rem; font-weight: 700;
       text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 14px;
     }
-    .quiz-intro h2 {
-      font-size: clamp(1.5rem, 3vw, 2rem); font-weight: 800; margin-bottom: 10px;
-    }
+    .quiz-intro h2 { font-size: clamp(1.5rem,3vw,2rem); font-weight: 800; margin-bottom: 10px; }
     .quiz-intro h2 em { font-style: normal; color: var(--green); }
     .quiz-intro p { font-size: 0.95rem; color: var(--text2); max-width: 480px; margin: 0 auto; }
-
     .quiz-card {
       background: var(--bg2); border: 1px solid var(--border);
       border-radius: 16px; overflow: hidden;
     }
-
-    /* progress bar */
-    .quiz-progress-track {
-      height: 3px; background: var(--border);
-    }
-    .quiz-progress-fill {
-      height: 100%; background: var(--green);
-      border-radius: 0 2px 2px 0;
-      transition: width .4s ease;
-      width: 0%;
-    }
-
-    /* question pane */
-    .quiz-pane {
-      padding: 36px 32px 32px;
-    }
-    @media (max-width: 600px) { .quiz-pane { padding: 28px 20px 24px; } }
-
-    .quiz-step {
-      font-size: 0.75rem; font-weight: 700; color: var(--text3);
-      text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 12px;
-    }
-    .quiz-q {
-      font-size: 1.15rem; font-weight: 700; color: var(--text);
-      margin-bottom: 24px; line-height: 1.35;
-    }
+    .quiz-progress-track { height: 3px; background: var(--border); }
+    .quiz-progress-fill { height: 100%; background: var(--green); border-radius: 0 2px 2px 0; transition: width .4s ease; width: 0%; }
+    .quiz-pane { padding: 32px 28px 24px; }
+    @media (max-width: 600px) { .quiz-pane { padding: 24px 18px 16px; } }
+    .quiz-step { font-size: 0.74rem; font-weight: 700; color: var(--text3); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 10px; }
+    .quiz-q { font-size: 1.1rem; font-weight: 700; color: var(--text); margin-bottom: 20px; line-height: 1.35; }
     @media (max-width: 600px) { .quiz-q { font-size: 1rem; } }
-
-    .quiz-options {
-      display: grid; grid-template-columns: 1fr 1fr;
-      gap: 10px;
-    }
-    @media (max-width: 520px) { .quiz-options { grid-template-columns: 1fr; } }
-
+    .quiz-opts { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    @media (max-width: 500px) { .quiz-opts { grid-template-columns: 1fr; } }
     .quiz-opt {
       background: var(--bg3); border: 1.5px solid var(--border);
-      border-radius: 10px; padding: 14px 16px;
-      cursor: pointer; text-align: left;
-      transition: border-color .15s, background .15s, transform .1s;
-      display: flex; align-items: flex-start; gap: 10px;
-      -webkit-tap-highlight-color: transparent;
+      border-radius: 10px; padding: 13px 14px;
+      cursor: pointer; text-align: left; display: flex; align-items: flex-start; gap: 10px;
+      transition: border-color .15s, background .15s;
+      -webkit-tap-highlight-color: transparent; width: 100%;
     }
-    .quiz-opt:hover { border-color: var(--green); background: rgba(34,197,94,.06); }
-    .quiz-opt:active { transform: scale(0.98); }
-    .quiz-opt.selected {
-      border-color: var(--green); background: rgba(34,197,94,.1);
-    }
-    .quiz-opt-icon { font-size: 1.3rem; line-height: 1; flex-shrink: 0; margin-top: 1px; }
+    .quiz-opt:hover, .quiz-opt-active { border-color: var(--green); background: rgba(34,197,94,.08); }
+    .quiz-opt-icon { font-size: 1.3rem; line-height: 1; flex-shrink: 0; margin-top: 2px; }
     .quiz-opt-text { font-size: 0.88rem; font-weight: 600; color: var(--text); line-height: 1.3; }
-    .quiz-opt-sub  { font-size: 0.76rem; color: var(--text3); margin-top: 3px; font-weight: 400; }
-
-    /* nav row */
+    .quiz-opt-sub  { font-size: 0.75rem; color: var(--text3); margin-top: 2px; }
     .quiz-nav {
       display: flex; justify-content: space-between; align-items: center;
-      padding: 0 32px 28px;
+      padding: 0 28px 24px;
     }
-    @media (max-width: 600px) { .quiz-nav { padding: 0 20px 20px; } }
+    @media (max-width: 600px) { .quiz-nav { padding: 0 18px 18px; } }
     .quiz-back {
       background: none; border: 1px solid var(--border); color: var(--text2);
       border-radius: 8px; padding: 9px 18px; font-size: 0.85rem; font-weight: 600;
-      cursor: pointer; transition: border-color .15s, color .15s;
+      cursor: pointer; transition: border-color .15s;
     }
-    .quiz-back:hover { border-color: var(--text); color: var(--text); }
     .quiz-back:disabled { opacity: 0.3; cursor: default; }
+    .quiz-back:not(:disabled):hover { border-color: var(--text); color: var(--text); }
     .quiz-next {
-      background: var(--green); color: #000;
-      border: none; border-radius: 8px; padding: 10px 24px;
-      font-size: 0.88rem; font-weight: 700; cursor: pointer;
-      transition: background .15s, opacity .15s;
+      background: var(--green); color: #000; border: none;
+      border-radius: 8px; padding: 10px 24px;
+      font-size: 0.88rem; font-weight: 700; cursor: pointer; transition: background .15s;
     }
     .quiz-next:disabled { opacity: 0.35; cursor: default; }
     .quiz-next:not(:disabled):hover { background: #16a34a; }
-
     /* results */
-    .quiz-results-pane { padding: 36px 32px 36px; }
-    @media (max-width: 600px) { .quiz-results-pane { padding: 28px 20px 28px; } }
-
-    .quiz-results-heading {
-      text-align: center; margin-bottom: 28px;
-    }
-    .quiz-results-heading .quiz-tag { margin-bottom: 12px; }
-    .quiz-results-heading h3 {
-      font-size: 1.3rem; font-weight: 800; margin-bottom: 6px;
-    }
-    .quiz-results-heading p { font-size: 0.88rem; color: var(--text2); }
-
-    .quiz-match-cards { display: flex; flex-direction: column; gap: 14px; margin-bottom: 28px; }
-
+    .quiz-results-pane { padding: 32px 28px 32px; }
+    @media (max-width: 600px) { .quiz-results-pane { padding: 24px 18px; } }
+    .quiz-results-intro { text-align: center; margin-bottom: 24px; }
+    .quiz-results-intro h3 { font-size: 1.25rem; font-weight: 800; margin-bottom: 6px; }
+    .quiz-results-intro p { font-size: 0.88rem; color: var(--text2); }
+    .quiz-match-cards { display: flex; flex-direction: column; gap: 14px; margin-bottom: 24px; }
     .quiz-match-card {
       background: var(--bg3); border: 1.5px solid var(--border);
-      border-radius: 12px; padding: 20px;
+      border-radius: 12px; padding: 18px 20px;
     }
-    .quiz-match-card.top { border-color: var(--green); }
-
-    .quiz-match-top {
-      display: flex; align-items: center; justify-content: space-between;
-      margin-bottom: 12px; gap: 12px;
-    }
-    .quiz-match-name {
-      font-size: 1.05rem; font-weight: 800; color: var(--text);
-    }
+    .quiz-match-top-card { border-color: var(--green); }
+    .quiz-match-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; gap: 10px; }
+    .quiz-match-name { font-size: 1rem; font-weight: 800; }
     .quiz-match-badge {
       font-size: 0.72rem; font-weight: 700; padding: 3px 10px;
-      border-radius: 20px; background: var(--green-glow);
-      color: var(--green); border: 1px solid var(--green); white-space: nowrap;
+      border-radius: 20px; white-space: nowrap;
+      background: var(--green-glow); color: var(--green); border: 1px solid var(--green);
     }
-    .quiz-match-card:not(.top) .quiz-match-badge {
-      background: var(--bg2); color: var(--text3); border-color: var(--border);
-    }
-    .quiz-match-bar-wrap {
-      background: var(--border); border-radius: 4px; height: 6px; margin-bottom: 12px;
-    }
-    .quiz-match-bar {
-      height: 100%; border-radius: 4px; background: var(--green);
-      transition: width .8s ease;
-    }
-    .quiz-match-card:not(.top) .quiz-match-bar { background: var(--text3); }
-    .quiz-match-why {
-      font-size: 0.82rem; color: var(--text2); line-height: 1.5;
-      margin-bottom: 14px;
-    }
-    .quiz-match-why li { margin-bottom: 4px; }
+    .quiz-match-top-card .quiz-match-badge { background: var(--green-glow); color: var(--green); border-color: var(--green); }
+    .quiz-match-card:not(.quiz-match-top-card) .quiz-match-badge { background: var(--bg2); color: var(--text3); border-color: var(--border); }
+    .quiz-bar-wrap { background: var(--border); border-radius: 4px; height: 5px; margin-bottom: 12px; }
+    .quiz-bar { height: 100%; border-radius: 4px; background: var(--green); transition: width .8s ease; }
+    .quiz-match-card:not(.quiz-match-top-card) .quiz-bar { background: var(--text3); }
+    .quiz-match-why { font-size: 0.81rem; color: var(--text2); line-height: 1.5; margin-bottom: 14px; list-style: none; padding: 0; }
+    .quiz-match-why li { margin-bottom: 3px; }
     .quiz-match-cta {
       display: inline-block; background: var(--green); color: #000;
       border-radius: 8px; padding: 9px 20px;
-      font-size: 0.85rem; font-weight: 700; text-decoration: none;
-      transition: background .15s;
+      font-size: 0.84rem; font-weight: 700; text-decoration: none; transition: background .15s;
     }
     .quiz-match-cta:hover { background: #16a34a; }
-    .quiz-match-card:not(.top) .quiz-match-cta {
-      background: var(--bg2); color: var(--text);
-      border: 1px solid var(--border);
+    .quiz-match-card:not(.quiz-match-top-card) .quiz-match-cta {
+      background: var(--bg2); color: var(--text); border: 1px solid var(--border);
     }
-    .quiz-match-card:not(.top) .quiz-match-cta:hover {
-      border-color: var(--green); color: var(--green);
-    }
-
+    .quiz-match-card:not(.quiz-match-top-card) .quiz-match-cta:hover { border-color: var(--green); color: var(--green); }
     .quiz-retake {
-      display: block; text-align: center;
+      display: block; width: 100%; text-align: center;
       background: none; border: 1px solid var(--border); color: var(--text2);
-      border-radius: 8px; padding: 10px; width: 100%;
-      font-size: 0.85rem; font-weight: 600; cursor: pointer;
-      transition: border-color .15s, color .15s;
+      border-radius: 8px; padding: 10px; font-size: 0.85rem; font-weight: 600;
+      cursor: pointer; transition: border-color .15s;
     }
     .quiz-retake:hover { border-color: var(--text); color: var(--text); }
   </style>
@@ -1014,7 +944,7 @@
 <!-- HERO -->
 <section class="hero" aria-labelledby="hero-heading">
   <!-- GEO: freshness signal visible on-page -->
-  <div class="hero-badge" aria-label="Last updated" id="update-date"></div>
+  <div class="hero-badge" aria-label="Last updated" id="update-date">Updated March 2026</div>
 
   <h1 id="hero-heading">The Best <em>Finance Apps</em><br/>For Every Goal in 2026</h1>
   <p>We independently test, rank, and review the top personal finance apps so you can spend less time searching and more time building wealth.</p>
@@ -1054,13 +984,20 @@
   </div>
 </section>
 
-<!-- GEO: Methodology — signals editorial authority -->
-<div class="methodology">
-  <div class="methodology-inner">
-    <span class="icon">🔬</span>
-    <p><strong>How we rank:</strong> Every app is scored across five weighted criteria — features (30%), pricing (20%), user experience (20%), security (15%), and customer support (15%). Ratings are sourced from the App Store, Google Play, and Trustpilot. Rankings are updated monthly. <a href="#faq" style="color: var(--green); border-bottom: 1px solid var(--green);">Read our full methodology →</a></p>
+<!-- QUIZ: Find Your Finance App -->
+<section class="quiz-section" id="quiz" aria-label="Finance app quiz">
+  <div class="quiz-intro">
+    <div class="quiz-tag">⚡ 60 Seconds</div>
+    <h2>Find Your <em>Perfect</em> Finance App</h2>
+    <p>Answer 5 quick questions. We'll match you with the best app for your goals — no email required.</p>
   </div>
-</div>
+  <div class="quiz-card">
+    <div class="quiz-progress-track">
+      <div class="quiz-progress-fill" id="quiz-progress-fill"></div>
+    </div>
+    <div id="quiz-body"></div>
+  </div>
+</section>
 
 <!-- RANKED LIST -->
 <div class="section-header" id="ranked">
@@ -1444,13 +1381,23 @@
 
 </div>
 
+
+
+<!-- GEO: Methodology — signals editorial authority -->
+<div class="methodology">
+  <div class="methodology-inner">
+    <span class="icon">🔬</span>
+    <p><strong>How we rank:</strong> Every app is scored across five weighted criteria — features (30%), pricing (20%), user experience (20%), security (15%), and customer support (15%). Ratings are sourced from the App Store, Google Play, and Trustpilot. Rankings are updated monthly. <a href="#faq" style="color: var(--green); border-bottom: 1px solid var(--green);">Read our full methodology →</a></p>
+  </div>
+</div>
+
 <!-- GEO: FAQ section — LLMs heavily favor FAQ content for direct answers -->
 <div class="section-header" id="faq">
   <h2>❓ Frequently Asked Questions</h2>
   <div class="line"></div>
 </div>
 
-<div class="faq-list" role="list" itemscope itemtype="https://schema.org/FAQPage">
+<div class="faq-list" role="list">
 
   <div class="faq-item" role="listitem" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
     <div class="faq-q" tabindex="0" role="button" aria-expanded="false">
@@ -1584,21 +1531,6 @@
 
 </div>
 
-
-<!-- QUIZ: Find Your Finance App -->
-<section class="quiz-section" id="quiz" aria-label="Finance app quiz">
-  <div class="quiz-intro">
-    <div class="quiz-tag">⚡ 60 Seconds</div>
-    <h2>Find Your <em>Perfect</em> Finance App</h2>
-    <p>Answer 5 quick questions. We'll match you with the best app for your goals — no email required.</p>
-  </div>
-  <div class="quiz-card">
-    <div class="quiz-progress-track">
-      <div class="quiz-progress-fill" id="quiz-progress-fill"></div>
-    </div>
-    <div id="quiz-body"></div>
-  </div>
-</section>
 
 <!-- GEO: E-E-A-T trust signals -->
 <div class="trust-strip">
@@ -1823,197 +1755,170 @@
     });
   })();
 
-  /* ── FINANCE APP QUIZ ────────────────────────────────────────────────────── */
+  /* ── FINANCE APP QUIZ ──────────────────────────────────────────────────── */
   (function () {
+    var el = document.getElementById('quiz-body');
+    if (!el) return;
+
     var QUESTIONS = [
-      {
-        q: "What's your #1 financial goal right now?",
-        opts: [
-          { icon: "💹", text: "Grow my investments",        sub: "Stocks, ETFs, funds",        scores: { robinhood:2, betterment:3, wealthfront:3, acorns:2, fidelity:2, webull:2 } },
-          { icon: "📊", text: "Track spending & budget",    sub: "Know where my money goes",    scores: { ynab:3, monarch:3, empower:3 } },
-          { icon: "₿",  text: "Buy or trade crypto",        sub: "Bitcoin, Ethereum & more",    scores: { coinbase:4, kraken:4, robinhood:1 } },
-          { icon: "🏖️", text: "Plan for retirement",        sub: "IRA, 401(k), long term",      scores: { betterment:3, wealthfront:3, fidelity:3, acorns:1 } }
-        ]
-      },
-      {
-        q: "How hands-on do you want to be?",
-        opts: [
-          { icon: "🤖", text: "Fully automated",            sub: "Set it and forget it",        scores: { acorns:3, betterment:3, wealthfront:3 } },
-          { icon: "📈", text: "I pick my own investments",  sub: "I want full control",          scores: { robinhood:2, webull:3, fidelity:2, tastytrade:2 } },
-          { icon: "📱", text: "Just show me a dashboard",   sub: "Track everything in one place",scores: { empower:3, monarch:2, ynab:1 } },
-          { icon: "🏦", text: "Find a better bank",         sub: "No fees, high APY",            scores: { chime:4, sofi:4 } }
-        ]
-      },
-      {
-        q: "How would you describe your investing experience?",
-        opts: [
-          { icon: "🐣", text: "Total beginner",             sub: "Just getting started",        scores: { acorns:3, robinhood:2, coinbase:2, betterment:2, chime:2 } },
-          { icon: "📚", text: "Some knowledge",             sub: "Know the basics",              scores: { robinhood:2, betterment:2, wealthfront:2, monarch:1 } },
-          { icon: "🧠", text: "Pretty experienced",         sub: "Comfortable with markets",    scores: { webull:3, fidelity:3, tastytrade:2, kraken:2 } },
-          { icon: "🏆", text: "Active trader",              sub: "Multiple trades per week",    scores: { webull:4, tastytrade:4, fidelity:2, robinhood:1 } }
-        ]
-      },
-      {
-        q: "How much do you want to spend per month?",
-        opts: [
-          { icon: "🆓", text: "Free only",                  sub: "No subscription fees",        scores: { empower:3, robinhood:3, coinbase:2, chime:3 } },
-          { icon: "💵", text: "Under $5 / month",           sub: "Small fee is fine",            scores: { acorns:3, sofi:2, robinhood:1 } },
-          { icon: "💳", text: "Up to $15 / month",          sub: "Worth it for the right app",  scores: { ynab:3, monarch:3, betterment:2 } },
-          { icon: "🔓", text: "Price doesn't matter",       sub: "I'll pay for quality",         scores: { wealthfront:3, tastytrade:3, fidelity:2, monarch:1 } }
-        ]
-      },
-      {
-        q: "What matters most to you in an app?",
-        opts: [
-          { icon: "⚡", text: "Super easy to use",          sub: "Clean, simple interface",     scores: { acorns:2, coinbase:2, chime:2, betterment:2 } },
-          { icon: "🔧", text: "Powerful features",          sub: "Advanced tools & data",        scores: { webull:3, fidelity:3, tastytrade:3, wealthfront:2 } },
-          { icon: "👫", text: "Great for couples",          sub: "Shared finances & goals",     scores: { monarch:5, ynab:2 } },
-          { icon: "🔒", text: "Security & reliability",     sub: "FDIC / SIPC protection",      scores: { fidelity:3, coinbase:2, betterment:2, chime:2 } }
-        ]
-      }
+      { q: "What's your #1 financial goal right now?", opts: [
+        { icon: "💹", text: "Grow my investments",       sub: "Stocks, ETFs, funds",          s: {robinhood:2,betterment:3,wealthfront:3,acorns:2,fidelity:2,webull:2} },
+        { icon: "📊", text: "Track spending & budget",   sub: "Know where my money goes",     s: {ynab:3,monarch:3,empower:3} },
+        { icon: "₿",  text: "Buy or trade crypto",       sub: "Bitcoin, Ethereum & more",     s: {coinbase:4,kraken:4,robinhood:1} },
+        { icon: "🏖️", text: "Plan for retirement",       sub: "IRA, 401(k), long term",       s: {betterment:3,wealthfront:3,fidelity:3,acorns:1} }
+      ]},
+      { q: "How hands-on do you want to be?", opts: [
+        { icon: "🤖", text: "Fully automated",           sub: "Set it and forget it",         s: {acorns:3,betterment:3,wealthfront:3} },
+        { icon: "📈", text: "I pick my investments",     sub: "I want full control",          s: {robinhood:2,webull:3,fidelity:2,tastytrade:2} },
+        { icon: "📱", text: "Show me a dashboard",       sub: "Track everything in one place",s: {empower:3,monarch:2,ynab:1} },
+        { icon: "🏦", text: "Find a better bank",        sub: "No fees, high APY",            s: {chime:4,sofi:4} }
+      ]},
+      { q: "How would you describe your experience?", opts: [
+        { icon: "🐣", text: "Total beginner",            sub: "Just getting started",         s: {acorns:3,robinhood:2,coinbase:2,betterment:2,chime:2} },
+        { icon: "📚", text: "Some knowledge",            sub: "Know the basics",              s: {robinhood:2,betterment:2,wealthfront:2,monarch:1} },
+        { icon: "🧠", text: "Pretty experienced",        sub: "Comfortable with markets",     s: {webull:3,fidelity:3,tastytrade:2,kraken:2} },
+        { icon: "🏆", text: "Active trader",             sub: "Multiple trades per week",     s: {webull:4,tastytrade:4,fidelity:2,robinhood:1} }
+      ]},
+      { q: "How much do you want to spend per month?", opts: [
+        { icon: "🆓", text: "Free only",                 sub: "No subscription fees",         s: {empower:3,robinhood:3,coinbase:2,chime:3} },
+        { icon: "💵", text: "Under $5 / month",          sub: "Small fee is fine",            s: {acorns:3,sofi:2,robinhood:1} },
+        { icon: "💳", text: "Up to $15 / month",         sub: "Worth it for the right app",   s: {ynab:3,monarch:3,betterment:2} },
+        { icon: "🔓", text: "Price is no object",        sub: "I'll pay for quality",         s: {wealthfront:3,tastytrade:3,fidelity:2,monarch:1} }
+      ]},
+      { q: "What matters most to you?", opts: [
+        { icon: "⚡", text: "Super easy to use",         sub: "Clean, simple interface",      s: {acorns:2,coinbase:2,chime:2,betterment:2} },
+        { icon: "🔧", text: "Powerful features",         sub: "Advanced tools and data",      s: {webull:3,fidelity:3,tastytrade:3,wealthfront:2} },
+        { icon: "👫", text: "Great for couples",         sub: "Shared finances and goals",    s: {monarch:5,ynab:2} },
+        { icon: "🔒", text: "Security and trust",        sub: "FDIC / SIPC protection",       s: {fidelity:3,coinbase:2,betterment:2,chime:2} }
+      ]}
     ];
 
-    var APP_DATA = {
-      acorns:     { name: "Acorns",      url: "#ranked", cta: "See Acorns Review",    why: ["Round-ups invest your spare change automatically", "Zero decisions needed — perfect for beginners", "Just $3/month for a complete micro-investing account"] },
-      robinhood:  { name: "Robinhood",   url: "#ranked", cta: "See Robinhood Review", why: ["Commission-free stocks, ETFs & crypto in one app", "Fractional shares from $1 — start small", "Clean, beginner-friendly interface"] },
-      betterment: { name: "Betterment",  url: "#ranked", cta: "See Betterment Review",why: ["Automated portfolios built for your exact goal", "Tax-loss harvesting saves money at tax time", "0.25% annual fee — no minimums"] },
-      wealthfront:{ name: "Wealthfront", url: "#ranked", cta: "See Wealthfront Review",why: ["Best-in-class automated investing with direct indexing", "High-yield cash account (~4.5% APY)", "Advanced financial planning tools included"] },
-      ynab:       { name: "YNAB",        url: "ynab-review.html", cta: "See YNAB Review", why: ["Zero-based budgeting gives every dollar a job", "Rated 4.9/5 — highest-rated budgeting app", "34-day free trial before you pay"] },
-      monarch:    { name: "Monarch Money",url: "monarch-money-review.html", cta: "See Monarch Review", why: ["Best Mint replacement with full net worth tracking", "One subscription covers two users — ideal for couples", "Automatic categorization with custom rules"] },
-      empower:    { name: "Empower",     url: "#ranked", cta: "See Empower Review",   why: ["100% free budgeting + net worth dashboard", "Investment fee analyzer finds hidden costs", "Connects 21,000+ financial institutions"] },
-      coinbase:   { name: "Coinbase",    url: "#ranked", cta: "See Coinbase Review",  why: ["Most trusted US crypto exchange — 250+ coins", "FDIC-insured USD balances up to $250K", "Beginner-friendly with clear buy/sell flows"] },
-      kraken:     { name: "Kraken",      url: "#ranked", cta: "See Kraken Review",    why: ["Lower fees than Coinbase (0.16% maker)", "Advanced charting & staking options", "Trusted since 2011 — strong security record"] },
-      fidelity:   { name: "Fidelity",    url: "#ranked", cta: "See Fidelity Review",  why: ["Best full-service broker with 0% expense-ratio funds", "No account minimums, no trading commissions", "SIPC insured — gold standard for long-term investing"] },
-      webull:     { name: "Webull",       url: "#ranked", cta: "See Webull Review",    why: ["Free extended hours trading (4 AM – 8 PM)", "50+ technical indicators for active traders", "Paper trading simulator to practice risk-free"] },
-      tastytrade: { name: "tastytrade",  url: "#ranked", cta: "See tastytrade Review",why: ["Options commissions capped at $10/leg", "Best-in-class options analytics & research", "Built by traders, for traders"] },
-      chime:      { name: "Chime",       url: "#ranked", cta: "See Chime Review",     why: ["Zero monthly fees — ever", "Get paid up to 2 days early with direct deposit", "SpotMe overdraft protection up to $200"] },
-      sofi:       { name: "SoFi",        url: "#ranked", cta: "See SoFi Review",      why: ["Banking + investing + loans in one app", "3.80% APY savings rate (well above average)", "No account fees, no minimums"] }
+    var APPS = {
+      acorns:     { name:"Acorns",       url:"#ranked",                    cta:"See Full Review", why:["Round-ups invest spare change automatically","Zero decisions needed — best for beginners","Just $3/month for a complete micro-investing account"] },
+      robinhood:  { name:"Robinhood",    url:"#ranked",                    cta:"See Full Review", why:["Commission-free stocks, ETFs and crypto in one app","Fractional shares from $1 — start small","Clean beginner-friendly interface"] },
+      betterment: { name:"Betterment",   url:"#ranked",                    cta:"See Full Review", why:["Automated portfolios built for your exact goal","Tax-loss harvesting saves money at tax time","0.25% annual fee, no minimums"] },
+      wealthfront:{ name:"Wealthfront",  url:"#ranked",                    cta:"See Full Review", why:["Best-in-class automated investing with direct indexing","High-yield cash account (~4.5% APY)","Advanced financial planning tools included"] },
+      ynab:       { name:"YNAB",         url:"ynab-review.html",           cta:"See Full Review", why:["Zero-based budgeting gives every dollar a job","Rated 4.9/5 — highest-rated budgeting app","34-day free trial before you pay"] },
+      monarch:    { name:"Monarch Money",url:"monarch-money-review.html",  cta:"See Full Review", why:["Best Mint replacement with full net worth tracking","One subscription covers two users — ideal for couples","Automatic categorization with custom rules"] },
+      empower:    { name:"Empower",      url:"#ranked",                    cta:"See Full Review", why:["100% free budgeting and net worth dashboard","Investment fee analyzer finds hidden costs","Connects 21,000+ financial institutions"] },
+      coinbase:   { name:"Coinbase",     url:"#ranked",                    cta:"See Full Review", why:["Most trusted US crypto exchange — 250+ coins","FDIC-insured USD balances up to $250K","Beginner-friendly with clear buy/sell flows"] },
+      kraken:     { name:"Kraken",       url:"#ranked",                    cta:"See Full Review", why:["Lower fees than Coinbase (0.16% maker)","Advanced charting and staking options","Trusted since 2011 — strong security record"] },
+      fidelity:   { name:"Fidelity",     url:"#ranked",                    cta:"See Full Review", why:["Best full-service broker, 0% expense-ratio funds","No account minimums, no trading commissions","SIPC insured — gold standard for long-term investing"] },
+      webull:     { name:"Webull",       url:"#ranked",                    cta:"See Full Review", why:["Free extended-hours trading (4 AM to 8 PM)","50+ technical indicators for active traders","Paper trading simulator to practice risk-free"] },
+      tastytrade: { name:"tastytrade",   url:"#ranked",                    cta:"See Full Review", why:["Options commissions capped at $10/leg","Best-in-class options analytics and research","Built by traders, for traders"] },
+      chime:      { name:"Chime",        url:"#ranked",                    cta:"See Full Review", why:["Zero monthly fees — ever","Get paid up to 2 days early with direct deposit","SpotMe overdraft protection up to $200"] },
+      sofi:       { name:"SoFi",         url:"#ranked",                    cta:"See Full Review", why:["Banking, investing and loans in one app","3.80% APY savings rate (well above average)","No account fees, no minimums"] }
     };
 
-    var answers = [];
-    var current = 0;
-    var TOTAL   = QUESTIONS.length;
+    var answers  = [];
+    var current  = 0;
+    var TOTAL    = QUESTIONS.length;
+    var progress = document.getElementById('quiz-progress-fill');
 
-    var body    = document.getElementById('quiz-body');
-    var progFill= document.getElementById('quiz-progress-fill');
-
-    function pct() {
-      return Math.round((current / TOTAL) * 100);
+    function setProgress(n) {
+      if (progress) progress.style.width = Math.round((n / TOTAL) * 100) + '%';
     }
 
-    function renderQuestion() {
-      progFill.style.width = pct() + '%';
-      var q    = QUESTIONS[current];
-      var prev = answers[current];
+    function show(html) { el.innerHTML = html; }
 
-      var optsHtml = q.opts.map(function (o, i) {
-        var sel = (prev === i) ? ' selected' : '';
-        return '<button class="quiz-opt' + sel + '" data-idx="' + i + '" type="button">' +
+    function renderQ() {
+      setProgress(current);
+      var q   = QUESTIONS[current];
+      var sel = answers[current];
+      var opts = '';
+      for (var i = 0; i < q.opts.length; i++) {
+        var o = q.opts[i];
+        var active = (sel === i) ? ' quiz-opt-active' : '';
+        opts += '<button class="quiz-opt' + active + '" data-i="' + i + '">' +
           '<span class="quiz-opt-icon">' + o.icon + '</span>' +
-          '<span><span class="quiz-opt-text">' + o.text + '</span>' +
-          (o.sub ? '<br><span class="quiz-opt-sub">' + o.sub + '</span>' : '') +
-          '</span></button>';
-      }).join('');
-
-      body.innerHTML =
+          '<div><div class="quiz-opt-text">' + o.text + '</div>' +
+          '<div class="quiz-opt-sub">' + (o.sub || '') + '</div></div>' +
+          '</button>';
+      }
+      var hasAnswer = (sel !== undefined);
+      var isLast    = (current === TOTAL - 1);
+      show(
         '<div class="quiz-pane">' +
-          '<div class="quiz-step">Question ' + (current + 1) + ' of ' + TOTAL + '</div>' +
+          '<div class="quiz-step">Question ' + (current+1) + ' of ' + TOTAL + '</div>' +
           '<div class="quiz-q">' + q.q + '</div>' +
-          '<div class="quiz-options">' + optsHtml + '</div>' +
+          '<div class="quiz-opts">' + opts + '</div>' +
         '</div>' +
         '<div class="quiz-nav">' +
-          '<button class="quiz-back" id="quiz-back" type="button"' + (current === 0 ? ' disabled' : '') + '>← Back</button>' +
-          '<button class="quiz-next" id="quiz-next" type="button"' + (prev === undefined ? ' disabled' : '') + '>' +
-            (current === TOTAL - 1 ? 'See My Match →' : 'Next →') +
+          '<button class="quiz-back"' + (current === 0 ? ' disabled' : '') + '>Back</button>' +
+          '<button class="quiz-next"' + (!hasAnswer ? ' disabled' : '') + '>' +
+            (isLast ? 'See My Match' : 'Next') +
           '</button>' +
-        '</div>';
-
-      /* option click */
-      body.querySelectorAll('.quiz-opt').forEach(function (btn) {
-        btn.addEventListener('click', function () {
-          body.querySelectorAll('.quiz-opt').forEach(function (b) { b.classList.remove('selected'); });
-          btn.classList.add('selected');
-          answers[current] = parseInt(btn.dataset.idx);
-          document.getElementById('quiz-next').disabled = false;
-        });
+        '</div>'
+      );
+      el.querySelectorAll('.quiz-opt').forEach(function(btn) {
+        btn.onclick = function() {
+          answers[current] = parseInt(btn.dataset.i);
+          el.querySelectorAll('.quiz-opt').forEach(function(b) { b.classList.remove('quiz-opt-active'); });
+          btn.classList.add('quiz-opt-active');
+          el.querySelector('.quiz-next').disabled = false;
+        };
       });
-
-      /* back */
-      var backBtn = document.getElementById('quiz-back');
-      if (backBtn) backBtn.addEventListener('click', function () {
-        if (current > 0) { current--; renderQuestion(); }
-      });
-
-      /* next */
-      var nextBtn = document.getElementById('quiz-next');
-      if (nextBtn) nextBtn.addEventListener('click', function () {
+      el.querySelector('.quiz-back').onclick = function() {
+        if (current > 0) { current--; renderQ(); }
+      };
+      el.querySelector('.quiz-next').onclick = function() {
         if (answers[current] === undefined) return;
-        if (current < TOTAL - 1) { current++; renderQuestion(); }
+        if (current < TOTAL - 1) { current++; renderQ(); }
         else { renderResults(); }
-      });
-    }
-
-    function calcScores() {
-      var scores = {};
-      answers.forEach(function (ansIdx, qIdx) {
-        var scoreMap = QUESTIONS[qIdx].opts[ansIdx].scores;
-        Object.keys(scoreMap).forEach(function (app) {
-          scores[app] = (scores[app] || 0) + scoreMap[app];
-        });
-      });
-      return scores;
+      };
     }
 
     function renderResults() {
-      progFill.style.width = '100%';
-
-      var scores  = calcScores();
-      var sorted  = Object.keys(scores).sort(function (a, b) { return scores[b] - scores[a]; });
-      var top2    = sorted.slice(0, 2);
-      var maxScore= scores[top2[0]] || 1;
-
-      function matchPct(app) {
-        return Math.min(99, Math.round((scores[app] / (maxScore + 2)) * 100));
+      setProgress(TOTAL);
+      var scores = {};
+      for (var qi = 0; qi < answers.length; qi++) {
+        var sc = QUESTIONS[qi].opts[answers[qi]].s;
+        for (var app in sc) {
+          scores[app] = (scores[app] || 0) + sc[app];
+        }
       }
-
-      var cardsHtml = top2.map(function (appKey, idx) {
-        var d    = APP_DATA[appKey];
-        if (!d) return '';
-        var mp   = matchPct(appKey);
-        var isTop= idx === 0;
-        var whyHtml = d.why.map(function (w) { return '<li>✓ ' + w + '</li>'; }).join('');
-        return '<div class="quiz-match-card' + (isTop ? ' top' : '') + '">' +
-          '<div class="quiz-match-top">' +
-            '<div class="quiz-match-name">' + d.name + '</div>' +
-            '<div class="quiz-match-badge">' + mp + '% match</div>' +
-          '</div>' +
-          '<div class="quiz-match-bar-wrap"><div class="quiz-match-bar" style="width:' + mp + '%"></div></div>' +
-          '<ul class="quiz-match-why">' + whyHtml + '</ul>' +
-          '<a class="quiz-match-cta" href="' + d.url + '">' + d.cta + '</a>' +
-        '</div>';
-      }).join('');
-
-      body.innerHTML =
+      var sorted = Object.keys(scores).sort(function(a,b){ return scores[b]-scores[a]; });
+      var top2   = sorted.slice(0,2);
+      var maxSc  = scores[top2[0]] || 1;
+      var cards  = '';
+      for (var t = 0; t < top2.length; t++) {
+        var key = top2[t];
+        var d   = APPS[key];
+        if (!d) continue;
+        var pct = Math.min(99, Math.round((scores[key] / (maxSc + 2)) * 100));
+        var topClass = (t === 0) ? ' quiz-match-top-card' : '';
+        var why = '';
+        for (var w = 0; w < d.why.length; w++) {
+          why += '<li>&#10003; ' + d.why[w] + '</li>';
+        }
+        cards +=
+          '<div class="quiz-match-card' + topClass + '">' +
+            '<div class="quiz-match-header">' +
+              '<span class="quiz-match-name">' + d.name + '</span>' +
+              '<span class="quiz-match-badge">' + pct + '% match</span>' +
+            '</div>' +
+            '<div class="quiz-bar-wrap"><div class="quiz-bar" style="width:' + pct + '%"></div></div>' +
+            '<ul class="quiz-match-why">' + why + '</ul>' +
+            '<a class="quiz-match-cta" href="' + d.url + '">' + d.cta + '</a>' +
+          '</div>';
+      }
+      show(
         '<div class="quiz-results-pane">' +
-          '<div class="quiz-results-heading">' +
-            '<div class="quiz-tag">🎯 Your Results</div>' +
-            '<h3>Your Top App Matches</h3>' +
-            '<p>Based on your goals, here's what we recommend:</p>' +
+          '<div class="quiz-results-intro">' +
+            '<div class="quiz-tag">&#127919; Your Match</div>' +
+            '<h3>Your Top App Picks</h3>' +
+            '<p>Based on your answers, here is what we recommend:</p>' +
           '</div>' +
-          '<div class="quiz-match-cards">' + cardsHtml + '</div>' +
-          '<button class="quiz-retake" id="quiz-retake" type="button">↺ Retake Quiz</button>' +
-        '</div>';
-
-      document.getElementById('quiz-retake').addEventListener('click', function () {
-        answers = []; current = 0;
-        renderQuestion();
-      });
+          '<div class="quiz-match-cards">' + cards + '</div>' +
+          '<button class="quiz-retake">&#8635; Retake Quiz</button>' +
+        '</div>'
+      );
+      el.querySelector('.quiz-retake').onclick = function() {
+        answers = []; current = 0; renderQ();
+      };
     }
 
-    renderQuestion();
+    renderQ();
   })();
 
 </script>
-
-</body>
-</html>
