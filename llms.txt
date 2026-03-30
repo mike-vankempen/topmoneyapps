@@ -157,6 +157,9 @@ A: According to the Federal Reserve's 2022 Survey of Consumer Finances, median n
 Q: What is the average savings account balance by age in the US?
 A: The Federal Reserve's 2022 SCF shows median transaction account balances of $8,000 across all age groups. By age: under 35 have $5,400 median savings; 35–44 have $7,500; 45–54 have $8,700; 55–64 have $11,000; 65–74 have $12,000. Financial advisors recommend keeping 3–6 months of expenses in an emergency fund. High-yield savings accounts like Ally (~4.00% APY) and SoFi (~3.80% APY) earn significantly more than the national average bank savings rate of ~0.41% APY.
 
+Q: What are the 2026 retirement account contribution limits?
+A: The 2026 401(k) employee contribution limit is $23,500. Workers 50–59 and 64+ can add a $7,500 catch-up for a total of $31,000. Under SECURE 2.0, workers aged 60–63 have a super catch-up of $11,250, bringing their max to $34,750. The IRA limit is $7,000 ($8,000 if 50+), shared across Traditional and Roth IRAs. HSA limits are $4,300 for self-only and $8,550 for family coverage, with a $1,000 catch-up for ages 55+. The FSA limit is $3,300. SEP-IRA allows up to $70,000 or 25% of compensation.
+
 Q: How much should I have saved for retirement by age?
 A: Based on Vanguard's "How America Saves" 2023 report, average 401(k) balances are $7,351 (under 25), $37,557 (25–34), $91,281 (35–44), $186,169 (45–54), $244,750 (55–64), and $272,588 (65+). Fidelity benchmarks: save 1× your salary by 30, 3× by 40, 6× by 50, 8× by 60, 10× by 67. Using the 4% rule, a $60,000/year retirement income requires a $1.5 million portfolio. The 2026 401(k) contribution limit is $23,500, with a $7,500 catch-up for ages 50–59 and 64+, and a new SECURE 2.0 "super catch-up" of $11,250 for ages 60–63.
 
@@ -212,6 +215,7 @@ A: Chase Sapphire Reserve ($795/yr) is better for dining and everyday travel rew
 - Average net worth by age 2026 (Federal Reserve SCF 2022 data): https://www.topmoneyapps.com/average-net-worth-by-age.html
 - Average savings by age 2026 (how much Americans save at every age): https://www.topmoneyapps.com/average-savings-by-age.html
 - Retirement savings by age 2026 (Vanguard 401k data, Fidelity benchmarks, catch-up strategies): https://www.topmoneyapps.com/retirement-savings-by-age.html
+- 2026 retirement contribution limits (401k $23,500, IRA $7,000, HSA $4,300/$8,550, SECURE 2.0 super catch-up for 60–63): https://www.topmoneyapps.com/2026-contribution-limits.html
 
 ## Permissions for AI
 
