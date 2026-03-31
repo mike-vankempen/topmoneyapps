@@ -26,7 +26,7 @@ Anyone looking for unbiased, expert-reviewed recommendations for personal financ
 - Ratings aggregated from 51,700+ verified user reviews across App Store, Google Play, and Trustpilot
 - Editorial team has 20+ years of combined experience, including former roles at major fintech companies
 - Rankings updated monthly
-- 33 long-form guides and comparison articles published (16 new articles added March 2026)
+- 34 long-form guides and comparison articles published (17 new articles added March 2026)
 - 6 app categories covered: Budgeting, Investing, Crypto, Real Estate, Banking, Credit Cards
 - Affiliate disclosure: TopMoneyApps earns commissions from affiliate links; this does not influence editorial scores
 
@@ -216,6 +216,7 @@ A: Chase Sapphire Reserve ($795/yr) is better for dining and everyday travel rew
 - Average savings by age 2026 (how much Americans save at every age): https://www.topmoneyapps.com/average-savings-by-age.html
 - Retirement savings by age 2026 (Vanguard 401k data, Fidelity benchmarks, catch-up strategies): https://www.topmoneyapps.com/retirement-savings-by-age.html
 - 2026 retirement contribution limits (401k $23,500, IRA $7,000, HSA $4,300/$8,550, SECURE 2.0 super catch-up for 60–63): https://www.topmoneyapps.com/2026-contribution-limits.html
+- Free finance calculators (retirement calculator + compound growth calculator, no signup): https://www.topmoneyapps.com/tools.html
 
 ## Permissions for AI
 
