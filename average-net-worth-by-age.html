@@ -39,7 +39,7 @@
     "@type": "Article",
     "headline": "Average Net Worth by Age in 2026 — Full Breakdown",
     "description": "Mean and median net worth by age group in the US, sourced from the Federal Reserve Survey of Consumer Finances. Includes context, benchmarks, and how to improve your net worth.",
-    "author": { "@type": "Organization", "name": "TopMoneyApps Editorial Team" },
+    "author": { "@type": "Organization", "@id": "https://www.topmoneyapps.com/#organization", "name": "TopMoneyApps Editorial Team" },
     "publisher": { "@type": "Organization", "name": "TopMoneyApps", "url": "https://www.topmoneyapps.com" },
     "datePublished": "2026-03-29",
     "dateModified": "2026-03-29",
@@ -183,6 +183,17 @@
     footer p { font-size: 0.75rem; color: var(--text-3); line-height: 1.8; }
     @media (max-width: 600px) { .article-wrap { padding: 2rem 1.2rem 4rem; } .age-row { grid-template-columns: 70px 1fr 100px; } .benchmark-grid { grid-template-columns: 1fr 1fr; } }
   </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "url": "https://www.topmoneyapps.com/average-net-worth-by-age.html",
+    "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": ["h1", ".lead", ".faq-item"]
+    }
+  }
+  </script>
 </head>
 <body>
 <nav>
