@@ -509,7 +509,7 @@
     }
   
     /* Related comparisons block */
-    .related-comparisons { margin: 0 0 2rem; }
+    .related-comparisons { max-width: 760px; margin: 0 auto 2rem; padding: 0 2rem; }
     .rel-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.75rem; margin-top: 1.2rem; }
     .rel-card { display: flex; align-items: center; gap: 0.7rem; background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 0.85rem 1.1rem; transition: border-color .2s, background .2s; text-decoration: none; }
     .rel-card:hover { border-color: var(--green); background: var(--bg3); }
@@ -518,6 +518,31 @@
     .rel-arrow { font-size: 0.8rem; color: var(--text-3); transition: color .2s; }
     .rel-card:hover .rel-arrow { color: var(--green); }
 
+  
+    /* ── Custom element display fixes ── */
+    article-wrap { display: block; }
+    article-meta { display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; }
+    article-tag  { display: inline-block; }
+    meta-item    { display: inline-block; }
+    compare-table            { display: table; width: 100%; border-collapse: collapse; }
+    compare-table tr         { display: table-row; }
+    compare-table th,
+    compare-table td         { display: table-cell; }
+    verdict-box              { display: block; }
+    faq-section              { display: block; }
+    faq-item                 { display: block; }
+    faq-question             { display: flex; justify-content: space-between; align-items: center; }
+    faq-answer               { display: block; }
+    faq-answer-content       { display: block; }
+    faq-toggle               { display: inline-block; }
+    stat-row                 { display: flex; flex-wrap: wrap; gap: 1rem; }
+    stat-item                { display: block; flex: 1; min-width: 140px; }
+    stat-label               { display: block; }
+    stat-value               { display: block; }
+    cta-box                  { display: block; }
+    nav-content              { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    nav-links                { display: flex; align-items: center; gap: 1rem; }
+    footer-content           { display: block; }
   </style>
 
   <script type="application/ld+json">
@@ -949,8 +974,7 @@
     </faq-section>
   </article-wrap>
 
-  
-  <hr class="divider"/>
+  <hr class="divider" style="max-width:760px;margin:2.5rem auto;"/>
 
   <section class="related-comparisons">
     <h2 style="margin-top:0;">More App Comparisons</h2>
