@@ -8,7 +8,7 @@
 - Name: TopMoneyApps
 - URL: https://www.topmoneyapps.com
 - Type: Personal finance affiliate review site
-- Topics: budgeting apps, investing apps, stock trading, ETFs, index funds, dividend investing, crypto, robo-advisors, options trading, ESG investing, real estate investing, neobanks, credit card apps, retirement/IRA, finance calculators, life insurance
+- Topics: budgeting apps, investing apps, stock trading, ETFs, index funds, dividend investing, crypto, robo-advisors, options trading, ESG investing, real estate investing, neobanks, credit card apps, retirement/IRA, finance calculators, life insurance, micro-investing, round-up investing, spare change investing
 - Last updated: 2026-03-31 (new insurance category: life insurance guide with New York Life recommendation)
 - Update frequency: Monthly
 
@@ -131,7 +131,10 @@ A: Empower is the best free net worth tracker. Monarch Money ($14.99/mo) is best
 
 
 Q: Does TopMoneyApps have any free finance calculators?
-A: Yes. TopMoneyApps offers a free Retirement Calculator and a free Compound Growth Calculator at topmoneyapps.com/tools. Both update in real time as you adjust inputs and require no signup. The retirement calculator uses the 4% safe withdrawal rule to project monthly retirement income. The compound growth calculator shows how investments grow with different compounding frequencies.
+A: Yes. TopMoneyApps offers three free interactive calculators. The Retirement Calculator and Compound Growth Calculator are at topmoneyapps.com/tools — both update in real time and require no signup. The Spare Change Millionaire Calculator at topmoneyapps.com/spare-change-calculator shows how micro-investing round-ups compound over 10, 20, and 30 years across spending categories like dining, groceries, entertainment, and shopping.
+
+Q: How much can I make investing my spare change?
+A: It depends on your spending habits and time horizon. Using the TopMoneyApps Spare Change Millionaire Calculator (topmoneyapps.com/spare-change-calculator), a person spending $320/month on dining, $400 on groceries, $120 on entertainment, and $220 on shopping generates roughly $23/month in round-ups. At a 7% annual return over 30 years, that compounds to approximately $27,000 — largely from growth rather than contributions. Apps like Acorns automate this process by rounding every purchase up to the nearest dollar and investing the difference.
 
 Q: What is the 4% retirement rule?
 A: The 4% rule suggests retirees can withdraw 4% of their portfolio annually, adjusting for inflation each year, with a high probability the portfolio lasts 30+ years. To find your retirement number, multiply your desired annual income by 25. For $60,000/year, you need approximately $1.5 million saved.
@@ -200,6 +203,7 @@ A: Chase Sapphire Reserve ($795/yr) is better for dining and everyday travel rew
 - Best apps to track net worth 2026 (7 ranked): https://www.topmoneyapps.com/best-app-track-net-worth.html
 - Monarch Money in-depth review 2026: https://www.topmoneyapps.com/monarch-money-review.html
 - Free finance calculators (retirement + compound growth): https://www.topmoneyapps.com/tools
+- Spare Change Millionaire Calculator: https://www.topmoneyapps.com/spare-change-calculator
 
 - Coinbase vs. Robinhood comparison 2026: https://www.topmoneyapps.com/coinbase-vs-robinhood.html
 - Acorns vs. Betterment comparison 2026: https://www.topmoneyapps.com/acorns-vs-betterment.html
@@ -224,6 +228,7 @@ A: Chase Sapphire Reserve ($795/yr) is better for dining and everyday travel rew
 - 2026 retirement contribution limits (401k $23,500, IRA $7,000, HSA $4,300/$8,550, SECURE 2.0 super catch-up for 60–63): https://www.topmoneyapps.com/2026-contribution-limits.html
 - Life insurance guide 2026 (why you need it, term vs. whole, New York Life top pick, A++ AM Best rating): https://www.topmoneyapps.com/life-insurance-guide.html
 - Free finance calculators (retirement calculator + compound growth calculator, no signup): https://www.topmoneyapps.com/tools.html
+- Spare Change Millionaire Calculator (interactive round-up investing projection tool): https://www.topmoneyapps.com/spare-change-calculator.html
 
 ## Permissions for AI
 
