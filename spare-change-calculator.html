@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-W1RSS2P0EM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-W1RSS2P0EM');
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spare Change Millionaire Calculator — What Are Your Round-Ups Worth? | TopMoneyApps</title>
+  <meta name="description" content="Find out how much your everyday spending round-ups could be worth in 10, 20, or 30 years. The Spare Change Millionaire Calculator shows the shocking truth about micro-investing." />
+  <link rel="canonical" href="https://www.topmoneyapps.com/spare-change-calculator.html" />
+  <link rel="icon" href="/favicon.ico" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0D0F0E;
+      --surface: #141918;
+      --surface2: #1c2420;
+      --border: #2a3530;
+      --green: #22C55E;
+      --green-dark: #16a34a;
+      --green-glow: rgba(34,197,94,0.15);
+      --white: #F0F4F1;
+      --muted: #6b7f77;
+      --faint: #94a3b8;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--white);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    /* NAV */
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 2rem;
+      border-bottom: 1px solid var(--border);
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .nav-logo {
+      font-weight: 800;
+      font-size: 1.1rem;
+      color: var(--green);
+      text-decoration: none;
+      letter-spacing: -0.02em;
+    }
+    .nav-logo span { color: var(--white); }
+    .nav-back {
+      font-size: 0.85rem;
+      color: var(--muted);
+      text-decoration: none;
+    }
+    .nav-back:hover { color: var(--green); }
+
+    /* HERO */
+    .hero {
+      text-align: center;
+      padding: 3.5rem 2rem 2rem;
+      max-width: 680px;
+      margin: 0 auto;
+    }
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: var(--green-glow);
+      border: 1px solid rgba(34,197,94,0.3);
+      color: var(--green);
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 0.3rem 0.9rem;
+      border-radius: 20px;
+      margin-bottom: 1.25rem;
+    }
+    .hero-badge::before { content: "✦"; font-size: 0.65rem; }
+    h1 {
+      font-size: clamp(1.8rem, 5vw, 2.8rem);
+      font-weight: 800;
+      line-height: 1.15;
+      letter-spacing: -0.03em;
+      margin-bottom: 1rem;
+    }
+    h1 em {
+      font-style: normal;
+      color: var(--green);
+    }
+    .hero-sub {
+      color: var(--faint);
+      font-size: 1.05rem;
+      max-width: 520px;
+      margin: 0 auto;
+    }
+    .hero-arrow {
+      margin-top: 2rem;
+      color: var(--muted);
+      font-size: 1.4rem;
+      animation: bounce 1.6s infinite;
+    }
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(6px); }
+    }
+
+    /* CALCULATOR CARD */
+    .calc-wrap {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 0 1.25rem 4rem;
+    }
+
+    .calc-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .section-label {
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--green);
+      margin-bottom: 1.25rem;
+    }
+
+    /* SLIDERS */
+    .slider-row {
+      margin-bottom: 1.5rem;
+    }
+    .slider-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 0.5rem;
+    }
+    .slider-label {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: var(--white);
+    }
+    .slider-icon {
+      width: 28px;
+      height: 28px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.9rem;
+      flex-shrink: 0;
+    }
+    .slider-value {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--green);
+      min-width: 56px;
+      text-align: right;
+    }
+    .slider-hint {
+      font-size: 0.75rem;
+      color: var(--muted);
+      margin-bottom: 0.5rem;
+    }
+    input[type=range] {
+      -webkit-appearance: none;
+      width: 100%;
+      height: 6px;
+      border-radius: 6px;
+      background: var(--border);
+      outline: none;
+      cursor: pointer;
+    }
+    input[type=range]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: var(--green);
+      cursor: pointer;
+      box-shadow: 0 0 0 3px rgba(34,197,94,0.2);
+      transition: box-shadow 0.2s;
+    }
+    input[type=range]::-webkit-slider-thumb:hover {
+      box-shadow: 0 0 0 6px rgba(34,197,94,0.25);
+    }
+    input[type=range]::-moz-range-thumb {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: var(--green);
+      cursor: pointer;
+      border: none;
+    }
+
+    /* LIVE SUMMARY */
+    .live-summary {
+      background: var(--green-glow);
+      border: 1px solid rgba(34,197,94,0.25);
+      border-radius: 12px;
+      padding: 1.25rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-top: 0.5rem;
+    }
+    .live-summary-label { color: var(--faint); font-size: 0.9rem; }
+    .live-summary-num {
+      font-size: 1.7rem;
+      font-weight: 800;
+      color: var(--green);
+      letter-spacing: -0.03em;
+      font-variant-numeric: tabular-nums;
+    }
+    .live-summary-sub { font-size: 0.75rem; color: var(--muted); margin-top: 0.1rem; }
+
+    /* SETTINGS ROW */
+    .settings-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      margin-top: 1.25rem;
+    }
+    @media (max-width: 480px) { .settings-row { grid-template-columns: 1fr; } }
+    .setting-group label {
+      display: block;
+      font-size: 0.78rem;
+      color: var(--muted);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 0.5rem;
+    }
+    .setting-group select {
+      width: 100%;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--white);
+      padding: 0.6rem 0.75rem;
+      font-size: 0.95rem;
+      cursor: pointer;
+      outline: none;
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%2364748B' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 0.75rem center;
+    }
+    .setting-group select:focus { border-color: var(--green); }
+
+    /* CTA BUTTON */
+    .calc-btn {
+      display: block;
+      width: 100%;
+      background: var(--green);
+      color: #0D0F0E;
+      font-size: 1.05rem;
+      font-weight: 800;
+      padding: 1rem;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+      letter-spacing: 0.01em;
+      margin-top: 1.5rem;
+      transition: background 0.2s, transform 0.1s;
+    }
+    .calc-btn:hover { background: #28d966; transform: translateY(-1px); }
+    .calc-btn:active { transform: translateY(0); }
+
+    /* RESULTS */
+    .results-section {
+      display: none;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.4s ease, transform 0.4s ease;
+    }
+    .results-section.visible {
+      display: block;
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .result-headline {
+      text-align: center;
+      padding: 2rem 1rem 1.5rem;
+    }
+    .result-headline p {
+      color: var(--faint);
+      font-size: 0.95rem;
+      margin-bottom: 0.5rem;
+    }
+    .result-big {
+      font-size: clamp(2.8rem, 10vw, 5rem);
+      font-weight: 900;
+      color: var(--green);
+      letter-spacing: -0.04em;
+      line-height: 1;
+      font-variant-numeric: tabular-nums;
+    }
+    .result-big-label {
+      font-size: 0.9rem;
+      color: var(--muted);
+      margin-top: 0.4rem;
+    }
+
+    /* MILESTONE CARDS */
+    .milestones {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.75rem;
+      margin-bottom: 1.5rem;
+    }
+    @media (max-width: 540px) { .milestones { grid-template-columns: 1fr; } }
+    .milestone-card {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.1rem;
+      text-align: center;
+    }
+    .milestone-year {
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin-bottom: 0.35rem;
+    }
+    .milestone-val {
+      font-size: 1.4rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      color: var(--white);
+    }
+    .milestone-card.highlight {
+      border-color: rgba(34,197,94,0.4);
+      background: var(--green-glow);
+    }
+    .milestone-card.highlight .milestone-val { color: var(--green); }
+
+    /* CHART */
+    .chart-wrap {
+      position: relative;
+      height: 220px;
+      margin-bottom: 1.5rem;
+    }
+
+    /* BREAKDOWN */
+    .breakdown-title {
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin-bottom: 0.75rem;
+    }
+    .breakdown-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.65rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .breakdown-row:last-child { border-bottom: none; }
+    .breakdown-left {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      font-size: 0.9rem;
+      color: var(--faint);
+    }
+    .breakdown-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--green);
+      flex-shrink: 0;
+    }
+    .breakdown-right {
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: var(--white);
+    }
+
+    /* INSIGHT BOX */
+    .insight-box {
+      background: var(--surface2);
+      border-left: 3px solid var(--green);
+      border-radius: 0 10px 10px 0;
+      padding: 1rem 1.25rem;
+      margin: 1rem 0;
+      font-size: 0.9rem;
+      color: var(--faint);
+      line-height: 1.6;
+    }
+    .insight-box strong { color: var(--white); }
+
+    /* SHARE */
+    .share-row {
+      display: flex;
+      gap: 0.75rem;
+      margin-top: 1.25rem;
+      flex-wrap: wrap;
+    }
+    .share-btn {
+      flex: 1;
+      min-width: 140px;
+      padding: 0.65rem 1rem;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: var(--surface2);
+      color: var(--faint);
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: border-color 0.2s, color 0.2s;
+      text-align: center;
+    }
+    .share-btn:hover { border-color: var(--green); color: var(--green); }
+    .share-btn.copied { border-color: var(--green); color: var(--green); }
+
+    /* ACORNS CTA */
+    .acorns-cta {
+      background: linear-gradient(135deg, #0a1f0a 0%, #112211 50%, #0f1f10 100%);
+      border: 1px solid rgba(34,197,94,0.4);
+      border-radius: 16px;
+      padding: 2.5rem 2rem;
+      text-align: center;
+      margin-top: 0.5rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .acorns-cta::before {
+      content: "";
+      position: absolute;
+      top: -40px;
+      right: -40px;
+      width: 180px;
+      height: 180px;
+      background: radial-gradient(circle, rgba(34,197,94,0.12) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .acorns-cta-eyebrow {
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--green);
+      margin-bottom: 0.6rem;
+    }
+    .acorns-cta h2 {
+      font-size: clamp(1.3rem, 4vw, 1.8rem);
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+      margin-bottom: 0.75rem;
+    }
+    .acorns-cta p {
+      color: var(--faint);
+      font-size: 0.95rem;
+      max-width: 480px;
+      margin: 0 auto 1.5rem;
+    }
+    .acorns-main-btn {
+      display: inline-block;
+      background: var(--green);
+      color: #0D0F0E;
+      font-weight: 800;
+      font-size: 1.05rem;
+      padding: 0.85rem 2.25rem;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.1s;
+      letter-spacing: -0.01em;
+    }
+    .acorns-main-btn:hover { background: #28d966; transform: translateY(-2px); }
+    .acorns-cta-fine {
+      margin-top: 0.85rem;
+      font-size: 0.72rem;
+      color: var(--muted);
+    }
+    .acorns-features {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-bottom: 1.5rem;
+      flex-wrap: wrap;
+    }
+    .acorns-feat {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.82rem;
+      color: var(--faint);
+    }
+    .acorns-feat::before {
+      content: "✓";
+      color: var(--green);
+      font-weight: 700;
+    }
+
+    /* HOW IT WORKS */
+    .how-it-works {
+      max-width: 760px;
+      margin: 3rem auto 0;
+      padding: 0 1.25rem 4rem;
+    }
+    .how-it-works h3 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      text-align: center;
+      color: var(--white);
+      margin-bottom: 1.5rem;
+    }
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+    }
+    @media (max-width: 540px) { .steps { grid-template-columns: 1fr; } }
+    .step {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem;
+    }
+    .step-num {
+      width: 28px;
+      height: 28px;
+      border-radius: 8px;
+      background: var(--green-glow);
+      border: 1px solid rgba(34,197,94,0.3);
+      color: var(--green);
+      font-size: 0.8rem;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 0.75rem;
+    }
+    .step h4 { font-size: 0.9rem; font-weight: 700; margin-bottom: 0.35rem; }
+    .step p { font-size: 0.82rem; color: var(--muted); line-height: 1.5; }
+
+    /* FOOTER */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 1.5rem 2rem;
+      text-align: center;
+      font-size: 0.8rem;
+      color: var(--muted);
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    footer a { color: var(--muted); }
+    footer a:hover { color: var(--green); }
+    .footer-links { display: flex; justify-content: center; gap: 1.5rem; margin-top: 0.5rem; flex-wrap: wrap; }
+
+    /* DISCLAIMER */
+    .disclaimer {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 0 1.25rem 1rem;
+      font-size: 0.75rem;
+      color: var(--muted);
+      text-align: center;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="/">TopMoney<span>Apps</span></a>
+  <a class="nav-back" href="/tools.html">← Back to Tools</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-badge">Free Calculator</div>
+  <h1>What Is Your <em>Spare Change</em><br>Actually Worth?</h1>
+  <p class="hero-sub">Drag the sliders to match your monthly spending. We'll show you how much those invisible round-ups could compound into — the number will surprise you.</p>
+  <div class="hero-arrow">↓</div>
+</section>
+
+<!-- CALCULATOR -->
+<div class="calc-wrap">
+
+  <div class="calc-card">
+    <div class="section-label">Step 1 — Your Monthly Spending</div>
+
+    <!-- DINING -->
+    <div class="slider-row">
+      <div class="slider-header">
+        <div class="slider-label">
+          <div class="slider-icon" style="background: rgba(239,68,68,0.15);">☕</div>
+          Coffee &amp; Dining Out
+        </div>
+        <div class="slider-value" id="val-dining">$320</div>
+      </div>
+      <div class="slider-hint">~<span id="tx-dining">24</span> transactions/mo → round-ups average $0.50 each</div>
+      <input type="range" id="sl-dining" min="0" max="800" step="10" value="320" />
+    </div>
+
+    <!-- GROCERIES -->
+    <div class="slider-row">
+      <div class="slider-header">
+        <div class="slider-label">
+          <div class="slider-icon" style="background: rgba(34,197,94,0.12);">🛒</div>
+          Groceries
+        </div>
+        <div class="slider-value" id="val-grocery">$400</div>
+      </div>
+      <div class="slider-hint">~<span id="tx-grocery">6</span> transactions/mo → round-ups average $0.50 each</div>
+      <input type="range" id="sl-grocery" min="0" max="1000" step="10" value="400" />
+    </div>
+
+    <!-- ENTERTAINMENT -->
+    <div class="slider-row">
+      <div class="slider-header">
+        <div class="slider-label">
+          <div class="slider-icon" style="background: rgba(139,92,246,0.15);">🎮</div>
+          Entertainment &amp; Streaming
+        </div>
+        <div class="slider-value" id="val-ent">$120</div>
+      </div>
+      <div class="slider-hint">~<span id="tx-ent">9</span> transactions/mo → round-ups average $0.50 each</div>
+      <input type="range" id="sl-ent" min="0" max="500" step="10" value="120" />
+    </div>
+
+    <!-- SHOPPING -->
+    <div class="slider-row">
+      <div class="slider-header">
+        <div class="slider-label">
+          <div class="slider-icon" style="background: rgba(251,191,36,0.12);">🛍️</div>
+          Shopping &amp; Other
+        </div>
+        <div class="slider-value" id="val-shop">$220</div>
+      </div>
+      <div class="slider-hint">~<span id="tx-shop">7</span> transactions/mo → round-ups average $0.50 each</div>
+      <input type="range" id="sl-shop" min="0" max="1000" step="10" value="220" />
+    </div>
+
+    <!-- LIVE SUMMARY -->
+    <div class="live-summary">
+      <div>
+        <div class="live-summary-label">Your estimated monthly round-ups</div>
+        <div class="live-summary-sub">Based on avg transaction sizes per category</div>
+      </div>
+      <div style="text-align: right;">
+        <div class="live-summary-num" id="monthly-roundup">$23</div>
+        <div class="live-summary-sub">per month → invested automatically</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="calc-card">
+    <div class="section-label">Step 2 — Your Assumptions</div>
+    <div class="settings-row">
+      <div class="setting-group">
+        <label>Time Horizon</label>
+        <select id="sel-years">
+          <option value="10">10 years</option>
+          <option value="20">20 years</option>
+          <option value="30" selected>30 years</option>
+          <option value="40">40 years</option>
+        </select>
+      </div>
+      <div class="setting-group">
+        <label>Annual Return</label>
+        <select id="sel-return">
+          <option value="5">5% (conservative)</option>
+          <option value="7" selected>7% (historical avg, inflation-adj)</option>
+          <option value="10">10% (S&P 500 nominal avg)</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <button class="calc-btn" id="calc-btn" onclick="calculate()">
+    🪙 Show Me What My Spare Change Is Worth →
+  </button>
+
+  <!-- RESULTS -->
+  <div class="results-section" id="results">
+
+    <div class="calc-card" style="margin-top: 1.5rem;">
+      <div class="result-headline">
+        <p>If you invested your round-ups starting today, in <span id="r-years">30</span> years you'd have:</p>
+        <div class="result-big" id="r-big">$0</div>
+        <div class="result-big-label">from money you were already spending anyway</div>
+      </div>
+
+      <div class="milestones" id="milestones">
+        <div class="milestone-card">
+          <div class="milestone-year">After 5 years</div>
+          <div class="milestone-val" id="m5">—</div>
+        </div>
+        <div class="milestone-card">
+          <div class="milestone-year">After 10 years</div>
+          <div class="milestone-val" id="m10">—</div>
+        </div>
+        <div class="milestone-card highlight">
+          <div class="milestone-year" id="m-label-big">After 30 years</div>
+          <div class="milestone-val" id="m-big">—</div>
+        </div>
+      </div>
+
+      <div class="chart-wrap">
+        <canvas id="growthChart"></canvas>
+      </div>
+
+      <div class="breakdown-title">Monthly Round-Up Breakdown</div>
+      <div id="breakdown-rows"></div>
+
+      <div class="insight-box" id="insight-box">
+        Loading insight…
+      </div>
+
+      <div class="share-row">
+        <button class="share-btn" id="share-btn" onclick="shareResult()">📋 Copy My Result</button>
+        <button class="share-btn" onclick="recalculate()">🔄 Adjust Numbers</button>
+      </div>
+    </div>
+
+    <!-- ACORNS CTA -->
+    <div class="acorns-cta">
+      <div class="acorns-cta-eyebrow">This is Literally What Acorns Does</div>
+      <h2>Start Building Wealth From Your Spare Change — Automatically</h2>
+      <div class="acorns-features">
+        <div class="acorns-feat">Round up every purchase</div>
+        <div class="acorns-feat">Invest in diversified ETFs</div>
+        <div class="acorns-feat">Takes 5 minutes to set up</div>
+      </div>
+      <p>Acorns rounds up your everyday transactions and invests the difference into a diversified portfolio. The calculator above isn't hypothetical — it's exactly what Acorns users are building right now.</p>
+      <a href="https://acorns.sjv.io/c/7140280/1544868/5136" rel="sponsored noopener" target="_blank" class="acorns-main-btn">
+        Get $20 Free When You Sign Up →
+      </a>
+      <div class="acorns-cta-fine">Paid partnership. New accounts only. $20 bonus requires qualifying deposit. Terms apply. Investing involves risk.</div>
+    </div>
+
+  </div><!-- /results -->
+
+</div><!-- /calc-wrap -->
+
+<!-- HOW IT WORKS -->
+<div class="how-it-works">
+  <h3>How Does Round-Up Investing Work?</h3>
+  <div class="steps">
+    <div class="step">
+      <div class="step-num">1</div>
+      <h4>Link Your Card</h4>
+      <p>Connect a debit or credit card. Every purchase you make gets monitored for round-ups.</p>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <h4>Spare Change Gets Swept</h4>
+      <p>A $4.30 coffee becomes a $5.00 charge — the $0.70 difference flows into your investment account.</p>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <h4>Compound Over Time</h4>
+      <p>Those tiny amounts get invested in a diversified ETF portfolio and compound year after year.</p>
+    </div>
+  </div>
+</div>
+
+<div class="disclaimer">
+  This calculator is for educational purposes only. Results assume consistent monthly round-up contributions and a fixed annual return with monthly compounding. Actual investment returns vary and are not guaranteed. Past market performance does not predict future results.
+</div>
+
+<footer>
+  <div>© 2026 TopMoneyApps.com</div>
+  <div class="footer-links">
+    <a href="/">Home</a>
+    <a href="/tools.html">Tools</a>
+    <a href="/acorns-review.html">Acorns Review</a>
+    <a href="/privacy.html">Privacy</a>
+  </div>
+</footer>
+
+<script>
+  // ── TRANSACTION RATES (transactions per $100 spent) ──
+  const TX_RATE = { dining: 7.5, grocery: 1.5, ent: 7, shop: 3 };
+  // Average round-up = $0.50 per transaction (uniform dist 0→$1)
+  const AVG_RU = 0.50;
+
+  function getMonthly() {
+    const dining  = +document.getElementById('sl-dining').value;
+    const grocery = +document.getElementById('sl-grocery').value;
+    const ent     = +document.getElementById('sl-ent').value;
+    const shop    = +document.getElementById('sl-shop').value;
+
+    const txDining  = Math.round((dining  / 100) * TX_RATE.dining);
+    const txGrocery = Math.round((grocery / 100) * TX_RATE.grocery);
+    const txEnt     = Math.round((ent     / 100) * TX_RATE.ent);
+    const txShop    = Math.round((shop    / 100) * TX_RATE.shop);
+
+    document.getElementById('tx-dining').textContent  = txDining;
+    document.getElementById('tx-grocery').textContent = txGrocery;
+    document.getElementById('tx-ent').textContent     = txEnt;
+    document.getElementById('tx-shop').textContent    = txShop;
+
+    const total = (txDining + txGrocery + txEnt + txShop) * AVG_RU;
+    return {
+      total: Math.round(total * 100) / 100,
+      dining:  Math.round(txDining  * AVG_RU * 100) / 100,
+      grocery: Math.round(txGrocery * AVG_RU * 100) / 100,
+      ent:     Math.round(txEnt     * AVG_RU * 100) / 100,
+      shop:    Math.round(txShop    * AVG_RU * 100) / 100,
+    };
+  }
+
+  function fv(monthly, annualRate, months) {
+    const r = annualRate / 100 / 12;
+    if (r === 0) return monthly * months;
+    return monthly * ((Math.pow(1 + r, months) - 1) / r);
+  }
+
+  function fmt(n) {
+    if (n >= 1_000_000) return '$' + (n / 1_000_000).toFixed(2) + 'M';
+    if (n >= 1000)      return '$' + Math.round(n).toLocaleString();
+    return '$' + n.toFixed(2);
+  }
+  function fmtShort(n) {
+    if (n >= 1_000_000) return '$' + (n / 1_000_000).toFixed(1) + 'M';
+    if (n >= 1000)      return '$' + (n / 1000).toFixed(0) + 'K';
+    return '$' + Math.round(n);
+  }
+
+  // LIVE UPDATE
+  function liveUpdate() {
+    const vals = document.getElementById('sl-dining').value;
+    document.getElementById('val-dining').textContent  = '$' + document.getElementById('sl-dining').value;
+    document.getElementById('val-grocery').textContent = '$' + document.getElementById('sl-grocery').value;
+    document.getElementById('val-ent').textContent     = '$' + document.getElementById('sl-ent').value;
+    document.getElementById('val-shop').textContent    = '$' + document.getElementById('sl-shop').value;
+    const { total } = getMonthly();
+    document.getElementById('monthly-roundup').textContent = '$' + total.toFixed(2);
+  }
+
+  ['sl-dining','sl-grocery','sl-ent','sl-shop'].forEach(id => {
+    document.getElementById(id).addEventListener('input', liveUpdate);
+  });
+  liveUpdate();
+
+  // CHART instance
+  let chartInstance = null;
+
+  function calculate() {
+    const { total, dining, grocery, ent, shop } = getMonthly();
+    const years  = +document.getElementById('sel-years').value;
+    const rate   = +document.getElementById('sel-return').value;
+    const months = years * 12;
+
+    // Milestone values
+    const v5  = fv(total, rate, 60);
+    const v10 = fv(total, rate, 120);
+    const vBig = fv(total, rate, months);
+
+    // Update headline
+    document.getElementById('r-years').textContent = years;
+
+    // Animate big number
+    animateCounter('r-big', vBig, 1200);
+
+    // Milestones
+    document.getElementById('m5').textContent  = fmtShort(v5);
+    document.getElementById('m10').textContent = fmtShort(v10);
+    document.getElementById('m-big').textContent = fmtShort(vBig);
+    document.getElementById('m-label-big').textContent = 'After ' + years + ' years';
+
+    // Breakdown rows
+    const items = [
+      { label: 'Coffee & Dining', val: dining },
+      { label: 'Groceries',       val: grocery },
+      { label: 'Entertainment',   val: ent },
+      { label: 'Shopping & Other', val: shop },
+    ];
+    const totalContrib = total * months;
+    const totalGrowth  = vBig - totalContrib;
+    items.push({ label: 'Total contributed (cash)',    val: null, right: fmt(totalContrib), dim: true });
+    items.push({ label: 'Growth from compounding ✨',  val: null, right: fmt(totalGrowth), green: true });
+
+    let html = '';
+    items.forEach(item => {
+      const right = item.right || ('$' + item.val.toFixed(2) + '/mo');
+      const color = item.green ? 'color: var(--green)' : (item.dim ? 'color: var(--muted)' : '');
+      html += `<div class="breakdown-row">
+        <div class="breakdown-left"><div class="breakdown-dot" style="${item.green ? '' : 'background:var(--muted)'}"></div>${item.label}</div>
+        <div class="breakdown-right" style="${color}">${right}</div>
+      </div>`;
+    });
+    document.getElementById('breakdown-rows').innerHTML = html;
+
+    // Insight
+    const pct = Math.round((totalGrowth / vBig) * 100);
+    const coffeeTx = Math.round((+document.getElementById('sl-dining').value / 100) * TX_RATE.dining);
+    document.getElementById('insight-box').innerHTML =
+      `<strong>${pct}% of your final balance is pure investment growth</strong> — money the market made for you, not money you saved. Your ${coffeeTx} coffee/dining transactions per month quietly become one of your most powerful wealth-building habits.`;
+
+    // Chart
+    const labels = [], data = [];
+    for (let y = 0; y <= years; y++) {
+      labels.push(y === 0 ? 'Now' : "Yr " + y);
+      data.push(Math.round(fv(total, rate, y * 12)));
+    }
+
+    if (chartInstance) chartInstance.destroy();
+    const ctx = document.getElementById('growthChart').getContext('2d');
+    chartInstance = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels,
+        datasets: [{
+          label: 'Portfolio Value',
+          data,
+          borderColor: '#22C55E',
+          backgroundColor: 'rgba(34,197,94,0.08)',
+          borderWidth: 2.5,
+          fill: true,
+          pointRadius: 0,
+          pointHoverRadius: 5,
+          tension: 0.4
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        interaction: { intersect: false, mode: 'index' },
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            backgroundColor: '#1c2420',
+            borderColor: '#2a3530',
+            borderWidth: 1,
+            titleColor: '#6b7f77',
+            bodyColor: '#F0F4F1',
+            callbacks: {
+              label: ctx => ' ' + fmt(ctx.raw)
+            }
+          }
+        },
+        scales: {
+          x: {
+            ticks: { color: '#475569', font: { size: 11 }, maxTicksLimit: 8 },
+            grid: { color: '#1c2420' }
+          },
+          y: {
+            ticks: {
+              color: '#475569',
+              font: { size: 11 },
+              callback: v => fmtShort(v)
+            },
+            grid: { color: '#1c2420' }
+          }
+        }
+      }
+    });
+
+    // Show results
+    const el = document.getElementById('results');
+    el.style.display = 'block';
+    setTimeout(() => {
+      el.classList.add('visible');
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 20);
+  }
+
+  function animateCounter(id, target, duration) {
+    const el = document.getElementById(id);
+    const start = performance.now();
+    const startVal = 0;
+    function update(now) {
+      const progress = Math.min((now - start) / duration, 1);
+      const ease = 1 - Math.pow(1 - progress, 3);
+      const current = startVal + (target - startVal) * ease;
+      el.textContent = fmt(current);
+      if (progress < 1) requestAnimationFrame(update);
+      else el.textContent = fmt(target);
+    }
+    requestAnimationFrame(update);
+  }
+
+  function recalculate() {
+    const el = document.getElementById('results');
+    el.classList.remove('visible');
+    setTimeout(() => { el.style.display = 'none'; }, 400);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function shareResult() {
+    const vBig = document.getElementById('r-big').textContent;
+    const years = document.getElementById('r-years').textContent;
+    const monthly = document.getElementById('monthly-roundup').textContent;
+    const text = `My spare change (${monthly}/mo in round-ups) could grow to ${vBig} in ${years} years 🤯 Calculate yours → https://www.topmoneyapps.com/spare-change-calculator.html`;
+    navigator.clipboard.writeText(text).then(() => {
+      const btn = document.getElementById('share-btn');
+      btn.textContent = '✓ Copied!';
+      btn.classList.add('copied');
+      setTimeout(() => { btn.textContent = '📋 Copy My Result'; btn.classList.remove('copied'); }, 2500);
+    });
+  }
+</script>
+
+</body>
+</html>
