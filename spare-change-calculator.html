@@ -235,6 +235,14 @@
       font-variant-numeric: tabular-nums;
     }
     .live-summary-sub { font-size: 0.75rem; color: var(--muted); margin-top: 0.1rem; }
+    @media (max-width: 540px) {
+      .live-summary {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+      }
+      .live-summary > div { text-align: center !important; }
+    }
 
     /* SETTINGS ROW */
     .settings-row {
@@ -744,25 +752,27 @@
       </div>
     </div>
 
-    <!-- ACORNS CTA -->
-    <div class="acorns-cta">
-      <div class="acorns-cta-eyebrow">This is Literally What Acorns Does</div>
-      <h2>Start Building Wealth From Your Spare Change — Automatically</h2>
-      <div class="acorns-features">
-        <div class="acorns-feat">Round up every purchase</div>
-        <div class="acorns-feat">Invest in diversified ETFs</div>
-        <div class="acorns-feat">Takes 5 minutes to set up</div>
-      </div>
-      <p>Acorns rounds up your everyday transactions and invests the difference into a diversified portfolio. The calculator above isn't hypothetical — it's exactly what Acorns users are building right now.</p>
-      <a href="https://acorns.sjv.io/c/7140280/1544868/5136" rel="sponsored noopener" target="_blank" class="acorns-main-btn">
-        Get $20 Free When You Sign Up →
-      </a>
-      <div class="acorns-cta-fine">Paid partnership. New accounts only. $20 bonus requires qualifying deposit. Terms apply. Investing involves risk.</div>
-    </div>
-
   </div><!-- /results -->
 
 </div><!-- /calc-wrap -->
+
+<!-- ACORNS CTA — always visible -->
+<div style="max-width: 760px; margin: 0 auto; padding: 0 1.25rem 4rem;">
+  <div class="acorns-cta">
+    <div class="acorns-cta-eyebrow">This is Literally What Acorns Does</div>
+    <h2>Start Building Wealth From Your Spare Change — Automatically</h2>
+    <div class="acorns-features">
+      <div class="acorns-feat">Round up every purchase</div>
+      <div class="acorns-feat">Invest in diversified ETFs</div>
+      <div class="acorns-feat">Takes 5 minutes to set up</div>
+    </div>
+    <p>Acorns rounds up your everyday transactions and invests the difference into a diversified portfolio. The calculator above isn't hypothetical — it's exactly what Acorns users are building right now.</p>
+    <a href="https://acorns.sjv.io/c/7140280/1544868/5136" rel="sponsored noopener" target="_blank" class="acorns-main-btn">
+      Get $20 Free When You Sign Up →
+    </a>
+    <div class="acorns-cta-fine">Paid partnership. New accounts only. $20 bonus requires qualifying deposit. Terms apply. Investing involves risk.</div>
+  </div>
+</div>
 
 <!-- HOW IT WORKS -->
 <div class="how-it-works">
