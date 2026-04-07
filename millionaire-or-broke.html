@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-W1RSS2P0EM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-W1RSS2P0EM');
+  </script>
+  <!-- Meta Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1660704165280402');
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1660704165280402&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Millionaire or Broke by 65? Take the Quiz | TopMoneyApps</title>
+  <meta name="description" content="Make 8 real financial decisions. See if you end up a millionaire or broke by 65. Free interactive simulator — takes 2 minutes."/>
+  <link rel="canonical" href="https://www.topmoneyapps.com/millionaire-or-broke.html"/>
+  <link rel="icon" href="/favicon.ico"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0D0F0E;
+      --surface: #141918;
+      --surface2: #1c2420;
+      --border: #2a3530;
+      --green: #22C55E;
+      --green-glow: rgba(34,197,94,0.12);
+      --red: #ef4444;
+      --red-glow: rgba(239,68,68,0.12);
+      --yellow: #f59e0b;
+      --white: #F0F4F1;
+      --muted: #6b7f77;
+      --faint: #94a3b8;
+    }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg);
+      color: var(--white);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      min-height: 100vh;
+    }
+
+    /* NAV */
+    nav {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 1rem 1.5rem; border-bottom: 1px solid var(--border);
+      max-width: 860px; margin: 0 auto;
+    }
+    .nav-logo { font-weight: 800; font-size: 1.05rem; color: var(--green); text-decoration: none; }
+    .nav-logo span { color: var(--white); }
+    .nav-back { font-size: 0.82rem; color: var(--muted); text-decoration: none; }
+    .nav-back:hover { color: var(--green); }
+
+    /* WRAP */
+    .game-wrap { max-width: 600px; margin: 0 auto; padding: 0 1.25rem 5rem; }
+
+    /* INTRO SCREEN */
+    #screen-intro { text-align: center; padding: 3rem 0 2rem; }
+    .intro-badge {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      background: var(--green-glow); border: 1px solid rgba(34,197,94,0.25);
+      color: var(--green); font-size: 0.72rem; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 0.08em;
+      padding: 0.3rem 0.85rem; border-radius: 20px; margin-bottom: 1.25rem;
+    }
+    #screen-intro h1 {
+      font-size: clamp(2rem, 7vw, 3.2rem); font-weight: 900;
+      letter-spacing: -0.04em; line-height: 1.1; margin-bottom: 1rem;
+    }
+    .title-millionaire { color: var(--green); }
+    .title-broke { color: var(--red); }
+    #screen-intro p { font-size: 0.95rem; color: var(--faint); margin-bottom: 0.5rem; }
+    .intro-meta { display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap; margin: 1.5rem 0 2rem; }
+    .intro-chip {
+      display: flex; align-items: center; gap: 0.4rem;
+      font-size: 0.8rem; color: var(--muted);
+    }
+    .intro-chip span { color: var(--green); font-weight: 700; }
+    .btn-start {
+      display: inline-block; background: var(--green); color: #0D0F0E;
+      font-size: 1.05rem; font-weight: 800; padding: 0.9rem 2.5rem;
+      border-radius: 12px; border: none; cursor: pointer;
+      transition: background 0.15s, transform 0.1s; letter-spacing: -0.01em;
+    }
+    .btn-start:hover { background: #28d966; transform: translateY(-2px); }
+
+    /* WEALTH METER */
+    .meter-section {
+      display: none;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.1rem 1.4rem;
+      margin: 1.5rem 0 1rem;
+    }
+    .meter-header {
+      display: flex; justify-content: space-between; align-items: baseline;
+      margin-bottom: 0.6rem;
+    }
+    .meter-label { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
+    .meter-value {
+      font-size: 1.3rem; font-weight: 900; letter-spacing: -0.03em;
+      font-variant-numeric: tabular-nums; color: var(--green);
+      transition: color 0.4s;
+    }
+    .meter-track {
+      height: 8px; background: var(--border); border-radius: 8px; overflow: hidden;
+    }
+    .meter-fill {
+      height: 100%; border-radius: 8px;
+      background: linear-gradient(90deg, var(--red) 0%, var(--yellow) 45%, var(--green) 100%);
+      transition: width 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+      width: 50%;
+    }
+    .meter-ticks {
+      display: flex; justify-content: space-between;
+      font-size: 0.65rem; color: var(--muted); margin-top: 0.35rem;
+    }
+
+    /* PROGRESS */
+    .progress-section { display: none; margin-bottom: 0.5rem; }
+    .progress-row { display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--muted); margin-bottom: 0.4rem; }
+    .progress-dots { display: flex; gap: 0.4rem; }
+    .dot {
+      width: 8px; height: 8px; border-radius: 50%;
+      background: var(--border); transition: background 0.3s;
+    }
+    .dot.done { background: var(--green); }
+    .dot.current { background: var(--green); box-shadow: 0 0 0 3px rgba(34,197,94,0.25); }
+
+    /* QUESTION CARD */
+    #screen-game { display: none; }
+    .q-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 1.75rem;
+      animation: slideIn 0.35s ease;
+    }
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateX(20px); }
+      to   { opacity: 1; transform: translateX(0); }
+    }
+    .q-age {
+      font-size: 0.7rem; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.1em; color: var(--green); margin-bottom: 0.5rem;
+    }
+    .q-scenario {
+      font-size: 0.82rem; color: var(--faint); margin-bottom: 0.6rem;
+      line-height: 1.6;
+    }
+    .q-text {
+      font-size: 1.15rem; font-weight: 800; letter-spacing: -0.02em;
+      line-height: 1.3; margin-bottom: 1.5rem; color: var(--white);
+    }
+
+    /* CHOICES */
+    .choices { display: flex; flex-direction: column; gap: 0.65rem; }
+    .choice {
+      display: flex; align-items: flex-start; gap: 0.85rem;
+      background: var(--surface2); border: 1px solid var(--border);
+      border-radius: 12px; padding: 1rem 1.1rem;
+      cursor: pointer; transition: all 0.15s; text-align: left;
+    }
+    .choice:hover { border-color: var(--green); background: rgba(34,197,94,0.06); }
+    .choice-icon {
+      font-size: 1.3rem; flex-shrink: 0; line-height: 1;
+      margin-top: 0.1rem;
+    }
+    .choice-text { font-size: 0.9rem; font-weight: 600; color: var(--white); line-height: 1.4; }
+    .choice-sub { font-size: 0.78rem; color: var(--muted); margin-top: 0.2rem; }
+
+    /* FEEDBACK FLASH */
+    .choice.good  { border-color: var(--green); background: rgba(34,197,94,0.1); pointer-events: none; }
+    .choice.bad   { border-color: var(--red);   background: rgba(239,68,68,0.08); pointer-events: none; }
+    .choice.ok    { border-color: var(--yellow); background: rgba(245,158,11,0.08); pointer-events: none; }
+    .choice.fade  { opacity: 0.3; pointer-events: none; }
+    .impact-tag {
+      display: inline-block; font-size: 0.7rem; font-weight: 700;
+      padding: 0.15rem 0.5rem; border-radius: 4px; margin-top: 0.4rem;
+    }
+    .tag-good  { background: rgba(34,197,94,0.15);  color: var(--green); }
+    .tag-bad   { background: rgba(239,68,68,0.12);  color: var(--red); }
+    .tag-ok    { background: rgba(245,158,11,0.12); color: var(--yellow); }
+
+    /* RESULT SCREEN */
+    #screen-result { display: none; }
+    .result-header { text-align: center; padding: 2rem 0 1.5rem; }
+    .result-verdict {
+      font-size: clamp(2rem, 8vw, 3.5rem); font-weight: 900;
+      letter-spacing: -0.04em; line-height: 1; margin-bottom: 0.4rem;
+    }
+    .result-subtitle { font-size: 0.95rem; color: var(--faint); margin-bottom: 1.5rem; }
+    .result-projected {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 14px; padding: 1.4rem; margin-bottom: 1.25rem; text-align: center;
+    }
+    .projected-label { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin-bottom: 0.4rem; }
+    .projected-num {
+      font-size: clamp(2.4rem, 10vw, 4.2rem); font-weight: 900;
+      letter-spacing: -0.04em; line-height: 1; font-variant-numeric: tabular-nums;
+    }
+    .projected-sub { font-size: 0.78rem; color: var(--muted); margin-top: 0.3rem; }
+
+    /* DECISIONS RECAP */
+    .recap { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 1.2rem 1.4rem; margin-bottom: 1.25rem; }
+    .recap-title { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin-bottom: 0.8rem; }
+    .recap-row { display: flex; align-items: center; gap: 0.6rem; padding: 0.4rem 0; border-bottom: 1px solid var(--border); font-size: 0.82rem; }
+    .recap-row:last-child { border-bottom: none; }
+    .recap-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+    .recap-label { color: var(--faint); flex: 1; }
+    .recap-choice { color: var(--white); font-weight: 600; text-align: right; max-width: 160px; }
+
+    /* CTA */
+    .result-cta {
+      background: linear-gradient(135deg, #0a1f0a, #112211);
+      border: 1px solid rgba(34,197,94,0.4);
+      border-radius: 16px; padding: 1.75rem; text-align: center; margin-bottom: 1rem;
+    }
+    .cta-eyebrow { font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--green); margin-bottom: 0.5rem; }
+    .result-cta h3 { font-size: 1.1rem; font-weight: 800; margin-bottom: 0.5rem; }
+    .result-cta p { font-size: 0.83rem; color: var(--faint); margin-bottom: 1.1rem; line-height: 1.6; }
+    .cta-btn {
+      display: inline-block; background: var(--green); color: #0D0F0E;
+      font-weight: 800; font-size: 0.95rem; padding: 0.8rem 2rem;
+      border-radius: 10px; text-decoration: none; transition: background 0.15s, transform 0.1s;
+    }
+    .cta-btn:hover { background: #28d966; transform: translateY(-1px); }
+    .cta-fine { font-size: 0.7rem; color: var(--muted); margin-top: 0.6rem; }
+
+    .share-row { display: flex; gap: 0.65rem; margin-bottom: 1rem; }
+    .share-btn {
+      flex: 1; padding: 0.65rem; border-radius: 9px;
+      border: 1px solid var(--border); background: var(--surface2);
+      color: var(--faint); font-size: 0.82rem; font-weight: 600;
+      cursor: pointer; transition: all 0.15s; text-align: center;
+    }
+    .share-btn:hover { border-color: var(--green); color: var(--green); }
+    .share-btn.copied { border-color: var(--green); color: var(--green); }
+
+    .restart-btn {
+      display: block; width: 100%; text-align: center;
+      font-size: 0.82rem; color: var(--muted); cursor: pointer;
+      background: none; border: none; text-decoration: underline;
+      text-underline-offset: 3px; padding: 0.5rem;
+    }
+    .restart-btn:hover { color: var(--green); }
+
+    footer {
+      border-top: 1px solid var(--border); padding: 1.5rem;
+      text-align: center; font-size: 0.75rem; color: var(--muted);
+      max-width: 860px; margin: 0 auto;
+    }
+    .footer-links { display: flex; justify-content: center; gap: 1.5rem; margin-top: 0.4rem; flex-wrap: wrap; }
+    .footer-links a { color: var(--muted); text-decoration: none; }
+    .footer-links a:hover { color: var(--green); }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="/">TopMoney<span>Apps</span></a>
+  <a class="nav-back" href="/">← Back to Home</a>
+</nav>
+
+<div class="game-wrap">
+
+  <!-- ── INTRO ── -->
+  <div id="screen-intro">
+    <div class="intro-badge">🎮 Interactive Simulator</div>
+    <h1>
+      <span class="title-millionaire">Millionaire</span> or<br>
+      <span class="title-broke">Broke</span> by 65?
+    </h1>
+    <p>Make 8 real financial decisions. We'll show you where you end up.</p>
+    <div class="intro-meta">
+      <div class="intro-chip">⚡ <span>2 minutes</span> to complete</div>
+      <div class="intro-chip">📊 <span>8 decisions</span> that matter</div>
+      <div class="intro-chip">🔒 <span>No email</span> required</div>
+    </div>
+    <button class="btn-start" onclick="startGame()">Start My Simulation →</button>
+  </div>
+
+  <!-- ── WEALTH METER ── -->
+  <div class="meter-section" id="meter-section">
+    <div class="meter-header">
+      <span class="meter-label">Projected wealth at 65</span>
+      <span class="meter-value" id="meter-value">$450,000</span>
+    </div>
+    <div class="meter-track"><div class="meter-fill" id="meter-fill"></div></div>
+    <div class="meter-ticks"><span>Broke</span><span>Struggling</span><span>Comfortable</span><span>Millionaire</span></div>
+  </div>
+
+  <!-- ── PROGRESS DOTS ── -->
+  <div class="progress-section" id="progress-section">
+    <div class="progress-row">
+      <span id="q-counter">Decision 1 of 8</span>
+      <span id="q-age-label"></span>
+    </div>
+    <div class="progress-dots" id="progress-dots"></div>
+  </div>
+
+  <!-- ── GAME SCREEN ── -->
+  <div id="screen-game">
+    <div class="q-card" id="q-card">
+      <div class="q-age" id="q-age"></div>
+      <div class="q-scenario" id="q-scenario"></div>
+      <div class="q-text" id="q-text"></div>
+      <div class="choices" id="choices"></div>
+    </div>
+  </div>
+
+  <!-- ── RESULT SCREEN ── -->
+  <div id="screen-result">
+    <div class="result-header">
+      <div class="result-verdict" id="result-verdict"></div>
+      <div class="result-subtitle" id="result-subtitle"></div>
+    </div>
+    <div class="result-projected">
+      <div class="projected-label">Your projected net worth at 65</div>
+      <div class="projected-num" id="projected-num"></div>
+      <div class="projected-sub" id="projected-sub"></div>
+    </div>
+    <div class="recap" id="recap"></div>
+    <div class="result-cta" id="result-cta"></div>
+    <div class="share-row">
+      <button class="share-btn" id="share-btn" onclick="shareResult()">📋 Copy My Result</button>
+      <button class="share-btn" onclick="restartGame()">🔄 Play Again</button>
+    </div>
+    <button class="restart-btn" onclick="restartGame()">↺ Start over with different choices</button>
+  </div>
+
+</div><!-- /game-wrap -->
+
+<footer>
+  <div>© 2026 TopMoneyApps — Simulator is for educational and entertainment purposes only. Not financial advice.</div>
+  <div class="footer-links">
+    <a href="/">Home</a>
+    <a href="/tools.html">Tools</a>
+    <a href="/spare-change-calculator.html">Spare Change Calculator</a>
+  </div>
+</footer>
+
+<script>
+// ── QUESTIONS ────────────────────────────────────────────────────────────────
+const questions = [
+  {
+    age: "Age 23",
+    scenario: "You just landed your first real job making $52,000 a year.",
+    text: "What do you do with your first paycheck?",
+    choices: [
+      { icon: "📈", text: "Set up automatic investing immediately", sub: "$200/month into a brokerage + 401(k)", impact: 3, tag: "great move", type: "good", short: "Started investing at 23" },
+      { icon: "💳", text: "Pay off student loans first, then invest", sub: "Debt-free before building wealth", impact: 1, tag: "solid, but slower", type: "ok", short: "Paid off debt first" },
+      { icon: "🛍️", text: "Enjoy the money — you'll invest later", sub: "Lifestyle upgrade, investing can wait", impact: -2, tag: "costly delay", type: "bad", short: "Delayed investing" }
+    ]
+  },
+  {
+    age: "Age 25",
+    scenario: "Your employer offers a 401(k) match up to 5% of your salary.",
+    text: "How much do you contribute?",
+    choices: [
+      { icon: "✅", text: "At least 5% — get the full match", sub: "Free money. Always take free money.", impact: 3, tag: "max free money", type: "good", short: "Maxed employer match" },
+      { icon: "😐", text: "2% — better than nothing", sub: "Leaving some match on the table", impact: 0, tag: "missed free money", type: "ok", short: "Partial 401(k) match" },
+      { icon: "❌", text: "Nothing — I need the cash right now", sub: "Turning down a 100% instant return", impact: -3, tag: "big mistake", type: "bad", short: "Skipped 401(k) match" }
+    ]
+  },
+  {
+    age: "Age 28",
+    scenario: "You've accumulated $9,000 in credit card debt at 24% APR.",
+    text: "How do you handle it?",
+    choices: [
+      { icon: "⚡", text: "Attack it — paid off in 12 months", sub: "Sacrifice spending, kill the debt fast", impact: 2, tag: "smart", type: "good", short: "Aggressively paid off CC debt" },
+      { icon: "🐢", text: "Minimum payments only", sub: "Keep cash flow, let it ride", impact: -3, tag: "expensive mistake", type: "bad", short: "Paid minimums on CC debt" },
+      { icon: "⚖️", text: "Balance: extra payments + some investing", sub: "Split the difference", impact: 1, tag: "reasonable", type: "ok", short: "Balanced debt + investing" }
+    ]
+  },
+  {
+    age: "Age 32",
+    scenario: "The stock market drops 38%. Your portfolio is down $18,000.",
+    text: "What do you do?",
+    choices: [
+      { icon: "🛒", text: "Stay invested and buy more — it's a sale", sub: "Buy low. This is the whole game.", impact: 3, tag: "investor mindset", type: "good", short: "Bought the dip" },
+      { icon: "🪑", text: "Hold steady — don't touch it", sub: "Nervous but disciplined", impact: 1, tag: "good discipline", type: "ok", short: "Held through the crash" },
+      { icon: "🏃", text: "Sell everything and wait it out", sub: "Lock in losses, miss the recovery", impact: -3, tag: "classic mistake", type: "bad", short: "Panic sold" }
+    ]
+  },
+  {
+    age: "Age 35",
+    scenario: "You receive a $20,000 bonus at work.",
+    text: "What happens to the money?",
+    choices: [
+      { icon: "💼", text: "Max out IRA + invest the rest", sub: "Compound it for 30 years", impact: 3, tag: "excellent", type: "good", short: "Invested the bonus" },
+      { icon: "✈️", text: "Nice vacation + invest half", sub: "Balance enjoyment and investing", impact: 1, tag: "balanced", type: "ok", short: "Half invested, half enjoyed" },
+      { icon: "🚗", text: "New car upgrade", sub: "Depreciating asset. All of it.", impact: -2, tag: "wealth destroyer", type: "bad", short: "Bought a new car" }
+    ]
+  },
+  {
+    age: "Age 38",
+    scenario: "A friend pitches you a \"can't miss\" crypto token. You have $40,000 saved.",
+    text: "What do you do?",
+    choices: [
+      { icon: "🚫", text: "Hard pass — stick to index funds", sub: "Boring but proven. Every time.", impact: 2, tag: "disciplined", type: "good", short: "Stayed in index funds" },
+      { icon: "🎲", text: "Put in 5% — small bet", sub: "Fun money, won't change your life either way", impact: 0, tag: "minor risk", type: "ok", short: "Small crypto bet" },
+      { icon: "💸", text: "All in — 30% of your savings", sub: "High risk, probably high regret", impact: -3, tag: "gambling, not investing", type: "bad", short: "Went big on crypto" }
+    ]
+  },
+  {
+    age: "Age 42",
+    scenario: "You get a significant raise — from $85K to $110K per year.",
+    text: "What do you do with the extra income?",
+    choices: [
+      { icon: "📊", text: "Increase savings rate, keep lifestyle flat", sub: "Live like you make $85K, invest the gap", impact: 3, tag: "wealth builder", type: "good", short: "Banked the raise" },
+      { icon: "🏡", text: "Upgrade house + bump up savings slightly", sub: "Some lifestyle, some savings", impact: 1, tag: "balanced", type: "ok", short: "Moderate lifestyle upgrade" },
+      { icon: "💅", text: "Full lifestyle upgrade — you've earned it", sub: "New house, new car, new everything", impact: -2, tag: "lifestyle inflation", type: "bad", short: "Full lifestyle inflation" }
+    ]
+  },
+  {
+    age: "Age 50",
+    scenario: "You have 15 years until retirement. Your portfolio is at $380,000.",
+    text: "How do you approach the home stretch?",
+    choices: [
+      { icon: "🎯", text: "Max everything — 401(k), IRA, HSA", sub: "Catch-up contributions, full throttle", impact: 3, tag: "final push", type: "good", short: "Maxed all accounts at 50" },
+      { icon: "😌", text: "Coast — stay the course, no changes", sub: "Let compounding do the work", impact: 1, tag: "steady", type: "ok", short: "Coasted to retirement" },
+      { icon: "🏖️", text: "Slow down — retire early if possible", sub: "Reduce contributions, enjoy life now", impact: -1, tag: "trade-off", type: "ok", short: "Reduced contributions at 50" }
+    ]
+  }
+];
+
+// ── STATE ────────────────────────────────────────────────────────────────────
+let currentQ   = 0;
+let score      = 0;          // -24 to +24
+let wealth     = 450000;     // projected $ display
+let decisions  = [];
+
+const BASE    = 450000;
+const IMPACT  = { 3: 180000, 2: 110000, 1: 50000, 0: 0, [-1]: -40000, [-2]: -100000, [-3]: -160000 };
+
+// ── INIT ─────────────────────────────────────────────────────────────────────
+function startGame() {
+  document.getElementById('screen-intro').style.display  = 'none';
+  document.getElementById('meter-section').style.display = 'block';
+  document.getElementById('progress-section').style.display = 'block';
+  document.getElementById('screen-game').style.display   = 'block';
+
+  buildDots();
+  renderQuestion(0);
+  updateMeter(450000);
+}
+
+function buildDots() {
+  const wrap = document.getElementById('progress-dots');
+  wrap.innerHTML = '';
+  questions.forEach((_, i) => {
+    const d = document.createElement('div');
+    d.className = 'dot' + (i === 0 ? ' current' : '');
+    d.id = 'dot-' + i;
+    wrap.appendChild(d);
+  });
+}
+
+// ── RENDER QUESTION ──────────────────────────────────────────────────────────
+function renderQuestion(idx) {
+  const q = questions[idx];
+  document.getElementById('q-counter').textContent   = 'Decision ' + (idx+1) + ' of ' + questions.length;
+  document.getElementById('q-age-label').textContent = q.age;
+  document.getElementById('q-age').textContent       = '📅 ' + q.age;
+  document.getElementById('q-scenario').textContent  = q.scenario;
+  document.getElementById('q-text').textContent      = q.text;
+
+  const choicesEl = document.getElementById('choices');
+  choicesEl.innerHTML = '';
+  q.choices.forEach((c, ci) => {
+    const div = document.createElement('div');
+    div.className = 'choice';
+    div.innerHTML = `
+      <div class="choice-icon">${c.icon}</div>
+      <div>
+        <div class="choice-text">${c.text}</div>
+        <div class="choice-sub">${c.sub}</div>
+      </div>`;
+    div.addEventListener('click', () => pick(idx, ci));
+    choicesEl.appendChild(div);
+  });
+
+  // Animate card in
+  const card = document.getElementById('q-card');
+  card.style.animation = 'none';
+  card.offsetHeight; // reflow
+  card.style.animation = 'slideIn 0.35s ease';
+}
+
+// ── PICK ANSWER ──────────────────────────────────────────────────────────────
+function pick(qIdx, cIdx) {
+  const q = questions[qIdx];
+  const c = q.choices[cIdx];
+  const allChoices = document.querySelectorAll('.choice');
+
+  // Style selected and fade others
+  allChoices.forEach((el, i) => {
+    if (i === cIdx) {
+      el.classList.add(c.type);
+      const tag = document.createElement('div');
+      tag.className = 'impact-tag tag-' + c.type;
+      tag.textContent = c.tag;
+      el.querySelector('div:last-child').appendChild(tag);
+    } else {
+      el.classList.add('fade');
+    }
+  });
+
+  // Update score and wealth
+  score  += c.impact;
+  wealth += (IMPACT[c.impact] || 0);
+  wealth  = Math.max(0, wealth);
+  decisions.push({ q: qIdx, c: cIdx });
+
+  // Update meter
+  updateMeter(wealth);
+
+  // Dot done
+  document.getElementById('dot-' + qIdx).className = 'dot done';
+
+  // Advance after brief pause
+  setTimeout(() => {
+    if (qIdx + 1 < questions.length) {
+      currentQ = qIdx + 1;
+      document.getElementById('dot-' + currentQ).classList.add('current');
+      renderQuestion(currentQ);
+    } else {
+      showResult();
+    }
+  }, 820);
+}
+
+// ── WEALTH METER ─────────────────────────────────────────────────────────────
+function updateMeter(val) {
+  // Map 0–1,500,000 to 0–100%
+  const pct = Math.min(100, Math.max(2, (val / 1500000) * 100));
+  document.getElementById('meter-fill').style.width = pct + '%';
+  animateMeterValue(val);
+}
+
+function animateMeterValue(target) {
+  const el  = document.getElementById('meter-value');
+  const cur = parseDollar(el.textContent);
+  const dur = 500;
+  const st  = performance.now();
+  function upd(now) {
+    const p = Math.min((now - st) / dur, 1);
+    const v = cur + (target - cur) * p;
+    el.textContent = fmtShort(v);
+    if (p < 1) requestAnimationFrame(upd);
+    else el.textContent = fmtShort(target);
+  }
+  requestAnimationFrame(upd);
+}
+
+// ── RESULT ───────────────────────────────────────────────────────────────────
+function showResult() {
+  document.getElementById('screen-game').style.display   = 'none';
+  document.getElementById('meter-section').style.display = 'none';
+  document.getElementById('progress-section').style.display = 'none';
+  document.getElementById('screen-result').style.display = 'block';
+
+  // Verdict
+  let verdict, subtitle, ctaTitle, ctaCopy, ctaLink, ctaText, ctaFine;
+
+  if (wealth >= 1000000) {
+    verdict   = '🏆 Millionaire';
+    subtitle  = "Your financial decisions put you firmly in the top tier. You played the long game — and it paid off.";
+    document.getElementById('result-verdict').style.color = 'var(--green)';
+    ctaTitle  = "Keep Building — Automate Your Investing";
+    ctaCopy   = "You made the right calls. Now make it automatic. Betterment's robo-advisor manages your portfolio for you at just 0.25%/year.";
+    ctaLink   = "https://www.betterment.com/";
+    ctaText   = "Start with Betterment →";
+    ctaFine   = "Paid partnership. Investing involves risk. Terms apply.";
+  } else if (wealth >= 500000) {
+    verdict   = '😌 Comfortable';
+    subtitle  = "Not bad at all — you made more good decisions than bad. A few tweaks could have put you over a million.";
+    document.getElementById('result-verdict').style.color = 'var(--yellow)';
+    ctaTitle  = "Close the Gap — Invest the Easy Way";
+    ctaCopy   = "You're on a solid path. Acorns invests your spare change automatically — small amounts, compounded over time, add up more than you'd think.";
+    ctaLink   = "https://acorns.sjv.io/c/7140280/1544868/5136";
+    ctaText   = "Get $20 with Acorns →";
+    ctaFine   = "Paid partnership. New accounts only. Terms apply.";
+  } else if (wealth >= 150000) {
+    verdict   = '😬 Struggling';
+    subtitle  = "A few costly decisions dragged your trajectory down significantly. The good news — it's not too late to course-correct.";
+    document.getElementById('result-verdict').style.color = 'var(--yellow)';
+    ctaTitle  = "Time to Course-Correct";
+    ctaCopy   = "Acorns is the easiest way to start building the habit of investing — it rounds up your everyday purchases and invests the spare change automatically.";
+    ctaLink   = "https://acorns.sjv.io/c/7140280/1544868/5136";
+    ctaText   = "Start Investing with Acorns →";
+    ctaFine   = "Paid partnership. New accounts only. Terms apply.";
+  } else {
+    verdict   = '😰 Broke by 65';
+    subtitle  = "The compounding decisions added up — and not in a good way. Every choice has a cost. The key is starting over with better habits now.";
+    document.getElementById('result-verdict').style.color = 'var(--red)';
+    ctaTitle  = "Start Over — Right This Time";
+    ctaCopy   = "It's never too late. Acorns makes starting dead simple — link a card, round up purchases, and start building. $20 free when you sign up.";
+    ctaLink   = "https://acorns.sjv.io/c/7140280/1544868/5136";
+    ctaText   = "Get $20 & Start Fresh →";
+    ctaFine   = "Paid partnership. New accounts only. Terms apply.";
+  }
+
+  document.getElementById('result-verdict').textContent  = verdict;
+  document.getElementById('result-subtitle').textContent = subtitle;
+
+  // Animate projected number
+  const numEl = document.getElementById('projected-num');
+  numEl.style.color = wealth >= 1000000 ? 'var(--green)' : wealth >= 500000 ? 'var(--yellow)' : 'var(--red)';
+  animateCounter(numEl, wealth, 1200);
+
+  const sub = wealth >= 1000000
+    ? "You made the right moves, consistently." :
+    wealth >= 500000 ? "Solid, but some decisions cost you." :
+    wealth >= 150000 ? "Several costly decisions hurt your trajectory." :
+    "Key mistakes compounded against you.";
+  document.getElementById('projected-sub').textContent = sub;
+
+  // Recap
+  let recapHtml = '<div class="recap-title">Your 8 Decisions</div>';
+  decisions.forEach((d, i) => {
+    const q = questions[d.q];
+    const c = q.choices[d.c];
+    const col = c.type === 'good' ? 'var(--green)' : c.type === 'bad' ? 'var(--red)' : 'var(--yellow)';
+    recapHtml += `<div class="recap-row">
+      <div class="recap-dot" style="background:${col}"></div>
+      <div class="recap-label">${q.age}</div>
+      <div class="recap-choice">${c.short}</div>
+    </div>`;
+  });
+  document.getElementById('recap').innerHTML = recapHtml;
+
+  // CTA
+  document.getElementById('result-cta').innerHTML = `
+    <div class="cta-eyebrow">Your Next Move</div>
+    <h3>${ctaTitle}</h3>
+    <p>${ctaCopy}</p>
+    <a href="${ctaLink}" rel="sponsored noopener" target="_blank" class="cta-btn" id="result-cta-btn">${ctaText}</a>
+    <div class="cta-fine">${ctaFine}</div>`;
+
+  // Track
+  if (typeof fbq === 'function') {
+    fbq('track', 'Lead', {
+      content_name: 'Millionaire or Broke Completed - ' + verdict.replace(/[^\w\s]/g, '').trim(),
+      content_category: 'Simulator',
+      value: wealth
+    });
+  }
+
+  // CTA click tracking
+  setTimeout(() => {
+    const btn = document.getElementById('result-cta-btn');
+    if (btn) {
+      btn.addEventListener('click', function() {
+        if (typeof fbq === 'function') {
+          fbq('track', 'Lead', { content_name: 'Millionaire or Broke CTA Click', content_category: 'Simulator' });
+        }
+      });
+    }
+  }, 100);
+}
+
+// ── SHARE ────────────────────────────────────────────────────────────────────
+function shareResult() {
+  const verdict = document.getElementById('result-verdict').textContent;
+  const num     = document.getElementById('projected-num').textContent;
+  const text    = `I just ran the "Millionaire or Broke by 65?" simulator and got: ${verdict} (${num}) 🤯 Take it yourself → https://www.topmoneyapps.com/millionaire-or-broke.html`;
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = document.getElementById('share-btn');
+    btn.textContent = '✓ Copied!';
+    btn.classList.add('copied');
+    setTimeout(() => { btn.textContent = '📋 Copy My Result'; btn.classList.remove('copied'); }, 2500);
+  });
+}
+
+// ── RESTART ──────────────────────────────────────────────────────────────────
+function restartGame() {
+  currentQ  = 0; score = 0; wealth = 450000; decisions = [];
+  document.getElementById('screen-result').style.display  = 'none';
+  document.getElementById('screen-intro').style.display   = 'block';
+}
+
+// ── HELPERS ──────────────────────────────────────────────────────────────────
+function fmtShort(n) {
+  if (n >= 1000000) return '$' + (n/1000000).toFixed(2) + 'M';
+  if (n >= 1000)    return '$' + Math.round(n/1000) + 'K';
+  return '$' + Math.round(n);
+}
+function fmtFull(n) {
+  if (n >= 1000000) return '$' + (n/1000000).toFixed(2) + 'M';
+  return '$' + Math.round(n).toLocaleString();
+}
+function parseDollar(str) {
+  if (str.includes('M')) return parseFloat(str.replace(/[$M]/g,'')) * 1000000;
+  if (str.includes('K')) return parseFloat(str.replace(/[$K]/g,'')) * 1000;
+  return parseFloat(str.replace(/[$,]/g,'')) || 0;
+}
+function animateCounter(el, target, dur) {
+  const st = performance.now();
+  function upd(now) {
+    const p = Math.min((now - st) / dur, 1);
+    const e = 1 - Math.pow(1 - p, 3);
+    el.textContent = fmtFull(e * target);
+    if (p < 1) requestAnimationFrame(upd);
+    else el.textContent = fmtFull(target);
+  }
+  requestAnimationFrame(upd);
+}
+</script>
+
+</body>
+</html>
