@@ -243,6 +243,17 @@
     }
     .cta-btn:hover { background: #28d966; transform: translateY(-1px); }
     .cta-fine { font-size: 0.7rem; color: var(--muted); margin-top: 0.6rem; }
+    .also-try { margin-top: 1.25rem; padding-top: 1.1rem; border-top: 1px solid rgba(255,255,255,0.07); }
+    .also-try-label { font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.09em; color: var(--muted); margin-bottom: 0.75rem; }
+    .also-try-links { display: flex; gap: 0.65rem; flex-wrap: wrap; justify-content: center; }
+    .also-try-link {
+      display: flex; align-items: center; gap: 0.45rem;
+      background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 8px; padding: 0.55rem 0.9rem; text-decoration: none;
+      font-size: 0.8rem; font-weight: 600; color: var(--faint);
+      transition: border-color 0.15s, color 0.15s;
+    }
+    .also-try-link:hover { border-color: var(--green); color: var(--green); }
 
     .share-row { display: flex; gap: 0.65rem; margin-bottom: 1rem; }
     .share-btn {
@@ -586,10 +597,10 @@ function showResult() {
     subtitle  = "Your financial decisions put you firmly in the top tier. You played the long game — and it paid off.";
     document.getElementById('result-verdict').style.color = 'var(--green)';
     ctaTitle  = "Keep Building — Automate Your Investing";
-    ctaCopy   = "You made the right calls. Now make it automatic. Betterment's robo-advisor manages your portfolio for you at just 0.25%/year.";
-    ctaLink   = "https://www.betterment.com/";
-    ctaText   = "Start with Betterment →";
-    ctaFine   = "Paid partnership. Investing involves risk. Terms apply.";
+    ctaCopy   = "You made the right calls. Now make it automatic. Acorns rounds up every purchase and invests your spare change — set it once and let it grow.";
+    ctaLink   = "https://acorns.sjv.io/c/7140280/1544868/5136";
+    ctaText   = "Get $20 with Acorns →";
+    ctaFine   = "Paid partnership. New accounts only. Terms apply.";
   } else if (wealth >= 500000) {
     verdict   = '😌 Comfortable';
     subtitle  = "Not bad at all — you made more good decisions than bad. A few tweaks could have put you over a million.";
@@ -654,7 +665,14 @@ function showResult() {
     <h3>${ctaTitle}</h3>
     <p>${ctaCopy}</p>
     <a href="${ctaLink}" rel="sponsored noopener" target="_blank" class="cta-btn" id="result-cta-btn">${ctaText}</a>
-    <div class="cta-fine">${ctaFine}</div>`;
+    <div class="cta-fine">${ctaFine}</div>
+    <div class="also-try">
+      <div class="also-try-label">More Free Tools</div>
+      <div class="also-try-links">
+        <a href="/spare-change-calculator.html" class="also-try-link">🪙 Spare Change Calculator</a>
+        <a href="/life-insurance-calculator.html" class="also-try-link">🛡️ Life Insurance Calculator</a>
+      </div>
+    </div>`;
 
   // Track
   if (typeof fbq === 'function') {
