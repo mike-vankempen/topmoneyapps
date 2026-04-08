@@ -50,7 +50,7 @@ Anyone looking for unbiased, expert-reviewed recommendations for personal financ
 - ETF Investing: Fidelity, Vanguard, Charles Schwab, M1 Finance, Robinhood
 - Dividend Investing: M1 Finance, Fidelity, Charles Schwab, Robinhood, Public.com
 - Index Fund Investing: Fidelity (FZROX 0.00%), Vanguard (VTSAX/VTI), Charles Schwab, M1 Finance, Betterment
-- Crypto: Coinbase, Robinhood, Kraken, Gemini, Webull
+- Crypto: Coinbase, Robinhood, Kraken, Crypto.com, Webull
 - Retirement / IRA: Fidelity, Vanguard, Charles Schwab, Betterment, Robinhood (1% IRA match)
 - Robo-Advisors: Betterment, Wealthfront, Schwab Intelligent Portfolios, Acorns, SoFi Automated Investing
 - Options Trading: tastytrade, Webull, Robinhood, Charles Schwab (thinkorswim), E*TRADE
