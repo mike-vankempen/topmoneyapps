@@ -350,15 +350,15 @@ document.getElementById('wn1').textContent = winNums[0];
 document.getElementById('wn2').textContent = winNums[1];
 document.getElementById('wn3').textContent = winNums[2];
 
-// Your numbers — odds: 2% = $50 (2 matches), 10% = $4 (1 match), 88% = nothing
+// Your numbers — odds: 5% = $50 (2 matches), 25% = $4 (1 match), 70% = nothing
 const nonWin = POOL.filter(n => !winNums.includes(n));
 let yourNums;
 const roll = Math.random();
-if (roll < 0.02) {
+if (roll < 0.05) {
   // 2 matches = win $50
   yourNums = [winNums[0], winNums[1], pick(nonWin, 1)[0]];
   yourNums = yourNums.sort(() => Math.random() - 0.5);
-} else if (roll < 0.12) {
+} else if (roll < 0.30) {
   // 1 match = win $4 (net: -$1)
   yourNums = [winNums[0], pick(nonWin, 1)[0], pick(nonWin, 1)[0]];
   yourNums = yourNums.sort(() => Math.random() - 0.5);
