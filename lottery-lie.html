@@ -360,7 +360,8 @@ if (roll < 0.05) {
   yourNums = yourNums.sort(() => Math.random() - 0.5);
 } else if (roll < 0.30) {
   // 1 match = win $4 (net: -$1)
-  yourNums = [winNums[0], pick(nonWin, 1)[0], pick(nonWin, 1)[0]];
+  const twoNonWin = pick(nonWin, 2);
+  yourNums = [winNums[0], twoNonWin[0], twoNonWin[1]];
   yourNums = yourNums.sort(() => Math.random() - 0.5);
 } else {
   yourNums = pick(nonWin, 3);
