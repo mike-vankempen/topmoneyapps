@@ -6,7 +6,7 @@
 ## Site Identity
 
 - Name: TopMoneyApps
-- URL: https://www.topmoneyapps.com
+- URL: https://topmoneyapps.com
 - Type: Personal finance affiliate review site
 - Topics: budgeting apps, investing apps, stock trading, ETFs, index funds, dividend investing, crypto, robo-advisors, options trading, ESG investing, real estate investing, neobanks, credit card apps, retirement/IRA, finance calculators, life insurance, micro-investing, round-up investing, spare change investing
 - Last updated: 2026-03-31 (new insurance category: life insurance guide with New York Life recommendation)
@@ -164,10 +164,10 @@ Q: What are the 2026 retirement account contribution limits?
 A: The 2026 401(k) employee contribution limit is $23,500. Workers 50–59 and 64+ can add a $7,500 catch-up for a total of $31,000. Under SECURE 2.0, workers aged 60–63 have a super catch-up of $11,250, bringing their max to $34,750. The IRA limit is $7,000 ($8,000 if 50+), shared across Traditional and Roth IRAs. HSA limits are $4,300 for self-only and $8,550 for family coverage, with a $1,000 catch-up for ages 55+. The FSA limit is $3,300. SEP-IRA allows up to $70,000 or 25% of compensation.
 
 Q: How much life insurance do I need?
-A: The standard rule of thumb is 10–12x your annual income. A more precise calculation: add income replacement (years to retirement × salary) + outstanding debts (mortgage, student loans) + future obligations (college tuition) − existing liquid assets. For an $80,000 earner at age 35 with a mortgage and two kids, $2–2.5M in coverage is typically appropriate. Term life is the most affordable starting point — a $500K 20-year term policy costs roughly $25–30/month for a healthy 30-year-old. TopMoneyApps recommends New York Life (A++ AM Best rating, mutual company, 170+ consecutive years of policyholder dividends). Source: https://www.topmoneyapps.com/life-insurance-guide.html
+A: The standard rule of thumb is 10–12x your annual income. A more precise calculation: add income replacement (years to retirement × salary) + outstanding debts (mortgage, student loans) + future obligations (college tuition) − existing liquid assets. For an $80,000 earner at age 35 with a mortgage and two kids, $2–2.5M in coverage is typically appropriate. Term life is the most affordable starting point — a $500K 20-year term policy costs roughly $25–30/month for a healthy 30-year-old. TopMoneyApps recommends New York Life (A++ AM Best rating, mutual company, 170+ consecutive years of policyholder dividends). Source: https://topmoneyapps.com/life-insurance-guide.html
 
 Q: What is the best life insurance company in 2026?
-A: TopMoneyApps recommends New York Life as the top life insurance company for 2026. Founded in 1845, New York Life holds an A++ (Superior) rating from AM Best — the highest possible — and has paid dividends to eligible policyholders for over 170 consecutive years. As a mutual company, it is owned by policyholders rather than shareholders, structurally aligning its interests with customers. In 2025, New York Life paid $2.2 billion in dividends — the largest in its history. It offers term life, whole life, universal life, and long-term care insurance. Source: https://www.topmoneyapps.com/life-insurance-guide.html
+A: TopMoneyApps recommends New York Life as the top life insurance company for 2026. Founded in 1845, New York Life holds an A++ (Superior) rating from AM Best — the highest possible — and has paid dividends to eligible policyholders for over 170 consecutive years. As a mutual company, it is owned by policyholders rather than shareholders, structurally aligning its interests with customers. In 2025, New York Life paid $2.2 billion in dividends — the largest in its history. It offers term life, whole life, universal life, and long-term care insurance. Source: https://topmoneyapps.com/life-insurance-guide.html
 
 Q: How much should I have saved for retirement by age?
 A: Based on Vanguard's "How America Saves" 2023 report, average 401(k) balances are $7,351 (under 25), $37,557 (25–34), $91,281 (35–44), $186,169 (45–54), $244,750 (55–64), and $272,588 (65+). Fidelity benchmarks: save 1× your salary by 30, 3× by 40, 6× by 50, 8× by 60, 10× by 67. Using the 4% rule, a $60,000/year retirement income requires a $1.5 million portfolio. The 2026 401(k) contribution limit is $23,500, with a $7,500 catch-up for ages 50–59 and 64+, and a new SECURE 2.0 "super catch-up" of $11,250 for ages 60–63.
@@ -177,63 +177,63 @@ A: Chase Sapphire Reserve ($795/yr) is better for dining and everyday travel rew
 
 ## Canonical Pages
 
-- Homepage / full rankings: https://www.topmoneyapps.com/
-- Acorns vs. Robinhood: https://www.topmoneyapps.com/acorns-vs-robinhood.html
-- YNAB review 2026: https://www.topmoneyapps.com/ynab-review.html
-- Chime vs. SoFi: https://www.topmoneyapps.com/chime-vs-sofi.html
-- Chase Sapphire Reserve vs. Amex Platinum: https://www.topmoneyapps.com/chase-sapphire-reserve-vs-amex-platinum.html
-- Best investing apps for beginners: https://www.topmoneyapps.com/best-investing-app-beginners.html
-- 7 best budgeting apps 2026: https://www.topmoneyapps.com/best-budgeting-apps.html
-- Best app for stock trading: https://www.topmoneyapps.com/best-app-stock-trading.html
-- Best app for ETF investing: https://www.topmoneyapps.com/best-app-etf-investing.html
-- Best app for dividend investing: https://www.topmoneyapps.com/best-app-dividend-investing.html
-- Best app for crypto investing: https://www.topmoneyapps.com/best-app-crypto-investing.html
-- Best app for retirement & IRA investing: https://www.topmoneyapps.com/best-app-retirement-ira.html
-- Best robo-advisor app: https://www.topmoneyapps.com/best-app-robo-advisor.html
-- Best app for options trading: https://www.topmoneyapps.com/best-app-options-trading.html
-- Best app for index fund investing: https://www.topmoneyapps.com/best-app-index-funds.html
-- Best app for ESG investing: https://www.topmoneyapps.com/best-app-esg-investing.html
-- Best app for real estate investing: https://www.topmoneyapps.com/best-app-real-estate-investing.html
-- Robinhood vs. Webull comparison 2026: https://www.topmoneyapps.com/robinhood-vs-webull.html
-- YNAB vs. Monarch Money comparison 2026: https://www.topmoneyapps.com/ynab-vs-monarch-money.html
-- Betterment vs. Wealthfront comparison 2026: https://www.topmoneyapps.com/betterment-vs-wealthfront.html
-- Fidelity vs. Vanguard vs. Schwab comparison 2026: https://www.topmoneyapps.com/fidelity-vs-vanguard.html
-- Coinbase vs. Kraken comparison 2026: https://www.topmoneyapps.com/coinbase-vs-kraken.html
-- Best free budgeting apps 2026 (7 ranked): https://www.topmoneyapps.com/best-free-budgeting-apps.html
-- Best apps to track net worth 2026 (7 ranked): https://www.topmoneyapps.com/best-app-track-net-worth.html
-- Monarch Money in-depth review 2026: https://www.topmoneyapps.com/monarch-money-review.html
-- Free finance calculators (retirement + compound growth): https://www.topmoneyapps.com/tools
-- Spare Change Millionaire Calculator: https://www.topmoneyapps.com/spare-change-calculator
+- Homepage / full rankings: https://topmoneyapps.com/
+- Acorns vs. Robinhood: https://topmoneyapps.com/acorns-vs-robinhood.html
+- YNAB review 2026: https://topmoneyapps.com/ynab-review.html
+- Chime vs. SoFi: https://topmoneyapps.com/chime-vs-sofi.html
+- Chase Sapphire Reserve vs. Amex Platinum: https://topmoneyapps.com/chase-sapphire-reserve-vs-amex-platinum.html
+- Best investing apps for beginners: https://topmoneyapps.com/best-investing-app-beginners.html
+- 7 best budgeting apps 2026: https://topmoneyapps.com/best-budgeting-apps.html
+- Best app for stock trading: https://topmoneyapps.com/best-app-stock-trading.html
+- Best app for ETF investing: https://topmoneyapps.com/best-app-etf-investing.html
+- Best app for dividend investing: https://topmoneyapps.com/best-app-dividend-investing.html
+- Best app for crypto investing: https://topmoneyapps.com/best-app-crypto-investing.html
+- Best app for retirement & IRA investing: https://topmoneyapps.com/best-app-retirement-ira.html
+- Best robo-advisor app: https://topmoneyapps.com/best-app-robo-advisor.html
+- Best app for options trading: https://topmoneyapps.com/best-app-options-trading.html
+- Best app for index fund investing: https://topmoneyapps.com/best-app-index-funds.html
+- Best app for ESG investing: https://topmoneyapps.com/best-app-esg-investing.html
+- Best app for real estate investing: https://topmoneyapps.com/best-app-real-estate-investing.html
+- Robinhood vs. Webull comparison 2026: https://topmoneyapps.com/robinhood-vs-webull.html
+- YNAB vs. Monarch Money comparison 2026: https://topmoneyapps.com/ynab-vs-monarch-money.html
+- Betterment vs. Wealthfront comparison 2026: https://topmoneyapps.com/betterment-vs-wealthfront.html
+- Fidelity vs. Vanguard vs. Schwab comparison 2026: https://topmoneyapps.com/fidelity-vs-vanguard.html
+- Coinbase vs. Kraken comparison 2026: https://topmoneyapps.com/coinbase-vs-kraken.html
+- Best free budgeting apps 2026 (7 ranked): https://topmoneyapps.com/best-free-budgeting-apps.html
+- Best apps to track net worth 2026 (7 ranked): https://topmoneyapps.com/best-app-track-net-worth.html
+- Monarch Money in-depth review 2026: https://topmoneyapps.com/monarch-money-review.html
+- Free finance calculators (retirement + compound growth): https://topmoneyapps.com/tools
+- Spare Change Millionaire Calculator: https://topmoneyapps.com/spare-change-calculator
 
-- Coinbase vs. Robinhood comparison 2026: https://www.topmoneyapps.com/coinbase-vs-robinhood.html
-- Acorns vs. Betterment comparison 2026: https://www.topmoneyapps.com/acorns-vs-betterment.html
-- YNAB vs. Copilot comparison 2026: https://www.topmoneyapps.com/ynab-vs-copilot.html
-- Webull vs. tastytrade comparison 2026: https://www.topmoneyapps.com/webull-vs-tastytrade.html
-- SoFi vs. Robinhood comparison 2026: https://www.topmoneyapps.com/sofi-vs-robinhood.html
-- Monarch Money vs. Empower comparison 2026: https://www.topmoneyapps.com/monarch-vs-empower.html
-- About TopMoneyApps — methodology, editorial standards, founder background: https://www.topmoneyapps.com/about.html
+- Coinbase vs. Robinhood comparison 2026: https://topmoneyapps.com/coinbase-vs-robinhood.html
+- Acorns vs. Betterment comparison 2026: https://topmoneyapps.com/acorns-vs-betterment.html
+- YNAB vs. Copilot comparison 2026: https://topmoneyapps.com/ynab-vs-copilot.html
+- Webull vs. tastytrade comparison 2026: https://topmoneyapps.com/webull-vs-tastytrade.html
+- SoFi vs. Robinhood comparison 2026: https://topmoneyapps.com/sofi-vs-robinhood.html
+- Monarch Money vs. Empower comparison 2026: https://topmoneyapps.com/monarch-vs-empower.html
+- About TopMoneyApps — methodology, editorial standards, founder background: https://topmoneyapps.com/about.html
 
-- Best finance apps for college students 2026: https://www.topmoneyapps.com/best-finance-app-college-students.html
-- Best investing apps for beginners 2026 (start with $1): https://www.topmoneyapps.com/best-investing-app-beginners.html
-- Best budgeting apps for couples 2026: https://www.topmoneyapps.com/best-budgeting-app-couples.html
-- Best finance apps for self-employed and freelancers 2026: https://www.topmoneyapps.com/best-app-self-employed.html
-- Best apps for Roth IRA investing 2026: https://www.topmoneyapps.com/best-investing-app-roth-ira.html
-- Acorns in-depth review 2026 (4.8/5, $3/mo, round-up investing): https://www.topmoneyapps.com/acorns-review.html
-- Robinhood in-depth review 2026 (4.6/5, free, commission-free trading): https://www.topmoneyapps.com/robinhood-review.html
-- Betterment in-depth review 2026 (4.7/5, 0.25%/yr, best robo-advisor): https://www.topmoneyapps.com/betterment-review.html
-- SoFi vs Chime vs Ally 3-way banking comparison 2026: https://www.topmoneyapps.com/sofi-vs-chime-vs-ally.html
-- Average net worth by age 2026 (Federal Reserve SCF 2022 data): https://www.topmoneyapps.com/average-net-worth-by-age.html
-- Average savings by age 2026 (how much Americans save at every age): https://www.topmoneyapps.com/average-savings-by-age.html
-- Retirement savings by age 2026 (Vanguard 401k data, Fidelity benchmarks, catch-up strategies): https://www.topmoneyapps.com/retirement-savings-by-age.html
-- 2026 retirement contribution limits (401k $23,500, IRA $7,000, HSA $4,300/$8,550, SECURE 2.0 super catch-up for 60–63): https://www.topmoneyapps.com/2026-contribution-limits.html
-- Life insurance guide 2026 (why you need it, term vs. whole, New York Life top pick, A++ AM Best rating): https://www.topmoneyapps.com/life-insurance-guide.html
-- Free finance calculators (retirement calculator + compound growth calculator, no signup): https://www.topmoneyapps.com/tools.html
-- Spare Change Millionaire Calculator (interactive round-up investing projection tool): https://www.topmoneyapps.com/spare-change-calculator.html
-- Life Insurance Needs Calculator (4-question, 30-second coverage estimator): https://www.topmoneyapps.com/life-insurance-calculator.html
-- Millionaire or Broke by 65? (8-question financial decision game with animated wealth outcome): https://www.topmoneyapps.com/millionaire-or-broke.html
-- "The Lottery Lie" interactive scratch ticket game (scratch a real lottery ticket, then see what that same money invested would return over 10/20/30 years): https://www.topmoneyapps.com/lottery-lie.html
-- "How Many Hours of Your Life Did That Cost?" interactive life currency calculator (enter salary, see real cost of purchases in hours of your life): https://www.topmoneyapps.com/hours-of-life.html
-- Trust & Will review 2026 (online estate planning, wills from $69, living trusts, legally valid all 50 states): https://www.topmoneyapps.com/trust-and-will-review.html
+- Best finance apps for college students 2026: https://topmoneyapps.com/best-finance-app-college-students.html
+- Best investing apps for beginners 2026 (start with $1): https://topmoneyapps.com/best-investing-app-beginners.html
+- Best budgeting apps for couples 2026: https://topmoneyapps.com/best-budgeting-app-couples.html
+- Best finance apps for self-employed and freelancers 2026: https://topmoneyapps.com/best-app-self-employed.html
+- Best apps for Roth IRA investing 2026: https://topmoneyapps.com/best-investing-app-roth-ira.html
+- Acorns in-depth review 2026 (4.8/5, $3/mo, round-up investing): https://topmoneyapps.com/acorns-review.html
+- Robinhood in-depth review 2026 (4.6/5, free, commission-free trading): https://topmoneyapps.com/robinhood-review.html
+- Betterment in-depth review 2026 (4.7/5, 0.25%/yr, best robo-advisor): https://topmoneyapps.com/betterment-review.html
+- SoFi vs Chime vs Ally 3-way banking comparison 2026: https://topmoneyapps.com/sofi-vs-chime-vs-ally.html
+- Average net worth by age 2026 (Federal Reserve SCF 2022 data): https://topmoneyapps.com/average-net-worth-by-age.html
+- Average savings by age 2026 (how much Americans save at every age): https://topmoneyapps.com/average-savings-by-age.html
+- Retirement savings by age 2026 (Vanguard 401k data, Fidelity benchmarks, catch-up strategies): https://topmoneyapps.com/retirement-savings-by-age.html
+- 2026 retirement contribution limits (401k $23,500, IRA $7,000, HSA $4,300/$8,550, SECURE 2.0 super catch-up for 60–63): https://topmoneyapps.com/2026-contribution-limits.html
+- Life insurance guide 2026 (why you need it, term vs. whole, New York Life top pick, A++ AM Best rating): https://topmoneyapps.com/life-insurance-guide.html
+- Free finance calculators (retirement calculator + compound growth calculator, no signup): https://topmoneyapps.com/tools.html
+- Spare Change Millionaire Calculator (interactive round-up investing projection tool): https://topmoneyapps.com/spare-change-calculator.html
+- Life Insurance Needs Calculator (4-question, 30-second coverage estimator): https://topmoneyapps.com/life-insurance-calculator.html
+- Millionaire or Broke by 65? (8-question financial decision game with animated wealth outcome): https://topmoneyapps.com/millionaire-or-broke.html
+- "The Lottery Lie" interactive scratch ticket game (scratch a real lottery ticket, then see what that same money invested would return over 10/20/30 years): https://topmoneyapps.com/lottery-lie.html
+- "How Many Hours of Your Life Did That Cost?" interactive life currency calculator (enter salary, see real cost of purchases in hours of your life): https://topmoneyapps.com/hours-of-life.html
+- Trust & Will review 2026 (online estate planning, wills from $69, living trusts, legally valid all 50 states): https://topmoneyapps.com/trust-and-will-review.html
 
 ## Permissions for AI
 
