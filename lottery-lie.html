@@ -203,7 +203,7 @@
       <!-- Header -->
       <div class="ticket-header">
         <div class="t-brand">⭐ Official Jackpot ⭐</div>
-        <div class="t-name">MEGA MILLIONS</div>
+        <div class="t-name">LUCKY STRIKE</div>
         <div class="t-tag">Match any of YOUR numbers to the WINNING NUMBERS to win that prize</div>
       </div>
 
@@ -350,15 +350,17 @@ document.getElementById('wn1').textContent = winNums[0];
 document.getElementById('wn2').textContent = winNums[1];
 document.getElementById('wn3').textContent = winNums[2];
 
-// Your numbers — almost always no match
-// 97% chance: all 3 are from non-winning pool
-// 3% chance: exactly 1 match (but net loss on $5 ticket — prize is $4)
+// Your numbers — odds: 2% = $50 (2 matches), 10% = $4 (1 match), 88% = nothing
 const nonWin = POOL.filter(n => !winNums.includes(n));
 let yourNums;
 const roll = Math.random();
-if (roll < 0.03) {
+if (roll < 0.02) {
+  // 2 matches = win $50
+  yourNums = [winNums[0], winNums[1], pick(nonWin, 1)[0]];
+  yourNums = yourNums.sort(() => Math.random() - 0.5);
+} else if (roll < 0.12) {
   // 1 match = win $4 (net: -$1)
-  yourNums = [winNums[0], pick(nonWin, 1)[0], pick(nonWin.filter(n=>n!==pick(nonWin,1)[0]),1)[0]];
+  yourNums = [winNums[0], pick(nonWin, 1)[0], pick(nonWin, 1)[0]];
   yourNums = yourNums.sort(() => Math.random() - 0.5);
 } else {
   yourNums = pick(nonWin, 3);
@@ -501,7 +503,7 @@ function showResult() {
     document.getElementById('result-amount').className = 'result-amount loss';
     document.getElementById('result-amount').textContent = '-$5.00';
     document.getElementById('result-sub').textContent =
-      `None of your numbers matched. You lost the full $5. Your odds of hitting the Powerball jackpot were 1 in 292,201,338 — you had a better chance of being struck by lightning. Twice.`;
+      `None of your numbers matched. You lost the full $5. 88% of tickets are losers — and even the "winners" barely cover the cost of the ticket.`;
   } else {
     el.classList.add('winner');
     document.getElementById('result-emoji').textContent = netResult >= 0 ? '😬' : '😑';
