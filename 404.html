@@ -36,13 +36,21 @@
     .redirecting { font-size: 0.85rem; color: #5a7262; margin-top: 1.5rem; }
   </style>
   <script>
-    // Redirect trailing-slash URLs to their .html equivalents
-    // e.g. /best-budgeting-apps/ → /best-budgeting-apps.html
+    // Redirect common URL variants to their .html equivalents
     (function() {
       var path = window.location.pathname;
-      // If path ends with / and isn't just the root
+      var newPath = null;
+
+      // /best-budgeting-apps/  →  /best-budgeting-apps.html
       if (path !== '/' && path.endsWith('/')) {
-        var newPath = path.slice(0, -1) + '.html';
+        newPath = path.slice(0, -1) + '.html';
+      }
+      // /monarch-money-review  →  /monarch-money-review.html (no extension, no slash)
+      else if (path !== '/' && !path.includes('.')) {
+        newPath = path + '.html';
+      }
+
+      if (newPath) {
         window.location.replace(newPath + window.location.search + window.location.hash);
       }
     })();
