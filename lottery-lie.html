@@ -508,7 +508,7 @@ function showResult() {
     document.getElementById('result-headline').textContent =
       netResult >= 0 ? `You won $${totalPrize.toLocaleString()}!` : `You "won" $${totalPrize} on a $5 ticket.`;
     document.getElementById('result-amount').className = netResult >= 0 ? 'result-amount win' : 'result-amount loss';
-    document.getElementById('result-amount').textContent =
+    document.getElementById('result-amount').innerHTML =
       `Prize: +$${totalPrize} &nbsp;·&nbsp; Net: ${netResult >= 0 ? '+' : ''}$${netResult}`;
     document.getElementById('result-sub').textContent =
       netResult < 0
