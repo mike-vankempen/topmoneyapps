@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Page Not Found | TopMoneyApps</title>
+  <link rel="canonical" href="https://topmoneyapps.com/"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: #0D0F0E;
+      color: #F0F4F1;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+    }
+    .wrap { max-width: 480px; }
+    .logo { font-size: 1.3rem; font-weight: 800; margin-bottom: 2.5rem; }
+    .logo span { color: #22C55E; }
+    h1 { font-size: clamp(2rem, 6vw, 3rem); font-weight: 900; letter-spacing: -0.03em; margin-bottom: 0.75rem; }
+    p { font-size: 1rem; color: #9eb3a4; line-height: 1.6; margin-bottom: 2rem; }
+    a.btn {
+      display: inline-block;
+      background: #22C55E;
+      color: #0D0F0E;
+      font-weight: 800;
+      font-size: 1rem;
+      padding: 0.85rem 2rem;
+      border-radius: 10px;
+      text-decoration: none;
+    }
+    .redirecting { font-size: 0.85rem; color: #5a7262; margin-top: 1.5rem; }
+  </style>
+  <script>
+    // Redirect trailing-slash URLs to their .html equivalents
+    // e.g. /best-budgeting-apps/ → /best-budgeting-apps.html
+    (function() {
+      var path = window.location.pathname;
+      // If path ends with / and isn't just the root
+      if (path !== '/' && path.endsWith('/')) {
+        var newPath = path.slice(0, -1) + '.html';
+        window.location.replace(newPath + window.location.search + window.location.hash);
+      }
+    })();
+  </script>
+</head>
+<body>
+  <div class="wrap">
+    <div class="logo">Top<span>MoneyApps</span></div>
+    <h1>Page not found.</h1>
+    <p>The page you're looking for doesn't exist or may have moved. Head back home to find what you need.</p>
+    <a href="/" class="btn">← Back to Home</a>
+    <p class="redirecting" id="redir-msg"></p>
+  </div>
+  <script>
+    // Show a message if we're attempting a redirect
+    var path = window.location.pathname;
+    if (path !== '/' && path.endsWith('/')) {
+      document.getElementById('redir-msg').textContent = 'Redirecting you to the right page…';
+    }
+  </script>
+</body>
+</html>
