@@ -237,7 +237,7 @@
     </div>
   </div>
 
-  <div class="scratch-hint">👆 <span>Scratch to reveal</span> your numbers</div>
+  <div class="scratch-hint">👆 <span>Scratch to reveal</span> your numbers — or <button onclick="autoReveal()" style="background:none;border:none;color:var(--yellow);font-weight:800;font-size:0.78rem;cursor:pointer;padding:0;font-family:inherit;text-decoration:underline;">tap here to reveal instantly</button></div>
 
   <!-- RESULT -->
   <div class="result-reveal" id="result-reveal">
@@ -454,26 +454,29 @@ function pctCleared() {
   return c/(canvas.width*canvas.height);
 }
 
-canvas.addEventListener('mousedown',  e=>{ isScratching=true; scratchAt(...Object.values(getPos(e))); });
+canvas.addEventListener('mousedown',  e=>{ isScratching=true; scratchAt(...Object.values(getPos(e))); checkReveal(); });
 canvas.addEventListener('mousemove',  e=>{ if(!isScratching) return; scratchAt(...Object.values(getPos(e))); checkReveal(); });
-canvas.addEventListener('mouseup',    ()=>{ isScratching=false; });
+canvas.addEventListener('mouseup',    ()=>{ isScratching=false; checkReveal(); });
 canvas.addEventListener('mouseleave', ()=>{ isScratching=false; });
-canvas.addEventListener('touchstart', e=>{ e.preventDefault(); isScratching=true; scratchAt(...Object.values(getPos(e))); },{passive:false});
+canvas.addEventListener('touchstart', e=>{ e.preventDefault(); isScratching=true; scratchAt(...Object.values(getPos(e))); checkReveal(); },{passive:false});
 canvas.addEventListener('touchmove',  e=>{ e.preventDefault(); if(!isScratching) return; scratchAt(...Object.values(getPos(e))); checkReveal(); },{passive:false});
-canvas.addEventListener('touchend',   ()=>{ isScratching=false; });
+canvas.addEventListener('touchend',   ()=>{ isScratching=false; checkReveal(); });
 
 function checkReveal() {
-  if (revealed || pctCleared() < 0.45) return;
+  if (revealed || pctCleared() < 0.30) return;
   autoReveal();
 }
 
 function autoReveal() {
   if (revealed) return;
   revealed = true;
+  // Clear the canvas coating immediately
   ctx.globalCompositeOperation = 'destination-out';
   ctx.fillRect(0,0,canvas.width,canvas.height);
   canvas.style.pointerEvents = 'none';
-  setTimeout(showResult, 250);
+  canvas.style.opacity = '0';
+  canvas.style.transition = 'opacity 0.3s ease';
+  setTimeout(showResult, 300);
 }
 
 // ── RESULT ────────────────────────────────────────────────────────────────
