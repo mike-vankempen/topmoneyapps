@@ -397,6 +397,8 @@ const ctx     = canvas.getContext('2d');
 const section = document.getElementById('scratch-section');
 let isScratching = false;
 let revealed = false;
+let scratchCount = 0;
+const SCRATCH_THRESHOLD = 15; // auto-reveal after this many move events
 
 function initCanvas() {
   const w = section.offsetWidth  || section.getBoundingClientRect().width  || 360;
@@ -452,27 +454,19 @@ function scratchAt(x,y,r=28) {
   ctx.fill();
 }
 
-function pctCleared() {
-  const total = canvas.width * canvas.height;
-  if (!total) return 0;
-  const d = ctx.getImageData(0,0,canvas.width,canvas.height).data;
-  let c=0;
-  for (let i=3;i<d.length;i+=4) if(d[i]===0) c++;
-  return c / total;
+function countScratch() {
+  if (revealed) return;
+  scratchCount++;
+  if (scratchCount >= SCRATCH_THRESHOLD) autoReveal();
 }
 
-canvas.addEventListener('mousedown',  e=>{ isScratching=true; scratchAt(...Object.values(getPos(e))); checkReveal(); });
-canvas.addEventListener('mousemove',  e=>{ if(!isScratching) return; scratchAt(...Object.values(getPos(e))); checkReveal(); });
-canvas.addEventListener('mouseup',    ()=>{ isScratching=false; checkReveal(); });
+canvas.addEventListener('mousedown',  e=>{ isScratching=true; scratchAt(...Object.values(getPos(e))); });
+canvas.addEventListener('mousemove',  e=>{ if(!isScratching) return; scratchAt(...Object.values(getPos(e))); countScratch(); });
+canvas.addEventListener('mouseup',    ()=>{ isScratching=false; });
 canvas.addEventListener('mouseleave', ()=>{ isScratching=false; });
-canvas.addEventListener('touchstart', e=>{ e.preventDefault(); isScratching=true; scratchAt(...Object.values(getPos(e))); checkReveal(); },{passive:false});
-canvas.addEventListener('touchmove',  e=>{ e.preventDefault(); if(!isScratching) return; scratchAt(...Object.values(getPos(e))); checkReveal(); },{passive:false});
-canvas.addEventListener('touchend',   ()=>{ isScratching=false; checkReveal(); });
-
-function checkReveal() {
-  if (revealed || pctCleared() < 0.20) return;
-  autoReveal();
-}
+canvas.addEventListener('touchstart', e=>{ e.preventDefault(); isScratching=true; scratchAt(...Object.values(getPos(e))); },{passive:false});
+canvas.addEventListener('touchmove',  e=>{ e.preventDefault(); if(!isScratching) return; scratchAt(...Object.values(getPos(e))); countScratch(); },{passive:false});
+canvas.addEventListener('touchend',   ()=>{ isScratching=false; });
 
 function autoReveal() {
   if (revealed) return;
