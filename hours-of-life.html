@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1660704165280402');
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1660704165280402&ev=PageView&noscript=1"/></noscript>
+  <!-- End Meta Pixel Code -->
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>How Many Hours of Your Life Did That Cost? | TopMoneyApps</title>
+  <meta name="description" content="Enter your salary and see how many hours of your life everyday purchases actually cost you. The most eye-opening money tool you'll ever use."/>
+  <link rel="canonical" href="https://www.topmoneyapps.com/hours-of-life.html"/>
+  <link rel="icon" href="/favicon.ico"/>
+  <!-- Open Graph -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://www.topmoneyapps.com/hours-of-life.html"/>
+  <meta property="og:title" content="How Many Hours of Your Life Did That Cost?"/>
+  <meta property="og:description" content="Your $6 coffee = 22 minutes of your life. Your rent = 312 hours a month. See the real price of everything you buy."/>
+  <meta property="og:image" content="https://www.topmoneyapps.com/assets/og-hours-of-life.png"/>
+  <meta property="og:site_name" content="TopMoneyApps"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="How Many Hours of Your Life Did That Cost?"/>
+  <meta name="twitter:description" content="Enter your salary. See the true cost of everything you buy — in hours of your life."/>
+  <meta name="twitter:image" content="https://www.topmoneyapps.com/assets/og-hours-of-life.png"/>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0D0F0E; --bg2: #141816; --bg3: #1a1f1c;
+      --border: #242c26; --green: #22C55E;
+      --text: #F0F4F1; --text2: #9eb3a4; --text3: #5a7262;
+      --red: #ef4444; --yellow: #facc15; --orange: #f97316;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; }
+    a { color: inherit; text-decoration: none; }
+
+    /* NAV */
+    nav { position: sticky; top: 0; z-index: 100; background: rgba(13,15,14,0.92); backdrop-filter: blur(14px); border-bottom: 1px solid var(--border); padding: 0 1.5rem; display: flex; align-items: center; justify-content: space-between; height: 56px; }
+    .nav-logo { font-size: 1.1rem; font-weight: 800; } .nav-logo span { color: var(--green); }
+    .nav-back { font-size: 0.82rem; color: var(--text2); transition: color .2s; }
+    .nav-back:hover { color: var(--green); }
+    @media(max-width:540px){ .nav-back { display:none; } }
+
+    /* LAYOUT */
+    .wrap { max-width: 680px; margin: 0 auto; padding: 2.5rem 1.25rem 6rem; }
+
+    /* HEADER */
+    .page-tag { font-size: 0.7rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.12em; color: var(--green); margin-bottom: 0.75rem; }
+    h1 { font-size: clamp(1.7rem, 5vw, 2.4rem); font-weight: 900; line-height: 1.15; letter-spacing: -0.03em; margin-bottom: 0.75rem; }
+    h1 em { color: var(--green); font-style: normal; }
+    .subtitle { font-size: 1rem; color: var(--text2); line-height: 1.6; margin-bottom: 2rem; }
+
+    /* SALARY INPUT */
+    .salary-card { background: var(--bg2); border: 1px solid var(--border); border-radius: 16px; padding: 1.5rem 1.75rem; margin-bottom: 2rem; }
+    .salary-label { font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text3); margin-bottom: 0.6rem; }
+    .salary-row { display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap; }
+    .salary-prefix { font-size: 1.6rem; font-weight: 900; color: var(--green); }
+    .salary-input { flex: 1; min-width: 160px; background: var(--bg3); border: 1px solid var(--border); border-radius: 10px; padding: 0.7rem 1rem; font-size: 1.4rem; font-weight: 800; color: var(--text); font-family: inherit; outline: none; transition: border-color .2s; }
+    .salary-input:focus { border-color: var(--green); }
+    .salary-sub { font-size: 0.78rem; color: var(--text3); margin-top: 0.75rem; }
+    .hourly-rate { display: inline-block; background: rgba(34,197,94,0.1); border: 1px solid rgba(34,197,94,0.25); border-radius: 6px; padding: 0.2rem 0.6rem; font-size: 0.82rem; font-weight: 700; color: var(--green); margin-left: 0.3rem; }
+
+    /* PURCHASE ITEMS */
+    .section-title { font-size: 0.72rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text3); margin-bottom: 1rem; }
+    .items-grid { display: flex; flex-direction: column; gap: 0.6rem; margin-bottom: 2rem; }
+    .item-row { background: var(--bg2); border: 1px solid var(--border); border-radius: 12px; padding: 1rem 1.25rem; display: flex; align-items: center; gap: 1rem; transition: border-color .2s; }
+    .item-row:hover { border-color: rgba(34,197,94,0.3); }
+    .item-emoji { font-size: 1.4rem; flex-shrink: 0; width: 36px; text-align: center; }
+    .item-info { flex: 1; min-width: 0; }
+    .item-name { font-size: 0.9rem; font-weight: 700; color: var(--text); }
+    .item-price { font-size: 0.78rem; color: var(--text3); margin-top: 0.1rem; }
+    .item-hours { text-align: right; flex-shrink: 0; }
+    .item-hours .hrs { font-size: 1.15rem; font-weight: 900; line-height: 1; transition: color .3s; }
+    .item-hours .hrs-label { font-size: 0.68rem; color: var(--text3); margin-top: 0.1rem; }
+    .item-custom-price { width: 90px; background: var(--bg3); border: 1px solid var(--border); border-radius: 7px; padding: 0.35rem 0.5rem; font-size: 0.85rem; font-weight: 700; color: var(--text); font-family: inherit; outline: none; text-align: right; transition: border-color .2s; }
+    .item-custom-price:focus { border-color: var(--green); }
+
+    /* COLOR CODING */
+    .cost-low    { color: var(--green); }
+    .cost-medium { color: var(--yellow); }
+    .cost-high   { color: var(--orange); }
+    .cost-brutal { color: var(--red); }
+
+    /* CUSTOM ITEM */
+    .add-item-row { display: flex; gap: 0.6rem; margin-bottom: 2rem; flex-wrap: wrap; }
+    .add-item-row input { flex: 1; min-width: 120px; background: var(--bg2); border: 1px solid var(--border); border-radius: 10px; padding: 0.6rem 0.9rem; font-size: 0.88rem; color: var(--text); font-family: inherit; outline: none; transition: border-color .2s; }
+    .add-item-row input:focus { border-color: var(--green); }
+    .add-item-row input::placeholder { color: var(--text3); }
+    .add-btn { background: var(--green); color: #0D0F0E; font-weight: 800; font-size: 0.85rem; padding: 0.6rem 1.2rem; border: none; border-radius: 10px; cursor: pointer; font-family: inherit; white-space: nowrap; transition: background .15s; }
+    .add-btn:hover { background: #28d966; }
+
+    /* LIFE TOTAL BANNER */
+    .life-total { background: linear-gradient(135deg, #0a1f0a, #112211); border: 1px solid rgba(34,197,94,0.4); border-radius: 16px; padding: 1.6rem 1.75rem; margin-bottom: 2rem; text-align: center; }
+    .life-total .lt-label { font-size: 0.72rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.1em; color: var(--green); margin-bottom: 0.4rem; }
+    .life-total .lt-number { font-size: clamp(2.2rem, 8vw, 3.5rem); font-weight: 900; color: var(--text); letter-spacing: -0.04em; line-height: 1; margin-bottom: 0.3rem; }
+    .life-total .lt-sub { font-size: 0.85rem; color: var(--text2); }
+    .life-total .lt-days { font-size: 0.8rem; color: var(--text3); margin-top: 0.4rem; }
+
+    /* WAKE UP CALL */
+    .wakeup { background: var(--bg2); border: 1px solid var(--border); border-radius: 14px; padding: 1.4rem 1.6rem; margin-bottom: 2rem; }
+    .wakeup h3 { font-size: 1rem; font-weight: 800; margin-bottom: 1rem; }
+    .wakeup-stat { display: flex; justify-content: space-between; align-items: center; padding: 0.55rem 0; border-bottom: 1px solid var(--border); font-size: 0.88rem; }
+    .wakeup-stat:last-child { border-bottom: none; }
+    .wakeup-stat .ws-label { color: var(--text2); }
+    .wakeup-stat .ws-val { font-weight: 800; color: var(--text); }
+
+    /* SHARE */
+    .share-section { background: var(--bg2); border: 1px solid var(--border); border-radius: 14px; padding: 1.4rem 1.6rem; margin-bottom: 2rem; text-align: center; }
+    .share-section p { font-size: 0.85rem; color: var(--text2); margin-bottom: 1rem; }
+    .share-text-box { background: var(--bg3); border: 1px solid var(--border); border-radius: 8px; padding: 0.9rem 1rem; font-size: 0.82rem; color: var(--text2); line-height: 1.6; text-align: left; margin-bottom: 1rem; font-family: inherit; width: 100%; resize: none; outline: none; }
+    .share-btns { display: flex; gap: 0.6rem; flex-wrap: wrap; justify-content: center; }
+    .share-btn { flex: 1; min-width: 120px; padding: 0.65rem 1rem; border-radius: 9px; border: 1px solid var(--border); background: var(--bg3); font-size: 0.82rem; font-weight: 700; color: var(--text2); cursor: pointer; font-family: inherit; transition: border-color .15s, color .15s; }
+    .share-btn:hover { border-color: var(--green); color: var(--green); }
+    .share-btn.copied { border-color: var(--green); color: var(--green); }
+
+    /* CTA */
+    .cta-section { background: linear-gradient(135deg, #0a1f0a, #141816); border: 1px solid rgba(34,197,94,0.4); border-radius: 16px; padding: 1.75rem 2rem; text-align: center; }
+    .cta-section h3 { font-size: 1.15rem; font-weight: 800; margin-bottom: 0.5rem; }
+    .cta-section p { font-size: 0.85rem; color: var(--text2); margin-bottom: 1.25rem; line-height: 1.6; }
+    .cta-btn { display: inline-block; background: var(--green); color: #0D0F0E; font-weight: 900; font-size: 0.95rem; padding: 0.85rem 2.2rem; border-radius: 10px; transition: background .15s, transform .1s; }
+    .cta-btn:hover { background: #28d966; transform: translateY(-1px); }
+    .cta-fine { font-size: 0.7rem; color: var(--text3); margin-top: 0.75rem; }
+
+    /* Footer */
+    footer { text-align: center; padding: 2rem; border-top: 1px solid var(--border); margin-top: 2rem; }
+    footer p { font-size: 0.75rem; color: var(--text3); }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="index.html">Top<span>MoneyApps</span></a>
+  <a class="nav-back" href="index.html">← Back to Home</a>
+</nav>
+
+<div class="wrap">
+
+  <div class="page-tag">⏰ Life Currency Calculator</div>
+  <h1>How many hours of your life did <em>that</em> cost?</h1>
+  <p class="subtitle">You don't pay for things with money. You pay with the hours of your life you traded to earn that money. Enter your salary — then see the real price of everything.</p>
+
+  <!-- SALARY -->
+  <div class="salary-card">
+    <div class="salary-label">Your annual salary</div>
+    <div class="salary-row">
+      <span class="salary-prefix">$</span>
+      <input type="number" class="salary-input" id="salary" placeholder="65000" value="65000" min="1000" max="10000000"/>
+    </div>
+    <div class="salary-sub">Your hourly rate after tax: <span class="hourly-rate" id="hourly-display">$23.08/hr</span></div>
+  </div>
+
+  <!-- PRESET ITEMS -->
+  <div class="section-title">Everyday purchases — in hours of your life</div>
+  <div class="items-grid" id="items-grid"></div>
+
+  <!-- ADD CUSTOM -->
+  <div class="section-title">Add your own purchase</div>
+  <div class="add-item-row">
+    <input type="text" id="custom-name" placeholder="e.g. Nike sneakers"/>
+    <input type="number" id="custom-price" placeholder="$150" min="0.01"/>
+    <button class="add-btn" onclick="addCustomItem()">+ Add</button>
+  </div>
+
+  <!-- TOTAL -->
+  <div class="life-total" id="life-total" style="display:none;">
+    <div class="lt-label">Total hours of your life spent on these purchases</div>
+    <div class="lt-number" id="lt-number">—</div>
+    <div class="lt-sub" id="lt-sub"></div>
+    <div class="lt-days" id="lt-days"></div>
+  </div>
+
+  <!-- WAKE UP CALL -->
+  <div class="wakeup" id="wakeup-section">
+    <h3>😳 The wake-up call</h3>
+    <div class="wakeup-stat"><span class="ws-label">Hours in a year you work</span><span class="ws-val" id="wk-hours-year">—</span></div>
+    <div class="wakeup-stat"><span class="ws-label">Hours asleep per year (8hrs/night)</span><span class="ws-val">2,920</span></div>
+    <div class="wakeup-stat"><span class="ws-label">Your free hours per year</span><span class="ws-val" id="wk-free-hours">—</span></div>
+    <div class="wakeup-stat"><span class="ws-label">% of free time spent earning these purchases</span><span class="ws-val" id="wk-pct">—</span></div>
+    <div class="wakeup-stat"><span class="ws-label">Years of life you'll spend at work (age 22–65)</span><span class="ws-val" id="wk-life-years">—</span></div>
+    <div class="wakeup-stat"><span class="ws-label">Your hourly rate (after tax)</span><span class="ws-val" id="wk-hourly">—</span></div>
+  </div>
+
+  <!-- SHARE -->
+  <div class="share-section" id="share-section" style="display:none;">
+    <p>Send this to a friend and watch them spiral 😭</p>
+    <textarea class="share-text-box" id="share-text" rows="4" readonly></textarea>
+    <div class="share-btns">
+      <button class="share-btn" onclick="copyResult()">📋 Copy Result</button>
+      <button class="share-btn" onclick="shareTwitter()">𝕏 Share on X</button>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div class="cta-section">
+    <h3>Stop trading hours for nothing — make your money work back</h3>
+    <p>Acorns automatically invests your spare change every time you spend. The hours you already traded? Put them to work.</p>
+    <a href="https://acorns.sjv.io/c/7140280/1544868/5136" rel="sponsored noopener" target="_blank" class="cta-btn" id="acorns-cta">Get $20 Free with Acorns →</a>
+    <div class="cta-fine">Paid partnership. New accounts only. $20 bonus subject to terms.</div>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2026 TopMoneyApps · <a href="index.html" style="color:var(--green);">Home</a></p>
+</footer>
+
+<script>
+// ── DATA ──────────────────────────────────────────────────────────────────
+const PRESET_ITEMS = [
+  { emoji: '☕', name: 'Daily Starbucks coffee',       price: 6.50,   freq: 'per visit' },
+  { emoji: '🍕', name: 'Takeout meal',                  price: 18.00,  freq: 'per order' },
+  { emoji: '📱', name: 'iPhone 15',                     price: 999,    freq: 'one-time'  },
+  { emoji: '👟', name: 'Nike Air Max sneakers',         price: 150,    freq: 'one-time'  },
+  { emoji: '🎮', name: 'PS5 + one game',                price: 560,    freq: 'one-time'  },
+  { emoji: '🍺', name: 'Night out (drinks)',            price: 80,     freq: 'per night' },
+  { emoji: '🎬', name: 'Netflix + streaming bills',     price: 45,     freq: 'per month' },
+  { emoji: '🚗', name: 'Car payment',                   price: 550,    freq: 'per month' },
+  { emoji: '🏠', name: 'Average US rent',               price: 1500,   freq: 'per month' },
+  { emoji: '✈️', name: 'Vacation (flights + hotel)',    price: 2400,   freq: 'one-time'  },
+  { emoji: '👗', name: 'New outfit (clothes haul)',     price: 250,    freq: 'one-time'  },
+  { emoji: '💊', name: 'Monthly gym membership',        price: 55,     freq: 'per month' },
+];
+
+let customItems = [];
+
+// ── HOURLY RATE ───────────────────────────────────────────────────────────
+function getHourlyRate(salary) {
+  const afterTax = salary * 0.72; // ~28% effective tax estimate
+  return afterTax / 2080; // 52 weeks × 40 hrs
+}
+
+function formatHours(hours) {
+  if (hours < 0.017) return `< 1 min`;
+  if (hours < 1) {
+    const mins = Math.round(hours * 60);
+    return `${mins} min${mins !== 1 ? 's' : ''}`;
+  }
+  if (hours < 24) {
+    const h = Math.floor(hours);
+    const m = Math.round((hours - h) * 60);
+    if (m === 0) return `${h} hr${h !== 1 ? 's' : ''}`;
+    return `${h} hr${h !== 1 ? 's' : ''} ${m} min`;
+  }
+  const days = (hours / 24).toFixed(1);
+  return `${days} days`;
+}
+
+function colorClass(hours) {
+  if (hours < 2)    return 'cost-low';
+  if (hours < 10)   return 'cost-medium';
+  if (hours < 40)   return 'cost-high';
+  return 'cost-brutal';
+}
+
+// ── RENDER ITEMS ──────────────────────────────────────────────────────────
+function renderItems() {
+  const salary = parseFloat(document.getElementById('salary').value) || 65000;
+  const hourly = getHourlyRate(salary);
+  document.getElementById('hourly-display').textContent = `$${hourly.toFixed(2)}/hr`;
+
+  const grid = document.getElementById('items-grid');
+  grid.innerHTML = '';
+
+  const allItems = [
+    ...PRESET_ITEMS.map((item, i) => ({ ...item, id: `preset-${i}`, editable: true })),
+    ...customItems.map((item, i) => ({ ...item, id: `custom-${i}`, editable: false })),
+  ];
+
+  let totalHours = 0;
+
+  allItems.forEach(item => {
+    const hours = item.price / hourly;
+    totalHours += hours;
+    const cls = colorClass(hours);
+
+    const row = document.createElement('div');
+    row.className = 'item-row';
+    row.innerHTML = `
+      <div class="item-emoji">${item.emoji}</div>
+      <div class="item-info">
+        <div class="item-name">${item.name}</div>
+        <div class="item-price">${item.freq} · $<input
+          type="number"
+          class="item-custom-price"
+          value="${item.price}"
+          min="0.01"
+          step="0.01"
+          data-id="${item.id}"
+          onchange="updatePrice('${item.id}', this.value)"
+          onclick="this.select()"
+        /></div>
+      </div>
+      <div class="item-hours">
+        <div class="hrs ${cls}" id="hrs-${item.id}">${formatHours(hours)}</div>
+        <div class="hrs-label">of your life</div>
+      </div>`;
+    grid.appendChild(row);
+  });
+
+  updateTotal(totalHours, hourly, salary);
+}
+
+function updatePrice(id, val) {
+  const price = parseFloat(val) || 0;
+  const salary = parseFloat(document.getElementById('salary').value) || 65000;
+  const hourly = getHourlyRate(salary);
+  const hours = price / hourly;
+
+  if (id.startsWith('preset-')) {
+    const idx = parseInt(id.replace('preset-', ''));
+    PRESET_ITEMS[idx].price = price;
+  } else {
+    const idx = parseInt(id.replace('custom-', ''));
+    if (customItems[idx]) customItems[idx].price = price;
+  }
+
+  const hrsEl = document.getElementById(`hrs-${id}`);
+  if (hrsEl) {
+    hrsEl.textContent = formatHours(hours);
+    hrsEl.className = `hrs ${colorClass(hours)}`;
+  }
+
+  recalcTotal();
+}
+
+function recalcTotal() {
+  const salary = parseFloat(document.getElementById('salary').value) || 65000;
+  const hourly = getHourlyRate(salary);
+  let total = 0;
+  PRESET_ITEMS.forEach(item => { total += item.price / hourly; });
+  customItems.forEach(item => { total += item.price / hourly; });
+  updateTotal(total, hourly, salary);
+}
+
+function updateTotal(totalHours, hourly, salary) {
+  const totalEl = document.getElementById('life-total');
+  const numEl   = document.getElementById('lt-number');
+  const subEl   = document.getElementById('lt-sub');
+  const daysEl  = document.getElementById('lt-days');
+
+  totalEl.style.display = 'block';
+
+  const days  = totalHours / 24;
+  const weeks = totalHours / 40;
+
+  numEl.textContent = formatHours(totalHours);
+  subEl.textContent = `That's ${days.toFixed(1)} full days or ${weeks.toFixed(1)} full work weeks — for just these purchases`;
+  daysEl.textContent = `If you invested that money instead, at 7%/year over 10 years: $${Math.round(PRESET_ITEMS.reduce((s,i)=>s+i.price,0)*1.967).toLocaleString()}`;
+
+  // Wake up call
+  const workHoursYear = 2080;
+  const sleepHoursYear = 2920;
+  const totalHoursYear = 8760;
+  const freeHours = totalHoursYear - workHoursYear - sleepHoursYear;
+  const pct = ((totalHours / freeHours) * 100).toFixed(1);
+  const lifeYears = ((43 * 2080) / 8760).toFixed(1);
+
+  document.getElementById('wk-hours-year').textContent = workHoursYear.toLocaleString();
+  document.getElementById('wk-free-hours').textContent = freeHours.toLocaleString();
+  document.getElementById('wk-pct').textContent = `${pct}%`;
+  document.getElementById('wk-life-years').textContent = `${lifeYears} years`;
+  document.getElementById('wk-hourly').textContent = `$${hourly.toFixed(2)}/hr`;
+
+  // Share text
+  const totalCost = PRESET_ITEMS.reduce((s,i) => s+i.price, 0) + customItems.reduce((s,i) => s+i.price, 0);
+  document.getElementById('share-section').style.display = 'block';
+  document.getElementById('share-text').value =
+    `I just found out these everyday purchases cost me ${formatHours(totalHours)} of my life 😳\n\n` +
+    `At my salary, my hourly rate after tax is $${hourly.toFixed(2)}/hr — and I'm spending $${totalCost.toLocaleString()} on things that add up to ${formatHours(totalHours)} of my life.\n\n` +
+    `Find out your real cost 👉 topmoneyapps.com/hours-of-life`;
+}
+
+function addCustomItem() {
+  const nameEl  = document.getElementById('custom-name');
+  const priceEl = document.getElementById('custom-price');
+  const name  = nameEl.value.trim();
+  const price = parseFloat(priceEl.value);
+  if (!name || !price || price <= 0) return;
+  customItems.push({ emoji: '🏷️', name, price, freq: 'custom' });
+  nameEl.value  = '';
+  priceEl.value = '';
+  renderItems();
+}
+
+function copyResult() {
+  const text = document.getElementById('share-text').value;
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = document.querySelector('.share-btn');
+    btn.textContent = '✅ Copied!';
+    btn.classList.add('copied');
+    setTimeout(() => { btn.textContent = '📋 Copy Result'; btn.classList.remove('copied'); }, 2000);
+  });
+}
+
+function shareTwitter() {
+  const salary = parseFloat(document.getElementById('salary').value) || 65000;
+  const hourly = getHourlyRate(salary);
+  let total = 0;
+  PRESET_ITEMS.forEach(i => total += i.price / hourly);
+  customItems.forEach(i => total += i.price / hourly);
+  const text = encodeURIComponent(
+    `I just found out everyday purchases cost me ${formatHours(total)} of my life 😳\n\nFind out yours 👉 topmoneyapps.com/hours-of-life`
+  );
+  window.open(`https://twitter.com/intent/tweet?text=${text}`, '_blank');
+}
+
+// ── INIT ──────────────────────────────────────────────────────────────────
+document.getElementById('salary').addEventListener('input', renderItems);
+renderItems();
+
+// Acorns CTA tracking
+document.getElementById('acorns-cta').addEventListener('click', function() {
+  if (typeof fbq === 'function') {
+    fbq('track', 'Lead', { content_name: 'Hours of Life - Acorns CTA', content_category: 'Life Calculator' });
+  }
+});
+</script>
+</body>
+</html>
