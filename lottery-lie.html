@@ -400,7 +400,7 @@ let revealed = false;
 let scratchCount = 0;
 let scratchIntentional = false; // true once finger moves 20px+ from origin
 let touchOriginX = 0, touchOriginY = 0;
-const SCRATCH_THRESHOLD = 50;
+const SCRATCH_THRESHOLD = 250;
 
 function initCanvas() {
   const w = section.offsetWidth  || section.getBoundingClientRect().width  || 360;
