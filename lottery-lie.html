@@ -237,7 +237,10 @@
     </div>
   </div>
 
-  <div class="scratch-hint">👆 <span>Scratch to reveal</span> your numbers — or <button onclick="autoReveal()" style="background:none;border:none;color:var(--yellow);font-weight:800;font-size:0.78rem;cursor:pointer;padding:0;font-family:inherit;text-decoration:underline;">tap here to reveal instantly</button></div>
+  <div class="scratch-hint">👆 <span>Scratch to reveal</span> your numbers</div>
+  <div style="text-align:center; margin-bottom:1.5rem;">
+    <button id="reveal-btn" onclick="autoReveal()" style="background:var(--yellow);color:#0D0F0E;font-weight:900;font-size:0.9rem;padding:0.65rem 1.8rem;border-radius:10px;border:none;cursor:pointer;font-family:inherit;letter-spacing:-0.01em;">Reveal My Numbers →</button>
+  </div>
 
   <!-- RESULT -->
   <div class="result-reveal" id="result-reveal">
@@ -396,10 +399,12 @@ let isScratching = false;
 let revealed = false;
 
 function initCanvas() {
-  canvas.width  = section.offsetWidth;
-  canvas.height = section.offsetHeight;
-  canvas.style.width  = section.offsetWidth + 'px';
-  canvas.style.height = section.offsetHeight + 'px';
+  const w = section.offsetWidth  || section.getBoundingClientRect().width  || 360;
+  const h = section.scrollHeight || section.getBoundingClientRect().height || 280;
+  canvas.width  = w;
+  canvas.height = h;
+  canvas.style.width  = w + 'px';
+  canvas.style.height = h + 'px';
 
   const g = ctx.createLinearGradient(0,0,canvas.width,canvas.height);
   g.addColorStop(0,   '#c9990a');
@@ -448,10 +453,12 @@ function scratchAt(x,y,r=28) {
 }
 
 function pctCleared() {
+  const total = canvas.width * canvas.height;
+  if (!total) return 0;
   const d = ctx.getImageData(0,0,canvas.width,canvas.height).data;
   let c=0;
   for (let i=3;i<d.length;i+=4) if(d[i]===0) c++;
-  return c/(canvas.width*canvas.height);
+  return c / total;
 }
 
 canvas.addEventListener('mousedown',  e=>{ isScratching=true; scratchAt(...Object.values(getPos(e))); checkReveal(); });
@@ -463,13 +470,16 @@ canvas.addEventListener('touchmove',  e=>{ e.preventDefault(); if(!isScratching)
 canvas.addEventListener('touchend',   ()=>{ isScratching=false; checkReveal(); });
 
 function checkReveal() {
-  if (revealed || pctCleared() < 0.30) return;
+  if (revealed || pctCleared() < 0.20) return;
   autoReveal();
 }
 
 function autoReveal() {
   if (revealed) return;
   revealed = true;
+  // Hide the reveal button
+  const btn = document.getElementById('reveal-btn');
+  if (btn) btn.style.display = 'none';
   // Clear the canvas coating immediately
   ctx.globalCompositeOperation = 'destination-out';
   ctx.fillRect(0,0,canvas.width,canvas.height);
@@ -612,7 +622,7 @@ document.getElementById('acorns-cta-top').addEventListener('click',()=>{
   if(typeof fbq==='function') fbq('track','Lead',{content_name:'Lottery Lie - Acorns CTA',content_category:'Game'});
 });
 
-window.addEventListener('load', initCanvas);
+window.addEventListener('load', ()=>{ requestAnimationFrame(()=>{ requestAnimationFrame(initCanvas); }); });
 window.addEventListener('resize', ()=>{ if(!revealed) initCanvas(); });
 </script>
 </body>
