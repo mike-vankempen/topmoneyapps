@@ -398,7 +398,9 @@ const section = document.getElementById('scratch-section');
 let isScratching = false;
 let revealed = false;
 let scratchCount = 0;
-const SCRATCH_THRESHOLD = 50; // auto-reveal after this many move events
+let scratchIntentional = false; // true once finger moves 20px+ from origin
+let touchOriginX = 0, touchOriginY = 0;
+const SCRATCH_THRESHOLD = 50;
 
 function initCanvas() {
   const w = section.offsetWidth  || section.getBoundingClientRect().width  || 360;
@@ -460,13 +462,14 @@ function countScratch() {
   if (scratchCount >= SCRATCH_THRESHOLD) autoReveal();
 }
 
-canvas.addEventListener('mousedown',  e=>{ isScratching=true; scratchAt(...Object.values(getPos(e))); });
-canvas.addEventListener('mousemove',  e=>{ if(!isScratching) return; scratchAt(...Object.values(getPos(e))); countScratch(); });
-canvas.addEventListener('mouseup',    ()=>{ isScratching=false; });
-canvas.addEventListener('mouseleave', ()=>{ isScratching=false; });
-canvas.addEventListener('touchstart', e=>{ e.preventDefault(); isScratching=true; scratchAt(...Object.values(getPos(e))); },{passive:false});
-canvas.addEventListener('touchmove',  e=>{ e.preventDefault(); if(!isScratching) return; scratchAt(...Object.values(getPos(e))); countScratch(); },{passive:false});
-canvas.addEventListener('touchend',   ()=>{ isScratching=false; });
+canvas.addEventListener('mousedown',  e=>{ isScratching=true; scratchIntentional=false; const p=getPos(e); touchOriginX=p.x; touchOriginY=p.y; scratchAt(p.x,p.y); });
+canvas.addEventListener('mousemove',  e=>{ if(!isScratching) return; const p=getPos(e); scratchAt(p.x,p.y); const d=Math.hypot(p.x-touchOriginX,p.y-touchOriginY); if(d>20) scratchIntentional=true; if(scratchIntentional) countScratch(); });
+canvas.addEventListener('mouseup',    ()=>{ isScratching=false; scratchIntentional=false; });
+canvas.addEventListener('mouseleave', ()=>{ isScratching=false; scratchIntentional=false; });
+canvas.addEventListener('touchstart', e=>{ e.preventDefault(); isScratching=true; scratchIntentional=false; const p=getPos(e); touchOriginX=p.x; touchOriginY=p.y; scratchAt(p.x,p.y); },{passive:false});
+canvas.addEventListener('touchmove',  e=>{ e.preventDefault(); if(!isScratching) return; const p=getPos(e); scratchAt(p.x,p.y); const d=Math.hypot(p.x-touchOriginX,p.y-touchOriginY); if(d>20) scratchIntentional=true; if(scratchIntentional) countScratch(); },{passive:false});
+canvas.addEventListener('touchend',   ()=>{ isScratching=false; scratchIntentional=false; });
+canvas.addEventListener('touchcancel',()=>{ isScratching=false; scratchIntentional=false; });
 
 function autoReveal() {
   if (revealed) return;
