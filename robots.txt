@@ -1,5 +1,5 @@
 # robots.txt — TopMoneyApps.com
-# Updated: March 2026
+# Updated: April 2026
 
 # Standard crawlers
 User-agent: *
@@ -49,6 +49,24 @@ User-agent: cohere-ai
 Allow: /
 
 User-agent: Google-Extended
+Allow: /
+
+User-agent: Gemini-Extended
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: AI2Bot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: Diffbot
 Allow: /
 
 # Sitemap
