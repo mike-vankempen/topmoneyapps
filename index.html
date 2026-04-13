@@ -804,6 +804,10 @@
       gap: 1.5rem;
     }
     @media (max-width: 640px) { .guides-wrap { grid-template-columns: 1fr; } }
+    @media (max-width: 640px) {
+      [style*="grid-template-columns: 1fr 1fr"] { grid-template-columns: 1fr !important; }
+      [style*="grid-column:1/-1"] { grid-column: 1 !important; }
+    }
     .guides-col { display: flex; flex-direction: column; gap: 1.2rem; }
     .guide-group {
       background: var(--bg2); border: 1px solid var(--border);
@@ -1048,85 +1052,61 @@
 
 </section>
 
-<!-- LOTTERY LIE BANNER -->
-<div style="max-width: 900px; margin: 0 auto 1.5rem; padding: 0 1.25rem;">
-  <a href="/lottery-lie.html" style="display:block;text-decoration:none;border-radius:20px;overflow:hidden;position:relative;background:linear-gradient(135deg,#110800 0%,#1a1000 50%,#110800 100%);border:1px solid rgba(139,105,20,0.45);transition:border-color 0.2s,transform 0.15s;" onmouseover="this.style.borderColor='rgba(250,204,21,0.7)';this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='rgba(139,105,20,0.45)';this.style.transform='translateY(0)'">
+<!-- TOOLS & GAMES -->
+<div class="section-header" style="margin-top: 2.5rem;">
+  <h2>🎮 Free Tools &amp; Games</h2>
+  <div class="line"></div>
+</div>
+
+<div style="max-width: 960px; margin: 0 auto 2.5rem; padding: 0 2rem; display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+
+<!-- Lottery Lie -->
+<a href="/lottery-lie.html" style="display:block;text-decoration:none;border-radius:20px;overflow:hidden;position:relative;background:linear-gradient(135deg,#110800 0%,#1a1000 50%,#110800 100%);border:1px solid rgba(139,105,20,0.45);transition:border-color 0.2s,transform 0.15s;" onmouseover="this.style.borderColor='rgba(250,204,21,0.7)';this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='rgba(139,105,20,0.45)';this.style.transform='translateY(0)'">
     <div style="position:absolute;top:-50px;right:-50px;width:260px;height:260px;background:radial-gradient(circle,rgba(250,204,21,0.07) 0%,transparent 70%);pointer-events:none;"></div>
-    <div style="padding:1.75rem 2rem;display:flex;align-items:center;justify-content:space-between;gap:1.5rem;flex-wrap:wrap;">
-      <div style="flex:1;min-width:220px;">
+    <div style="padding:1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap;">
+      <div style="flex:1;min-width:160px;">
         <div style="font-size:0.68rem;font-weight:800;text-transform:uppercase;letter-spacing:0.12em;color:#facc15;margin-bottom:0.5rem;">🎟️ The Lottery Lie</div>
-        <div style="font-size:clamp(1.2rem,3.5vw,1.6rem);font-weight:900;color:#F0F4F1;line-height:1.2;letter-spacing:-0.02em;margin-bottom:0.45rem;">Scratch a ticket.<br/><span style="color:#facc15;">See what you actually lost.</span></div>
-        <div style="font-size:0.88rem;color:#6b7f77;line-height:1.5;">$5/week in lottery tickets vs. $5/week invested. The difference will ruin you.</div>
+        <div style="font-size:clamp(1.1rem,3vw,1.4rem);font-weight:900;color:#F0F4F1;line-height:1.2;letter-spacing:-0.02em;margin-bottom:0.4rem;">Scratch a ticket.<br/><span style="color:#facc15;">See what you actually lost.</span></div>
+        <div style="font-size:0.82rem;color:#6b7f77;line-height:1.45;">$5/week in tickets vs. $5/week invested.</div>
       </div>
-      <div style="background:#facc15;color:#0D0F0E;font-weight:900;font-size:0.9rem;padding:0.65rem 1.4rem;border-radius:10px;white-space:nowrap;flex-shrink:0;">Scratch Now →</div>
+      <div style="background:#facc15;color:#0D0F0E;font-weight:900;font-size:0.88rem;padding:0.6rem 1.2rem;border-radius:10px;white-space:nowrap;flex-shrink:0;">Scratch Now →</div>
     </div>
   </a>
-</div>
 
-<!-- HOURS OF LIFE HERO BANNER -->
-<div style="max-width: 900px; margin: 0 auto 1.5rem; padding: 0 1.25rem;">
-  <a href="/hours-of-life.html" style="display:block;text-decoration:none;border-radius:20px;overflow:hidden;position:relative;background:linear-gradient(135deg,#0f0a00 0%,#1a1200 50%,#0f0a00 100%);border:1px solid rgba(250,204,21,0.35);transition:border-color 0.2s,transform 0.15s;" onmouseover="this.style.borderColor='rgba(250,204,21,0.7)';this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='rgba(250,204,21,0.35)';this.style.transform='translateY(0)'">
-    <div style="position:absolute;top:-60px;right:-60px;width:280px;height:280px;background:radial-gradient(circle,rgba(250,204,21,0.08) 0%,transparent 70%);pointer-events:none;"></div>
-    <div style="padding:1.75rem 2rem;display:flex;align-items:center;justify-content:space-between;gap:1.5rem;flex-wrap:wrap;">
-      <div style="flex:1;min-width:220px;">
-        <div style="font-size:0.68rem;font-weight:800;text-transform:uppercase;letter-spacing:0.12em;color:#facc15;margin-bottom:0.5rem;">⏰ Life Currency Calculator</div>
-        <div style="font-size:clamp(1.2rem,3.5vw,1.6rem);font-weight:900;color:#F0F4F1;line-height:1.2;letter-spacing:-0.02em;margin-bottom:0.45rem;">How many hours of your life<br/><span style="color:#facc15;">did that cost?</span></div>
-        <div style="font-size:0.88rem;color:#6b7f77;line-height:1.5;">Enter your salary. See the true price of everything you buy — not in dollars, in hours of your life.</div>
-      </div>
-      <div style="display:flex;flex-direction:column;align-items:flex-end;gap:0.5rem;flex-shrink:0;">
-        <div style="display:flex;flex-direction:column;gap:0.3rem;text-align:right;">
-          <span style="font-size:0.78rem;color:#9eb3a4;">☕ Daily coffee = <strong style="color:#facc15;">17 mins</strong></span>
-          <span style="font-size:0.78rem;color:#9eb3a4;">📱 New iPhone = <strong style="color:#f97316;">43 hrs</strong></span>
-          <span style="font-size:0.78rem;color:#9eb3a4;">🏠 Monthly rent = <strong style="color:#ef4444;">65 hrs</strong></span>
-        </div>
-        <div style="background:#facc15;color:#0D0F0E;font-weight:900;font-size:0.9rem;padding:0.65rem 1.4rem;border-radius:10px;white-space:nowrap;margin-top:0.25rem;">Calculate Yours →</div>
-      </div>
+<!-- Millionaire or Broke -->
+<a href="/millionaire-or-broke.html" style="display:block;text-decoration:none;border-radius:20px;overflow:hidden;position:relative;background:linear-gradient(135deg,#0a1a0a 0%,#0f200f 50%,#0a1a0a 100%);border:1px solid rgba(34,197,94,0.45);transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(34,197,94,0.8)'" onmouseout="this.style.borderColor='rgba(34,197,94,0.45)'">
+  <div style="position:absolute;top:-60px;right:-60px;width:300px;height:300px;background:radial-gradient(circle,rgba(34,197,94,0.12) 0%,transparent 70%);pointer-events:none;"></div>
+  <div style="padding:1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap;">
+    <div style="flex:1;min-width:160px;">
+      <div style="font-size:0.68rem;font-weight:800;text-transform:uppercase;letter-spacing:0.12em;color:#22C55E;margin-bottom:0.5rem;">🎮 Free 2-Minute Game</div>
+      <div style="font-size:clamp(1.1rem,3vw,1.4rem);font-weight:900;color:#F0F4F1;line-height:1.2;letter-spacing:-0.02em;margin-bottom:0.4rem;">Millionaire or Broke<br/><span style="color:#22C55E;">by 65?</span></div>
+      <div style="font-size:0.82rem;color:#6b7f77;line-height:1.45;">8 financial decisions. One life outcome.</div>
     </div>
-  </a>
-</div>
+    <div style="background:#22C55E;color:#0D0F0E;font-weight:900;font-size:0.88rem;padding:0.6rem 1.2rem;border-radius:10px;white-space:nowrap;flex-shrink:0;">Play Free →</div>
+  </div>
+</a>
 
-<!-- MILLIONAIRE OR BROKE HERO BANNER -->
-<div style="max-width: 900px; margin: 0 auto 2rem; padding: 0 1.25rem;">
-  <a href="/millionaire-or-broke.html" style="display: block; text-decoration: none; border-radius: 20px; overflow: hidden; position: relative; background: linear-gradient(135deg, #0a1a0a 0%, #0f200f 50%, #0a1a0a 100%); border: 1px solid rgba(34,197,94,0.45);" onmouseover="this.style.borderColor='rgba(34,197,94,0.8)'" onmouseout="this.style.borderColor='rgba(34,197,94,0.45)'">
-
-    <!-- Glow orb -->
-    <div style="position:absolute;top:-60px;right:-60px;width:300px;height:300px;background:radial-gradient(circle,rgba(34,197,94,0.12) 0%,transparent 70%);pointer-events:none;"></div>
-
-    <div style="padding: 2rem 2rem; display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap;">
-
-      <!-- Left: text -->
-      <div style="flex: 1; min-width: 220px;">
-        <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.6rem;">
-          <span style="font-size: 0.68rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.12em; color: #22C55E;">🎮 Free 2-Minute Game</span>
-        </div>
-        <div style="font-size: clamp(1.3rem, 4vw, 1.75rem); font-weight: 900; color: #F0F4F1; line-height: 1.15; letter-spacing: -0.02em; margin-bottom: 0.5rem;">
-          Millionaire or Broke<br/><span style="color:#22C55E;">by 65?</span>
-        </div>
-        <div style="font-size: 0.9rem; color: #6b7f77; line-height: 1.5;">
-          8 financial decisions. One life outcome.<br/>Find out where your money habits lead.
-        </div>
-      </div>
-
-      <!-- Right: outcome chips + CTA -->
-      <div style="display: flex; flex-direction: column; align-items: flex-end; gap: 0.75rem; flex-shrink: 0;">
-        <div style="display: flex; flex-direction: column; gap: 0.35rem;">
-          <div style="display:flex;gap:0.4rem;flex-wrap:wrap;justify-content:flex-end;">
-            <span style="font-size:0.75rem;font-weight:700;padding:0.25rem 0.65rem;border-radius:20px;background:rgba(34,197,94,0.12);color:#22C55E;border:1px solid rgba(34,197,94,0.3);">🏆 Millionaire</span>
-            <span style="font-size:0.75rem;font-weight:700;padding:0.25rem 0.65rem;border-radius:20px;background:rgba(250,204,21,0.1);color:#facc15;border:1px solid rgba(250,204,21,0.25);">😌 Comfortable</span>
-          </div>
-          <div style="display:flex;gap:0.4rem;flex-wrap:wrap;justify-content:flex-end;">
-            <span style="font-size:0.75rem;font-weight:700;padding:0.25rem 0.65rem;border-radius:20px;background:rgba(249,115,22,0.1);color:#f97316;border:1px solid rgba(249,115,22,0.25);">😬 Struggling</span>
-            <span style="font-size:0.75rem;font-weight:700;padding:0.25rem 0.65rem;border-radius:20px;background:rgba(239,68,68,0.1);color:#ef4444;border:1px solid rgba(239,68,68,0.25);">😰 Broke by 65</span>
-          </div>
-        </div>
-        <div style="background:#22C55E;color:#0D0F0E;font-weight:900;font-size:0.92rem;padding:0.7rem 1.6rem;border-radius:10px;white-space:nowrap;transition:background 0.15s;">
-          Play Free →
-        </div>
-      </div>
-
+<!-- Hours of Life — spans both columns -->
+<a href="/hours-of-life.html" style="grid-column:1/-1;display:block;text-decoration:none;border-radius:20px;overflow:hidden;position:relative;background:linear-gradient(135deg,#0f0a00 0%,#1a1200 50%,#0f0a00 100%);border:1px solid rgba(250,204,21,0.35);transition:border-color 0.2s,transform 0.15s;" onmouseover="this.style.borderColor='rgba(250,204,21,0.7)';this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='rgba(250,204,21,0.35)';this.style.transform='translateY(0)'">
+  <div style="position:absolute;top:-60px;right:-60px;width:280px;height:280px;background:radial-gradient(circle,rgba(250,204,21,0.08) 0%,transparent 70%);pointer-events:none;"></div>
+  <div style="padding:1.5rem 2rem;display:flex;align-items:center;justify-content:space-between;gap:1.5rem;flex-wrap:wrap;">
+    <div style="flex:1;min-width:220px;">
+      <div style="font-size:0.68rem;font-weight:800;text-transform:uppercase;letter-spacing:0.12em;color:#facc15;margin-bottom:0.5rem;">⏰ Life Currency Calculator</div>
+      <div style="font-size:clamp(1.1rem,3vw,1.5rem);font-weight:900;color:#F0F4F1;line-height:1.2;letter-spacing:-0.02em;margin-bottom:0.4rem;">How many hours of your life <span style="color:#facc15;">did that cost?</span></div>
+      <div style="font-size:0.88rem;color:#6b7f77;line-height:1.5;">Enter your salary. See the true price of everything you buy — not in dollars, in hours of your life.</div>
     </div>
-  </a>
-</div>
+    <div style="display:flex;align-items:center;gap:1.5rem;flex-shrink:0;">
+      <div style="display:flex;flex-direction:column;gap:0.3rem;text-align:right;">
+        <span style="font-size:0.78rem;color:#9eb3a4;">☕ Daily coffee = <strong style="color:#facc15;">17 mins</strong></span>
+        <span style="font-size:0.78rem;color:#9eb3a4;">📱 New iPhone = <strong style="color:#f97316;">43 hrs</strong></span>
+        <span style="font-size:0.78rem;color:#9eb3a4;">🏠 Monthly rent = <strong style="color:#ef4444;">65 hrs</strong></span>
+      </div>
+      <div style="background:#facc15;color:#0D0F0E;font-weight:900;font-size:0.9rem;padding:0.65rem 1.4rem;border-radius:10px;white-space:nowrap;">Calculate Yours →</div>
+    </div>
+  </div>
+</a>
+
+</div><!-- end tools-grid -->
 
 <!-- QUIZ: Find Your Finance App -->
 <section class="quiz-section" id="quiz" aria-label="Finance app quiz">
@@ -1248,8 +1228,10 @@
 <div class="section-header" id="apps">
   <h2>📱 All Reviewed Finance Apps</h2>
   <div class="line"></div>
+  <button id="apps-toggle" onclick="(function(){var c=document.getElementById('apps-content');var b=document.getElementById('apps-toggle');var open=c.style.display!=='none';c.style.display=open?'none':'';b.textContent=open?'Browse all 34 apps ↓':'Hide ↑';})()" style="background:var(--bg3);border:1px solid var(--border);color:var(--text-2);font-size:0.8rem;font-weight:600;padding:0.4rem 1rem;border-radius:6px;cursor:pointer;white-space:nowrap;flex-shrink:0;transition:border-color .2s,color .2s;" onmouseover="this.style.borderColor='var(--green)';this.style.color='var(--green)'" onmouseout="this.style.borderColor='var(--border)';this.style.color='var(--text-2)'">Browse all 34 apps ↓</button>
 </div>
 
+<div id="apps-content" style="display:none;">
 <div class="cat-rows">
 
   <!-- ── INVESTING ── -->
@@ -1534,7 +1516,8 @@
     </div>
   </section>
 
-</div>
+</div><!-- end cat-rows -->
+</div><!-- end apps-content -->
 
 
 
@@ -1841,16 +1824,16 @@
       <a href="fidelity-vs-vanguard.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Fidelity vs. Vanguard vs. Schwab: Best Broker?</span><span class="guide-arrow">→</span></a>
       <a href="webull-vs-tastytrade.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Webull vs. tastytrade: Best App for Active Traders?</span><span class="guide-arrow">→</span></a>
       <a href="coinbase-vs-robinhood.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Coinbase vs. Robinhood: Best App to Buy Crypto?</span><span class="guide-arrow">→</span></a>
+      <a href="sofi-vs-chime-vs-ally.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">SoFi vs. Chime vs. Ally: Best Online Bank 2026?</span><span class="guide-arrow">→</span></a>
+      <a href="chime-vs-sofi.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Chime vs. SoFi: Best No-Fee Banking App?</span><span class="guide-arrow">→</span></a>
+      <a href="sofi-vs-robinhood.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">SoFi vs. Robinhood: Which Investing App Is Better?</span><span class="guide-arrow">→</span></a>
+      <a href="chase-sapphire-reserve-vs-amex-platinum.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Chase Sapphire Reserve vs. Amex Platinum 2026</span><span class="guide-arrow">→</span></a>
     </div>
 
     <div class="guide-group">
       <div class="guide-group-label">🏦 Banking &amp; Savings</div>
       <a href="best-high-yield-savings.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Best High-Yield Savings Accounts in 2026 — Up to 4.20% APY</span><span class="guide-arrow">→</span></a>
       <a href="best-cd-rates.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Best CD Rates in 2026 — And When a CD Beats an HYSA</span><span class="guide-arrow">→</span></a>
-      <a href="sofi-vs-chime-vs-ally.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">SoFi vs. Chime vs. Ally: Best Online Bank 2026?</span><span class="guide-arrow">→</span></a>
-      <a href="chime-vs-sofi.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Chime vs. SoFi: Best No-Fee Banking App?</span><span class="guide-arrow">→</span></a>
-      <a href="sofi-vs-robinhood.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">SoFi vs. Robinhood: Which Investing App Is Better?</span><span class="guide-arrow">→</span></a>
-      <a href="chase-sapphire-reserve-vs-amex-platinum.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Chase Sapphire Reserve vs. Amex Platinum 2026</span><span class="guide-arrow">→</span></a>
     </div>
 
     <div class="guide-group">
@@ -1874,7 +1857,6 @@
       <a href="debt-payoff-calculator.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Debt Payoff Calculator — Avalanche vs. Snowball</span><span class="guide-arrow">→</span></a>
       <a href="how-to-start-investing.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">How to Start Investing in 2026 — Step-by-Step Beginner Guide</span><span class="guide-arrow">→</span></a>
       <a href="best-finance-app-college-students.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Best Finance Apps for College Students in 2026</span><span class="guide-arrow">→</span></a>
-      <a href="best-investing-app-beginners.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Best Investing Apps for Beginners — Start with $1</span><span class="guide-arrow">→</span></a>
       <a href="best-budgeting-app-couples.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Best Budgeting Apps for Couples in 2026</span><span class="guide-arrow">→</span></a>
       <a href="best-app-self-employed.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Best Finance Apps for Self-Employed &amp; Freelancers</span><span class="guide-arrow">→</span></a>
       <a href="best-investing-app-roth-ira.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Best Apps for Roth IRA Investing in 2026</span><span class="guide-arrow">→</span></a>
@@ -1957,7 +1939,13 @@
     if (appsHeader) {
       const anyRows = [...catRows].some(r => r.style.display !== 'none');
       appsHeader.closest('.section-header').style.display = anyRows ? '' : 'none';
-      document.querySelector('.cat-rows').style.display = anyRows ? '' : 'none';
+      // If a category filter is active, expand the apps section automatically
+      if (filter !== 'all') {
+        const appsContent = document.getElementById('apps-content');
+        const appsToggle = document.getElementById('apps-toggle');
+        if (appsContent) { appsContent.style.display = ''; }
+        if (appsToggle) { appsToggle.textContent = 'Hide ↑'; }
+      }
     }
 
     // ── Scroll to category row if a specific filter is selected ──
