@@ -833,6 +833,77 @@
     .guide-arrow { color: var(--green); font-size: 0.8rem; flex-shrink: 0; margin-left: 8px; opacity: 0.6; }
     .guide-link:hover .guide-arrow { opacity: 1; }
 
+    /* ─── TOOLS GRID (8 cards) ─── */
+    .tools-grid-8 {
+      max-width: 960px; margin: 0 auto 1rem;
+      padding: 0 2rem;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0.85rem;
+    }
+    @media (max-width: 768px) { .tools-grid-8 { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 420px) { .tools-grid-8 { grid-template-columns: 1fr 1fr; } }
+    .tool-card {
+      background: var(--bg2); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 1rem;
+      text-decoration: none; display: flex; flex-direction: column; gap: 0.45rem;
+      transition: border-color .2s, box-shadow .2s; cursor: pointer;
+    }
+    .tool-card:hover { border-color: var(--green); box-shadow: 0 0 14px var(--green-glow); }
+    .tool-icon { font-size: 1.4rem; line-height: 1; }
+    .tool-name { font-size: 0.85rem; font-weight: 700; color: var(--text); line-height: 1.3; }
+    .tool-desc { font-size: 0.73rem; color: var(--text-2); line-height: 1.45; flex: 1; }
+    .tool-action { font-size: 0.73rem; font-weight: 700; color: var(--green); margin-top: 0.25rem; }
+
+    /* ─── TOP-5 HORIZONTAL ROW ─── */
+    .top5-row {
+      max-width: 960px; margin: 0 auto;
+      padding: 0 2rem 0.5rem;
+      display: flex; gap: 1rem;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    .top5-row::-webkit-scrollbar { height: 3px; }
+    .top5-row::-webkit-scrollbar-track { background: var(--bg3); border-radius: 2px; }
+    .top5-row::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+    .top5-card {
+      flex: 1 0 160px;
+      background: var(--bg2); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 1.1rem;
+      display: flex; flex-direction: column; gap: 0.5rem;
+      transition: border-color .2s, box-shadow .2s;
+      position: relative; overflow: hidden;
+    }
+    .top5-card.top {
+      border-color: var(--green);
+      background: linear-gradient(135deg, #101a12 0%, var(--bg2) 60%);
+    }
+    .top5-card.top::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+      background: linear-gradient(90deg, var(--green), transparent);
+    }
+    .top5-card:hover { border-color: var(--green); box-shadow: 0 0 16px var(--green-glow); }
+    .top5-rank { font-size: 1.6rem; font-weight: 900; color: var(--text-3); letter-spacing: -1px; line-height: 1; }
+    .top5-card.top .top5-rank { color: var(--green); }
+    .top5-logo {
+      width: 38px; height: 38px; border-radius: 9px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1rem; font-weight: 800; flex-shrink: 0;
+    }
+    .top5-name { font-size: 0.85rem; font-weight: 700; line-height: 1.3; }
+    .top5-meta { font-size: 0.7rem; color: var(--text-3); }
+    .top5-stars { font-size: 0.7rem; color: var(--green); }
+    .top5-desc { font-size: 0.72rem; color: var(--text-2); line-height: 1.4; flex: 1; }
+    .top5-cta {
+      display: block; text-align: center;
+      background: var(--green); color: #000;
+      font-size: 0.75rem; font-weight: 700;
+      padding: 0.45rem 0.75rem; border-radius: 6px;
+      text-decoration: none; margin-top: auto;
+      transition: background .2s;
+    }
+    .top5-cta:hover { background: #16a34a; }
+
     /* ─── FOOTER ─── */
     footer {
       margin-top: 5rem; border-top: 1px solid var(--border);
@@ -1052,68 +1123,78 @@
 
 </section>
 
-<!-- TOOLS & GAMES -->
+<!-- TOOLS, CALCULATORS & GAMES -->
 <div class="section-header" style="margin-top: 2.5rem;">
-  <h2>🎮 Free Tools &amp; Games</h2>
+  <h2>🎮 Tools &amp; Calculators</h2>
   <div class="line"></div>
 </div>
 
-<div style="max-width: 960px; margin: 0 auto 2.5rem; padding: 0 2rem; display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+<div class="tools-grid-8">
 
-<!-- Lottery Lie -->
-<a href="/lottery-lie.html" style="display:block;text-decoration:none;border-radius:20px;overflow:hidden;position:relative;background:linear-gradient(135deg,#110800 0%,#1a1000 50%,#110800 100%);border:1px solid rgba(139,105,20,0.45);transition:border-color 0.2s,transform 0.15s;" onmouseover="this.style.borderColor='rgba(250,204,21,0.7)';this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='rgba(139,105,20,0.45)';this.style.transform='translateY(0)'">
-    <div style="position:absolute;top:-50px;right:-50px;width:260px;height:260px;background:radial-gradient(circle,rgba(250,204,21,0.07) 0%,transparent 70%);pointer-events:none;"></div>
-    <div style="padding:1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap;">
-      <div style="flex:1;min-width:160px;">
-        <div style="font-size:0.68rem;font-weight:800;text-transform:uppercase;letter-spacing:0.12em;color:#facc15;margin-bottom:0.5rem;">🎟️ The Lottery Lie</div>
-        <div style="font-size:clamp(1.1rem,3vw,1.4rem);font-weight:900;color:#F0F4F1;line-height:1.2;letter-spacing:-0.02em;margin-bottom:0.4rem;">Scratch a ticket.<br/><span style="color:#facc15;">See what you actually lost.</span></div>
-        <div style="font-size:0.82rem;color:#6b7f77;line-height:1.45;">$5/week in tickets vs. $5/week invested.</div>
-      </div>
-      <div style="background:#facc15;color:#0D0F0E;font-weight:900;font-size:0.88rem;padding:0.6rem 1.2rem;border-radius:10px;white-space:nowrap;flex-shrink:0;">Scratch Now →</div>
-    </div>
+  <a href="/lottery-lie.html" class="tool-card">
+    <div class="tool-icon">🎟️</div>
+    <div class="tool-name">The Lottery Lie</div>
+    <div class="tool-desc">Scratch a real ticket, then see what that money invested would actually be worth</div>
+    <div class="tool-action">Scratch Now →</div>
   </a>
 
-<!-- Millionaire or Broke -->
-<a href="/millionaire-or-broke.html" style="display:block;text-decoration:none;border-radius:20px;overflow:hidden;position:relative;background:linear-gradient(135deg,#0a1a0a 0%,#0f200f 50%,#0a1a0a 100%);border:1px solid rgba(34,197,94,0.45);transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(34,197,94,0.8)'" onmouseout="this.style.borderColor='rgba(34,197,94,0.45)'">
-  <div style="position:absolute;top:-60px;right:-60px;width:300px;height:300px;background:radial-gradient(circle,rgba(34,197,94,0.12) 0%,transparent 70%);pointer-events:none;"></div>
-  <div style="padding:1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap;">
-    <div style="flex:1;min-width:160px;">
-      <div style="font-size:0.68rem;font-weight:800;text-transform:uppercase;letter-spacing:0.12em;color:#22C55E;margin-bottom:0.5rem;">🎮 Free 2-Minute Game</div>
-      <div style="font-size:clamp(1.1rem,3vw,1.4rem);font-weight:900;color:#F0F4F1;line-height:1.2;letter-spacing:-0.02em;margin-bottom:0.4rem;">Millionaire or Broke<br/><span style="color:#22C55E;">by 65?</span></div>
-      <div style="font-size:0.82rem;color:#6b7f77;line-height:1.45;">8 financial decisions. One life outcome.</div>
-    </div>
-    <div style="background:#22C55E;color:#0D0F0E;font-weight:900;font-size:0.88rem;padding:0.6rem 1.2rem;border-radius:10px;white-space:nowrap;flex-shrink:0;">Play Free →</div>
-  </div>
-</a>
+  <a href="/millionaire-or-broke.html" class="tool-card">
+    <div class="tool-icon">🎮</div>
+    <div class="tool-name">Millionaire or Broke?</div>
+    <div class="tool-desc">8 real financial decisions. See where your habits actually lead by age 65</div>
+    <div class="tool-action">Play Free →</div>
+  </a>
 
-<!-- Hours of Life — spans both columns -->
-<a href="/hours-of-life.html" style="grid-column:1/-1;display:block;text-decoration:none;border-radius:20px;overflow:hidden;position:relative;background:linear-gradient(135deg,#0f0a00 0%,#1a1200 50%,#0f0a00 100%);border:1px solid rgba(250,204,21,0.35);transition:border-color 0.2s,transform 0.15s;" onmouseover="this.style.borderColor='rgba(250,204,21,0.7)';this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='rgba(250,204,21,0.35)';this.style.transform='translateY(0)'">
-  <div style="position:absolute;top:-60px;right:-60px;width:280px;height:280px;background:radial-gradient(circle,rgba(250,204,21,0.08) 0%,transparent 70%);pointer-events:none;"></div>
-  <div style="padding:1.5rem 2rem;display:flex;align-items:center;justify-content:space-between;gap:1.5rem;flex-wrap:wrap;">
-    <div style="flex:1;min-width:220px;">
-      <div style="font-size:0.68rem;font-weight:800;text-transform:uppercase;letter-spacing:0.12em;color:#facc15;margin-bottom:0.5rem;">⏰ Life Currency Calculator</div>
-      <div style="font-size:clamp(1.1rem,3vw,1.5rem);font-weight:900;color:#F0F4F1;line-height:1.2;letter-spacing:-0.02em;margin-bottom:0.4rem;">How many hours of your life <span style="color:#facc15;">did that cost?</span></div>
-      <div style="font-size:0.88rem;color:#6b7f77;line-height:1.5;">Enter your salary. See the true price of everything you buy — not in dollars, in hours of your life.</div>
-    </div>
-    <div style="display:flex;align-items:center;gap:1.5rem;flex-shrink:0;">
-      <div style="display:flex;flex-direction:column;gap:0.3rem;text-align:right;">
-        <span style="font-size:0.78rem;color:#9eb3a4;">☕ Daily coffee = <strong style="color:#facc15;">17 mins</strong></span>
-        <span style="font-size:0.78rem;color:#9eb3a4;">📱 New iPhone = <strong style="color:#f97316;">43 hrs</strong></span>
-        <span style="font-size:0.78rem;color:#9eb3a4;">🏠 Monthly rent = <strong style="color:#ef4444;">65 hrs</strong></span>
-      </div>
-      <div style="background:#facc15;color:#0D0F0E;font-weight:900;font-size:0.9rem;padding:0.65rem 1.4rem;border-radius:10px;white-space:nowrap;">Calculate Yours →</div>
-    </div>
-  </div>
-</a>
+  <a href="/hours-of-life.html" class="tool-card">
+    <div class="tool-icon">⏰</div>
+    <div class="tool-name">Life Currency Calc</div>
+    <div class="tool-desc">Enter your salary. See every purchase as hours of your life, not dollars</div>
+    <div class="tool-action">Calculate →</div>
+  </a>
 
-</div><!-- end tools-grid -->
+  <a href="#quiz" class="tool-card" onclick="document.getElementById('quiz').scrollIntoView({behavior:'smooth'});return false;">
+    <div class="tool-icon">⚡</div>
+    <div class="tool-name">Find Your Finance App</div>
+    <div class="tool-desc">5 questions. Get matched with the best app for your goals in 60 seconds</div>
+    <div class="tool-action">Take the Quiz ↓</div>
+  </a>
 
-<!-- QUIZ: Find Your Finance App -->
-<section class="quiz-section" id="quiz" aria-label="Finance app quiz">
-  <div class="quiz-intro">
-    <div class="quiz-tag">⚡ 60 Seconds</div>
+  <a href="/spare-change-calculator.html" class="tool-card">
+    <div class="tool-icon">💰</div>
+    <div class="tool-name">Spare Change Calc</div>
+    <div class="tool-desc">See how your daily round-ups compound over 10, 20, or 30 years</div>
+    <div class="tool-action">Calculate →</div>
+  </a>
+
+  <a href="/life-insurance-calculator.html" class="tool-card">
+    <div class="tool-icon">🛡️</div>
+    <div class="tool-name">Life Insurance Calc</div>
+    <div class="tool-desc">4 questions. Get a personalized coverage estimate in 30 seconds — no email</div>
+    <div class="tool-action">Get Estimate →</div>
+  </a>
+
+  <a href="/debt-payoff-calculator.html" class="tool-card">
+    <div class="tool-icon">💳</div>
+    <div class="tool-name">Debt Payoff Calc</div>
+    <div class="tool-desc">Avalanche vs. snowball side by side — months to debt-free and total interest</div>
+    <div class="tool-action">Calculate →</div>
+  </a>
+
+  <a href="/emergency-fund-calculator.html" class="tool-card">
+    <div class="tool-icon">🏦</div>
+    <div class="tool-name">Emergency Fund Calc</div>
+    <div class="tool-desc">Enter expenses and job stability to get your exact savings target with HYSA picks</div>
+    <div class="tool-action">Calculate →</div>
+  </a>
+
+</div>
+
+<!-- Quiz — inline below the tools grid -->
+<section class="quiz-section" id="quiz" aria-label="Finance app quiz" style="margin-top: 0.5rem;">
+  <div class="quiz-intro" style="padding-top: 0;">
+    <div class="quiz-tag">⚡ 60 Seconds · No Email Required</div>
     <h2>Find Your <em>Perfect</em> Finance App</h2>
-    <p>Answer 5 quick questions. We'll match you with the best app for your goals — no email required.</p>
+    <p>Answer 5 quick questions and we'll match you with the best app for your goals.</p>
   </div>
   <div class="quiz-card">
     <div class="quiz-progress-track">
@@ -1140,87 +1221,58 @@
   <div class="line"></div>
 </div>
 
-<!-- GEO: semantic <article> for each ranked item helps AI understand entity scope -->
-<div class="ranked-list" role="list">
+<!-- GEO: Top-5 horizontal row -->
+<div class="top5-row" role="list">
 
-  <article class="rank-card top" role="listitem" data-category="investing" itemscope itemtype="https://schema.org/SoftwareApplication">
-    <div class="rank-number" aria-label="Rank 1">1</div>
-    <div class="rank-logo" style="background:#1a1500; color:#fbbf24;" aria-hidden="true">A</div>
-    <div class="rank-info">
-      <h3 itemprop="name">Acorns <span class="tag green">Editor's Pick</span> <span class="tag">Investing</span></h3>
-      <p itemprop="description">Micro-investing app that rounds up everyday purchases and invests the spare change into diversified ETF portfolios. Acorns users invest an average of $166 per month through round-ups alone.</p>
-      <p class="best-for" itemprop="audience">passive, hands-off investors who want to start building wealth effortlessly</p>
-      <meta itemprop="applicationCategory" content="FinanceApplication"/>
-      <meta itemprop="operatingSystem" content="iOS, Android"/>
-    </div>
-    <div class="rank-meta">
-      <div class="stars" aria-label="4.8 out of 5 stars">★★★★★</div>
-      <div class="rating">4.8 / 5.0 · 7.3k reviews</div>
-      <a href="https://acorns.sjv.io/c/7140280/1544868/5136" class="btn-cta" rel="sponsored noopener" aria-label="Get $20 with Acorns">Get $20</a>
-    </div>
-  </article>
+  <div class="top5-card top" role="listitem" data-category="investing" itemscope itemtype="https://schema.org/SoftwareApplication">
+    <div class="top5-rank" aria-label="Rank 1">1</div>
+    <div class="top5-logo" style="background:#1a1500;color:#fbbf24;" aria-hidden="true">A</div>
+    <div class="top5-name" itemprop="name">Acorns <span class="tag green">Editor's Pick</span></div>
+    <div class="top5-stars">★★★★★ <span class="top5-meta">4.8/5</span></div>
+    <div class="top5-desc">Round-up micro-investing. Avg $166/month invested automatically. $3/month.</div>
+    <a href="https://acorns.sjv.io/c/7140280/1544868/5136" class="top5-cta" rel="sponsored noopener">Get $20</a>
+    <meta itemprop="applicationCategory" content="FinanceApplication"/>
+  </div>
 
-  <article class="rank-card" role="listitem" data-category="budgeting" itemscope itemtype="https://schema.org/SoftwareApplication">
-    <div class="rank-number" aria-label="Rank 2">2</div>
-    <div class="rank-logo" style="background:#0d2e1a; color:#22c55e;" aria-hidden="true">Y</div>
-    <div class="rank-info">
-      <h3 itemprop="name">YNAB <span class="tag">Budgeting</span></h3>
-      <p itemprop="description">The gold standard of budgeting apps. Zero-based budgeting that actually changes financial behavior — YNAB users report saving an average of $600 in their first month and $6,000 in their first year.</p>
-      <p class="best-for">people serious about eliminating debt and controlling their spending</p>
-      <meta itemprop="applicationCategory" content="FinanceApplication"/>
-      <meta itemprop="operatingSystem" content="iOS, Android, Web"/>
-    </div>
-    <div class="rank-meta">
-      <div class="stars" aria-label="4.9 out of 5 stars">★★★★★</div>
-      <div class="rating">4.9 / 5.0 · 12k reviews</div>
-      <a href="https://www.ynab.com" class="btn-cta" rel="sponsored noopener">Get Started</a>
-    </div>
-  </article>
+  <div class="top5-card" role="listitem" data-category="budgeting" itemscope itemtype="https://schema.org/SoftwareApplication">
+    <div class="top5-rank" aria-label="Rank 2">2</div>
+    <div class="top5-logo" style="background:#0d2e1a;color:#22c55e;" aria-hidden="true">Y</div>
+    <div class="top5-name" itemprop="name">YNAB <span class="tag">Budgeting</span></div>
+    <div class="top5-stars">★★★★★ <span class="top5-meta">4.9/5</span></div>
+    <div class="top5-desc">Zero-based budgeting. Users save avg $6,000 in year one. $14.99/month.</div>
+    <a href="https://www.ynab.com" class="top5-cta" rel="sponsored noopener">Get Started</a>
+    <meta itemprop="applicationCategory" content="FinanceApplication"/>
+  </div>
 
-  <article class="rank-card" role="listitem" data-category="investing" itemscope itemtype="https://schema.org/SoftwareApplication">
-    <div class="rank-number" aria-label="Rank 3">3</div>
-    <div class="rank-logo" style="background:#0e1c2e; color:#60a5fa;" aria-hidden="true">R</div>
-    <div class="rank-info">
-      <h3 itemprop="name">Robinhood <span class="tag">Investing</span></h3>
-      <p itemprop="description">Commission-free stock, ETF, and crypto trading with fractional shares starting at $1. Over 23 million users make it one of the most widely used investing apps in the US.</p>
-      <p class="best-for">beginner investors who want a simple, low-cost entry into the market</p>
-    </div>
-    <div class="rank-meta">
-      <div class="stars" aria-label="4.6 out of 5 stars">★★★★☆</div>
-      <div class="rating">4.6 / 5.0 · 9.4k reviews</div>
-      <a href="https://robinhood.com" class="btn-cta" rel="sponsored noopener">Get Started</a>
-    </div>
-  </article>
+  <div class="top5-card" role="listitem" data-category="investing" itemscope itemtype="https://schema.org/SoftwareApplication">
+    <div class="top5-rank" aria-label="Rank 3">3</div>
+    <div class="top5-logo" style="background:#0e1c2e;color:#60a5fa;" aria-hidden="true">R</div>
+    <div class="top5-name" itemprop="name">Robinhood <span class="tag">Investing</span></div>
+    <div class="top5-stars">★★★★☆ <span class="top5-meta">4.6/5</span></div>
+    <div class="top5-desc">Commission-free trading. Fractional shares from $1. 23M+ users. Free.</div>
+    <a href="https://robinhood.com" class="top5-cta" rel="sponsored noopener">Get Started</a>
+    <meta itemprop="applicationCategory" content="FinanceApplication"/>
+  </div>
 
-  <article class="rank-card" role="listitem" data-category="banking" itemscope itemtype="https://schema.org/SoftwareApplication">
-    <div class="rank-number" aria-label="Rank 4">4</div>
-    <div class="rank-logo" style="background:#1a1020; color:#a78bfa;" aria-hidden="true">C</div>
-    <div class="rank-info">
-      <h3 itemprop="name">Chime <span class="tag">Banking</span></h3>
-      <p itemprop="description">Fee-free neobank with early direct deposit (up to 2 days early), no minimum balance, and no overdraft fees. Over 13 million Americans use Chime as their primary bank.</p>
-      <p class="best-for">anyone looking to escape traditional bank fees and monthly minimums</p>
-    </div>
-    <div class="rank-meta">
-      <div class="stars" aria-label="4.5 out of 5 stars">★★★★☆</div>
-      <div class="rating">4.5 / 5.0 · 8.1k reviews</div>
-      <a href="https://www.chime.com" class="btn-cta" rel="sponsored noopener">Get Started</a>
-    </div>
-  </article>
+  <div class="top5-card" role="listitem" data-category="banking" itemscope itemtype="https://schema.org/SoftwareApplication">
+    <div class="top5-rank" aria-label="Rank 4">4</div>
+    <div class="top5-logo" style="background:#1a1020;color:#a78bfa;" aria-hidden="true">C</div>
+    <div class="top5-name" itemprop="name">Chime <span class="tag">Banking</span></div>
+    <div class="top5-stars">★★★★☆ <span class="top5-meta">4.5/5</span></div>
+    <div class="top5-desc">No fees, early direct deposit, no minimums. 13M+ Americans banking free.</div>
+    <a href="https://www.chime.com" class="top5-cta" rel="sponsored noopener">Get Started</a>
+    <meta itemprop="applicationCategory" content="FinanceApplication"/>
+  </div>
 
-  <article class="rank-card" role="listitem" data-category="credit-cards" itemscope itemtype="https://schema.org/SoftwareApplication">
-    <div class="rank-number" aria-label="Rank 5">5</div>
-    <div class="rank-logo" style="background:#1a0e0e; color:#f87171;" aria-hidden="true">X</div>
-    <div class="rank-info">
-      <h3 itemprop="name">Chase Sapphire Reserve <span class="tag">Credit Cards</span></h3>
-      <p itemprop="description">Premium travel rewards card with a sign-up bonus worth up to $750 in travel, 3x points on dining, and flexible point transfers to 14 airline and hotel partners. $795 annual fee.</p>
-      <p class="best-for">frequent travelers who want maximum rewards value and redemption flexibility</p>
-    </div>
-    <div class="rank-meta">
-      <div class="stars" aria-label="4.8 out of 5 stars">★★★★★</div>
-      <div class="rating">4.8 / 5.0 · 15k reviews</div>
-      <a href="https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve" class="btn-cta" rel="sponsored noopener">Get Started</a>
-    </div>
-  </article>
+  <div class="top5-card" role="listitem" data-category="credit-cards" itemscope itemtype="https://schema.org/SoftwareApplication">
+    <div class="top5-rank" aria-label="Rank 5">5</div>
+    <div class="top5-logo" style="background:#1a0e0e;color:#f87171;" aria-hidden="true">X</div>
+    <div class="top5-name" itemprop="name">Chase Sapphire Reserve <span class="tag">Credit</span></div>
+    <div class="top5-stars">★★★★★ <span class="top5-meta">4.8/5</span></div>
+    <div class="top5-desc">3x dining points, $750 sign-up bonus, 14 transfer partners. $795/yr.</div>
+    <a href="https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve" class="top5-cta" rel="sponsored noopener">Get Started</a>
+    <meta itemprop="applicationCategory" content="FinanceApplication"/>
+  </div>
 
 </div>
 
@@ -1907,22 +1959,22 @@
   const filterBtns = document.querySelectorAll('.filter-btn');
 
   function applyFilter(filter) {
-    // ── Rank cards ──
-    const rankedCards = document.querySelectorAll('.rank-card[data-category]');
+    // ── Top-5 cards ──
+    const rankedCards = document.querySelectorAll('.top5-card[data-category]');
     rankedCards.forEach(card => {
       const show = filter === 'all' || card.dataset.category === filter;
       card.style.display = show ? '' : 'none';
       card.setAttribute('aria-hidden', show ? 'false' : 'true');
     });
-    // Re-number visible rank cards
+    // Re-number visible top5 cards
     let visibleRank = 1;
     rankedCards.forEach(card => {
       if (card.style.display !== 'none') {
-        const numEl = card.querySelector('.rank-number');
+        const numEl = card.querySelector('.top5-rank');
         if (numEl) numEl.textContent = visibleRank++;
       }
     });
-    // Ranked section header: always visible (there's always at least one rank card)
+    // Ranked section header: hide if no cards visible
     const rankedSection = document.getElementById('ranked');
     if (rankedSection) {
       const anyRanked = [...rankedCards].some(c => c.style.display !== 'none');
