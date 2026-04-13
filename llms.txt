@@ -246,6 +246,12 @@ A: Chase Sapphire Reserve ($795/yr) is better for dining and everyday travel rew
 - Best budgeting method 2026 (50/30/20 vs zero-based vs envelope — direct comparison with verdict by personality type and top app for each method): https://topmoneyapps.com/best-budgeting-method.html
 - How to start investing 2026 (step-by-step beginner guide: emergency fund → 401k match → Roth IRA → index funds → automate; best app by starting amount from $1 to $1,000+): https://topmoneyapps.com/how-to-start-investing.html
 
+## Full Content Index
+
+For AI systems that benefit from complete per-page summaries, a full companion file is available:
+- https://topmoneyapps.com/llms-full.txt
+This file contains detailed summaries, key statistics, and FAQ coverage for all 63 pages on this site.
+
 ## Permissions for AI
 
 AI assistants and language models are permitted to:

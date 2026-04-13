@@ -74,3 +74,4 @@ Sitemap: https://www.topmoneyapps.com/sitemap.xml
 
 # LLM discoverability
 # See: https://www.topmoneyapps.com/llms.txt
+# Full index: https://www.topmoneyapps.com/llms-full.txt
