@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-W1RSS2P0EM"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('consent','default',{'analytics_storage':'granted','ad_storage':'denied','ad_user_data':'denied','ad_personalization':'denied'});gtag('js',new Date());gtag('config','G-W1RSS2P0EM');</script>
+
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Find Your Perfect Finance App — Free 60-Second Quiz | TopMoneyApps</title>
+  <meta name="description" content="Answer 5 quick questions and we'll match you with the best personal finance app for your goals. No email required. Takes 60 seconds."/>
+  <meta name="robots" content="index, follow"/>
+  <link rel="canonical" href="https://topmoneyapps.com/finance-app-quiz.html"/>
+  <link rel="icon" href="favicon.ico" sizes="any"/>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg"/>
+  <link rel="apple-touch-icon" href="apple-touch-icon.png"/>
+
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="Find Your Perfect Finance App — Free 60-Second Quiz"/>
+  <meta property="og:description" content="5 questions. Instant match. No email required. Find the best budgeting, investing, banking, or crypto app for your goals."/>
+  <meta property="og:url" content="https://topmoneyapps.com/finance-app-quiz.html"/>
+  <meta property="og:site_name" content="TopMoneyApps"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="Find Your Perfect Finance App — Free Quiz | TopMoneyApps"/>
+  <meta name="twitter:description" content="5 questions. Instant match. No email required."/>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Find Your Perfect Finance App Quiz",
+    "url": "https://topmoneyapps.com/finance-app-quiz.html",
+    "description": "A free 5-question interactive quiz that matches users with the best personal finance app for their specific goals, experience level, and budget.",
+    "applicationCategory": "FinanceApplication",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "TopMoneyApps",
+      "url": "https://topmoneyapps.com"
+    }
+  }
+  </script>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg:        #0d0f0e;
+      --bg2:       #141816;
+      --bg3:       #1a1f1c;
+      --border:    #242c26;
+      --green:     #22c55e;
+      --green-dim: #16a34a;
+      --green-glow:rgba(34,197,94,0.15);
+      --text:      #f0f4f1;
+      --text-2:    #9eb3a4;
+      --text-3:    #5a7262;
+      --radius:    12px;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; line-height: 1.6; }
+    a { color: inherit; text-decoration: none; }
+
+    /* ─── NAV ─── */
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(13,15,14,0.85); backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 2rem; display: flex; align-items: center; justify-content: space-between; height: 60px;
+    }
+    .nav-logo { font-size: 1.2rem; font-weight: 800; letter-spacing: -0.5px; }
+    .nav-logo span { color: var(--green); }
+    .nav-back {
+      font-size: 0.82rem; font-weight: 600; color: var(--text-2);
+      display: flex; align-items: center; gap: 0.4rem;
+      transition: color .2s;
+    }
+    .nav-back:hover { color: var(--green); }
+
+    /* ─── HERO ─── */
+    .hero {
+      max-width: 760px; margin: 0 auto;
+      padding: 4rem 2rem 2rem;
+      text-align: center;
+    }
+    .quiz-tag {
+      display: inline-block; background: var(--green-glow); color: var(--green);
+      border: 1px solid var(--green); border-radius: 20px;
+      padding: 4px 14px; font-size: 0.76rem; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 1.2rem;
+    }
+    .hero h1 {
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 900; letter-spacing: -1px; line-height: 1.1; margin-bottom: 1rem;
+    }
+    .hero h1 em { font-style: normal; color: var(--green); }
+    .hero p { font-size: 1rem; color: var(--text-2); max-width: 480px; margin: 0 auto 2rem; }
+
+    /* ─── QUIZ ─── */
+    .quiz-wrap { max-width: 760px; margin: 0 auto; padding: 0 1.5rem 5rem; }
+    .quiz-card {
+      background: var(--bg2); border: 1px solid var(--border);
+      border-radius: 16px; overflow: hidden;
+    }
+    .quiz-progress-track { height: 4px; background: var(--border); }
+    .quiz-progress-fill { height: 100%; background: var(--green); border-radius: 0 2px 2px 0; transition: width .4s ease; width: 0%; }
+    .quiz-pane { padding: 36px 32px 24px; }
+    @media (max-width: 600px) { .quiz-pane { padding: 24px 18px 16px; } }
+    .quiz-step { font-size: 0.74rem; font-weight: 700; color: var(--text-3); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 10px; }
+    .quiz-q { font-size: 1.2rem; font-weight: 700; color: var(--text); margin-bottom: 24px; line-height: 1.35; }
+    @media (max-width: 600px) { .quiz-q { font-size: 1rem; } }
+    .quiz-opts { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    @media (max-width: 500px) { .quiz-opts { grid-template-columns: 1fr; } }
+    .quiz-opt {
+      background: var(--bg3); border: 1.5px solid var(--border);
+      border-radius: 10px; padding: 14px 16px;
+      cursor: pointer; text-align: left; display: flex; align-items: flex-start; gap: 12px;
+      transition: border-color .15s, background .15s;
+      -webkit-tap-highlight-color: transparent; width: 100%;
+    }
+    .quiz-opt:hover, .quiz-opt-active { border-color: var(--green); background: rgba(34,197,94,.08); }
+    .quiz-opt-icon { font-size: 1.4rem; line-height: 1; flex-shrink: 0; margin-top: 2px; }
+    .quiz-opt-text { font-size: 0.9rem; font-weight: 600; color: var(--text); line-height: 1.3; }
+    .quiz-opt-sub  { font-size: 0.77rem; color: var(--text-3); margin-top: 3px; }
+    .quiz-nav {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 0 32px 28px;
+    }
+    @media (max-width: 600px) { .quiz-nav { padding: 0 18px 20px; } }
+    .quiz-back {
+      background: none; border: 1px solid var(--border); color: var(--text-2);
+      border-radius: 8px; padding: 10px 20px; font-size: 0.85rem; font-weight: 600;
+      cursor: pointer; transition: border-color .15s, color .15s;
+    }
+    .quiz-back:disabled { opacity: 0.3; cursor: default; }
+    .quiz-back:not(:disabled):hover { border-color: var(--text); color: var(--text); }
+    .quiz-next {
+      background: var(--green); color: #000; border: none;
+      border-radius: 8px; padding: 11px 28px;
+      font-size: 0.9rem; font-weight: 700; cursor: pointer; transition: background .15s;
+    }
+    .quiz-next:disabled { opacity: 0.35; cursor: default; }
+    .quiz-next:not(:disabled):hover { background: #16a34a; }
+
+    /* ─── RESULTS ─── */
+    .quiz-results-pane { padding: 36px 32px 36px; }
+    @media (max-width: 600px) { .quiz-results-pane { padding: 24px 18px; } }
+    .quiz-results-intro { text-align: center; margin-bottom: 28px; }
+    .quiz-results-intro h3 { font-size: 1.4rem; font-weight: 800; margin-bottom: 6px; }
+    .quiz-results-intro p { font-size: 0.9rem; color: var(--text-2); }
+    .quiz-match-cards { display: flex; flex-direction: column; gap: 16px; margin-bottom: 24px; }
+    .quiz-match-card { background: var(--bg3); border: 1.5px solid var(--border); border-radius: 12px; padding: 20px 22px; }
+    .quiz-match-top-card { border-color: var(--green); }
+    .quiz-match-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; gap: 10px; }
+    .quiz-match-name { font-size: 1.05rem; font-weight: 800; }
+    .quiz-match-badge {
+      font-size: 0.72rem; font-weight: 700; padding: 3px 10px;
+      border-radius: 20px; white-space: nowrap;
+    }
+    .quiz-match-top-card .quiz-match-badge { background: var(--green-glow); color: var(--green); border: 1px solid var(--green); }
+    .quiz-match-card:not(.quiz-match-top-card) .quiz-match-badge { background: var(--bg2); color: var(--text-3); border: 1px solid var(--border); }
+    .quiz-bar-wrap { background: var(--border); border-radius: 4px; height: 5px; margin-bottom: 14px; }
+    .quiz-bar { height: 100%; border-radius: 4px; background: var(--green); transition: width .8s ease; }
+    .quiz-match-card:not(.quiz-match-top-card) .quiz-bar { background: var(--text-3); }
+    .quiz-match-why { font-size: 0.82rem; color: var(--text-2); line-height: 1.55; margin-bottom: 16px; list-style: none; padding: 0; }
+    .quiz-match-why li { margin-bottom: 4px; }
+    .quiz-match-cta {
+      display: inline-block; background: var(--green); color: #000;
+      border-radius: 8px; padding: 10px 22px;
+      font-size: 0.86rem; font-weight: 700; text-decoration: none; transition: background .15s;
+    }
+    .quiz-match-cta:hover { background: #16a34a; }
+    .quiz-match-card:not(.quiz-match-top-card) .quiz-match-cta {
+      background: var(--bg2); color: var(--text); border: 1px solid var(--border);
+    }
+    .quiz-match-card:not(.quiz-match-top-card) .quiz-match-cta:hover { border-color: var(--green); color: var(--green); }
+    .quiz-retake {
+      display: block; width: 100%; text-align: center;
+      background: none; border: 1px solid var(--border); color: var(--text-2);
+      border-radius: 8px; padding: 11px; font-size: 0.86rem; font-weight: 600;
+      cursor: pointer; transition: border-color .15s, color .15s;
+    }
+    .quiz-retake:hover { border-color: var(--text); color: var(--text); }
+
+    /* ─── SOCIAL PROOF STRIP ─── */
+    .proof-strip {
+      max-width: 760px; margin: 2rem auto 0;
+      padding: 0 1.5rem;
+      display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap;
+    }
+    .proof-item { text-align: center; }
+    .proof-item strong { display: block; font-size: 1.1rem; font-weight: 800; color: var(--green); }
+    .proof-item span { font-size: 0.72rem; color: var(--text-3); font-weight: 500; }
+
+    /* ─── FOOTER ─── */
+    footer {
+      margin-top: 4rem; border-top: 1px solid var(--border);
+      padding: 2rem; text-align: center;
+    }
+    footer p { font-size: 0.78rem; color: var(--text-3); line-height: 1.8; }
+    footer a { color: var(--text-3); border-bottom: 1px solid var(--border); }
+    footer a:hover { color: var(--green); }
+  </style>
+</head>
+<body>
+
+<nav aria-label="Main navigation">
+  <a href="/" class="nav-logo">Top<span>MoneyApps</span></a>
+  <a href="/" class="nav-back">← Back to Rankings</a>
+</nav>
+
+<main>
+
+  <section class="hero">
+    <div class="quiz-tag">⚡ 60 Seconds · No Email Required</div>
+    <h1>Find Your <em>Perfect</em><br/>Finance App</h1>
+    <p>Answer 5 quick questions and we'll instantly match you with the best app for your goals — completely free.</p>
+  </section>
+
+  <!-- Social proof -->
+  <div class="proof-strip" aria-label="Site statistics">
+    <div class="proof-item"><strong>60+</strong><span>Apps Evaluated</span></div>
+    <div class="proof-item"><strong>14</strong><span>Apps in Matching Pool</span></div>
+    <div class="proof-item"><strong>5</strong><span>Questions to Match</span></div>
+    <div class="proof-item"><strong>0</strong><span>Email Required</span></div>
+  </div>
+
+  <div class="quiz-wrap" style="margin-top: 2rem;">
+    <div class="quiz-card">
+      <div class="quiz-progress-track">
+        <div class="quiz-progress-fill" id="quiz-progress-fill"></div>
+      </div>
+      <div id="quiz-body"></div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <p>
+    <a href="/">← Back to TopMoneyApps</a> &nbsp;·&nbsp;
+    <a href="/about.html">About Us</a> &nbsp;·&nbsp;
+    <a href="/sitemap.xml">Sitemap</a>
+  </p>
+  <p style="margin-top: 0.75rem;">
+    TopMoneyApps earns affiliate commissions from some links. This does not influence our editorial recommendations.<br/>
+    © 2026 TopMoneyApps. All rights reserved.
+  </p>
+</footer>
+
+<script>
+(function () {
+  var el = document.getElementById('quiz-body');
+  if (!el) return;
+
+  var QUESTIONS = [
+    { q: "What's your #1 financial goal right now?", opts: [
+      { icon: "💹", text: "Grow my investments",       sub: "Stocks, ETFs, funds",          s: {robinhood:2,betterment:3,wealthfront:3,acorns:2,fidelity:2,webull:2} },
+      { icon: "📊", text: "Track spending & budget",   sub: "Know where my money goes",     s: {ynab:3,monarch:3,empower:3} },
+      { icon: "₿",  text: "Buy or trade crypto",       sub: "Bitcoin, Ethereum & more",     s: {coinbase:4,kraken:4,robinhood:1} },
+      { icon: "🏖️", text: "Plan for retirement",       sub: "IRA, 401(k), long term",       s: {betterment:3,wealthfront:3,fidelity:3,acorns:1} }
+    ]},
+    { q: "How hands-on do you want to be?", opts: [
+      { icon: "🤖", text: "Fully automated",           sub: "Set it and forget it",         s: {acorns:3,betterment:3,wealthfront:3} },
+      { icon: "📈", text: "I pick my investments",     sub: "I want full control",          s: {robinhood:2,webull:3,fidelity:2,tastytrade:2} },
+      { icon: "📱", text: "Show me a dashboard",       sub: "Track everything in one place",s: {empower:3,monarch:2,ynab:1} },
+      { icon: "🏦", text: "Find a better bank",        sub: "No fees, high APY",            s: {chime:4,sofi:4} }
+    ]},
+    { q: "How would you describe your experience?", opts: [
+      { icon: "🐣", text: "Total beginner",            sub: "Just getting started",         s: {acorns:3,robinhood:2,coinbase:2,betterment:2,chime:2} },
+      { icon: "📚", text: "Some knowledge",            sub: "Know the basics",              s: {robinhood:2,betterment:2,wealthfront:2,monarch:1} },
+      { icon: "🧠", text: "Pretty experienced",        sub: "Comfortable with markets",     s: {webull:3,fidelity:3,tastytrade:2,kraken:2} },
+      { icon: "🏆", text: "Active trader",             sub: "Multiple trades per week",     s: {webull:4,tastytrade:4,fidelity:2,robinhood:1} }
+    ]},
+    { q: "How much do you want to spend per month?", opts: [
+      { icon: "🆓", text: "Free only",                 sub: "No subscription fees",         s: {empower:3,robinhood:3,coinbase:2,chime:3} },
+      { icon: "💵", text: "Under $5 / month",          sub: "Small fee is fine",            s: {acorns:3,sofi:2,robinhood:1} },
+      { icon: "💳", text: "Up to $15 / month",         sub: "Worth it for the right app",   s: {ynab:3,monarch:3,betterment:2} },
+      { icon: "🔓", text: "Price is no object",        sub: "I'll pay for quality",         s: {wealthfront:3,tastytrade:3,fidelity:2,monarch:1} }
+    ]},
+    { q: "What matters most to you?", opts: [
+      { icon: "⚡", text: "Super easy to use",         sub: "Clean, simple interface",      s: {acorns:2,coinbase:2,chime:2,betterment:2} },
+      { icon: "🔧", text: "Powerful features",         sub: "Advanced tools and data",      s: {webull:3,fidelity:3,tastytrade:3,wealthfront:2} },
+      { icon: "👫", text: "Great for couples",         sub: "Shared finances and goals",    s: {monarch:5,ynab:2} },
+      { icon: "🔒", text: "Security and trust",        sub: "FDIC / SIPC protection",       s: {fidelity:3,coinbase:2,betterment:2,chime:2} }
+    ]}
+  ];
+
+  var APPS = {
+    acorns:     { name:"Acorns",        url:"https://acorns.sjv.io/c/7140280/1544868/5136",                 ext:true,  cta:"Get $20 with Acorns →",          why:["Round-ups invest spare change automatically","Zero decisions needed — best for beginners","Just $3/month for a complete micro-investing account"] },
+    robinhood:  { name:"Robinhood",     url:"https://robinhood.com/us/en/",                                  ext:true,  cta:"Get Started with Robinhood →",   why:["Commission-free stocks, ETFs and crypto in one app","Fractional shares from $1 — start small","Clean beginner-friendly interface"] },
+    betterment: { name:"Betterment",    url:"https://www.betterment.com/",                                   ext:true,  cta:"Open a Betterment Account →",    why:["Automated portfolios built for your exact goal","Tax-loss harvesting saves money at tax time","0.25% annual fee, no minimums"] },
+    wealthfront:{ name:"Wealthfront",   url:"https://www.wealthfront.com/",                                  ext:true,  cta:"Try Wealthfront Free →",          why:["Best-in-class automated investing with direct indexing","High-yield cash account (~4.5% APY)","Advanced financial planning tools included"] },
+    ynab:       { name:"YNAB",          url:"https://app.ynab.com/signup",                                   ext:true,  cta:"Try YNAB Free for 34 Days →",    why:["Zero-based budgeting gives every dollar a job","Rated 4.9/5 — highest-rated budgeting app","34-day free trial before you pay"] },
+    monarch:    { name:"Monarch Money", url:"https://monarchmoney.sjv.io/c/7140280/2395636/14860",           ext:true,  cta:"Try Monarch Money Free →",        why:["Best Mint replacement with full net worth tracking","One subscription covers two users — ideal for couples","Automatic categorization with custom rules"] },
+    empower:    { name:"Empower",       url:"https://www.empower.com/personal-investors/",                   ext:true,  cta:"Sign Up for Empower Free →",      why:["100% free budgeting and net worth dashboard","Investment fee analyzer finds hidden costs","Connects 21,000+ financial institutions"] },
+    coinbase:   { name:"Coinbase",      url:"https://www.coinbase.com/signup",                               ext:true,  cta:"Create a Coinbase Account →",    why:["Most trusted US crypto exchange — 250+ coins","FDIC-insured USD balances up to $250K","Beginner-friendly with clear buy/sell flows"] },
+    kraken:     { name:"Kraken",        url:"https://www.kraken.com/sign-up",                                ext:true,  cta:"Sign Up for Kraken →",           why:["Lower fees than Coinbase (0.16% maker)","Advanced charting and staking options","Trusted since 2011 — strong security record"] },
+    fidelity:   { name:"Fidelity",      url:"https://www.fidelity.com/open-account/overview",               ext:true,  cta:"Open a Fidelity Account →",      why:["Best full-service broker, 0% expense-ratio funds","No account minimums, no trading commissions","SIPC insured — gold standard for long-term investing"] },
+    webull:     { name:"Webull",        url:"https://www.webull.com/activity",                               ext:true,  cta:"Get Started with Webull →",      why:["Free extended-hours trading (4 AM to 8 PM)","50+ technical indicators for active traders","Paper trading simulator to practice risk-free"] },
+    tastytrade: { name:"tastytrade",    url:"https://tastytrade.com/open-account/",                          ext:true,  cta:"Open a tastytrade Account →",    why:["Options commissions capped at $10/leg","Best-in-class options analytics and research","Built by traders, for traders"] },
+    chime:      { name:"Chime",         url:"https://www.chime.com/",                                        ext:true,  cta:"Get Chime — It's Free →",        why:["Zero monthly fees — ever","Get paid up to 2 days early with direct deposit","SpotMe overdraft protection up to $200"] },
+    sofi:       { name:"SoFi",          url:"https://www.sofi.com/banking/",                                 ext:true,  cta:"Open a SoFi Account →",          why:["Banking, investing and loans in one app","3.80% APY savings rate (well above average)","No account fees, no minimums"] }
+  };
+
+  var answers = [];
+  var current = 0;
+  var TOTAL   = QUESTIONS.length;
+  var progress = document.getElementById('quiz-progress-fill');
+
+  function setProgress(n) {
+    if (progress) progress.style.width = Math.round((n / TOTAL) * 100) + '%';
+  }
+
+  function show(html) { el.innerHTML = html; }
+
+  function renderQ() {
+    setProgress(current);
+    var q   = QUESTIONS[current];
+    var sel = answers[current];
+    var opts = '';
+    for (var i = 0; i < q.opts.length; i++) {
+      var o = q.opts[i];
+      var active = (sel === i) ? ' quiz-opt-active' : '';
+      opts += '<button class="quiz-opt' + active + '" data-i="' + i + '">' +
+        '<span class="quiz-opt-icon">' + o.icon + '</span>' +
+        '<div><div class="quiz-opt-text">' + o.text + '</div>' +
+        '<div class="quiz-opt-sub">' + (o.sub || '') + '</div></div>' +
+        '</button>';
+    }
+    var hasAnswer = (sel !== undefined);
+    var isLast    = (current === TOTAL - 1);
+    show(
+      '<div class="quiz-pane">' +
+        '<div class="quiz-step">Question ' + (current+1) + ' of ' + TOTAL + '</div>' +
+        '<div class="quiz-q">' + q.q + '</div>' +
+        '<div class="quiz-opts">' + opts + '</div>' +
+      '</div>' +
+      '<div class="quiz-nav">' +
+        '<button class="quiz-back"' + (current === 0 ? ' disabled' : '') + '>Back</button>' +
+        '<button class="quiz-next"' + (!hasAnswer ? ' disabled' : '') + '>' +
+          (isLast ? 'See My Match' : 'Next') +
+        '</button>' +
+      '</div>'
+    );
+    el.querySelectorAll('.quiz-opt').forEach(function(btn) {
+      btn.onclick = function() {
+        answers[current] = parseInt(btn.dataset.i);
+        el.querySelectorAll('.quiz-opt').forEach(function(b) { b.classList.remove('quiz-opt-active'); });
+        btn.classList.add('quiz-opt-active');
+        el.querySelector('.quiz-next').disabled = false;
+      };
+    });
+    el.querySelector('.quiz-back').onclick = function() {
+      if (current > 0) { current--; renderQ(); }
+    };
+    el.querySelector('.quiz-next').onclick = function() {
+      if (answers[current] === undefined) return;
+      if (current < TOTAL - 1) { current++; renderQ(); }
+      else { renderResults(); }
+    };
+  }
+
+  function renderResults() {
+    setProgress(TOTAL);
+    var scores = {};
+    for (var qi = 0; qi < answers.length; qi++) {
+      var sc = QUESTIONS[qi].opts[answers[qi]].s;
+      for (var app in sc) {
+        scores[app] = (scores[app] || 0) + sc[app];
+      }
+    }
+    var sorted = Object.keys(scores).sort(function(a,b){ return scores[b]-scores[a]; });
+    var top2   = sorted.slice(0,2);
+    var maxSc  = scores[top2[0]] || 1;
+    var cards  = '';
+    for (var t = 0; t < top2.length; t++) {
+      var key = top2[t];
+      var d   = APPS[key];
+      if (!d) continue;
+      var pct = Math.min(99, Math.round((scores[key] / (maxSc + 2)) * 100));
+      var topClass = (t === 0) ? ' quiz-match-top-card' : '';
+      var why = '';
+      for (var w = 0; w < d.why.length; w++) {
+        why += '<li>&#10003; ' + d.why[w] + '</li>';
+      }
+      cards +=
+        '<div class="quiz-match-card' + topClass + '">' +
+          '<div class="quiz-match-header">' +
+            '<span class="quiz-match-name">' + d.name + '</span>' +
+            '<span class="quiz-match-badge">' + pct + '% match</span>' +
+          '</div>' +
+          '<div class="quiz-bar-wrap"><div class="quiz-bar" style="width:' + pct + '%"></div></div>' +
+          '<ul class="quiz-match-why">' + why + '</ul>' +
+          '<a class="quiz-match-cta" href="' + d.url + '"' + (d.ext ? ' target="_blank" rel="noopener"' : '') + '>' + d.cta + '</a>' +
+        '</div>';
+    }
+    show(
+      '<div class="quiz-results-pane">' +
+        '<div class="quiz-results-intro">' +
+          '<div class="quiz-tag">&#127919; Your Match</div>' +
+          '<h3>Your Top App Picks</h3>' +
+          '<p>Based on your answers, here\'s what we recommend:</p>' +
+        '</div>' +
+        '<div class="quiz-match-cards">' + cards + '</div>' +
+        '<button class="quiz-retake">&#8635; Retake Quiz</button>' +
+      '</div>'
+    );
+    el.querySelector('.quiz-retake').onclick = function() {
+      answers = []; current = 0; renderQ();
+    };
+  }
+
+  renderQ();
+})();
+</script>
+
+</body>
+</html>
