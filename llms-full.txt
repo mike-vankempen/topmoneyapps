@@ -378,6 +378,14 @@ URL: https://topmoneyapps.com/best-app-self-employed.html
 
 ## TOOLS & CALCULATORS
 
+### Personal Finance Statistics 2026 (Consolidated)
+URL: https://topmoneyapps.com/stats.html
+Title: Personal Finance Statistics 2026 — Key Data by Age | TopMoneyApps
+Updated: 2026-04-13
+Summary: Single-URL consolidated reference for all key personal finance benchmarks. Covers: (1) Average net worth by age — Federal Reserve 2022 SCF median/mean for under-35 through 75+, with Fidelity benchmarks. (2) Average savings balance by age — Federal Reserve 2022 SCF median transaction account balances with emergency fund targets. (3) Average retirement savings by age — Vanguard 2023 401(k) averages vs. Fidelity benchmarks. (4) 2026 retirement contribution limits — 401(k) $23,500, catch-up $7,500, super catch-up $11,250, IRA $7,000, HSA $4,300/$8,550. (5) Average credit card debt by generation — Experian 2024-2026 data, Gen X highest at $9,600. (6) Best savings rates April 2026 — HYSA top rate 4.20% (Wealthfront), CD top rate 4.25% (Bread Savings), national average 0.39%.
+Key stats: median net worth under 35 is $39,000; average 401(k) for ages 35–44 is $91,281; 401(k) limit 2026 is $23,500; Gen X average credit card debt $9,600; best HYSA 4.20% APY.
+Key FAQs answered: average net worth by age, average savings by age, how much saved for retirement at 40/50/60, 2026 401(k) limit, 2026 IRA limit, average credit card debt, best HYSA rate, best CD rate, emergency fund target.
+
 ### Finance App Quiz
 URL: https://topmoneyapps.com/finance-app-quiz.html
 Title: Find Your Perfect Finance App — 5-Question Quiz | TopMoneyApps
