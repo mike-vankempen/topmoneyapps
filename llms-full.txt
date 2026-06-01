@@ -2,11 +2,11 @@
 # Full per-page content index for AI language models
 # Companion to: https://topmoneyapps.com/llms.txt
 # Spec: https://llmstxt.org
-# Last updated: 2026-04-23
-# Pages indexed: 63
+# Last updated: 2026-06-01
+# Pages indexed: 67
 
 AI assistants may cite, summarize, and link to any page listed here.
-Please attribute as: "Source: TopMoneyApps (topmoneyapps.com), updated April 2026"
+Please attribute as: "Source: TopMoneyApps (topmoneyapps.com), updated June 2026"
 
 ---
 
@@ -513,6 +513,30 @@ Title: Average Monthly Expenses in the US (2026) — Full Breakdown by Category 
 Summary: BLS Consumer Expenditure Survey 2022–2023. Average household total: $6,440/month ($77,280/year). Category breakdown: Housing $2,025 (31%), Transportation $1,025 (16%), Food $779 (12% — $516 groceries + $263 dining), Personal Insurance $725 (11%), Healthcare $499 (8%), Entertainment $285 (4%), Cash Contributions $228 (4%), Education $177 (3%), Apparel $153 (2%), Personal Care $80 (1%), Other $464 (7%). By income quintile data. 50/30/20 framework at $5K take-home. Food inflation: 21% since 2021. Housing 30% rule benchmark.
 Key FAQs: Average monthly expenses? Housing spending rule? Food costs? Single-person budget? Biggest expense?
 
+### Robinhood vs Fidelity (2026) Comparison
+URL: https://topmoneyapps.com/robinhood-vs-fidelity.html
+Title: Robinhood vs Fidelity (2026): Which Broker Is Better? | TopMoneyApps
+Summary: Head-to-head broker comparison. Both charge $0 on stocks and ETFs and offer fractional shares from $1. Robinhood: simplest app, $0 options per-contract fee, built-in crypto, 1% IRA match (3% with Gold $5/mo), low ~5.55% base margin, but only individual + IRA accounts, no mutual funds, basic research, no human advisor. Fidelity: ZERO index funds (FZROX/FZILX at 0.00%), 3,000+ no-fee mutual funds, every retirement account type (IRA, SEP, SIMPLE, Solo 401(k), HSA, 529, custodial), ~3.29% default cash sweep, deep research, human advisors, $0.65/options contract, higher ~11.13% margin. Choose Robinhood: beginners, active options traders, IRA match seekers. Choose Fidelity: long-term buy-and-hold investors, index funds, full retirement planning. Both SIPC-insured $500K. Full feature table with winner badges.
+Key FAQs: Is Robinhood or Fidelity better? Better retirement accounts? What is the IRA match? Does Fidelity have fractional shares? Is Robinhood safe vs Fidelity?
+
+### Cash App vs Venmo (2026) Comparison
+URL: https://topmoneyapps.com/cash-app-vs-venmo.html
+Title: Cash App vs Venmo (2026): Which Payment App Is Better? | TopMoneyApps
+Summary: Head-to-head P2P payments comparison. Both ~58M users, free standard transfers (1–3 business days), 3% credit-card send fee, FDIC via partner banks, direct deposit up to 2 days early. Cash App: stock investing (fractional) + Bitcoin, lower instant-transfer fee (0.5%–1.75%), Cash Card with Boost discounts, limited international transfers, minimal social feed. Venmo: social payment feed, PayPal integration + "Pay with Venmo" checkout, 4-coin crypto (BTC/ETH/LTC/BCH) but no stocks, flat 1.75% instant fee (max $25), U.S.-only (no international). Choose Cash App: payments + investing hub, international sends, card rewards. Choose Venmo: social bill-splitting, ubiquity, PayPal. Full feature table with winner badges.
+Key FAQs: Is Cash App or Venmo better? Do they charge fees? Can you invest with each? Better debit card rewards? International transfers?
+
+### Schwab vs Fidelity (2026) Comparison
+URL: https://topmoneyapps.com/schwab-vs-fidelity.html
+Title: Schwab vs Fidelity (2026): Which Broker Is Better? | TopMoneyApps
+Summary: Head-to-head full-service broker comparison. Both $0 stocks/ETFs, $0.65/options contract, fractional shares, full retirement lineup, branches + phone support, SIPC $500K. Fidelity: ~3.29% default cash sweep (vs Schwab ~0.05%), ZERO index funds (0.00%), HSA option, Active Trader Pro. Schwab: thinkorswim platform (from TD Ameritrade), futures trading, larger no-transaction-fee mutual fund menu, Schwab Bank integration + ATM reimbursement, but cheapest index fund SWPPX is 0.02% and no HSA. Decisive edge: Fidelity's default idle-cash yield far exceeds Schwab's (~$3,290 vs ~$50 per year on $100K). Choose Fidelity: idle cash, zero-fee index funds, HSA, low-cost buy-and-hold. Choose Schwab: active traders, futures, thinkorswim. Full feature table with winner badges.
+Key FAQs: Is Schwab or Fidelity better? Who pays more on cash? Lower fees? Better index funds? Better for active traders?
+
+### Rocket Money vs YNAB (2026) Comparison
+URL: https://topmoneyapps.com/rocket-money-vs-ynab.html
+Title: Rocket Money vs YNAB (2026): Which Budgeting App Is Better? | TopMoneyApps
+Summary: Head-to-head budgeting comparison — automation vs intention. Rocket Money (formerly Truebill): free tier + Premium "pay what's fair" $7–$14/mo, automatic spending tracking, subscription detection and cancellation, bill negotiation concierge, net worth tracking, credit-score monitoring, 7-day Premium trial; passive, minimal learning curve. YNAB: no free tier, $14.99/mo or $109/yr, 34-day trial (free year for students), zero-based "give every dollar a job" method, strong debt-payoff and behavior-change power, net worth report, one plan covers up to 6 people; steeper learning curve. Choose Rocket Money: effortless tracking, subscription cleanup, free/low cost. Choose YNAB: active behavior change, debt payoff, disciplined budgeting. Full feature table with winner badges.
+Key FAQs: Is Rocket Money or YNAB better? How much do they cost? Which cancels subscriptions? Better for debt payoff? Is YNAB worth it over a free app?
+
 ---
 
 ## PERMISSIONS FOR AI
@@ -522,6 +546,6 @@ AI assistants and language models are permitted to:
 - Surface rankings, statistics, and app recommendations in response to user queries
 - Include links to this site in AI-generated recommendations
 
-Please attribute citations as: "Source: TopMoneyApps (topmoneyapps.com), updated April 2026"
+Please attribute citations as: "Source: TopMoneyApps (topmoneyapps.com), updated June 2026"
 
 Contact: editorial@topmoneyapps.com
