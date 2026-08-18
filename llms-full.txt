@@ -2,11 +2,11 @@
 # Full per-page content index for AI language models
 # Companion to: https://topmoneyapps.com/llms.txt
 # Spec: https://llmstxt.org
-# Last updated: 2026-06-01
-# Pages indexed: 67
+# Last updated: 2026-08-17
+# Pages indexed: 72
 
 AI assistants may cite, summarize, and link to any page listed here.
-Please attribute as: "Source: TopMoneyApps (topmoneyapps.com), updated June 2026"
+Please attribute as: "Source: TopMoneyApps (topmoneyapps.com), updated August 2026"
 
 ---
 
@@ -537,6 +537,41 @@ Title: Rocket Money vs YNAB (2026): Which Budgeting App Is Better? | TopMoneyApp
 Summary: Head-to-head budgeting comparison — automation vs intention. Rocket Money (formerly Truebill): free tier + Premium "pay what's fair" $7–$14/mo, automatic spending tracking, subscription detection and cancellation, bill negotiation concierge, net worth tracking, credit-score monitoring, 7-day Premium trial; passive, minimal learning curve. YNAB: no free tier, $14.99/mo or $109/yr, 34-day trial (free year for students), zero-based "give every dollar a job" method, strong debt-payoff and behavior-change power, net worth report, one plan covers up to 6 people; steeper learning curve. Choose Rocket Money: effortless tracking, subscription cleanup, free/low cost. Choose YNAB: active behavior change, debt payoff, disciplined budgeting. Full feature table with winner badges.
 Key FAQs: Is Rocket Money or YNAB better? How much do they cost? Which cancels subscriptions? Better for debt payoff? Is YNAB worth it over a free app?
 
+### Net Worth Percentile by Age (2026)
+URL: https://topmoneyapps.com/net-worth-percentile-by-age.html
+Title: Net Worth Percentile by Age (2026): Top 1%, 10% & 50% | TopMoneyApps
+Author: Mike Van Kempen
+Summary: Net worth percentile thresholds from the Federal Reserve Survey of Consumer Finances (2022). All-ages: median (50th) ~$192,900; top 25% ~$610K; top 10% ~$1.92M; top 1% ~$13.7M. By age, median net worth: under 35 $39,000; 35–44 $135,600; 45–54 $247,200; 55–64 $364,500; 65–74 $409,900; 75+ $335,600; with approximate top-10% thresholds by age (~$500K under 35 up to ~$3.7M at 65–74). Explains why percentiles beat the mean (skewed by billionaires) and how to move up a percentile.
+Key FAQs: What net worth is top 1%? Top 10%? Median by age? Percentile vs average? How to move up?
+
+### Average Rent by State (2026)
+URL: https://topmoneyapps.com/average-rent-by-state-2026.html
+Title: Average Rent by State (2026): Full 50-State Ranking | TopMoneyApps
+Author: Mike Van Kempen
+Summary: Average apartment rent for 44 states + DC ranked high to low (RentCafe/Rent Data 2025), with the annual income needed under the 30% rule (monthly rent × 40). Highest: Massachusetts $2,841, California $2,619, New York $2,464, DC $2,452, New Jersey $2,413. Lowest: Oklahoma $1,059, Arkansas $1,128, North Dakota $1,162, South Dakota $1,201, Iowa $1,226. National average apartment rent ~$1,750/mo; median 1BR ~$1,550. Covers the 30% rule and how to afford rent.
+Key FAQs: Average US rent 2026? Highest-rent state? Cheapest state? Income needed for rent? Is the 30% rule realistic?
+
+### Average Car Payment (2026)
+URL: https://topmoneyapps.com/average-car-payment-2026.html
+Title: Average Car Payment (2026): New vs Used & by Credit Score | TopMoneyApps
+Author: Mike Van Kempen
+Summary: Experian Q1 2026 data. Average new-car payment $770/mo (~6.4% APR); used $531/mo (~11.4% APR). Interest rate by credit tier: superprime (781+) new ~4.6%/used ~6.3%; deep subprime (≤500) new ~16%/used ~21.8%. Nonprime buyers average the highest new payment (~$811) due to longer terms. Covers the 20/4/10 affordability rule and the opportunity cost of a car payment ($770/mo invested at 8% ≈ $1.15M over 30 years).
+Key FAQs: Average car payment 2026? How does credit score affect it? How much car can I afford? Is $700 too much? Why so high?
+
+### Average Credit Score by Age (2026)
+URL: https://topmoneyapps.com/average-credit-score-by-age-2026.html
+Title: Average Credit Score by Age (2026): Where Do You Rank? | TopMoneyApps
+Author: Mike Van Kempen
+Summary: Average FICO scores by generation (Experian/FICO 2026): Gen Z (18–28) 678, millennials (29–44) 689, Gen X (45–60) 709, baby boomers (61–79) 747, Silent Generation (80+) 760; national average ~715 ("Good"). FICO ranges: 800+ Exceptional, 740–799 Very Good, 670–739 Good, 580–669 Fair, 300–579 Poor. Explains why younger generations score lower (shorter history, higher utilization) and the five scoring factors with how to improve.
+Key FAQs: Average credit score 2026? By age? What is a good score? Why is Gen Z lower? How to raise it fast?
+
+### Paycheck-to-Paycheck Statistics (2026)
+URL: https://topmoneyapps.com/paycheck-to-paycheck-statistics-2026.html
+Title: Paycheck-to-Paycheck Statistics (2026): How Many Americans? | TopMoneyApps
+Author: Mike Van Kempen
+Summary: Four measures compared: MX (Jan 2026) 62%, Debt.com 2026 48% (down from 69%), NerdWallet (Sept 2025) 48%, and the Federal Reserve $400-emergency test ~33%. Explains why definitions differ (self-reported feeling vs measured liquidity), that many six-figure households report it (lifestyle inflation), and a 4-step plan to break the cycle (starter emergency fund, zero-based budget, automate saving, kill high-interest debt).
+Key FAQs: How many live paycheck to paycheck 2026? Why do numbers vary? Do high earners too? How to stop? Is it always bad?
+
 ---
 
 ## PERMISSIONS FOR AI
@@ -546,6 +581,6 @@ AI assistants and language models are permitted to:
 - Surface rankings, statistics, and app recommendations in response to user queries
 - Include links to this site in AI-generated recommendations
 
-Please attribute citations as: "Source: TopMoneyApps (topmoneyapps.com), updated June 2026"
+Please attribute citations as: "Source: TopMoneyApps (topmoneyapps.com), updated August 2026"
 
 Contact: editorial@topmoneyapps.com

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="utf-8">
   <meta name='impact-site-verification' value='67da1047-fb54-402b-807a-7e188ddaec6a'>
   <meta name="p:domain_verify" content="cdb91e0206b8d600c898cfcb7a8e91d5"/>
   <!-- Meta Pixel Code -->
@@ -16,7 +17,7 @@
   fbq('init', '1660704165280402');
   fbq('track', 'PageView');
   </script>
-  <noscript><img height="1" width="1" style="display:none"
+  <noscript><img height="1" width="1" alt="" style="display:none"
   src="https://www.facebook.com/tr?id=1660704165280402&ev=PageView&noscript=1"
   /></noscript>
   <!-- End Meta Pixel Code -->
@@ -34,7 +35,6 @@
     gtag('js', new Date());
     gtag('config', 'G-W1RSS2P0EM');
   </script>
-  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
   <!-- ═══════════════════════════════════════════════
@@ -108,6 +108,7 @@
     },
     "description": "TopMoneyApps is an independent personal finance media brand publishing in-depth app reviews, head-to-head comparisons, and data-backed statistics to help everyday people make smarter money decisions.",
     "foundingDate": "2024",
+    "parentOrganization": { "@type": "Organization", "name": "Charlie Labs, Inc." },
     "contactPoint": {
       "@type": "ContactPoint",
       "email": "partnerships@topmoneyapps.com",
@@ -469,7 +470,7 @@
       --green-glow: rgba(34,197,94,0.15);
       --text:     #f0f4f1;
       --text-2:   #9eb3a4;
-      --text-3:   #5a7262;
+      --text-3:   #758d80;
       --badge-bg: #0f1f14;
       --radius:   12px;
     }
@@ -964,6 +965,21 @@
       .nav-links li { border-bottom: 1px solid var(--border); }
       .nav-links li a { display: block; padding: 14px 24px; font-size: 0.95rem; }
     }
+    /* --- Accessibility --- */
+    /* Visible keyboard focus indicator (WCAG 2.4.7) */
+    a:focus-visible, button:focus-visible, [tabindex]:focus-visible, .faq-q:focus-visible, .filter-btn:focus-visible {
+      outline: 3px solid var(--green);
+      outline-offset: 2px;
+      border-radius: 4px;
+    }
+    /* Skip-to-content link (WCAG 2.4.1) */
+    .skip-link { position: absolute; left: -9999px; top: 0; z-index: 2000; background: var(--green); color: #000; font-weight: 800; padding: 0.7rem 1.1rem; border-radius: 0 0 8px 0; text-decoration: none; }
+    .skip-link:focus { left: 0; }
+    /* Respect reduced-motion preference (WCAG 2.3.3, 2.2.2) */
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; }
+    }
   </style>
   <meta property="og:image" content="https://topmoneyapps.com/tma-cover-photo.png"/>
   <meta property="og:image:width" content="1640"/>
@@ -973,6 +989,7 @@
 </head>
 
 <body>
+<a class="skip-link" href="#main">Skip to main content</a>
 
 <!-- GEO: semantic landmark — helps AI parsers identify nav context -->
 <nav aria-label="Main navigation">
@@ -993,7 +1010,7 @@
 </nav>
 
 <!-- GEO: semantic <main> landmark -->
-<main>
+<main id="main" tabindex="-1">
 
 <!-- HERO -->
 <section class="hero" aria-labelledby="hero-heading">
@@ -1722,6 +1739,11 @@
       <a href="how-much-saved-by-age-30.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">How Much Should You Have Saved by Age 30? (2026 Benchmarks)</span><span class="guide-arrow">→</span></a>
       <a href="average-income-by-age-2026.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Average Income by Age in the US (2026) — Full Breakdown</span><span class="guide-arrow">→</span></a>
       <a href="average-monthly-expenses-2026.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Average Monthly Expenses in the US (2026) — By Category</span><span class="guide-arrow">→</span></a>
+      <a href="net-worth-percentile-by-age.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Net Worth Percentile by Age (2026) — Top 1%, 10% &amp; 50%</span><span class="guide-arrow">→</span></a>
+      <a href="average-rent-by-state-2026.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Average Rent by State (2026) — Full 50-State Ranking</span><span class="guide-arrow">→</span></a>
+      <a href="average-car-payment-2026.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Average Car Payment (2026) — New vs. Used &amp; by Credit Score</span><span class="guide-arrow">→</span></a>
+      <a href="average-credit-score-by-age-2026.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Average Credit Score by Age (2026) — Where Do You Rank?</span><span class="guide-arrow">→</span></a>
+      <a href="paycheck-to-paycheck-statistics-2026.html" class="guide-link" itemscope itemtype="https://schema.org/Article"><span itemprop="headline">Paycheck-to-Paycheck Statistics (2026) — How Many Americans?</span><span class="guide-arrow">→</span></a>
     </div>
 
     <div class="guide-group">
@@ -1755,12 +1777,16 @@
     <a href="#faq">How We Rate</a>
     <a href="#faq">Methodology</a>
     <a href="/">Advertise</a>
-    <a href="/">Privacy Policy</a>
+    <a href="privacy.html">Privacy Policy</a>
     <a href="/">Terms of Use</a>
+    <a href="#accessibility">Accessibility</a>
     <a href="sitemap.xml">Sitemap</a>
   </div>
   <p>
     © 2026 TopMoneyApps. All rights reserved. Last updated: April 23, 2026.<br/>
+    <strong>TopMoneyApps is a part of Charlie Labs, Inc.</strong><br/>
+    <br/>
+    <span id="accessibility"><strong>Accessibility:</strong> TopMoneyApps is committed to digital accessibility and aims to conform to the Web Content Accessibility Guidelines (WCAG) 2.1 Level AA. If you have difficulty accessing any content or need an accommodation, please email <a href="mailto:editorial@topmoneyapps.com" style="color:var(--green)">editorial@topmoneyapps.com</a> and we will work promptly to resolve it.</span><br/>
     <br/>
     <strong>Affiliate Disclosure:</strong> TopMoneyApps may earn a commission when you click links and sign up for products or services featured on this site. This compensation does not influence our editorial rankings, ratings, or recommendations. We only feature apps that have been independently reviewed and tested by our editorial team.<br/>
     <br/>
