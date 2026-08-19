@@ -2,7 +2,7 @@
 # Full per-page content index for AI language models
 # Companion to: https://topmoneyapps.com/llms.txt
 # Spec: https://llmstxt.org
-# Last updated: 2026-08-17
+# Last updated: 2026-08-18
 # Pages indexed: 72
 
 AI assistants may cite, summarize, and link to any page listed here.
@@ -18,7 +18,7 @@ Updated: 2026-04-23
 Summary: The site's main rankings page. Covers 60+ finance apps across 6 categories: Budgeting, Investing, Crypto, Real Estate, Banking, and Credit Cards. Ratings aggregated from 51,700+ verified user reviews across App Store, Google Play, and Trustpilot. Features a horizontally scrollable Top 5 ranked list, 8 interactive tools/calculators, category filter, and a collapsible directory of all 34 reviewed apps grouped by category.
 
 Top 5 ranked apps (as of April 2026):
-1. Acorns — 4.8/5 — micro-investing via round-ups — $3/month — Editor's Pick
+1. Acorns — 4.8/5 — micro-investing via round-ups — $4/month — Editor's Pick
 2. YNAB — 4.9/5 — zero-based budgeting — $14.99/month
 3. Robinhood — 4.6/5 — commission-free trading — free
 4. Chime — 4.5/5 — fee-free neobank — free
@@ -32,9 +32,9 @@ Key FAQs answered: best stock trading app, best ETF app, best crypto app, best r
 
 ### Acorns Review
 URL: https://topmoneyapps.com/acorns-review.html
-Title: Acorns Review 2026: Is It Worth $3/Month? Honest Take | TopMoneyApps
+Title: Acorns Review 2026: Is It Worth $4/Month? Honest Take | TopMoneyApps
 Score: 4.8/5
-Summary: In-depth review of Acorns micro-investing app. Acorns rounds up every debit/credit purchase to the nearest dollar and invests the difference in diversified ETF portfolios. Plans: Personal ($3/month), Family ($5/month). No account minimum. Average user invests $166/month automatically. Portfolios: Conservative, Moderately Conservative, Moderate, Moderately Aggressive, Aggressive. Also offers Acorns Checking (debit card with round-ups), Acorns Early (custodial accounts for kids), and a 1% IRA match. SIPC insured. Verdict: best for passive investors who want zero-decision investing; less suited for balances under $500 (fee is proportionally high) or investors wanting to pick stocks.
+Summary: In-depth review of Acorns micro-investing app. Acorns rounds up every debit/credit purchase to the nearest dollar and invests the difference in diversified ETF portfolios. Plans: Bronze ($4/month), Silver ($8/month), Gold ($12/month). No account minimum. Average user invests $166/month automatically. Portfolios: Conservative, Moderately Conservative, Moderate, Moderately Aggressive, Aggressive. Also offers Acorns Checking (debit card with round-ups), Acorns Early (custodial accounts for kids), and a 1% IRA match. SIPC insured. Verdict: best for passive investors who want zero-decision investing; less suited for balances under $500 (fee is proportionally high) or investors wanting to pick stocks.
 Key FAQs: Is Acorns worth it? How do round-ups work? What are Acorns' fees? What does Acorns invest in? Is Acorns safe?
 
 ### YNAB Review
@@ -72,13 +72,13 @@ Key FAQs: Is Monarch Money worth it? Is it a good Mint replacement? Does it work
 ### Acorns vs. Robinhood
 URL: https://topmoneyapps.com/acorns-vs-robinhood.html
 Title: Acorns vs. Robinhood (2026): Which Investing App is Right for You?
-Summary: Head-to-head comparison. Acorns: passive, automated, round-ups, $3/month flat fee, no stock picking. Robinhood: active, commission-free, stock/ETF/crypto/options, free (Gold $5/month). Verdict: Acorns for people who want zero-decision investing; Robinhood for anyone who wants to choose their own investments. Many users use both.
+Summary: Head-to-head comparison. Acorns: passive, automated, round-ups, $4/month flat fee, no stock picking. Robinhood: active, commission-free, stock/ETF/crypto/options, free (Gold $5/month). Verdict: Acorns for people who want zero-decision investing; Robinhood for anyone who wants to choose their own investments. Many users use both.
 Key FAQs: Is Acorns better than Robinhood? Can I use both? Which has better returns? Fees comparison?
 
 ### Acorns vs. Betterment
 URL: https://topmoneyapps.com/acorns-vs-betterment.html
 Title: Acorns vs. Betterment (2026): Which Robo-Investing App Wins?
-Summary: Both automate investing. Betterment charges 0.25% AUM (better for large balances), Acorns charges $3/month flat (better for small balances under ~$14,000). Betterment offers tax-loss harvesting; Acorns does not. Betterment has no round-up feature. Verdict: Acorns for beginners with small balances who want automatic round-up investing; Betterment for larger balances and tax-optimized portfolios.
+Summary: Both automate investing. Betterment charges 0.25% AUM (better for large balances), Acorns charges $4/month flat (better for small balances under ~$19,000). Betterment offers tax-loss harvesting; Acorns does not. Betterment has no round-up feature. Verdict: Acorns for beginners with small balances who want automatic round-up investing; Betterment for larger balances and tax-optimized portfolios.
 Key FAQs: Which has lower fees for large balances? Does Betterment have round-ups? Tax-loss harvesting comparison?
 
 ### Betterment vs. Wealthfront
@@ -182,7 +182,7 @@ Key FAQs: Best free net worth tracker? What replaced Mint for net worth? Can I t
 ### Best Investing Apps for Beginners 2026
 URL: https://topmoneyapps.com/best-investing-app-beginners.html
 Title: Best Investing Apps for Beginners in 2026 — Start with as Little as $1
-Top picks: Acorns (best for passive beginners, $3/mo), Robinhood (best for active beginners, free), Betterment (best robo-advisor for beginners, 0.25%/yr), Fidelity (best full-service broker, free), SoFi (best all-in-one, free).
+Top picks: Acorns (best for passive beginners, $4/mo), Robinhood (best for active beginners, free), Betterment (best robo-advisor for beginners, 0.25%/yr), Fidelity (best full-service broker, free), SoFi (best all-in-one, free).
 Key FAQs: How much money do I need to start? What's the safest app for beginners? Robo-advisor vs picking stocks?
 
 ### Best Apps for Roth IRA Investing 2026
@@ -253,7 +253,7 @@ Key FAQs: What is ESG investing? Best app for socially responsible investing? Do
 ### Best Finance Apps for College Students 2026
 URL: https://topmoneyapps.com/best-finance-app-college-students.html
 Title: Best Finance Apps for College Students in 2026 (Free & Cheap Options)
-Top picks: Empower (free budgeting/net worth), Chime (no-fee banking), Robinhood (commission-free investing), Acorns (passive investing, $3/mo), YNAB (34-day trial, student discount available).
+Top picks: Empower (free budgeting/net worth), Chime (no-fee banking), Robinhood (commission-free investing), Acorns (passive investing, $4/mo), YNAB (34-day trial, student discount available).
 Key FAQs: Best free finance app for college students? Does YNAB have a student discount? Should college students invest?
 
 ### Best Budgeting Apps for Couples 2026
