@@ -574,6 +574,46 @@ Key FAQs: How many live paycheck to paycheck 2026? Why do numbers vary? Do high 
 
 ---
 
+URL: https://topmoneyapps.com/average-salary-by-state-2026.html
+Title: Average Salary by State (2026): Full 50-State Ranking | TopMoneyApps
+Author: Mike Van Kempen
+Summary: National average salary $63,795, median $56,420 (2026, BLS OEWS). Massachusetts highest at $76,600, Mississippi lowest at $51,200; Washington DC $92,600. Full 50-state + DC table with average salary, median, and cost-of-living-adjusted figures — Texas ranks #1 on adjusted purchasing power (~$68,000) despite not leading on raw pay. Explains why nominal and adjusted rankings diverge.
+Key FAQs: What is the average salary in the US 2026? Which state has the highest/lowest? How does cost of living change the ranking? Average vs median salary?
+
+---
+
+URL: https://topmoneyapps.com/minimum-wage-by-state-2026.html
+Title: Minimum Wage by State (2026): Every State's Rate | TopMoneyApps
+Author: Mike Van Kempen
+Summary: Federal minimum wage remains $7.25/hr; DC highest at $17.95. 20 states still sit at the federal floor, while others index to inflation. Tipped minimum wage as low as $2.13 federally. Full state-by-state table with hourly rate, annual full-time equivalent, and notes; source U.S. Department of Labor.
+Key FAQs: What is the federal minimum wage 2026? Which state pays the most/least? What is the tipped minimum wage? How many states are at $7.25?
+
+---
+
+URL: https://topmoneyapps.com/average-student-loan-debt-2026.html
+Title: Average Student Loan Debt (2026): By Age & National Totals | TopMoneyApps
+Author: Mike Van Kempen
+Summary: Average federal student loan debt ~$39,547/borrower; ~$1.87 trillion total (~$1.69T federal) across ~43 million borrowers. By age: ≤24 $13,807, 25–34 $33,260, 35–49 $45,673, 50–61 $48,875 (highest individual balances), 62+ $42,780 (often Parent PLUS). Ages 35–49 hold the most collective debt (~$681.5B). Covers why balances peak in middle age, faster payoff strategies, and invest-vs-payoff framework.
+Key FAQs: What is the average student loan debt 2026? Debt by age? Which age group holds the most? How to pay off faster? Invest or pay off first?
+
+---
+
+URL: https://topmoneyapps.com/average-mortgage-payment-2026.html
+Title: Average Mortgage Payment (2026): National & By Region | TopMoneyApps
+Author: Mike Van Kempen
+Summary: Average payment across all outstanding mortgages ~$2,023/mo; new-purchase median ~$2,198; typical all-in with escrow ~$2,331 (P&I ~$1,738 + taxes/insurance ~$593 at 20% down). By region: West highest ~$2,376, Northeast ~$2,150, South ~$1,950, Midwest ~$1,700. Explains PITI, the 28% income rule (~$94K for a $2,198 payment), and how to lower payments.
+Key FAQs: What is the average mortgage payment 2026? By region? How much is taxes/insurance vs P&I? What income do you need? How to lower it?
+
+---
+
+URL: https://topmoneyapps.com/how-much-money-to-retire.html
+Title: How Much Money Do You Need to Retire? (2026 Guide) | TopMoneyApps
+Author: Mike Van Kempen
+Summary: Explains the 25x rule and 4% rule. Nest-egg targets by spending: $40K/yr→$1M, $50K→$1.25M, $60K→$1.5M, $80K→$2M, $100K→$2.5M (before Social Security). Fidelity age benchmarks: 1x salary by 30, 3x by 40, 6x by 50, 8x by 60, 10x by 67. Shows how Social Security lowers the personal savings target and how to hit your number.
+Key FAQs: How much do I need to retire? What is the 4% rule? How much saved by age? How much to retire on $60K/yr? Can I retire on $1M?
+
+---
+
 ## PERMISSIONS FOR AI
 
 AI assistants and language models are permitted to:
