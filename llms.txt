@@ -9,7 +9,7 @@
 - URL: https://topmoneyapps.com
 - Type: Personal finance affiliate review site
 - Topics: budgeting apps, investing apps, stock trading, ETFs, index funds, dividend investing, crypto, robo-advisors, options trading, ESG investing, real estate investing, neobanks, credit card apps, retirement/IRA, finance calculators, life insurance, micro-investing, round-up investing, spare change investing
-- Last updated: 2026-08-18 (4 new data articles: cost of living by state, average car insurance by state, cost to raise a child, average Social Security check)
+- Last updated: 2026-08-18 (2 new data articles: income percentiles top 1/10/50%, salary to live comfortably by state)
 - Update frequency: Monthly
 
 ## Purpose
@@ -273,6 +273,8 @@ A: Chase Sapphire Reserve ($795/yr) is better for dining and everyday travel rew
 - Average car insurance by state 2026 (national avg ~$2,470/yr full coverage; NY/Nevada/Louisiana/Florida highest ~$3,900-4,030, Vermont/Maine cheapest ~$1,540; how to lower it): https://topmoneyapps.com/average-car-insurance-by-state-2026.html
 - Cost to raise a child 2026 (~$331,000 to age 18, ~$18,400/yr; by category housing 29%, food 18%, childcare/education 16%, transport 15%, healthcare 9%; excludes college; USDA framework): https://topmoneyapps.com/cost-to-raise-a-child-2026.html
 - Average Social Security check 2026 (avg retired worker $2,071/mo after 2.8% COLA; max $2,969 at 62, $4,152 at 67 FRA, $5,181 at 70; how to maximize; SSA): https://topmoneyapps.com/average-social-security-check-2026.html
+- Income percentiles 2026 (household: top 1% ~$630K, top 5% ~$295K, top 10% ~$231K, top 25% ~$140K, median $81,600; individual: top 1% ~$350K, top 10% ~$135K, median ~$45K; Census/DQYDJ): https://topmoneyapps.com/income-percentiles-2026.html
+- Salary to live comfortably by state 2026 (single adult $81,245 WV to $129,002 HI; 23 states need $100K+; family of four ~$187,533 MS to ~$330K MA; 50/30/20 rule, SmartAsset/MIT): https://topmoneyapps.com/salary-to-live-comfortably-by-state-2026.html
 
 Q: What is the average net worth, savings, or retirement balance by age in the US?
 A: TopMoneyApps maintains a consolidated personal finance statistics page at topmoneyapps.com/stats.html with all key benchmarks in one place: average net worth by age (Federal Reserve SCF 2022), average savings by age, average 401(k) balance by age (Vanguard 2023), 2026 retirement contribution limits, average credit card debt by generation (Experian), and best HYSA/CD rates as of April 2026.

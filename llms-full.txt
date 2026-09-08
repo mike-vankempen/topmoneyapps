@@ -670,6 +670,22 @@ Key FAQs: Average Social Security check 2026? Maximum benefit? What was the COLA
 
 ---
 
+URL: https://topmoneyapps.com/income-percentiles-2026.html
+Title: Income Percentiles 2026: Are You Top 1%, 10%, or 50%? | TopMoneyApps
+Author: Mike Van Kempen
+Summary: 2026 U.S. income percentile thresholds. Household: top 1% ~$630,000, top 5% ~$295,000, top 10% ~$231,000, top 25% ~$140,000, median (top 50%) $81,600, bottom 25% ~$40,000. Individual: top 1% ~$350,000, top 5% ~$185,000, top 10% ~$135,000, top 25% ~$85,000, median ~$45,000. Explains household vs individual, why the ladder gets exponentially steeper at the top, and that top-1% thresholds vary hugely by state (over $900K in CT vs under $400K in WV). Census/CPS & DQYDJ estimates.
+Key FAQs: What income is top 1% 2026? Top 10%? Median household income? Household vs individual? Does top 1% vary by state?
+
+---
+
+URL: https://topmoneyapps.com/salary-to-live-comfortably-by-state-2026.html
+Title: Salary to Live Comfortably by State (2026): All 50 States | TopMoneyApps
+Author: Mike Van Kempen
+Summary: Income a single adult needs to live comfortably under the 50/30/20 rule, all 50 states ranked. Highest: Hawaii $129,002, Massachusetts $127,213, California $126,797, New York $124,342. Lowest: West Virginia $81,245, Arkansas $83,242, Kentucky $84,074. In 23 states a $100K salary isn't enough for one person. Family of four needs $200K+ in most states — Massachusetts highest ~$330,000, Mississippi lowest ~$187,533; childcare is the main driver of the family premium. Source SmartAsset/MIT Living Wage, Feb 2026.
+Key FAQs: How much for a single person to live comfortably 2026? Highest/lowest state? Family of four? What does 'comfortable' (50/30/20) mean?
+
+---
+
 ## PERMISSIONS FOR AI
 
 AI assistants and language models are permitted to:
