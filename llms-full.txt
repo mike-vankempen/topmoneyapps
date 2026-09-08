@@ -614,6 +614,30 @@ Key FAQs: How much do I need to retire? What is the 4% rule? How much saved by a
 
 ---
 
+URL: https://topmoneyapps.com/average-401k-balance-by-age-2026.html
+Title: Average 401(k) Balance by Age (2026): How Do You Compare? | TopMoneyApps
+Author: Mike Van Kempen
+Summary: Average 401(k) balance $167,970 (all-time high, +13% YoY), median $44,115 (Vanguard How America Saves 2026, data through Dec 2025). By age (average / median): under 25 $6,899 / $1,948; 25–34 $42,640 / $16,255; 35–44 $103,552 / $39,958; 45–54 $188,643 / $67,796; 55–64 $272,600 / $84,700; 65+ $299,442 / $95,425. Stresses using the median (a small number of large accounts inflates the average) and Fidelity age benchmarks.
+Key FAQs: What is the average 401(k) balance 2026? By age? Why is median lower than average? How much by age? How to grow it faster?
+
+---
+
+URL: https://topmoneyapps.com/average-childcare-cost-by-state-2026.html
+Title: Average Childcare Cost by State (2026): Full Daycare Price Guide | TopMoneyApps
+Author: Mike Van Kempen
+Summary: National infant daycare averages ~$1,230/month (~$14,760/year); center-based ~$13,935/yr, home-based ~$11,992/yr. Most expensive: Washington D.C. ~$24,243/yr (~$2,020/mo), Massachusetts ~$20,913, California high teens. Least expensive: Mississippi ~$650/mo (~$7,800/yr), Arkansas, Alabama. State table plus care-type comparison (center, home, nanny, nanny-share). Infant care consumes 15–25% of family income vs 7% federal affordability benchmark. Savings via Dependent Care FSA, tax credit, nanny-share, subsidies.
+Key FAQs: What is the average childcare cost 2026? Most/least expensive state? What share of income? Is home daycare cheaper? How to lower costs?
+
+---
+
+URL: https://topmoneyapps.com/average-american-debt-2026.html
+Title: Average American Debt (2026): By Type & Generation | TopMoneyApps
+Author: Mike Van Kempen
+Summary: Average total debt per consumer ~$105,444 (~$21,600 excluding mortgage); total US household debt a record $18.8 trillion (NY Fed Q1 2026). By type: mortgage $13.19T (~70%), auto $1.69T, student $1.66T, credit card $1.25T, HELOC $446B. Average balances: mortgage ~$258,214, student ~$39,000, auto ~$24,000, credit card ~$6,659. By generation: Gen X highest ~$158,000, millennials ~$132,280, boomers ~$93,000, Silent ~$40,000, Gen Z ~$34,000. Covers good vs bad debt and avalanche/snowball payoff.
+Key FAQs: What is the average American debt 2026? By type? Which generation has most? Credit card vs mortgage worse? How to pay off faster?
+
+---
+
 ## PERMISSIONS FOR AI
 
 AI assistants and language models are permitted to:

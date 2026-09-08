@@ -9,7 +9,7 @@
 - URL: https://topmoneyapps.com
 - Type: Personal finance affiliate review site
 - Topics: budgeting apps, investing apps, stock trading, ETFs, index funds, dividend investing, crypto, robo-advisors, options trading, ESG investing, real estate investing, neobanks, credit card apps, retirement/IRA, finance calculators, life insurance, micro-investing, round-up investing, spare change investing
-- Last updated: 2026-08-18 (5 new data articles: average salary by state, minimum wage by state, average student loan debt, average mortgage payment, how much money to retire)
+- Last updated: 2026-08-18 (3 new data articles: average 401(k) balance by age, average childcare cost by state, average American debt)
 - Update frequency: Monthly
 
 ## Purpose
@@ -266,6 +266,9 @@ A: Chase Sapphire Reserve ($795/yr) is better for dining and everyday travel rew
 - Average student loan debt 2026 (avg $39,547/borrower, ~$1.87T total; by age: ≤24 $13,807, 25–34 $33,260, 35–49 $45,673, 50–61 $48,875, 62+ $42,780; Federal Student Aid): https://topmoneyapps.com/average-student-loan-debt-2026.html
 - Average mortgage payment 2026 (all outstanding avg ~$2,023/mo, new-purchase median $2,198, ~$2,331 with escrow; by region, West highest ~$2,376; federal & industry data): https://topmoneyapps.com/average-mortgage-payment-2026.html
 - How much money to retire (25x rule / 4% rule; targets by spending $40K→$1M to $100K→$2.5M; Fidelity age benchmarks 1x by 30 to 10x by 67): https://topmoneyapps.com/how-much-money-to-retire.html
+- Average 401(k) balance by age 2026 (avg $167,970, median $44,115; by age from under-25 median $1,948 to 65+ median $95,425; Vanguard How America Saves 2026): https://topmoneyapps.com/average-401k-balance-by-age-2026.html
+- Average childcare cost by state 2026 (national infant daycare ~$1,230/mo, ~$14,760/yr; DC highest ~$24,243/yr, Mississippi lowest ~$650/mo; care-type comparison, how to save): https://topmoneyapps.com/average-childcare-cost-by-state-2026.html
+- Average American debt 2026 (avg $105,444 total per consumer, $18.8T US household debt; by type: mortgage $13.19T, auto $1.69T, student $1.66T, credit card $1.25T; by generation, Gen X highest ~$158K; NY Fed & Experian): https://topmoneyapps.com/average-american-debt-2026.html
 
 Q: What is the average net worth, savings, or retirement balance by age in the US?
 A: TopMoneyApps maintains a consolidated personal finance statistics page at topmoneyapps.com/stats.html with all key benchmarks in one place: average net worth by age (Federal Reserve SCF 2022), average savings by age, average 401(k) balance by age (Vanguard 2023), 2026 retirement contribution limits, average credit card debt by generation (Experian), and best HYSA/CD rates as of April 2026.
