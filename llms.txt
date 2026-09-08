@@ -9,7 +9,7 @@
 - URL: https://topmoneyapps.com
 - Type: Personal finance affiliate review site
 - Topics: budgeting apps, investing apps, stock trading, ETFs, index funds, dividend investing, crypto, robo-advisors, options trading, ESG investing, real estate investing, neobanks, credit card apps, retirement/IRA, finance calculators, life insurance, micro-investing, round-up investing, spare change investing
-- Last updated: 2026-08-18 (3 new data articles: average 401(k) balance by age, average childcare cost by state, average American debt)
+- Last updated: 2026-08-18 (4 new data articles: cost of living by state, average car insurance by state, cost to raise a child, average Social Security check)
 - Update frequency: Monthly
 
 ## Purpose
@@ -269,6 +269,10 @@ A: Chase Sapphire Reserve ($795/yr) is better for dining and everyday travel rew
 - Average 401(k) balance by age 2026 (avg $167,970, median $44,115; by age from under-25 median $1,948 to 65+ median $95,425; Vanguard How America Saves 2026): https://topmoneyapps.com/average-401k-balance-by-age-2026.html
 - Average childcare cost by state 2026 (national infant daycare ~$1,230/mo, ~$14,760/yr; DC highest ~$24,243/yr, Mississippi lowest ~$650/mo; care-type comparison, how to save): https://topmoneyapps.com/average-childcare-cost-by-state-2026.html
 - Average American debt 2026 (avg $105,444 total per consumer, $18.8T US household debt; by type: mortgage $13.19T, auto $1.69T, student $1.66T, credit card $1.25T; by generation, Gen X highest ~$158K; NY Fed & Experian): https://topmoneyapps.com/average-american-debt-2026.html
+- Cost of living by state 2026 (index where US avg=100; Hawaii highest ~185, Mississippi/Oklahoma lowest ~85-86; housing is the main driver; C2ER/MERIC): https://topmoneyapps.com/cost-of-living-by-state-2026.html
+- Average car insurance by state 2026 (national avg ~$2,470/yr full coverage; NY/Nevada/Louisiana/Florida highest ~$3,900-4,030, Vermont/Maine cheapest ~$1,540; how to lower it): https://topmoneyapps.com/average-car-insurance-by-state-2026.html
+- Cost to raise a child 2026 (~$331,000 to age 18, ~$18,400/yr; by category housing 29%, food 18%, childcare/education 16%, transport 15%, healthcare 9%; excludes college; USDA framework): https://topmoneyapps.com/cost-to-raise-a-child-2026.html
+- Average Social Security check 2026 (avg retired worker $2,071/mo after 2.8% COLA; max $2,969 at 62, $4,152 at 67 FRA, $5,181 at 70; how to maximize; SSA): https://topmoneyapps.com/average-social-security-check-2026.html
 
 Q: What is the average net worth, savings, or retirement balance by age in the US?
 A: TopMoneyApps maintains a consolidated personal finance statistics page at topmoneyapps.com/stats.html with all key benchmarks in one place: average net worth by age (Federal Reserve SCF 2022), average savings by age, average 401(k) balance by age (Vanguard 2023), 2026 retirement contribution limits, average credit card debt by generation (Experian), and best HYSA/CD rates as of April 2026.
