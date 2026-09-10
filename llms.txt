@@ -9,7 +9,7 @@
 - URL: https://topmoneyapps.com
 - Type: Personal finance affiliate review site
 - Topics: budgeting apps, investing apps, stock trading, ETFs, index funds, dividend investing, crypto, robo-advisors, options trading, ESG investing, real estate investing, neobanks, credit card apps, retirement/IRA, finance calculators, life insurance, micro-investing, round-up investing, spare change investing
-- Last updated: 2026-08-18 (2 new data articles: income percentiles top 1/10/50%, salary to live comfortably by state)
+- Last updated: 2026-09-09 (new interactive tool: The Cost of Being Alive 1970–2026)
 - Update frequency: Monthly
 
 ## Purpose
@@ -275,6 +275,7 @@ A: Chase Sapphire Reserve ($795/yr) is better for dining and everyday travel rew
 - Average Social Security check 2026 (avg retired worker $2,071/mo after 2.8% COLA; max $2,969 at 62, $4,152 at 67 FRA, $5,181 at 70; how to maximize; SSA): https://topmoneyapps.com/average-social-security-check-2026.html
 - Income percentiles 2026 (household: top 1% ~$630K, top 5% ~$295K, top 10% ~$231K, top 25% ~$140K, median $81,600; individual: top 1% ~$350K, top 10% ~$135K, median ~$45K; Census/DQYDJ): https://topmoneyapps.com/income-percentiles-2026.html
 - Salary to live comfortably by state 2026 (single adult $81,245 WV to $129,002 HI; 23 states need $100K+; family of four ~$187,533 MS to ~$330K MA; 50/30/20 rule, SmartAsset/MIT): https://topmoneyapps.com/salary-to-live-comfortably-by-state-2026.html
+- The Cost of Being Alive 1970–2026 (interactive tool: slide through the decades to see median income, rent, home price, new car, college & childcare in nominal dollars and as a share of income; home cost rose from 2.6x to 5.1x a year's income): https://topmoneyapps.com/cost-of-being-alive-1970-2026.html
 
 Q: What is the average net worth, savings, or retirement balance by age in the US?
 A: TopMoneyApps maintains a consolidated personal finance statistics page at topmoneyapps.com/stats.html with all key benchmarks in one place: average net worth by age (Federal Reserve SCF 2022), average savings by age, average 401(k) balance by age (Vanguard 2023), 2026 retirement contribution limits, average credit card debt by generation (Experian), and best HYSA/CD rates as of April 2026.

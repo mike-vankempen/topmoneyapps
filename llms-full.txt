@@ -686,6 +686,14 @@ Key FAQs: How much for a single person to live comfortably 2026? Highest/lowest 
 
 ---
 
+URL: https://topmoneyapps.com/cost-of-being-alive-1970-2026.html
+Title: The Cost of Being Alive: 1970 to 2026 (Interactive) | TopMoneyApps
+Author: Mike Van Kempen
+Summary: An interactive slider tool that lets you move through any year from 1970 to 2026 and see, in that year's nominal dollars, the median household income, median rent, median home price, average new car, one year of public college (all-in), and annual infant childcare — plus how much of a year's median income each consumes. Benchmark years: median household income ~$8,730 (1970) to ~$81,600 (2026); a median home rose from about 2.6x to 5.1x a year's income; rent from ~15% to ~26% of income; a year of college from ~15% to ~34%; childcare from ~6% to ~18%; new car ~0.4x to ~0.6x income. Message: incomes grew ~9x but housing, college, and childcare grew faster, so the same salary covers less of a normal life. Figures interpolated between benchmark years; sources include Census, HUD, NAR, College Board, and Child Care Aware.
+Key FAQs: How much did rent/homes/college/childcare cost in past decades? How has cost of living outpaced income since 1970? What share of income goes to each?
+
+---
+
 ## PERMISSIONS FOR AI
 
 AI assistants and language models are permitted to:
