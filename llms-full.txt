@@ -694,6 +694,38 @@ Key FAQs: How much did rent/homes/college/childcare cost in past decades? How ha
 
 ---
 
+URL: https://topmoneyapps.com/net-worth-to-be-rich-2026.html
+Title: What Net Worth Makes You Rich? Top 1%, 5% & 10% (2026) | TopMoneyApps
+Author: Mike Van Kempen
+Summary: U.S. net worth thresholds in 2026: top 1% ~$13.7 million, top 5% ~$3.8 million, top 10% ~$1.9 million, top 25% ~$610,000, median (top 50%) ~$192,900. A $1 million net worth is roughly the top 12–13%, and about 18% of households are millionaires. Explains why the climb steepens at the top (top 10% to top 1% is a ~7x jump), that much net worth is home equity and retirement accounts, and that top-1% thresholds run far higher in states like CT/MA/CA/NJ. Source Federal Reserve SCF (inflation-adjusted) and DQYDJ.
+Key FAQs: What net worth is top 1% 2026? Top 5%/10%? Is $1M rich? Median net worth? Does it vary by state?
+
+---
+
+URL: https://topmoneyapps.com/take-home-pay-100k-by-state-2026.html
+Title: $100K Salary After Taxes by State (2026): Take-Home Pay | TopMoneyApps
+Author: Mike Van Kempen
+Summary: Estimated take-home on a $100,000 salary for a single filer in 2026. No-income-tax states (AK, FL, NV, NH, SD, TN, TX, WA, WY) net ~$79,180 (79%). Examples: Pennsylvania ~$76,110, Illinois ~$74,230, California ~$73,853, New York ~$72,900, Hawaii ~$71,900, Oregon lowest ~$69,900. Federal tax (~$13,400) and FICA ($7,650) are the same everywhere (~$21K); state income tax creates a ~$9,000 best-vs-worst gap. Notes no-tax states often recoup via property/sales taxes and that cost of living matters.
+Key FAQs: How much is $100K after taxes 2026? Most/least take-home states? Why the variation? Does higher take-home mean you keep more?
+
+---
+
+URL: https://topmoneyapps.com/how-much-house-can-i-afford-2026.html
+Title: How Much House Can I Afford? (2026) — By Salary | TopMoneyApps
+Author: Mike Van Kempen
+Summary: Uses the 28/36 rule (housing <28% of gross income, all debt <36%). Salary→max home price at 20% down, ~7% rate, no other debt: $50K→~$165K, $75K→~$295K, $100K→~$395K, $125K→~$495K, $150K→~$595K, $200K→~$790K (rule of thumb: ~3–4x salary; each $25K salary ≈ +$100K buying power). Stresses that the rule uses gross income while you live on take-home, so aim for ~25% of gross or 30–35% of take-home; rate, down payment, debts, taxes and credit score all move the number.
+Key FAQs: How much house on $100K/$75K/$150K? What is the 28/36 rule? Income needed for a $400K house? Should I borrow the max?
+
+---
+
+URL: https://topmoneyapps.com/average-health-insurance-cost-2026.html
+Title: Average Health Insurance Cost (2026): By Age, Family & Plan | TopMoneyApps
+Author: Mike Van Kempen
+Summary: Benchmark silver ACA plan ~$625/month for a single 40-year-old before subsidies. Employer coverage: employee pays ~$120/month single (total ~$700), ~$571/month family (total ~$2,000). Metal tiers (40yo): Bronze ~$456, Silver ~$625, Gold ~$700. By age (silver): ~$460 at 21, ~$520 at 30, ~$625 at 40, ~$875 at 50, ~$1,325 at 60 (3:1 age rating). Subsidies bring the average eligible enrollee to ~$50/month. Covers tier selection and how to lower cost (subsidies, HSA, match tier to health, compare at open enrollment). Sources ACA/KFF/HealthCare.gov.
+Key FAQs: Average health insurance cost 2026? By age? Family cost? Bronze vs Silver vs Gold? Do subsidies lower it?
+
+---
+
 ## PERMISSIONS FOR AI
 
 AI assistants and language models are permitted to:
