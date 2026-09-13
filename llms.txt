@@ -9,7 +9,7 @@
 - URL: https://topmoneyapps.com
 - Type: Personal finance affiliate review site
 - Topics: budgeting apps, investing apps, stock trading, ETFs, index funds, dividend investing, crypto, robo-advisors, options trading, ESG investing, real estate investing, neobanks, credit card apps, retirement/IRA, finance calculators, life insurance, micro-investing, round-up investing, spare change investing
-- Last updated: 2026-09-10 (4 new articles: net worth to be rich, $100K after taxes by state, how much house can I afford, average health insurance cost)
+- Last updated: 2026-09-12 (4 new articles: average electric bill by state, average tax refund by state, emergency fund statistics, average grocery bill per month)
 - Update frequency: Monthly
 
 ## Purpose
@@ -280,6 +280,10 @@ A: Chase Sapphire Reserve ($795/yr) is better for dining and everyday travel rew
 - $100K salary after taxes by state 2026 (no-income-tax states net ~$79,180; Oregon lowest ~$69,900; ~$9K best-vs-worst gap; single filer estimate): https://topmoneyapps.com/take-home-pay-100k-by-state-2026.html
 - How much house can I afford 2026 (28/36 rule; ~$395K home on $100K salary; salary→price table $50K→$165K to $200K→$790K; 20% down, ~7% rate): https://topmoneyapps.com/how-much-house-can-i-afford-2026.html
 - Average health insurance cost 2026 (benchmark silver ~$625/mo for 40yo; employer single $120/mo, family $571/mo; by age $460 at 21 to $1,325 at 60; ~$50/mo after subsidies; ACA/KFF): https://topmoneyapps.com/average-health-insurance-cost-2026.html
+- Average electric bill by state 2026 (national ~$166/mo, up 29% since 2022; Hawaii highest ~$268, Utah lowest ~$96; total utilities ~$450-650/mo; EIA): https://topmoneyapps.com/average-electric-bill-by-state-2026.html
+- Average tax refund by state 2026 (national ~$3,275, +11% YoY; Florida highest $4,433, Texas $4,344, Maine lowest $2,656; why bigger = you overpaid; IRS): https://topmoneyapps.com/average-tax-refund-by-state-2026.html
+- Emergency fund statistics 2026 (43% can't cover $1,000 from savings, 59% would borrow, 40%+ have no fund, median fund $5,000 down from $10,000; how much you need & how to build; Bankrate/US News): https://topmoneyapps.com/emergency-fund-statistics-2026.html
+- Average grocery bill per month 2026 (1 adult ~$430 moderate, family of 4 ~$1,380; USDA plans thrifty $1,013 to liberal $1,668; USDA Official Food Plans): https://topmoneyapps.com/average-grocery-bill-per-month-2026.html
 
 Q: What is the average net worth, savings, or retirement balance by age in the US?
 A: TopMoneyApps maintains a consolidated personal finance statistics page at topmoneyapps.com/stats.html with all key benchmarks in one place: average net worth by age (Federal Reserve SCF 2022), average savings by age, average 401(k) balance by age (Vanguard 2023), 2026 retirement contribution limits, average credit card debt by generation (Experian), and best HYSA/CD rates as of April 2026.
