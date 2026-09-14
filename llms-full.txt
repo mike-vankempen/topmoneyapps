@@ -766,6 +766,30 @@ Key FAQs: How much do Americans spend on subscriptions 2026? Streaming alone? Wh
 
 ---
 
+URL: https://topmoneyapps.com/average-net-worth-at-30-2026.html
+Title: Average Net Worth at 30 (2026): Percentiles + Calculator | TopMoneyApps
+Author: Mike Van Kempen
+Summary: Data product for age 30 (30–34 band). Median net worth ~$88,600 vs average (mean) ~$260,000. Percentiles: 10th ~$1,000, 25th ~$20,000, 50th ~$88,600, 75th ~$230,000, 90th ~$480,000, 95th ~$780,000, 99th ~$2.2M. Top 25% ~$230K, top 10% ~$480K, top 1% ~$2.2M. Includes an interactive calculator that estimates your percentile from your net worth, average-vs-median and percentile-ladder charts, and guidance (401k match, kill high-interest debt, emergency fund, automate index investing). Negative net worth at 30 is common/temporary. Source Federal Reserve SCF (inflation-adjusted) + DQYDJ.
+Key FAQs: Average net worth at 30? Good net worth at 30? Top 10% at 30? Why negative net worth? How to build it in your 30s?
+
+---
+
+URL: https://topmoneyapps.com/average-net-worth-at-40-2026.html
+Title: Average Net Worth at 40 (2026): Percentiles + Calculator | TopMoneyApps
+Author: Mike Van Kempen
+Summary: Data product for age 40 (40–44 band). Median net worth ~$135,000 vs average ~$550,000. Percentiles: 10th ~$4,000, 25th ~$45,000, 50th ~$135,000, 75th ~$420,000, 90th ~$1.0M, 95th ~$1.6M, 99th ~$4.5M. Top 25% ~$420K, top 10% ~$1.0M, top 1% ~$4.5M. Includes interactive percentile calculator, average-vs-median and ladder charts, and catch-up guidance (max tax-advantaged accounts, kill debt, control lifestyle, home equity). Median rises from ~$88.6K at 30 to ~$135K at 40; top 10% roughly doubles to $1M. Source Fed SCF + DQYDJ.
+Key FAQs: Average net worth at 40? Good net worth at 40? Top 10% at 40? How does it change 30→40? How to catch up at 40?
+
+---
+
+URL: https://topmoneyapps.com/average-net-worth-at-50-2026.html
+Title: Average Net Worth at 50 (2026): Percentiles + Calculator | TopMoneyApps
+Author: Mike Van Kempen
+Summary: Data product for age 50 (50–54 band). Median net worth ~$247,000 vs average ~$976,000. Percentiles: 10th ~$12,000, 25th ~$90,000, 50th ~$247,000, 75th ~$730,000, 90th ~$1.8M, 95th ~$2.9M, 99th ~$8M. Top 25% ~$730K, top 10% ~$1.8M, top 1% ~$8M. Includes interactive percentile calculator, average-vs-median and ladder charts, and pre-retirement guidance (catch-up contributions, pay off mortgage, stay invested, delay Social Security, run your retirement number). $1M ≈ top 15–20% at 50 but only ~$40K/yr under the 4% rule. Source Fed SCF + DQYDJ.
+Key FAQs: Average net worth at 50? Good net worth at 50? Top 10% at 50? Is $1M enough to retire at 50? How to boost it in your 50s?
+
+---
+
 ## PERMISSIONS FOR AI
 
 AI assistants and language models are permitted to:
