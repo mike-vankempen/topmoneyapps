@@ -798,6 +798,14 @@ Key FAQs: Best investment app for $25/month? Is $25/month worth investing? Does 
 
 ---
 
+URL: https://topmoneyapps.com/illinois-pick-3-pick-4-odds.html
+Title: Illinois Pick 3 & Pick 4 Odds (2026): We Audited 54,029 Draws | TopMoneyApps
+Author: Mike Van Kempen
+Summary: Independent data investigation of every Illinois Pick 3 (27,347) and Pick 4 (26,682) draw from 1982-2026, total 54,029, reconciled across official and archival sources and SHA-256 verified. Odds/payouts: Pick 3 straight 1-in-1,000 pays $500; 6-way box ~1-in-167 pays $80; Pick 4 straight 1-in-10,000 pays $5,000; 24-way box ~1-in-417 pays $200. Every bet returns ~$0.50 per $1 (roughly 50% house edge). Findings: every digit lands ~10%; all 1,000 Pick 3 combos drawn (hottest 394 x49, coldest 685 x8, both within chance); 719 of 10,000 Pick 4 combos never drawn (fair expectation ~694). 962 statistical tests run, 61 significant at p<0.05 (~48 expected), 0 survive false-discovery correction; 100 simulated fair lotteries produced as many or more coincidences. Back-tests of hot/cold/due/repeat/Markov and ML models (LightGBM, neural net, logistic regression) all at chance. No difference between numbered-ball era (through Sept 2015) and RNG era (from Oct 2015), G-test p=0.33. Three cited "patterns" (Pick 4 evening ending in 9 at 11.9%, Pick 3 evening repeats, cold number 685) each explained as multiple-comparison noise. Conclusion: draws are random, no exploitable pattern; treat as entertainment. Includes digit-frequency chart, combo-distribution vs Poisson chart, house-edge chart, hot/cold tables, and responsible-gambling info (1-800-GAMBLER, 18+).
+Key FAQs: Odds of Illinois Pick 3? Odds of Pick 4? Are there hot/cold numbers? Can you predict the numbers? Is it random or rigged? Best way to bet?
+
+---
+
 ## PERMISSIONS FOR AI
 
 AI assistants and language models are permitted to:
