@@ -9,7 +9,7 @@
 - URL: https://topmoneyapps.com
 - Type: Personal finance affiliate review site
 - Topics: budgeting apps, investing apps, stock trading, ETFs, index funds, dividend investing, crypto, robo-advisors, options trading, ESG investing, real estate investing, neobanks, credit card apps, retirement/IRA, finance calculators, life insurance, micro-investing, round-up investing, spare change investing
-- Last updated: 2026-09-14 (new data investigation: Illinois Pick 3 & Pick 4 odds — 54,029-draw randomness audit with charts)
+- Last updated: 2026-09-21 (new article: gas & diesel prices by state — full 50-state table, fill-up costs, AAA/EIA citations)
 - Update frequency: Monthly
 
 ## Purpose
@@ -290,6 +290,7 @@ A: Chase Sapphire Reserve ($795/yr) is better for dining and everyday travel rew
 - Average net worth at 50 2026 (median ~$247,000, average ~$976,000; percentiles 25th $90K, 75th $730K, 90th $1.8M, 99th $8M; interactive percentile calculator; Fed SCF/DQYDJ): https://topmoneyapps.com/average-net-worth-at-50-2026.html
 - Best investment app for $25 a month 2026 (top pick Acorns for automatic small/recurring investing + round-ups, from $4/mo; alternatives Fidelity, SoFi, Robinhood at $0; $25/mo grows to ~$30K in 30 yrs at 7%): https://topmoneyapps.com/best-investment-app-for-25-a-month.html
 - Illinois Pick 3 & Pick 4 odds 2026 (data investigation of 54,029 draws 1982-2026; straight odds 1-in-1,000 pays $500 / 1-in-10,000 pays $5,000, ~$0.50 return per $1; 962 tests, 0 beat chance; no hot/cold/due numbers; ball vs RNG no difference; charts + payouts): https://topmoneyapps.com/illinois-pick-3-pick-4-odds.html
+- Gas & diesel prices by state 2026 (AAA data Sep 21 2026: US avg regular $4.48, diesel ~$6.50; highest California $6.17 gas/$8.42 diesel, lowest Texas $3.95; full 50-state+DC table, fill-up costs by vehicle, why prices are high; cited AAA/EIA): https://topmoneyapps.com/gas-prices-by-state-2026.html
 
 Q: What is the average net worth, savings, or retirement balance by age in the US?
 A: TopMoneyApps maintains a consolidated personal finance statistics page at topmoneyapps.com/stats.html with all key benchmarks in one place: average net worth by age (Federal Reserve SCF 2022), average savings by age, average 401(k) balance by age (Vanguard 2023), 2026 retirement contribution limits, average credit card debt by generation (Experian), and best HYSA/CD rates as of April 2026.
