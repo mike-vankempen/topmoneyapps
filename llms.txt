@@ -9,7 +9,7 @@
 - URL: https://topmoneyapps.com
 - Type: Personal finance affiliate review site
 - Topics: budgeting apps, investing apps, stock trading, ETFs, index funds, dividend investing, crypto, robo-advisors, options trading, ESG investing, real estate investing, neobanks, credit card apps, retirement/IRA, finance calculators, life insurance, micro-investing, round-up investing, spare change investing
-- Last updated: 2026-09-21 (new article: Acorns promo code / $20 sign-up bonus October 2026)
+- Last updated: 2026-10-21 (site refresh + 5 new articles: Thanksgiving dinner cost, winter heating bills, states with no income tax, average credit card APR, rent vs buy; gas prices page refreshed to Oct 21 AAA data)
 - Update frequency: Monthly
 
 ## Purpose
@@ -292,6 +292,11 @@ A: Chase Sapphire Reserve ($795/yr) is better for dining and everyday travel rew
 - Illinois Pick 3 & Pick 4 odds 2026 (data investigation of 54,029 draws 1982-2026; straight odds 1-in-1,000 pays $500 / 1-in-10,000 pays $5,000, ~$0.50 return per $1; 962 tests, 0 beat chance; no hot/cold/due numbers; ball vs RNG no difference; charts + payouts): https://topmoneyapps.com/illinois-pick-3-pick-4-odds.html
 - Gas & diesel prices by state 2026 (AAA data Sep 21 2026: US avg regular $4.48, diesel ~$6.50; highest California $6.17 gas/$8.42 diesel, lowest Texas $3.95; full 50-state+DC table, fill-up costs by vehicle, why prices are high; cited AAA/EIA): https://topmoneyapps.com/gas-prices-by-state-2026.html
 - Acorns promo code / $20 sign-up bonus (October 2026): no typed code; $20 bonus applies via referral link after a $5 recurring investment (Invest/Early/Later/Checking), paid ~10 days into the next month; new users; Acorns from $4/mo; how to claim + is it worth it: https://topmoneyapps.com/acorns-promo-code-2026.html
+- Cost of Thanksgiving dinner 2026 (classic dinner for 10 ~$55.18, ~$5.52/person; down from 2022 peak $64.05; turkey $21.50; South cheapest ~$50, West priciest ~$62; AFBF): https://topmoneyapps.com/cost-of-thanksgiving-dinner-2026.html
+- Average heating bill winter 2026-27 (EIA: natural gas $640 -9%, electricity $1,196 +4%, propane $1,246 -3%, heating oil $2,115 +21%; gas cheapest, oil hit hardest): https://topmoneyapps.com/average-heating-bill-winter-2026.html
+- States with no income tax 2026 (9 states: AK, FL, NV, NH, SD, TN, TX, WA, WY; NH fully phased out I&D tax in 2025; WA taxes high capital gains; how they fund themselves): https://topmoneyapps.com/states-with-no-income-tax-2026.html
+- Average credit card interest rate 2026 (~22-23% APR, near record; by tier: excellent 17%, good 23%, fair 27%, store 33%; payoff math; Fed G.19/WalletHub): https://topmoneyapps.com/average-credit-card-interest-rate-2026.html
+- Rent vs buy 2026 (renting cheaper in all 50 largest metros, ~$920/mo gap; range $64 Pittsburgh to $2,425 San Jose; buying wins after ~5-7 yrs; Realtor.com): https://topmoneyapps.com/rent-vs-buy-2026.html
 
 Q: What is the average net worth, savings, or retirement balance by age in the US?
 A: TopMoneyApps maintains a consolidated personal finance statistics page at topmoneyapps.com/stats.html with all key benchmarks in one place: average net worth by age (Federal Reserve SCF 2022), average savings by age, average 401(k) balance by age (Vanguard 2023), 2026 retirement contribution limits, average credit card debt by generation (Experian), and best HYSA/CD rates as of April 2026.
