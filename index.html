@@ -647,6 +647,7 @@
       padding: 0.15rem 0.55rem; border-radius: 4px;
       background: var(--badge-bg); border: 1px solid var(--border);
       color: var(--text-3);
+      display: inline-block; white-space: nowrap; vertical-align: middle;
     }
     .tag.green { background: #0f2016; border-color: #1e4d29; color: var(--green); }
     .rank-info p { font-size: 0.84rem; color: var(--text-2); margin-top: 0.2rem; }
@@ -1970,4 +1971,29 @@
       }
     });
   });
+</script>
+<!-- Floating Acorns $20 promo banner -->
+<style>
+  #acornsBanner { position: fixed; left: 0; right: 0; bottom: 0; z-index: 1500; background: linear-gradient(90deg,#0f2016,#141816); border-top: 1px solid #22c55e; box-shadow: 0 -6px 24px rgba(0,0,0,.45); padding: .7rem 2.6rem .7rem 1rem; display: flex; align-items: center; justify-content: center; gap: 1rem; font-family: 'Inter', sans-serif; }
+  #acornsBanner.hide { display: none; }
+  #acornsBanner .ab-txt { color: #f0f4f1; font-size: .9rem; font-weight: 600; }
+  #acornsBanner .ab-txt b { color: #22c55e; }
+  #acornsBanner .ab-ad { color: #758d80; font-weight: 500; font-size: .7rem; border: 1px solid #242c26; border-radius: 3px; padding: 0 .3rem; margin-left: .3rem; vertical-align: middle; }
+  #acornsBanner .ab-cta { background: #22c55e; color: #000; font-weight: 800; font-size: .85rem; padding: .55rem 1.3rem; border-radius: 8px; white-space: nowrap; text-decoration: none; transition: background .2s; }
+  #acornsBanner .ab-cta:hover { background: #16a34a; }
+  #acornsBanner .ab-close { position: absolute; right: .7rem; top: 50%; transform: translateY(-50%); background: transparent; border: none; color: #9eb3a4; font-size: 1.4rem; line-height: 1; cursor: pointer; padding: .2rem .5rem; }
+  #acornsBanner .ab-close:hover { color: #f0f4f1; }
+  @media (max-width: 600px) { #acornsBanner { gap: .7rem; padding: .6rem 2.4rem .6rem .9rem; } #acornsBanner .ab-txt { font-size: .78rem; } #acornsBanner .ab-ad { display: none; } }
+</style>
+<div id="acornsBanner" role="region" aria-label="Acorns promotion">
+  <span class="ab-txt">&#127793; New to Acorns? <b>Get a $20 bonus</b> when you start investing.<span class="ab-ad">Ad</span></span>
+  <a class="ab-cta" href="https://acorns.sjv.io/c/7140280/1544868/5136" rel="sponsored noopener" target="_blank">Get $20 &rarr;</a>
+  <button class="ab-close" aria-label="Dismiss Acorns banner" type="button" onclick="document.getElementById('acornsBanner').classList.add('hide');try{localStorage.setItem('acornsBannerDismissed','1');}catch(e){}">&times;</button>
+</div>
+<script>
+  (function(){
+    try { if (localStorage.getItem('acornsBannerDismissed') === '1') { var b=document.getElementById('acornsBanner'); if(b) b.classList.add('hide'); } } catch(e){}
+    var l = document.querySelector('#acornsBanner .ab-cta');
+    if (l) l.addEventListener('click', function(){ if (typeof fbq === 'function') { fbq('track','Lead',{content_name:'Acorns Affiliate Click',content_category:'Investing'}); } });
+  })();
 </script>
