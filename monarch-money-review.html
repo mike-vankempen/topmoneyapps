@@ -886,9 +886,12 @@
     try { fetch(API, { method: 'POST', body: s, mode: 'no-cors', keepalive: true }); } catch (e) {}
   }
   var q = new URLSearchParams(location.search), id = q.get('cpl'), pub = (q.get('utm_content') || '').slice(0, 40);
+  var camp = /^\d{1,12}$/.test(q.get('cplc') || '') ? q.get('cplc') : '';
   if (id && RE.test(id)) {
     try { localStorage.setItem(KEY, JSON.stringify({ id: id, pub: pub, ts: Date.now() })); } catch (e) {}
-    send({ id: id, step: 'land', p: 'monarch' });
+    var b = { id: id, step: 'land', p: 'monarch' };
+    if (camp) b.c = camp;
+    send(b);
   }
   var v = null;
   try { v = JSON.parse(localStorage.getItem(KEY) || 'null'); } catch (e) {}
