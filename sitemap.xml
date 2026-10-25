@@ -184,6 +184,13 @@
   </url>
 
   <url>
+    <loc>https://topmoneyapps.com/deal-of-the-day.html</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
     <loc>https://topmoneyapps.com/tools.html</loc>
     <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>

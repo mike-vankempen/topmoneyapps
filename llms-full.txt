@@ -79,6 +79,12 @@ Score: 3.2/5
 Summary: Willow Wealth is the rebranded Yieldstreet (renamed late 2025), an alternative-investing platform offering private-market assets: real estate, private credit, private equity, art, and legal finance, via direct deals or Willow 360 managed portfolios. Mostly for accredited investors; minimums ~$5,000 (direct deals) to ~$25,000 (managed). Fees are high and variable: roughly 1%-4%/yr plus offering-level and ~$100-150 per-deal setup costs; Willow 360 ~1.25% + ~0.175% fund expenses. Holdings are illiquid (1-5+ years). Significant red flags: a CNBC investigation reported ~$208M in investor losses across 30 real-estate deals (~30% default rate), a 2023 SEC settlement (~$1.9M, no admit/deny), a 2025 class-action settlement (~$9M), and the rebrand removed historical performance data from the site. Verdict: a small, deliberate diversifier for experienced accredited investors who understand the risk and can afford to lock up and potentially lose the money — not for beginners, not for money needed soon; most people are better served by low-cost index funds or a mainstream robo-advisor. Not investment advice.
 Key FAQs: Is Willow Wealth the same as Yieldstreet? Is Willow Wealth safe? Do you need to be accredited? What are the fees? What is the minimum? Who should use it?
 
+### Deal of the Day
+URL: https://topmoneyapps.com/deal-of-the-day.html
+Title: Deal of the Day: Stash $25 Sign-Up Bonus (October 2026) | TopMoneyApps
+Summary: A rotating "Deal of the Day" page highlighting a featured money offer. Currently featuring Stash: get a $25 bonus when you sign up as a new user and deposit at least $5 into your investment portfolio. Includes how-to-claim steps, fine print (Stash is a subscription app with a monthly fee; confirm live terms at signup), an honest "is it worth it" note, and links to related offers (Acorns $20, best investing apps, Monarch Money). Reusable template — the featured deal block is swapped out as new offers come in. Not investment advice.
+Key FAQs: How do I get the $25 Stash bonus? Is the Stash sign-up bonus worth it? What is Stash? Do sign-up bonus offers expire?
+
 ---
 
 ## COMPARISON ARTICLES
