@@ -72,21 +72,6 @@ Score: 4.2/5
 Summary: UNest is a mobile app that opens a custodial UTMA investment account for a child, with pre-built low-cost ETF portfolios and standout family gifting (grandparents/relatives contribute via a shared link, one-time or recurring). Pricing: no fees on first $300 for 12 months, then ~$2/month plus ~0.25% annual asset fee; pricing has changed over time so confirm in-app. UTMA funds are flexible (usable for anything that benefits the child, not just education) but have fewer tax advantages than a 529 and can affect financial aid; child gains control at age of majority (18 or 21). You pay UNest for convenience and gifting — the same custodial account is free at a major brokerage. Verdict: worth it for busy parents who want an easy, automated, gift-friendly way to invest for a kid; cost-focused DIY investors should use a free brokerage UTMA, and college-only savers should consider a 529.
 Key FAQs: Is UNest worth it? What type of account is UNest? How much does UNest cost? How is it different from a 529? Can family contribute?
 
-### Willow Wealth Review
-URL: https://topmoneyapps.com/willow-wealth-review.html
-Title: Willow Wealth Review 2026: Is the Ex-Yieldstreet Platform Safe? | TopMoneyApps
-Score: 3.2/5
-Summary: Willow Wealth is the rebranded Yieldstreet (renamed late 2025), an alternative-investing platform offering private-market assets: real estate, private credit, private equity, art, and legal finance, via direct deals or Willow 360 managed portfolios. Mostly for accredited investors; minimums ~$5,000 (direct deals) to ~$25,000 (managed). Fees are high and variable: roughly 1%-4%/yr plus offering-level and ~$100-150 per-deal setup costs; Willow 360 ~1.25% + ~0.175% fund expenses. Holdings are illiquid (1-5+ years). Significant red flags: a CNBC investigation reported ~$208M in investor losses across 30 real-estate deals (~30% default rate), a 2023 SEC settlement (~$1.9M, no admit/deny), a 2025 class-action settlement (~$9M), and the rebrand removed historical performance data from the site. Verdict: a small, deliberate diversifier for experienced accredited investors who understand the risk and can afford to lock up and potentially lose the money — not for beginners, not for money needed soon; most people are better served by low-cost index funds or a mainstream robo-advisor. Not investment advice.
-Key FAQs: Is Willow Wealth the same as Yieldstreet? Is Willow Wealth safe? Do you need to be accredited? What are the fees? What is the minimum? Who should use it?
-
-### Deal of the Day
-URL: https://topmoneyapps.com/deal-of-the-day.html
-Title: Deal of the Day: Stash $25 Sign-Up Bonus (October 2026) | TopMoneyApps
-Summary: A rotating "Deal of the Day" page highlighting a featured money offer. Currently featuring Stash: get a $25 bonus when you sign up as a new user and deposit at least $5 into your investment portfolio. Includes how-to-claim steps, fine print (Stash is a subscription app with a monthly fee; confirm live terms at signup), an honest "is it worth it" note, and links to related offers (Acorns $20, best investing apps, Monarch Money). Reusable template — the featured deal block is swapped out as new offers come in. Not investment advice.
-Key FAQs: How do I get the $25 Stash bonus? Is the Stash sign-up bonus worth it? What is Stash? Do sign-up bonus offers expire?
-
----
-
 ## COMPARISON ARTICLES
 
 ### Acorns vs. Robinhood
