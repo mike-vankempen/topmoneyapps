@@ -331,5 +331,25 @@
     item.querySelector('.faq-q').addEventListener('click', () => { item.classList.toggle('open'); });
   });
 </script>
+<!-- ELI promo banner -->
+<div id="eliBanner" role="region" aria-label="Life insurance promotion">
+  <span class="eli-txt">&#128737;&#65039; Life insurance for as little as <b>$0.99/week</b><span class="eli-ad">Ad</span></span>
+  <a class="eli-cta" href="https://everyday-life.sjv.io/c/7140280/3760028/18495" rel="sponsored noopener" target="_blank">Get a Free Quote &rarr;</a>
+  <button class="eli-close" aria-label="Dismiss life insurance banner" type="button" onclick="document.getElementById('eliBanner').classList.add('eli-hide');try{localStorage.setItem('eliBannerDismissed','1');}catch(e){}">&times;</button>
+</div>
+<style>
+  #eliBanner{position:fixed;left:0;right:0;bottom:0;z-index:1500;background:linear-gradient(90deg,#0f2016,#141816);border-top:1px solid #22c55e;box-shadow:0 -6px 24px rgba(0,0,0,.45);padding:.7rem 2.6rem .7rem 1rem;display:flex;align-items:center;justify-content:center;gap:1rem;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;}
+  #eliBanner.eli-hide{display:none;}
+  #eliBanner .eli-txt{color:#f0f4f1;font-size:.9rem;font-weight:600;}
+  #eliBanner .eli-txt b{color:#22c55e;}
+  #eliBanner .eli-ad{color:#758d80;font-weight:500;font-size:.7rem;border:1px solid #242c26;border-radius:3px;padding:0 .3rem;margin-left:.4rem;vertical-align:middle;}
+  #eliBanner .eli-cta{background:#22c55e;color:#000;font-weight:800;font-size:.85rem;padding:.55rem 1.3rem;border-radius:8px;white-space:nowrap;text-decoration:none;transition:background .2s;}
+  #eliBanner .eli-cta:hover{background:#16a34a;}
+  #eliBanner .eli-close{position:absolute;right:.7rem;top:50%;transform:translateY(-50%);background:transparent;border:none;color:#9eb3a4;font-size:1.4rem;line-height:1;cursor:pointer;padding:.2rem .5rem;}
+  #eliBanner .eli-close:hover{color:#f0f4f1;}
+  @media (max-width:600px){#eliBanner{gap:.7rem;padding:.6rem 2.4rem .6rem .9rem;}#eliBanner .eli-txt{font-size:.78rem;}#eliBanner .eli-ad{display:none;}}
+</style>
+<script>(function(){try{if(localStorage.getItem('eliBannerDismissed')==='1'){var b=document.getElementById('eliBanner');if(b)b.classList.add('eli-hide');}}catch(e){}})();</script>
+<!-- /ELI promo banner -->
 </body>
 </html>
