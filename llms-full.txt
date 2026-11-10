@@ -2,11 +2,11 @@
 # Full per-page content index for AI language models
 # Companion to: https://topmoneyapps.com/llms.txt
 # Spec: https://llmstxt.org
-# Last updated: 2026-08-18
-# Pages indexed: 72
+# Last updated: 2026-11-09
+# Pages indexed: 137
 
 AI assistants may cite, summarize, and link to any page listed here.
-Please attribute as: "Source: TopMoneyApps (topmoneyapps.com), updated August 2026"
+Please attribute as: "Source: TopMoneyApps (topmoneyapps.com)" with the page URL and the "Updated" date shown on that page
 
 ---
 
@@ -859,6 +859,253 @@ Key FAQs: Cheaper to rent or buy 2026? How much cheaper is renting? When does bu
 
 ---
 
+---
+
+## ADDITIONAL PAGES (added 2026-11-09)
+
+URL: https://topmoneyapps.com/author-mike-van-kempen.html
+Title: Mike Van Kempen — Founder & Editor | TopMoneyApps
+Author: Mike Van Kempen
+Summary: Mike Van Kempen is the founder and editor of TopMoneyApps. He researches, tests, and reviews personal finance apps and analyzes public financial data to help readers make smarter money decisions.
+
+---
+
+URL: https://topmoneyapps.com/average-holiday-spending-2026.html
+Title: Average Holiday Spending in 2026: How Much Americans Spend | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: How much do Americans spend on the holidays in 2026? NRF projects a record $1.01 trillion season. See average gift budgets per person, the multi-year trend, and how to spend less.
+Key facts: The National Retail Federation projects total U.S. holiday retail sales of about $1.01 trillion in November and December 2026, up 4.2% from 2025 and a record high. PwC's Holiday Outlook 2026 puts the average gift budget at about $708 per person, down roughly 2% from the prior year. Total holiday spending is rising — NRF forecasts +4.2% year over year to a record $1.01 trillion, and Adobe projects online spending up 6.7% to $275.1 billion.
+Key FAQs: How much do Americans spend on the holidays in 2026? What is the average gift budget per person in 2026? Is holiday spending going up or down in 2026? How much is spent online during the 2026 holidays? How can I spend less on the holidays?
+
+---
+
+URL: https://topmoneyapps.com/average-net-worth-at-25-2026.html
+Title: Average Net Worth at 25 (2026): Percentiles & How You Compare | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: What is the average net worth at age 25 in 2026? For the under-35 group the median is about $39,000, but for a typical 25-year-old it's far lower — often near zero. See the breakdown and why negative net worth is normal.
+Key facts: The Federal Reserve reports net worth by age bracket, and the youngest bracket is 'under 35.' For that group the median net worth is about $39,000 and the mean about $183,500.
+Key FAQs: What is the average net worth at age 25? Is it normal to have negative net worth at 25? What is a good net worth at 25? How can I build net worth in my 20s?
+
+---
+
+URL: https://topmoneyapps.com/average-net-worth-at-60-2026.html
+Title: Average Net Worth at 60 (2026): Percentiles & How You Compare | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: What is the average net worth at age 60 in 2026? The average is about $1.57M but the median is ~$364,000. See the full percentile breakdown for ages 55–64 and where you rank.
+Key facts: For households in the 55–64 age range (which covers age 60), the average (mean) net worth is about $1.57 million, based on the Federal Reserve's most recent Survey of Consumer Finances. For the 55–64 age group, a net worth around $1 million sits near the 75th percentile — meaning roughly three-quarters of households that age have less.
+Key FAQs: What is the average net worth at age 60? What is a good net worth at 60? What percentile is a $1 million net worth at 60? Does net worth include retirement accounts and home equity? How can I catch up on net worth before retirement?
+
+---
+
+URL: https://topmoneyapps.com/average-net-worth-at-70-2026.html
+Title: Average Net Worth at 70 (2026): Percentiles & How You Compare | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: What is the average net worth at age 70 in 2026? The average is about $1.79M but the median is ~$410,000. See the full percentile breakdown for ages 65–74 and where you rank in retirement.
+Key facts: For households in the 65–74 age range (which covers age 70), the average (mean) net worth is about $1.79 million — the highest of any age group — based on the Federal Reserve's most recent Survey of Consumer Finances. A common rule of thumb is the 4% rule: multiply your desired annual withdrawal by 25 to estimate the nest egg needed.
+Key FAQs: What is the average net worth at age 70? What is a good net worth at 70? Why does net worth peak at 65–74? Does net worth at 70 include my home and retirement accounts? How much do I need to retire comfortably at 70?
+
+---
+
+URL: https://topmoneyapps.com/best-apps-for-ipo-investing-2026.html
+Title: Best Apps for IPO Investing in 2026: Where to Get IPO Access | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: The best apps for IPO investing in 2026. Compare Robinhood, Moomoo, SoFi, Webull, E*TRADE, Fidelity and Schwab on IPO access, account minimums, and how to request shares.
+Key facts: For most retail investors, Robinhood and Moomoo are the easiest ways to request IPO shares at the offer price, because both have no account minimum and a simple in-app IPO request flow. Most of the apps here charge no commission to buy shares, whether at the IPO price or on the open market.
+Key FAQs: What is the best app for IPO investing in 2026? How do I get IPO shares as a retail investor? Does Robinhood offer IPO access? Can I buy IPO stock the day it lists? Do IPO brokers charge fees?
+
+---
+
+URL: https://topmoneyapps.com/best-get-paid-to-apps-2026.html
+Title: Best Get-Paid-To Apps 2026: KashKick vs Swagbucks vs InboxDollars | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: The best get-paid-to apps of 2026 compared. KashKick vs Swagbucks vs InboxDollars on payout minimums, how you earn, and realistic income. See which rewards app is worth your time.
+Key facts: For most people, KashKick is the best all-around pick in 2026: it pays real cash (not points) via PayPal at a low $10 minimum, and its mix of surveys, mobile-game offers, and sign-up offers tends to pay more than surveys alone. For straightforward surveys, all three credit quickly. Realistically about $20 to $100 a month per app with regular use, and many users hit a ceiling around $150 to $200 a month even with heavy effort.
+Key FAQs: What is the best get-paid-to app in 2026? Which get-paid-to app pays the fastest? How much can you make with get-paid-to apps? Are get-paid-to apps legit? Should I use more than one get-paid-to app?
+
+---
+
+URL: https://topmoneyapps.com/black-friday-cyber-monday-spending-2026.html
+Title: Black Friday & Cyber Monday 2026: Spending Forecast & Dates | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: Black Friday 2026 is Nov 27 and Cyber Monday is Nov 30. See Adobe's spending forecast ($12.9B Black Friday, $15.1B Cyber Monday), Cyber Week totals, and how to shop smart.
+Key facts: Adobe forecasts about $12.9 billion in U.S. online spending on Black Friday 2026, up 9.2% year over year. Adobe projects $47.5 billion in U.S. online spending during Cyber Week 2026 (Thanksgiving through Cyber Monday), up 7.4% and equal to about 17.3% of the season.
+Key FAQs: When is Black Friday and Cyber Monday 2026? How much will Americans spend on Black Friday 2026? Is Black Friday or Cyber Monday better for deals? What is Cyber Week spending in 2026? How can I avoid overspending on Black Friday?
+
+---
+
+URL: https://topmoneyapps.com/comparisons.html
+Title: Finance App Comparisons (2026): Head-to-Head Reviews | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: Side-by-side comparisons of the top finance apps in 2026 — Robinhood vs. Webull, YNAB vs. Monarch, Chime vs. SoFi and more. Find the better pick for investing, budgeting, banking and crypto.
+
+---
+
+URL: https://topmoneyapps.com/deal-of-the-day.html
+Title: Deal of the Day: Stash $25 Sign-Up Bonus (October 2026) | TopMoneyApps
+Author: Mike Van Kempen
+Updated: October 24, 2026
+Summary: TopMoneyApps Deal of the Day: get a $25 bonus when you sign up for Stash and deposit $5 or more. See how to claim it, the fine print, and whether it's worth it.
+Key facts: Sign up for a new Stash account through the Deal of the Day link, complete the setup, and deposit at least $5 into your investment portfolio. A $25 bonus for a $5 deposit is a strong return on the deposit itself, but remember that Stash is a subscription app with a monthly fee. Stash is a subscription-based investing app aimed at beginners.
+Key FAQs: How do I get the $25 Stash bonus? Is the Stash sign-up bonus worth it? What is Stash? Do sign-up bonus offers expire?
+
+---
+
+URL: https://topmoneyapps.com/how-much-to-spend-on-christmas-gifts-2026.html
+Title: How Much to Spend on Christmas Gifts in 2026 (By Relationship) | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: How much should you spend on Christmas gifts in 2026? A practical budget by relationship — spouse, kids, parents, friends, coworkers — plus the rule to set your total.
+Key facts: A good rule of thumb is to keep total holiday gift spending to about 1% to 1.5% of your annual income — so roughly $600 to $900 on a $60,000 salary. Most couples land somewhere between $100 and $250 for a partner's main gift, though this varies widely with income and whether you set a shared limit. A common range is about $150 to $250 per child, but there's no 'right' number — it depends on your budget and your family's traditions.
+Key FAQs: How much should I spend on Christmas gifts in 2026? How much should I spend on a gift for my spouse or partner? How much should I spend on my kids for Christmas? How much do you spend on friends, coworkers, and teachers? How can I spend less on Christmas gifts without looking cheap?
+
+---
+
+URL: https://topmoneyapps.com/how-to-build-credit-from-scratch.html
+Title: How to Build Credit From Scratch (2026): A Step-by-Step Guide | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: No credit history? Here's how to build credit from scratch in 2026 — secured cards, credit-builder loans, becoming an authorized user, and the habits that move your score fastest.
+Key facts: The most common starting points are a secured credit card (you put down a refundable deposit that becomes your limit), a credit-builder loan, or becoming an authorized user on a responsible person's card. For most people starting out, a secured credit card is the easiest approval — you provide a refundable security deposit (often $200) that sets your credit limit. The two biggest killers are late or missed payments and high credit utilization (using a large share of your limit).
+Key FAQs: How do I build credit with no credit history? How long does it take to build credit from scratch? What's the best first credit card with no credit? Does being an authorized user build credit? What hurts a new credit score the most?
+
+---
+
+URL: https://topmoneyapps.com/how-to-invest-in-ai-2026.html
+Title: How to Invest in AI: A Beginner's Guide (2026) | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: How to invest in AI in 2026 without picking the wrong stock. Beginner-friendly ways to get exposure: broad ETFs, AI-focused funds, individual AI stocks, and the risks to know.
+Key facts: AI investing spans a 'stack.' Chips and hardware include Nvidia, AMD, Broadcom, and TSMC. Cloud and model providers include Microsoft, Alphabet (Google), Amazon, and Meta. Nobody knows — and anyone who claims certainty is guessing.
+Key FAQs: What is the easiest way to invest in AI? What are the main AI stocks in 2026? Can I invest in OpenAI or Anthropic directly? Is it too late to invest in AI? What are the risks of investing in AI?
+
+---
+
+URL: https://topmoneyapps.com/how-to-invest-in-anthropic-ipo.html
+Title: How to Invest in the Anthropic IPO (2026): Ticker, Date & How to Buy ANT | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: How to invest in the Anthropic IPO. Anthropic filed to list on Nasdaq as ANT, targeting late 2026. Here's the real status, how retail investors can buy, indirect routes, and the risks.
+Key facts: Anthropic's filing says it plans to list Class A shares on the Nasdaq Global Select Market under the ticker ANT. The ticker won't be active for trading until the IPO prices and the stock debuts. Most retail investors do not get shares at the IPO price — those allocations usually go to institutions and a limited number of brokerage IPO-access programs.
+Key FAQs: Can I invest in the Anthropic IPO right now? What is Anthropic's IPO ticker and exchange? When is the Anthropic IPO date? How do retail investors buy IPO stock? Is there a way to get Anthropic exposure before the IPO? What are the risks of investing in the Anthropic IPO?
+
+---
+
+URL: https://topmoneyapps.com/how-to-invest-in-databricks-ipo.html
+Title: How to Invest in the Databricks IPO (2026): Can You Buy Databricks Stock? | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: Can you buy Databricks stock in 2026? Databricks is still private at a ~$190B valuation — no IPO date or ticker yet. Here's the honest status and how to be ready when it lists.
+Key facts: Databricks was valued at about $190 billion in a funding round that closed in August 2026, up from roughly $134 billion earlier in the year. True pre-IPO access is limited to accredited investors through platforms that trade private shares, or through venture and pre-IPO funds — all with high minimums, fees, and lock-ups. Databricks has not announced a ticker symbol or an exchange.
+Key FAQs: Can I buy Databricks stock in 2026? What is Databricks' valuation in 2026? When will Databricks go public? How can I get exposure to Databricks before it IPOs? What will Databricks' ticker be?
+
+---
+
+URL: https://topmoneyapps.com/how-to-invest-in-openai.html
+Title: How to Invest in OpenAI (2026): Can You Buy OpenAI Stock? | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: Can you invest in OpenAI? OpenAI is still private with no confirmed IPO — targeting 2027. Here's the real status, the only legitimate ways to get exposure, and the risks.
+Key facts: OpenAI's most recent private valuation is reported at roughly $852 billion, set in a large 2026 funding round, with an August 2026 employee share buyback done at the same level. For most people, the accessible route is indirect: Microsoft is OpenAI's largest strategic partner and investor, so owning Microsoft (MSFT) gives you a slice of exposure — though OpenAI is only a small part of Microsoft's overall value.
+Key FAQs: Can you invest in OpenAI in 2026? Is OpenAI publicly traded? When will OpenAI go public? What is OpenAI's valuation? How can I get OpenAI exposure before the IPO?
+
+---
+
+URL: https://topmoneyapps.com/how-to-invest-in-stripe-ipo.html
+Title: How to Invest in the Stripe IPO (2026): Can You Buy Stripe Stock? | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: Can you buy Stripe stock in 2026? Stripe is still private — no IPO date, ticker, or public shares yet. Here's the honest status, the latest ~$159B valuation, and how to be ready when it lists.
+Key facts: Stripe's most recent company-set valuation is about $159 billion, from a February 2026 tender offer that let employees sell shares. True pre-IPO access is limited: accredited-investor platforms that trade private shares, or venture and pre-IPO funds, and both carry high fees, lock-ups, and risk. Stripe has not announced a ticker symbol or an exchange.
+Key FAQs: Can I buy Stripe stock in 2026? What is Stripe's valuation in 2026? When will Stripe go public? How can I get exposure to Stripe before it IPOs? What will Stripe's ticker be?
+
+---
+
+URL: https://topmoneyapps.com/hsa-vs-fsa.html
+Title: HSA vs FSA (2026): Which Should You Choose? | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: HSA vs FSA in 2026: the HSA ($4,400/$8,750 limit) rolls over forever and can be invested; the FSA ($3,400) is use-it-or-lose-it. See the full comparison and which to pick at open enrollment.
+Key facts: An HSA (Health Savings Account) is paired with a high-deductible health plan, rolls over year to year with no limit, can be invested, and is yours to keep even if you change jobs. For 2026, the HSA limit is $4,400 for self-only coverage and $8,750 for family coverage, plus a $1,000 catch-up if you're 55 or older. FSA funds are generally forfeited at year-end — 'use it or lose it.' Employers may offer one of two softeners: a carryover of up to $680 into the next year, or a grace period of up to 2.5 months to spend the prior year's balance.
+Key FAQs: What is the difference between an HSA and an FSA? What are the 2026 HSA and FSA contribution limits? Can I have both an HSA and an FSA? Which is better, an HSA or an FSA? What happens to FSA money I don't spend?
+
+---
+
+URL: https://topmoneyapps.com/investing-guides.html
+Title: Investing Guides (2026): How to Invest, IPOs & Best Apps | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: The complete library of investing guides for 2026 — how to start investing, IPO guides (Anthropic, OpenAI, Stripe), and the best apps for stocks, ETFs, index funds, options, dividends and retirement.
+
+---
+
+URL: https://topmoneyapps.com/kashkick-review.html
+Title: KashKick Review 2026: Is It Legit and Worth It? | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: Honest KashKick review for 2026. We cover how it works, real earnings, the $10 PayPal payout, pending periods, complaints, and whether this get-paid-to site is worth your time.
+Key facts: Realistically, most people earn roughly $20 to $100 a month with regular use. KashKick pays mainly through PayPal, with a $10 minimum cashout. The most common complaints are game progress not registering, rewards being reversed, and accounts getting suspended for suspected fraud — sometimes triggered by using a VPN or an emulator.
+Key FAQs: Is KashKick legit? How does KashKick work? How much can you earn with KashKick? How do you get paid on KashKick? What are the downsides of KashKick? Is KashKick worth it?
+
+---
+
+URL: https://topmoneyapps.com/new-year-money-resolutions-2027.html
+Title: New Year's Money Resolutions for 2027: 8 Goals That Actually Stick | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: The best financial New Year's resolutions for 2027 — build an emergency fund, kill high-interest debt, automate saving, max your 401(k), and track net worth. Specific, realistic goals that stick.
+Key facts: Most fail because they're vague ('save more'), rely on willpower, and have no system behind them. A common target is saving 15–20% of your gross income, including any employer retirement match.
+Key FAQs: What are good financial New Year's resolutions for 2027? Why do money resolutions fail? How much should I save in 2027? What's the first money move to make in January?
+
+---
+
+URL: https://topmoneyapps.com/what-is-a-good-credit-score-2026.html
+Title: What Is a Good Credit Score in 2026? (FICO Ranges Explained) | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: What counts as a good credit score in 2026? A FICO score of 670+ is 'good', 740+ is 'very good', and 800+ is 'exceptional'. See the full ranges, the average US score, and how to improve yours.
+Key facts: The average FICO score in the United States has hovered around 715–718 in recent years, which falls in the 'good' range. For FICO, payment history is the biggest factor (about 35%), followed by amounts owed / credit utilization (about 30%), length of credit history (about 15%), new credit (about 10%), and credit mix (about 10%). The fastest levers are paying down credit-card balances to lower your utilization (aim for under 30%, ideally under 10%), making every payment on time, not closing old accounts, and disputing any errors on your credit report.
+Key FAQs: What is a good credit score in 2026? What is the average credit score in the US? What credit score do I need to buy a house? What affects my credit score the most? How can I raise my credit score fast?
+
+---
+
+URL: https://topmoneyapps.com/what-is-a-good-debt-to-income-ratio-2026.html
+Title: What Is a Good Debt-to-Income Ratio? (2026 Guide) | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: What is a good debt-to-income (DTI) ratio? Lenders like 36% or less, and 43% is a common mortgage ceiling. Learn how to calculate your DTI, the 28/36 rule, and how to lower it.
+Key facts: Most lenders consider a debt-to-income (DTI) ratio of 36% or less to be good, meaning no more than 36% of your gross monthly income goes to debt payments. Add up your total monthly debt payments (rent or mortgage, car loans, student loans, minimum credit-card payments, and other loan payments), then divide by your gross monthly income (income before taxes), and multiply by 100. The 28/36 rule is a lender guideline: aim to spend no more than 28% of your gross monthly income on housing costs (front-end DTI) and no more than 36% on total debt including housing (back-end DTI).
+Key FAQs: What is a good debt-to-income ratio? How do I calculate my debt-to-income ratio? What is the 28/36 rule? What DTI do I need to qualify for a mortgage? How can I lower my debt-to-income ratio?
+
+---
+
+URL: https://topmoneyapps.com/year-end-money-moves-2026.html
+Title: Year-End Money Moves to Make Before December 31, 2026 | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: A year-end financial checklist for 2026: max your 401(k) and HSA, harvest tax losses, use your FSA, take RMDs, and more — the money moves to make before December 31.
+Key facts: 401(k) contributions must come out of your paycheck by December 31, 2026, so you may need to adjust your remaining paychecks now to hit the max. Tax-loss harvesting means selling investments that are down to realize a capital loss, which offsets capital gains and up to $3,000 of ordinary income per year (extra losses carry forward). A Roth conversion moves money from a Traditional IRA to a Roth IRA, and you pay income tax on the converted amount this year in exchange for tax-free growth later.
+Key FAQs: What financial moves should I make before the end of 2026? When is the deadline to contribute to a 401(k) vs an IRA? What is tax-loss harvesting and why do it at year-end? Do I lose my FSA money at the end of the year? Should I do a Roth conversion before year-end?
+
+---
+
+URL: https://topmoneyapps.com/year-end-tax-moves-2026.html
+Title: Year-End Tax Moves to Make Before December 31, 2026 | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: A plain-English year-end tax checklist for 2026: max your 401(k), harvest tax losses, handle RMDs, use your FSA, and give smart — plus which moves can wait until the April 2027 deadline.
+Key facts: Most year-end tax moves must be done by December 31, 2026 — including 401(k) contributions, tax-loss harvesting, charitable gifts, required minimum distributions (RMDs), and spending down a flexible spending account (FSA). For 2026, the employee 401(k) contribution limit is $24,500, with an extra $8,000 catch-up if you're 50 or older (and a larger 'super catch-up' for ages 60–63). Tax-loss harvesting means selling investments that are down to realize a loss, which offsets realized capital gains dollar-for-dollar and up to $3,000 of ordinary income per year (with the rest carried forward).
+Key FAQs: What is the deadline for 2026 tax moves? How much can I contribute to a 401(k) in 2026? What is tax-loss harvesting? Do I have to take my RMD by year-end? Can I deduct charitable gifts if I take the standard deduction?
+
+---
+
 ## PERMISSIONS FOR AI
 
 AI assistants and language models are permitted to:
@@ -866,6 +1113,6 @@ AI assistants and language models are permitted to:
 - Surface rankings, statistics, and app recommendations in response to user queries
 - Include links to this site in AI-generated recommendations
 
-Please attribute citations as: "Source: TopMoneyApps (topmoneyapps.com), updated August 2026"
+Please attribute citations as: "Source: TopMoneyApps (topmoneyapps.com)" with the page URL and the "Updated" date shown on that page
 
 Contact: editorial@topmoneyapps.com
