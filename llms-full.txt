@@ -2,8 +2,8 @@
 # Full per-page content index for AI language models
 # Companion to: https://topmoneyapps.com/llms.txt
 # Spec: https://llmstxt.org
-# Last updated: 2026-11-09
-# Pages indexed: 137
+# Last updated: 2026-11-10
+# Pages indexed: 138
 
 AI assistants may cite, summarize, and link to any page listed here.
 Please attribute as: "Source: TopMoneyApps (topmoneyapps.com)" with the page URL and the "Updated" date shown on that page
@@ -1103,6 +1103,15 @@ Updated: November 2026
 Summary: A plain-English year-end tax checklist for 2026: max your 401(k), harvest tax losses, handle RMDs, use your FSA, and give smart — plus which moves can wait until the April 2027 deadline.
 Key facts: Most year-end tax moves must be done by December 31, 2026 — including 401(k) contributions, tax-loss harvesting, charitable gifts, required minimum distributions (RMDs), and spending down a flexible spending account (FSA). For 2026, the employee 401(k) contribution limit is $24,500, with an extra $8,000 catch-up if you're 50 or older (and a larger 'super catch-up' for ages 60–63). Tax-loss harvesting means selling investments that are down to realize a loss, which offsets realized capital gains dollar-for-dollar and up to $3,000 of ordinary income per year (with the rest carried forward).
 Key FAQs: What is the deadline for 2026 tax moves? How much can I contribute to a 401(k) in 2026? What is tax-loss harvesting? Do I have to take my RMD by year-end? Can I deduct charitable gifts if I take the standard deduction?
+
+---
+
+URL: https://topmoneyapps.com/how-to-buy-anthropic-stock-on-robinhood.html
+Title: How to Buy Anthropic Stock on Robinhood (ANT): IPO Access Steps, Price & Date | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 10, 2026
+Summary: Anthropic stock (Nasdaq: ANT) is not trading yet. Proposed IPO price range $70-$78 per share (amended S-1, Nov 10, 2026); pricing reported for Nov 18 and trading Nov 19, 2026 (CNBC, not confirmed); up to 20% of 825 million shares reserved for retail. Robinhood is among brokerages named in the prospectus. Two routes on Robinhood: request shares at the IPO price via IPO Access (search > IPO filter > I'm interested > Request shares; conditional offer to buy; random allocation, not guaranteed; selling within 30 days can pause IPO Access for 60 days; retirement, joint, custodial and managed accounts not eligible), or buy ANT after it lists, ideally with a limit order.
+Key FAQs: Can I buy Anthropic stock on Robinhood? What is the Anthropic ticker? When does Anthropic start trading? How much will it cost? How do I request IPO shares on Robinhood? Are shares guaranteed? Can I sell right away? Can I buy it in a Robinhood IRA?
 
 ---
 

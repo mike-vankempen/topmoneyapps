@@ -9,7 +9,7 @@
 - URL: https://topmoneyapps.com
 - Type: Personal finance affiliate review site
 - Topics: budgeting apps, investing apps, stock trading, ETFs, index funds, dividend investing, crypto, robo-advisors, options trading, ESG investing, real estate investing, neobanks, credit card apps, retirement/IRA, finance calculators, life insurance, micro-investing, round-up investing, spare change investing
-- Last updated: 2026-11-09 (key takeaways and linked source lists added to statistics and guide pages; Dataset markup added to data pages; authorship unified under founder and editor Mike Van Kempen)
+- Last updated: 2026-11-10 (new guide: how to buy Anthropic stock on Robinhood; Anthropic IPO page updated with the $70-$78 price range; November rate and pricing refresh across savings, CD, budgeting and brokerage pages)
 - Update frequency: Monthly
 
 ## Purpose
@@ -225,7 +225,8 @@ A: Chase Sapphire Reserve ($795/yr) is better for dining and everyday travel rew
 - How to invest in AI beginner guide 2026 (index funds, AI ETFs, individual AI stocks by layer, private labs, risks): https://topmoneyapps.com/how-to-invest-in-ai-2026.html
 - Average net worth at 60 (2026) (ages 55-64: mean ~$1.57M, median ~$364K; percentiles; good net worth; catch-up): https://topmoneyapps.com/average-net-worth-at-60-2026.html
 - How much to spend on Christmas gifts 2026 (by relationship: spouse $100-250, kids $150-250, friends $25-50; 1-1.5% of income rule): https://topmoneyapps.com/how-much-to-spend-on-christmas-gifts-2026.html
-- How to invest in the Anthropic IPO 2026 (Anthropic/Claude maker filed S-1, plans Nasdaq ticker ANT ~late Nov 2026, ~$1.5T sought valuation; not trading yet; how retail buys at open, Robinhood IPO Access, indirect via AMZN/GOOGL, scam warning, risks; not advice): https://topmoneyapps.com/how-to-invest-in-anthropic-ipo.html
+- How to invest in the Anthropic IPO 2026 (Anthropic/Claude maker plans Nasdaq ticker ANT; $70-$78 price range set Nov 10, 2026; trading reported for Nov 19, not confirmed; up to 20% retail allocation; indirect via AMZN/GOOGL, scam warning, risks; not advice): https://topmoneyapps.com/how-to-invest-in-anthropic-ipo.html
+- How to buy Anthropic stock on Robinhood (ANT not trading yet; $70-$78 IPO range; reported Nov 19, 2026 listing; step-by-step Robinhood IPO Access request, random allocation, 30-day flipping rule; buying after listing with a limit order; not advice): https://topmoneyapps.com/how-to-buy-anthropic-stock-on-robinhood.html
 - Free finance calculators (retirement + compound growth): https://topmoneyapps.com/tools
 - Spare Change Millionaire Calculator: https://topmoneyapps.com/spare-change-calculator
 
