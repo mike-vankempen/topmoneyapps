@@ -1,0 +1,152 @@
+{
+ "fidelity": {
+  "app": "Fidelity Investments",
+  "publisher": "Fidelity Investments",
+  "app_store": "https://apps.apple.com/us/app/fidelity-investments/id348177453"
+ },
+ "acorns": {
+  "app": "Acorns: Save & Invest Money",
+  "publisher": "Acorns Grow Incorporated",
+  "app_store": "https://apps.apple.com/us/app/acorns-save-invest-money/id883324671"
+ },
+ "robinhood": {
+  "app": "Robinhood: Trading & Investing",
+  "publisher": "Robinhood Markets Inc",
+  "app_store": "https://apps.apple.com/us/app/robinhood-trading-investing/id938003185"
+ },
+ "schwab": {
+  "app": "Schwab Mobile: Invest & Trade",
+  "publisher": "The Charles Schwab Corporation",
+  "app_store": "https://apps.apple.com/us/app/schwab-mobile-invest-trade/id407358186"
+ },
+ "vanguard": {
+  "app": "Vanguard: Save, Invest, Retire",
+  "publisher": "The Vanguard Group, Inc.",
+  "app_store": "https://apps.apple.com/us/app/vanguard-save-invest-retire/id335186209"
+ },
+ "betterment": {
+  "app": "Betterment Invest & Save Money",
+  "publisher": "Betterment",
+  "app_store": "https://apps.apple.com/us/app/betterment-invest-save-money/id393156562"
+ },
+ "m1-finance": {
+  "app": "M1: AI Wealth Management",
+  "publisher": "M1 Finance LLC",
+  "app_store": "https://apps.apple.com/us/app/m1-ai-wealth-management/id1071915644"
+ },
+ "wealthfront": {
+  "app": "Wealthfront: Save and Invest",
+  "publisher": "Wealthfront, Inc.",
+  "app_store": "https://apps.apple.com/us/app/wealthfront-save-and-invest/id816020992"
+ },
+ "tastytrade": {
+  "app": "tastytrade: Invest & Trade",
+  "publisher": "Tastytrade, Inc.",
+  "app_store": "https://apps.apple.com/us/app/tastytrade-invest-trade/id1276909854"
+ },
+ "etrade": {
+  "app": "E*TRADE: Invest. Trade. Save.",
+  "publisher": "ETRADE FINANCIAL",
+  "app_store": "https://apps.apple.com/us/app/e-trade-invest-trade-save/id313259740"
+ },
+ "webull": {
+  "app": "Webull: Investing & Trading",
+  "publisher": "Webull Technologies Pte. Ltd.",
+  "app_store": "https://apps.apple.com/us/app/webull-investing-trading/id1179213067"
+ },
+ "public": {
+  "app": "Public: Invest & Trade",
+  "publisher": "Open to the Public Investing, Inc.",
+  "app_store": "https://apps.apple.com/us/app/public-invest-trade/id1204112719"
+ },
+ "alinea": {
+  "app": "Alinea: Automated Investing",
+  "publisher": "ALINEA INVEST, LLC",
+  "app_store": "https://apps.apple.com/us/app/alinea-automated-investing/id1554623825"
+ },
+ "ellevest": {
+  "app": "Ellevest: Investing for women",
+  "publisher": "Ellevest, Inc.",
+  "app_store": "https://apps.apple.com/us/app/ellevest-investing-for-women/id1437305170"
+ },
+ "ynab": {
+  "app": "YNAB",
+  "publisher": "You Need A Budget LLC",
+  "app_store": "https://apps.apple.com/us/app/ynab/id1010865877"
+ },
+ "monarch-money": {
+  "app": "Monarch: Budget & Track Money",
+  "publisher": "Monarch Money, Inc.",
+  "app_store": "https://apps.apple.com/us/app/monarch-budget-track-money/id1459319842"
+ },
+ "copilot": {
+  "app": "Copilot: Track & Budget Money",
+  "publisher": "Copilot Money, Inc.",
+  "app_store": "https://apps.apple.com/us/app/copilot-track-budget-money/id1447330651"
+ },
+ "empower": {
+  "app": "Empower \u00ae",
+  "publisher": "Empower Annuity Insurance Company of America",
+  "app_store": "https://apps.apple.com/us/app/empower/id1001257338"
+ },
+ "rocket-money": {
+  "app": "Rocket Money - Bills & Budgets",
+  "publisher": "Rocket Money",
+  "app_store": "https://apps.apple.com/us/app/rocket-money-bills-budgets/id1130616675"
+ },
+ "simplifi": {
+  "app": "Quicken: Budget & Track Money",
+  "publisher": "Quicken Inc.",
+  "app_store": "https://apps.apple.com/us/app/quicken-budget-track-money/id1449777194"
+ },
+ "coinbase": {
+  "app": "Coinbase: Buy Crypto & Stocks",
+  "publisher": "Coinbase, Inc.",
+  "app_store": "https://apps.apple.com/us/app/coinbase-buy-crypto-stocks/id886427730"
+ },
+ "kraken": {
+  "app": "Kraken: Buy Crypto & Stocks",
+  "publisher": "Payward, Inc.",
+  "app_store": "https://apps.apple.com/us/app/kraken-buy-crypto-stocks/id1481947260"
+ },
+ "crypto-com": {
+  "app": "Crypto.com: Trade Every Market",
+  "publisher": "CRYPTO Technology Holdings Limited",
+  "app_store": "https://apps.apple.com/us/app/crypto-com-trade-every-market/id1262148500"
+ },
+ "fundrise": {
+  "app": "Fundrise: Invest in Alts",
+  "publisher": "Rise Companies Corp",
+  "app_store": "https://apps.apple.com/us/app/fundrise-invest-in-alts/id1435387568"
+ },
+ "arrived": {
+  "app": "Arrived: Real Estate Investing",
+  "publisher": "Arrived Holdings, Inc.",
+  "app_store": "https://apps.apple.com/us/app/arrived-real-estate-investing/id1603728735"
+ },
+ "groundfloor": {
+  "app": "Groundfloor: Invest In Homes",
+  "publisher": "Groundfloor Finance Inc.",
+  "app_store": "https://apps.apple.com/us/app/groundfloor-invest-in-homes/id1569086243"
+ },
+ "chime": {
+  "app": "Chime\u00ae \u2013 Mobile Banking",
+  "publisher": "Chime Financial, Inc.",
+  "app_store": "https://apps.apple.com/us/app/chime-mobile-banking/id836215269"
+ },
+ "sofi": {
+  "app": "SoFi: Mobile Bank & Investing",
+  "publisher": "Social Finance, LLC",
+  "app_store": "https://apps.apple.com/us/app/sofi-mobile-bank-investing/id1191985736"
+ },
+ "chase": {
+  "app": "Chase Mobile\u00ae: Bank & Invest",
+  "publisher": "JPMorgan Chase Bank, NA",
+  "app_store": "https://apps.apple.com/us/app/chase-mobile-bank-invest/id298867247"
+ },
+ "amex": {
+  "app": "Amex",
+  "publisher": "American Express",
+  "app_store": "https://apps.apple.com/us/app/amex/id362348516"
+ }
+}
