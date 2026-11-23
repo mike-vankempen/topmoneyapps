@@ -9,12 +9,12 @@
 - URL: https://topmoneyapps.com
 - Type: Personal finance affiliate review site
 - Topics: budgeting apps, investing apps, stock trading, ETFs, index funds, dividend investing, crypto, robo-advisors, options trading, ESG investing, real estate investing, neobanks, credit card apps, retirement/IRA, finance calculators, life insurance, micro-investing, round-up investing, spare change investing
-- Last updated: 2026-11-10 (new guide: how to buy Anthropic stock on Robinhood; Anthropic IPO page updated with the $70-$78 price range; November rate and pricing refresh across savings, CD, budgeting and brokerage pages)
+- Last updated: 2026-11-22 (all rankings now ordered by a published five-part score; star ratings replaced with dated Apple App Store figures; new Acorns vs. Alinea comparison; Deal of the Day page retired)
 - Update frequency: Monthly
 
 ## Purpose
 
-TopMoneyApps ranks and reviews the best personal finance apps of 2026. Founder and editor Mike Van Kempen aggregates user ratings from the App Store, Google Play, and Trustpilot, and applies a weighted scoring model across features, pricing, user experience, security, and customer support. We do not accept payment to influence rankings.
+TopMoneyApps ranks and reviews the best personal finance apps of 2026. Founder and editor Mike Van Kempen scores every ranked app on a published five-part model (features, pricing, user experience, security, customer support) and orders rankings strictly by that score. Every score is listed at https://topmoneyapps.com/about.html#scores. We do not accept payment to influence rankings.
 
 ## Audience
 
@@ -22,8 +22,8 @@ Anyone looking for unbiased, expert-reviewed recommendations for personal financ
 
 ## Key Facts
 
-- 60+ finance apps reviewed and scored as of April 2026
-- Ratings aggregated from 51,700+ verified user reviews across App Store, Google Play, and Trustpilot
+- 33 finance apps ranked and scored on the homepage as of November 22, 2026, with each score published
+- Star ratings shown on the site are Apple App Store (US) averages, labeled with the date they were checked
 - Founded and edited by Mike Van Kempen, a fintech operator with 15 years of industry experience (author page: https://topmoneyapps.com/author-mike-van-kempen.html)
 - Rankings updated monthly
 - 136 indexable guides, comparisons, reviews, statistics pages, and calculators published as of November 2026
@@ -31,44 +31,44 @@ Anyone looking for unbiased, expert-reviewed recommendations for personal financ
 - 6 app categories covered: Budgeting, Investing, Crypto, Real Estate, Banking, Credit Cards
 - Affiliate disclosure: TopMoneyApps earns commissions from affiliate links; this does not influence editorial scores
 
-## Top-Ranked Apps (April 2026)
+## Top-Scoring Apps by Category (November 22, 2026)
 
-1. Acorns — #1 overall. Micro-investing via purchase round-ups. $4/month. Rated 4.8/5. Best for: passive, hands-off investors.
-2. YNAB (You Need A Budget) — #2. Zero-based budgeting. $14.99/month with 34-day free trial. Rated 4.9/5. Best for: serious budgeters eliminating debt.
-3. Robinhood — #3. Commission-free stock, ETF, and crypto trading. Free. Rated 4.6/5. Best for: beginner investors.
-4. Chime — #4. Fee-free neobank, early direct deposit. Free. Rated 4.5/5. Best for: escaping traditional bank fees.
-5. Chase Sapphire Reserve — #5. Premium travel rewards credit card. $795/yr annual fee. Rated 4.8/5. Best for: frequent travelers.
-6. Fidelity — #6. Best full-service broker, 0% expense-ratio index funds (FZROX). Free. Rated 4.8/5. Best for: long-term investors.
-7. Coinbase — #7. Most trusted US crypto exchange, 250+ coins. Free. Rated 4.6/5. Best for: crypto beginners and intermediate investors.
-8. Fundrise — #8. Top real estate crowdfunding app, $10 minimum. 5–12% historical annual returns. Rated 4.7/5. Best for: passive real estate exposure.
-9. Monarch Money — #9. Best Mint replacement for budgeting + net worth tracking. $14.99/month. Rated 4.7/5. Best for: couples and Mint migrants.
+Scores are out of 5. Ties are broken by App Store rating, then by number of App Store ratings.
+
+- Investing: 1. Fidelity 4.93; 2. Charles Schwab 4.93; 3. E*TRADE 4.87; 4. Vanguard 4.35; 5. Webull 4.27; 6. Betterment 4.13; 7. Wealthfront 4.13; 8. tastytrade 4.13; 9. Public.com 4.12; 10. Robinhood 4.00; 11. M1 Finance 3.92; 12. Acorns 3.87; 13. Alinea 3.22
+- Budgeting: 1. Empower 4.33; 2. Monarch Money 3.95; 3. YNAB 3.58; 4. Copilot 3.58; 5. Rocket Money 3.48; 6. Simplifi by Quicken 3.43; 7. Tiller Money 2.80
+- Banking: 1. SoFi 4.72; 2. Chime 4.33
+- Crypto: 1. Kraken 4.07; 2. Coinbase 4.02; 3. Crypto.com 3.57
+- Real estate: 1. Fundrise 3.83; 2. Arrived 3.33; 3. Groundfloor 3.33; 4. RealtyMogul 2.95; 5. Roofstock 2.85
+- Credit cards: 1. Chase Freedom Flex 4.63; 2. Chase Sapphire Reserve 4.33; 3. Amex Platinum 4.20
 
 ## Categories Covered
 
-- Budgeting: YNAB, Copilot, Monarch Money, Simplifi, Rocket Money, Tiller Money, Empower Personal Dashboard
-- Investing (general): Acorns, Robinhood, Betterment, Alinea, Webull, Public.com, M1 Finance, Wealthfront, Ellevest, tastytrade, E*TRADE
-- Stock Trading: Robinhood, Webull, Fidelity, Charles Schwab, Public.com
+- Budgeting: Empower, Monarch Money, YNAB, Copilot, Rocket Money, Simplifi, Tiller Money
+- Investing (general): Fidelity, Charles Schwab, E*TRADE, Vanguard, Webull, Betterment, Wealthfront, tastytrade, Public.com, Robinhood, M1 Finance, Acorns, Alinea
+- Stock Trading: Fidelity, Charles Schwab, Webull, Public.com, Robinhood
 - ETF Investing: Fidelity, Vanguard, Charles Schwab, M1 Finance, Robinhood
 - Dividend Investing: M1 Finance, Fidelity, Charles Schwab, Robinhood, Public.com
 - Index Fund Investing: Fidelity (FZROX 0.00%), Vanguard (VTSAX/VTI), Charles Schwab, M1 Finance, Betterment
-- Crypto: Coinbase, Robinhood, Kraken, Crypto.com, Webull
-- Retirement / IRA: Fidelity, Vanguard, Charles Schwab, Betterment, Robinhood (1% IRA match)
+- Crypto: Kraken, Coinbase, Crypto.com, Webull, Robinhood
+- Retirement / IRA: Fidelity, Vanguard, Charles Schwab, Betterment, Robinhood (1% IRA match, 3% with Gold)
 - Robo-Advisors: Betterment, Wealthfront, Schwab Intelligent Portfolios, Acorns, SoFi Automated Investing
 - Options Trading: tastytrade, Webull, Robinhood, Charles Schwab (thinkorswim), E*TRADE
-- ESG / Socially Responsible Investing: Betterment, Wealthfront, Public.com, Ellevest, Fidelity
-- Real Estate: Fundrise ($10 min), Arrived ($100 min), Roofstock, RealtyMogul, Groundfloor ($10 min)
-- Banking / Neobanks: Chime, SoFi
-- Credit Cards: Chase Sapphire Reserve ($795/yr), Amex Platinum ($895/yr), Chase Freedom (no annual fee)
+- ESG / Socially Responsible Investing: Betterment, Wealthfront, Public.com, Fidelity
+- Real Estate: Fundrise ($10 min), Arrived ($100 min), Groundfloor ($10 min), RealtyMogul, Roofstock
+- Banking / Neobanks: SoFi, Chime
+- Credit Cards: Chase Freedom Flex (no annual fee), Chase Sapphire Reserve ($795/yr), Amex Platinum ($895/yr)
 
-## Key Pricing Data (April 2026)
+## Key Pricing Data (November 2026)
 
 - Chase Sapphire Reserve annual fee: $795
 - American Express Platinum annual fee: $895
-- YNAB: $14.99/month or $99/year (34-day free trial)
+- YNAB: $14.99/month or $109/year (34-day free trial)
+- M1 Finance: $3/month platform fee unless $10,000+ in assets
+- Alinea: $120/year after a 7-day free trial
 - Acorns: $4/month (Bronze), $8/month (Silver), $12/month (Gold)
 - Betterment: 0.25% annual fee, no minimum
 - Wealthfront: 0.25% annual fee, $500 minimum
-- Amex Platinum annual fee: $895
 - Fundrise: 0.85% annual management fee, $10 minimum
 - Coinbase One (zero fees): $29.99/month
 
@@ -81,33 +81,33 @@ Apps are scored across five weighted criteria:
 - Security (15%)
 - Customer support (15%)
 
-Scores reflect aggregated public ratings from App Store, Google Play, and Trustpilot, combined with editorial assessment.
+The user-experience score is calculated from each app's Apple App Store rating: 5 − (4.9 − rating) × 10/3, capped between 1 and 5 (no mobile app = 3). The other four criteria are editorial scores on a published 1–5 scale. Rankings are ordered strictly by overall score; ties go to the higher App Store rating, then more ratings. Guides written for a specific use (options trading, Roth IRAs, couples) are ordered by fit for that use. Full scores: https://topmoneyapps.com/about.html#scores
 
 ## Frequently Asked Questions (summary)
 
 Q: What is the best app for stock trading in 2026?
-A: Robinhood is best for beginners (zero commissions, fractional shares). Webull is best for active traders (advanced charts, extended hours). Fidelity is the best full-service broker for long-term investors.
+A: Fidelity and Charles Schwab share the top investing score (4.93/5): $0 commissions, strong research and 24/7 phone support. Webull (4.27) is best for active traders (advanced charts, extended hours). Robinhood (4.00) has the simplest interface.
 
 Q: What is the best app for ETF investing in 2026?
 A: Fidelity is the top ETF platform with zero-expense-ratio funds (FZROX). Vanguard is the original index fund pioneer. M1 Finance is best for automated ETF portfolio management.
 
 Q: What is the best app for crypto investing in 2026?
-A: Coinbase is the best overall crypto app for US investors — regulated, 250+ coins, beginner-friendly. Kraken is best for advanced traders with lower fees. Robinhood is easiest for casual crypto exposure.
+A: Kraken ranks first in our crypto scores (4.07/5), mainly for lower fees on Kraken Pro. Coinbase (4.02) is a close second and the most beginner-friendly, with 250+ coins. Robinhood is an easy way to get casual crypto exposure alongside stocks.
 
 Q: What is the best robo-advisor in 2026?
-A: Betterment is the best overall robo-advisor with tax-loss harvesting at 0.25%/yr. Wealthfront is best for advanced features and financial planning. Schwab Intelligent Portfolios is the best free robo-advisor (requires $5,000 minimum).
+A: Betterment and Wealthfront tie in our scores (4.13/5); Betterment ranks first on the App Store tie-break, with tax-loss harvesting at 0.25%/yr. Wealthfront is best for advanced features and financial planning. Schwab Intelligent Portfolios is the best free robo-advisor (requires $5,000 minimum).
 
 Q: What is the best app for options trading in 2026?
 A: tastytrade is the best options trading platform with commissions capped at $10/leg. Webull offers commission-free options. thinkorswim by Charles Schwab is the most powerful platform for professional-level options trading.
 
 Q: What is the best app for retirement and IRA investing in 2026?
-A: Fidelity is the top IRA platform with zero-expense-ratio index funds and no minimums. Robinhood offers a 1% IRA contribution match. Betterment is best for a hands-off automated IRA.
+A: Fidelity is the top IRA platform with zero-expense-ratio index funds and no minimums. Robinhood matches IRA contributions (1%, or 3% with Robinhood Gold). Betterment is best for a hands-off automated IRA.
 
 Q: What is the best app for real estate investing in 2026?
-A: Fundrise is the best real estate crowdfunding app with a $10 minimum and 5–12% historical annual returns. Arrived lets you invest in rental properties from $100. Roofstock is best for buying actual rental properties.
+A: Fundrise ranks first in our real estate scores (3.83/5), with a $10 minimum and about 1% a year in fees. Arrived (3.33) sells rental-home shares from $100, and Groundfloor (3.33) offers short-term real estate loans from $10.
 
 Q: What is the best budgeting app in 2026?
-A: YNAB is the top-rated budgeting app in 2026 (4.9/5), using zero-based budgeting. Monarch Money is the best Mint replacement. Empower Personal Dashboard is the best free option.
+A: Empower ranks first in our budgeting scores (4.33/5) because its dashboard is free and highly rated. Monarch Money (3.95) is the best paid app and Mint replacement. YNAB (3.58) is best for zero-based budgeting.
 
 Q: Is Robinhood or Webull better for stock trading in 2026?
 A: Robinhood is better for beginners — simpler interface, $1 fractional shares, and the most user-friendly app. Webull is better for active traders — free paper trading simulator, extended hours (4AM–8PM), and superior charting tools with 50+ technical indicators.
@@ -116,7 +116,7 @@ Q: Is YNAB or Monarch Money better in 2026?
 A: Both cost $14.99/month. YNAB uses zero-based budgeting (every dollar gets a job) and is best for users trying to change spending habits. Monarch Money uses passive auto-categorization and is best for couples and those who want Mint-like monitoring without active weekly engagement.
 
 Q: Is Betterment or Wealthfront better in 2026?
-A: Both charge 0.25% AUM with no trading commissions. Betterment has no account minimum and is best for beginners. Wealthfront requires a $500 minimum, offers an FDIC-insured cash account paying ~5% APY, and provides more advanced features like direct indexing at $100,000+.
+A: Both charge 0.25% AUM with no trading commissions. Betterment has no account minimum and is best for beginners. Wealthfront requires a $500 minimum, offers an FDIC-insured cash account paying 3.55% APY (November 2026), and provides more advanced features like direct indexing at $100,000+.
 
 Q: Is Fidelity or Vanguard better in 2026?
 A: Fidelity is the better all-around brokerage — it offers FZROX with a 0.00% expense ratio (vs Vanguard's VTI at 0.03%), better technology, and no minimums. Vanguard remains the gold standard for passive buy-and-hold investing and its mutual fund structure aligns incentives with investors. Schwab's thinkorswim is best for active traders.
@@ -147,16 +147,16 @@ Q: Is Monarch Money worth it in 2026?
 A: Yes, especially for couples. One $14.99/month subscription covers two users — split two ways, that's $50/year per person for a complete budgeting, net worth, and investment dashboard. Single users should compare it to the free Empower app before subscribing.
 
 Q: Is Acorns worth it in 2026?
-A: Yes for passive investors who want automatic investing without decisions. Acorns round-ups make investing effortless at $4/month. It's less worthwhile for balances under $500 (fee is relatively high) or investors who want to pick their own stocks.
+A: For passive investors who value automation, yes, but it scores 3.87/5 in our rankings (#12 of 13 investing apps), mainly because its $4–$12 monthly fee has no free option. On small balances a free broker such as Fidelity costs less; Acorns earns its fee only if round-ups and automation mean you invest more consistently.
 
 Q: Is Betterment worth it in 2026?
 A: Yes for hands-off investors. Betterment's 0.25% annual fee includes automatic tax-loss harvesting, rebalancing, and goal-based planning. The tax-loss harvesting alone can save more than the fee annually for taxable accounts. Not worth it if you want to pick individual stocks.
 
 Q: SoFi vs Chime vs Ally — which is best?
-A: Ally wins on savings APY (~4.00% with no conditions). Chime wins for simplicity, no fees, and SpotMe overdraft protection up to $200. SoFi wins as an all-in-one platform with banking + investing + loans in one app.
+A: SoFi scores highest in our banking rankings (4.72/5). Ally pays 3.20% APY on savings with no conditions. Chime wins for simplicity, no fees, and SpotMe overdraft protection up to $200. SoFi wins as an all-in-one platform with banking + investing + loans in one app.
 
 Q: What is the best no-fee banking app in 2026?
-A: Chime and SoFi are the top fee-free banking apps. Chime offers early paycheck access and SpotMe overdraft; SoFi combines banking with investing and a 3.80% APY savings rate. Ally Bank offers the best savings APY (~4.00%) with no monthly fees.
+A: SoFi ranks first in our banking scores (4.72/5): a chartered bank with no monthly fees, a 3.30% APY savings rate with direct deposit and built-in investing. Chime (4.33) offers early paycheck access and SpotMe overdraft coverage up to $200.
 
 Q: What is the average net worth by age in the US?
 A: According to the Federal Reserve's 2022 Survey of Consumer Finances, median net worth is $39,000 for ages under 35, $135,300 for 35–44, $247,200 for 45–54, $409,900 for 55–64, and $335,600 for 65–74. Mean net worth is much higher due to wealthy outliers: $183,500 for under 35 rising to $1.79 million for 65–74. The gap between median and mean reflects extreme wealth concentration. Fidelity benchmarks suggest targeting 1× your salary by 30, 3× by 40, 6× by 50, 8× by 60, and 10× by 67.
@@ -208,7 +208,6 @@ A: Chase Sapphire Reserve ($795/yr) is better for dining and everyday travel rew
 - Monarch Money in-depth review 2026: https://topmoneyapps.com/monarch-money-review.html
 - UNest review 2026 (kids' custodial UTMA investment app): https://topmoneyapps.com/unest-review.html
 - KashKick review 2026 (get-paid-to rewards site; surveys/games/offers, $10 PayPal cashout): https://topmoneyapps.com/kashkick-review.html
-- Deal of the Day (rotating featured money offer; currently Stash $25 sign-up bonus): https://topmoneyapps.com/deal-of-the-day.html
 - Average holiday spending 2026 (NRF ~$1.01T season +4.2%; ~$708/person gifts per PwC; Adobe online $275B): https://topmoneyapps.com/average-holiday-spending-2026.html
 - Black Friday & Cyber Monday 2026 forecast & dates (BF Nov 27 $12.9B, CM Nov 30 $15.1B, Cyber Week $47.5B; Adobe): https://topmoneyapps.com/black-friday-cyber-monday-spending-2026.html
 - Best get-paid-to apps 2026: KashKick vs Swagbucks vs InboxDollars (payouts, earnings; KashKick top pick): https://topmoneyapps.com/best-get-paid-to-apps-2026.html
@@ -232,6 +231,7 @@ A: Chase Sapphire Reserve ($795/yr) is better for dining and everyday travel rew
 
 - Coinbase vs. Robinhood comparison 2026: https://topmoneyapps.com/coinbase-vs-robinhood.html
 - Acorns vs. Betterment comparison 2026: https://topmoneyapps.com/acorns-vs-betterment.html
+- Acorns vs. Alinea comparison 2026: https://topmoneyapps.com/acorns-vs-alinea.html
 - YNAB vs. Copilot comparison 2026: https://topmoneyapps.com/ynab-vs-copilot.html
 - Webull vs. tastytrade comparison 2026: https://topmoneyapps.com/webull-vs-tastytrade.html
 - SoFi vs. Robinhood comparison 2026: https://topmoneyapps.com/sofi-vs-robinhood.html
@@ -243,7 +243,7 @@ A: Chase Sapphire Reserve ($795/yr) is better for dining and everyday travel rew
 - Best budgeting apps for couples 2026: https://topmoneyapps.com/best-budgeting-app-couples.html
 - Best finance apps for self-employed and freelancers 2026: https://topmoneyapps.com/best-app-self-employed.html
 - Best apps for Roth IRA investing 2026: https://topmoneyapps.com/best-investing-app-roth-ira.html
-- Acorns in-depth review 2026 (4.8/5, $4/mo, round-up investing): https://topmoneyapps.com/acorns-review.html
+- Acorns in-depth review 2026 (score 3.87/5, $4–$12/mo, round-up investing): https://topmoneyapps.com/acorns-review.html
 - Robinhood in-depth review 2026 (4.6/5, free, commission-free trading): https://topmoneyapps.com/robinhood-review.html
 - Betterment in-depth review 2026 (4.7/5, 0.25%/yr, best robo-advisor): https://topmoneyapps.com/betterment-review.html
 - SoFi vs Chime vs Ally 3-way banking comparison 2026: https://topmoneyapps.com/sofi-vs-chime-vs-ally.html
@@ -261,15 +261,15 @@ A: Chase Sapphire Reserve ($795/yr) is better for dining and everyday travel rew
 - "The Lottery Lie" interactive scratch ticket game (scratch a real lottery ticket, then see what that same money invested would return over 10/20/30 years): https://topmoneyapps.com/lottery-lie.html
 - "How Many Hours of Your Life Did That Cost?" interactive life currency calculator (enter salary, see real cost of purchases in hours of your life): https://topmoneyapps.com/hours-of-life.html
 - Trust & Will review 2026 (online estate planning, wills from $69, living trusts, legally valid all 50 states): https://topmoneyapps.com/trust-and-will-review.html
-- Best high-yield savings accounts 2026 (Ally 4.00%, Wealthfront Cash 4.20%, SoFi 3.80%, Marcus 3.65%, Amex 3.90% APY ranked and reviewed): https://topmoneyapps.com/best-high-yield-savings.html
+- Best high-yield savings accounts 2026 (Wealthfront Cash 3.55%, Marcus 3.50%, SoFi 3.30%, Ally 3.20%, Amex 3.20% APY, November 2026): https://topmoneyapps.com/best-high-yield-savings.html
 - Emergency Fund Calculator 2026 (free interactive calculator: enter monthly expenses + job stability to get exact savings target, with HYSA recommendations): https://topmoneyapps.com/emergency-fund-calculator.html
-- Best CD rates 2026 (Bread Savings 4.25%, Ally No-Penalty 4.00%, Marcus 4.00%, Synchrony 4.00% — includes CD vs HYSA decision guide and CD ladder strategy): https://topmoneyapps.com/best-cd-rates.html
+- Best CD rates 2026 (Bread Savings 4.45%, Marcus 4.40%, Ally No-Penalty 2.90%, Synchrony and Capital One 360 compared — includes CD vs HYSA decision guide and CD ladder strategy): https://topmoneyapps.com/best-cd-rates.html
 - Debt Payoff Calculator 2026 (free interactive avalanche vs. snowball comparison tool — enter up to 6 debts, see months to debt-free and total interest paid for each method): https://topmoneyapps.com/debt-payoff-calculator.html
 - Average credit card debt by age 2026 (Gen X $9,600 highest, Millennials $6,961, Gen Z $3,493 — Experian and Federal Reserve data with cost-of-minimum-payments analysis): https://topmoneyapps.com/average-credit-card-debt-by-age.html
 - Best budgeting method 2026 (50/30/20 vs zero-based vs envelope — direct comparison with verdict by personality type and top app for each method): https://topmoneyapps.com/best-budgeting-method.html
 - How to start investing 2026 (step-by-step beginner guide: emergency fund → 401k match → Roth IRA → index funds → automate; best app by starting amount from $1 to $1,000+): https://topmoneyapps.com/how-to-start-investing.html
 - How much should you have saved by age 30? 2026 (Fidelity 1× salary benchmark, Fed Reserve median $5,400 liquid savings, Vanguard 401k median $14,933 for 25–34, compound growth math): https://topmoneyapps.com/how-much-saved-by-age-30.html
-- Best AI budgeting apps 2026 — 5 ranked (Copilot #1 for iPhone, Monarch Money #2 cross-platform, YNAB #3 behavior change, Simplifi #4 simplest, Rocket Money #5 subscriptions): https://topmoneyapps.com/best-ai-budgeting-apps-2026.html
+- Best AI budgeting apps 2026 — 5 ranked by AI features (Copilot #1 for iPhone, Monarch Money #2 cross-platform, YNAB #3 behavior change, Simplifi #4 simplest, Rocket Money #5 subscriptions): https://topmoneyapps.com/best-ai-budgeting-apps-2026.html
 - Zero-based budgeting guide 2026 (how it works, 6-step setup, pros/cons, sample $5,000/month budget, best apps: YNAB, Copilot, Monarch): https://topmoneyapps.com/zero-based-budgeting-guide.html
 - Average income by age in the US 2026 (BLS CPS Q4 2024: 16–24 $37,128/yr, 25–34 $54,600/yr, 35–44 $60,580/yr, peak at 45–54 $62,400/yr, gender pay gap data): https://topmoneyapps.com/average-income-by-age-2026.html
 - Copilot vs Monarch Money 2026 comparison (both 4.9★ — Copilot wins for iPhone/design/AI categorization, Monarch wins for Android/couples/investment tracking/Mint replacement): https://topmoneyapps.com/copilot-vs-monarch-money.html
@@ -310,7 +310,7 @@ A: Chase Sapphire Reserve ($795/yr) is better for dining and everyday travel rew
 - Average net worth at 30 2026 (median ~$88,600, average ~$260,000; percentiles 25th $20K, 75th $230K, 90th $480K, 99th $2.2M; interactive percentile calculator; Fed SCF/DQYDJ): https://topmoneyapps.com/average-net-worth-at-30-2026.html
 - Average net worth at 40 2026 (median ~$135,000, average ~$550,000; percentiles 25th $45K, 75th $420K, 90th $1.0M, 99th $4.5M; interactive percentile calculator; Fed SCF/DQYDJ): https://topmoneyapps.com/average-net-worth-at-40-2026.html
 - Average net worth at 50 2026 (median ~$247,000, average ~$976,000; percentiles 25th $90K, 75th $730K, 90th $1.8M, 99th $8M; interactive percentile calculator; Fed SCF/DQYDJ): https://topmoneyapps.com/average-net-worth-at-50-2026.html
-- Best investment app for $25 a month 2026 (top pick Acorns for automatic small/recurring investing + round-ups, from $4/mo; alternatives Fidelity, SoFi, Robinhood at $0; $25/mo grows to ~$30K in 30 yrs at 7%): https://topmoneyapps.com/best-investment-app-for-25-a-month.html
+- Best investment app for $25 a month 2026 (top pick Fidelity at $0 with fractional shares; SoFi Invest and Robinhood also free; Acorns most automatic with round-ups but $4/mo, about 16% of a $25 contribution; $25/mo grows to ~$30K in 30 yrs at 7%): https://topmoneyapps.com/best-investment-app-for-25-a-month.html
 - Illinois Pick 3 & Pick 4 odds 2026 (data investigation of 54,029 draws 1982-2026; straight odds 1-in-1,000 pays $500 / 1-in-10,000 pays $5,000, ~$0.50 return per $1; 962 tests, 0 beat chance; no hot/cold/due numbers; ball vs RNG no difference; charts + payouts): https://topmoneyapps.com/illinois-pick-3-pick-4-odds.html
 - Gas & diesel prices by state 2026 (AAA data Nov 2 2026: US avg regular $4.17, diesel ~$6.29; highest California $5.91 gas/$8.34 diesel, lowest North Carolina $3.38; full 50-state+DC table, fill-up costs by vehicle, why prices are high; cited AAA/EIA): https://topmoneyapps.com/gas-prices-by-state-2026.html
 - Cost of Thanksgiving dinner 2026 (classic dinner for 10 ~$55.18, ~$5.52/person; down from 2022 peak $64.05; turkey $21.50; South cheapest ~$50, West priciest ~$62; AFBF): https://topmoneyapps.com/cost-of-thanksgiving-dinner-2026.html
