@@ -10,11 +10,11 @@ Owner and editor: Mike Van Kempen. Every article is published under his byline.
 ## What a scheduled run does
 
 1. Sync: `git pull --rebase origin main` (a shallow clone is fine).
-2. Pick 4 topics (see "Choosing topics").
+2. Pick 3 topics (see "Choosing topics").
 3. For each topic: research, write the page, wire it into the site.
 4. Run `python3 _automation/check_site.py <new files>` and fix everything it reports.
    An article that still fails, or whose facts could not be verified, is dropped,
-   not published. Publishing fewer than 4 is fine; publishing something wrong is not.
+   not published. Publishing fewer than 3 is fine; publishing something wrong is not.
 5. Add one line per published article to `_automation/published-log.md`
    (and one line per dropped topic, with the reason).
 6. Commit everything in one commit: `Publish: <slug>, <slug>, ...` and push to `main`.
