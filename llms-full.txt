@@ -584,6 +584,13 @@ Author: Mike Van Kempen
 Summary: Average FICO scores by generation (Experian/FICO 2026): Gen Z (18–28) 678, millennials (29–44) 689, Gen X (45–60) 709, baby boomers (61–79) 747, Silent Generation (80+) 760; national average ~715 ("Good"). FICO ranges: 800+ Exceptional, 740–799 Very Good, 670–739 Good, 580–669 Fair, 300–579 Poor. Explains why younger generations score lower (shorter history, higher utilization) and the five scoring factors with how to improve.
 Key FAQs: Average credit score 2026? By age? What is a good score? Why is Gen Z lower? How to raise it fast?
 
+### Money Guides
+URL: https://topmoneyapps.com/money-guides.html
+Title: Money Guides (2026): Budgeting, Credit, Taxes, Insurance & Side Income | TopMoneyApps
+Author: Mike Van Kempen
+Updated: 2026-11-23
+Summary: Hub of practical money guides outside investing, grouped into Budgeting, Credit & Debt, Taxes & Accounts, Housing, Insurance & Estate Planning, Saving & Side Income, and Planning Ahead.
+
 ### Paycheck-to-Paycheck Statistics (2026)
 URL: https://topmoneyapps.com/paycheck-to-paycheck-statistics-2026.html
 Title: Paycheck-to-Paycheck Statistics (2026): How Many Americans? | TopMoneyApps

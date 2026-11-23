@@ -1,9 +1,3 @@
-# Retired pages (301 permanent redirects)
-/deal-of-the-day.html / 301
-/deal-of-the-day / 301
-/best-investing-apps-beginners.html /best-investing-app-beginners.html 301
-/best-investing-apps-beginners /best-investing-app-beginners.html 301
-/finvault.html / 301
-/finvault / 301
-/topmoneyapps.html / 301
-/topmoneyapps / 301
+# GitHub Pages does not read this file. Retired pages are redirected with small HTML pages
+# that use a meta refresh (deal-of-the-day.html, finvault.html, topmoneyapps.html,
+# best-investing-apps-beginners.html). For true 301s, add Cloudflare Redirect Rules.

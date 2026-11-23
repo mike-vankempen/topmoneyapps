@@ -1,0 +1,56 @@
+{
+  "updated": "2026-11-22",
+  "source": "TopMoneyApps scoring sheet (approved by Mike Van Kempen). Published at https://topmoneyapps.com/about.html#scores",
+  "weights": {"features": 0.30, "pricing": 0.20, "user_experience": 0.20, "security": 0.15, "support": 0.15},
+  "tie_break": "Higher App Store rating ranks first; if still tied, more App Store ratings ranks first.",
+  "categories": {
+    "investing": [
+      {"app": "Fidelity", "score": 4.93, "app_store": 4.8},
+      {"app": "Charles Schwab", "score": 4.93, "app_store": 4.8},
+      {"app": "E*TRADE", "score": 4.87, "app_store": 4.7},
+      {"app": "Vanguard", "score": 4.35, "app_store": 4.6},
+      {"app": "Webull", "score": 4.27, "app_store": 4.7},
+      {"app": "Betterment", "score": 4.13, "app_store": 4.8},
+      {"app": "Wealthfront", "score": 4.13, "app_store": 4.8},
+      {"app": "tastytrade", "score": 4.13, "app_store": 4.8},
+      {"app": "Public.com", "score": 4.12, "app_store": 4.7},
+      {"app": "Robinhood", "score": 4.00, "app_store": 4.3},
+      {"app": "M1 Finance", "score": 3.92, "app_store": 4.7},
+      {"app": "Acorns", "score": 3.87, "app_store": 4.7},
+      {"app": "Alinea", "score": 3.22, "app_store": 4.7}
+    ],
+    "investing_guide_only": [
+      {"app": "SoFi Invest", "score": 4.42, "app_store": 4.7}
+    ],
+    "budgeting": [
+      {"app": "Empower", "score": 4.33, "app_store": 4.8},
+      {"app": "Monarch Money", "score": 3.95, "app_store": 4.9},
+      {"app": "YNAB", "score": 3.58, "app_store": 4.8},
+      {"app": "Copilot", "score": 3.58, "app_store": 4.8},
+      {"app": "Rocket Money", "score": 3.48, "app_store": 4.5},
+      {"app": "Simplifi by Quicken", "score": 3.43, "app_store": 4.5},
+      {"app": "Tiller Money", "score": 2.80, "app_store": null}
+    ],
+    "banking": [
+      {"app": "SoFi", "score": 4.72, "app_store": 4.7},
+      {"app": "Chime", "score": 4.33, "app_store": 4.8}
+    ],
+    "crypto": [
+      {"app": "Kraken", "score": 4.07, "app_store": 4.7},
+      {"app": "Coinbase", "score": 4.02, "app_store": 4.7},
+      {"app": "Crypto.com", "score": 3.57, "app_store": 4.7}
+    ],
+    "real_estate": [
+      {"app": "Fundrise", "score": 3.83, "app_store": 4.8},
+      {"app": "Arrived", "score": 3.33, "app_store": 4.8},
+      {"app": "Groundfloor", "score": 3.33, "app_store": 4.5},
+      {"app": "RealtyMogul", "score": 2.95, "app_store": null},
+      {"app": "Roofstock", "score": 2.85, "app_store": null}
+    ],
+    "credit_cards": [
+      {"app": "Chase Freedom Flex", "score": 4.63, "app_store": 4.8},
+      {"app": "Chase Sapphire Reserve", "score": 4.33, "app_store": 4.8},
+      {"app": "Amex Platinum", "score": 4.20, "app_store": 4.9}
+    ]
+  }
+}
