@@ -424,6 +424,14 @@ URL: https://topmoneyapps.com/life-insurance-calculator.html
 Title: How Much Life Insurance Do I Need? Free Calculator | TopMoneyApps
 Summary: 4-question interactive calculator providing a personalized life insurance coverage estimate in 30 seconds. Inputs: annual income, years to retirement, outstanding debts (mortgage + other), financial dependents. Output: recommended coverage amount with explanation. General rule: 10–12× annual income. No email required.
 
+### Retirement Calculator
+URL: https://topmoneyapps.com/retirement-calculator.html
+Title: Retirement Calculator (2026): How Much Will You Have When You Retire? | TopMoneyApps
+Author: Mike Van Kempen
+Updated: 2026-11-23
+Summary: Free standalone retirement calculator. Inputs: current age, retirement age, current savings, monthly contribution, expected annual return, inflation. Outputs: projected balance at retirement (monthly compounding), the same balance in today's dollars, monthly income under the 4% rule, total contributed and investment gains, with a year-by-year chart. Example: age 30 to 65, $25,000 saved, $500/month at 7% grows to about $1.19 million (about $422,000 in today's dollars at 3% inflation), supporting about $3,961/month under the 4% rule. Explains the 25x rule (spending $60,000/yr needs about $1.5M), the 4% rule (William Bengen, 1994), and 2026 limits ($24,500 401(k), $7,500 IRA). Does not include Social Security.
+Key FAQs: How much do I need to retire? What is the 4% rule? What return should I use? Does it include Social Security? How much can I contribute in 2026?
+
 ### Free Finance Calculators (Retirement + Compound Growth)
 URL: https://topmoneyapps.com/tools.html
 Title: Free Finance Calculators 2026 — Retirement & Compound Growth | TopMoneyApps
