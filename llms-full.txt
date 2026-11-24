@@ -1230,3 +1230,36 @@ Updated: November 2026
 Summary: Average wedding cost statistics from The Knot 2026 Real Weddings Study and Zola's 2026 reports, with category costs, state and city extremes, who pays, and CDC/Census marriage data.
 Key facts: The Knot: average wedding $34,200 in 2025 (up from $33,000 in 2024; 10,474 couples), 117 guests, $292 per guest; engagement ring $4,600 listed separately. Venue $12,900, band $4,500, photographer $3,000, flowers $2,800, dress $2,100, DJ $1,800, catering $80/person. New Jersey most expensive state ($57,000), Wyoming least ($17,000); NYC $88,000, El Paso $20,000. Zola: 2026 average $36,000 out of pocket, 145 guests; 88% of couples contribute own money (29% fully, 59% partially). CDC: 2,128,446 marriages in 2024, 6.3 per 1,000 (provisional).
 Key FAQs: What is the average cost of a wedding in 2026? How much does a wedding cost per guest? What is the most expensive part of a wedding? Which state has the most expensive weddings? Who pays for the wedding?
+
+---
+
+### Roth IRA vs. Traditional IRA: Which Is Better for You?
+URL: https://topmoneyapps.com/roth-ira-vs-traditional-ira.html
+Title: Roth IRA vs. Traditional IRA: Which Is Better for You? | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: Side-by-side comparison of Roth and traditional IRAs for 2026: tax treatment, shared contribution limit, Roth income phase-outs, traditional deduction phase-outs, withdrawal and 5-year rules, RMDs, conversions and how to choose.
+Key facts: 2026 IRA limit $7,500 combined across traditional and Roth, $8,600 at 50+ ($1,100 catch-up). Roth phase-out MAGI $153,000-$168,000 single/HoH, $242,000-$252,000 MFJ, $0-$10,000 MFS. Traditional deduction phase-out if covered by workplace plan: $81,000-$91,000 single, $129,000-$149,000 MFJ, $242,000-$252,000 if only spouse covered. Traditional RMDs at 73; no Roth RMDs during owner's life. Roth contributions withdrawable anytime; earnings need 59 1/2 + 5-year rule. Conversions allowed at any income, taxable in year converted. Equal tax rates now and later give the same result; a higher future rate favors Roth (Schwab).
+Key FAQs: What is the main difference between a Roth IRA and a traditional IRA? What is the IRA contribution limit for 2026? What are the 2026 Roth IRA income limits? Can I contribute to both a Roth IRA and a traditional IRA in the same year? Do Roth IRAs have required minimum distributions?
+
+---
+
+### 401(k) vs. Roth IRA: Which Should You Fund First?
+URL: https://topmoneyapps.com/401k-vs-roth-ira.html
+Title: 401(k) vs. Roth IRA: Which Should You Fund First? | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: Comparison of 401(k) plans and Roth IRAs for 2026: limits, catch-ups, income limits, employer match, access to money, loans, RMDs, job changes and a common funding order.
+Key facts: 2026 401(k) employee limit $24,500; catch-up $8,000 at 50+ ($32,500 total); $11,250 at ages 60-63 ($35,750). IRA limit $7,500 + $1,100 at 50+; separate from 401(k), so $32,000 combined under 50. Roth IRA phase-out $153,000-$168,000 single, $242,000-$252,000 MFJ; Roth 401(k) has no income limit. No RMDs for Roth IRAs or designated Roth 401(k)/403(b) during owner's life; traditional 401(k) RMDs at 73. 401(k) loans if plan allows; Roth IRA contributions withdrawable anytime. Mandatory Roth catch-up for certain higher earners generally from tax years beginning after Dec 31, 2026 (IR-2025-91). Common order: get the match, fund Roth IRA, then more 401(k).
+Key FAQs: Should I contribute to a 401(k) or a Roth IRA first? Can I have a 401(k) and a Roth IRA at the same time? What are the 2026 401(k) and Roth IRA contribution limits? Is there an income limit for a Roth 401(k)? Do Roth 401(k)s have required minimum distributions?
+
+---
+
+### How to Roll Over a 401(k): Steps, Rules and Taxes
+URL: https://topmoneyapps.com/how-to-roll-over-a-401k.html
+Title: How to Roll Over a 401(k): Steps, Rules and Taxes | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: Step-by-step guide to rolling over a 401(k): options for an old plan, direct vs. 60-day rollovers, 20% withholding, IRS rollover rules, rolling into a Roth IRA and what cannot be rolled over.
+Key facts: Direct rollover: plan pays the new plan/IRA, no withholding. Indirect: plan must withhold 20%; 60 days to deposit; replace the withheld 20% to roll over the full amount (IRS example: $10,000 distribution, $2,000 withheld). IRS may waive the 60-day deadline for circumstances beyond your control. One-rollover-per-12-months applies only to IRA-to-IRA rollovers, not plan-to-IRA, plan-to-plan, trustee-to-trustee or Roth conversions. Can't roll over RMDs, hardship distributions, loans treated as distributions, excess contributions. Plans may auto-roll $1,000-$5,000 balances to an IRA and pay out $1,000 or less. Plans must offer direct transfer for eligible distributions of $200+. Pre-tax to Roth IRA is a taxable conversion with its own 5-year clock.
+Key FAQs: How long do I have to roll over a 401(k)? Do I pay taxes when I roll over a 401(k)? What is the difference between a direct and an indirect rollover? Can I roll a 401(k) into a Roth IRA? Does the one-rollover-per-year rule apply to 401(k) rollovers?

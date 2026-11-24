@@ -18,12 +18,12 @@ Format: `- [ ] slug — working title — type — hub`
 
 ## Retirement and investing explainers
 
-- [ ] roth-ira-vs-traditional-ira — Roth IRA vs. Traditional IRA — explainer — investing-guides (retirement)
-- [ ] 401k-vs-roth-ira — 401(k) vs. Roth IRA: Which Comes First? — explainer — investing-guides (retirement)
-- [ ] how-to-open-a-roth-ira — How to Open a Roth IRA — how-to — investing-guides (retirement)
-- [ ] how-to-roll-over-a-401k — How to Roll Over a 401(k) — how-to — investing-guides (retirement)
+- [x] roth-ira-vs-traditional-ira — Roth IRA vs. Traditional IRA — explainer — investing-guides (retirement)
+- [x] 401k-vs-roth-ira — 401(k) vs. Roth IRA: Which Comes First? — explainer — investing-guides (retirement)
+- [-] how-to-open-a-roth-ira — How to Open a Roth IRA — how-to — investing-guides (retirement) — skipped 2026-11-24: overlaps best-investing-app-roth-ira.html ("best app to open a Roth IRA")
+- [x] how-to-roll-over-a-401k — How to Roll Over a 401(k) — how-to — investing-guides (retirement)
 - [ ] backdoor-roth-ira — Backdoor Roth IRA Explained — explainer — investing-guides (retirement)
-- [ ] roth-ira-income-limits-2026 — Roth IRA Income Limits for 2026 — explainer — investing-guides (retirement)
+- [-] roth-ira-income-limits-2026 — Roth IRA Income Limits for 2026 — explainer — investing-guides (retirement) — skipped 2026-11-24: covered by 2026-contribution-limits.html (Roth IRA income limits section)
 - [ ] what-is-an-index-fund — What Is an Index Fund? — explainer — investing-guides (getting started)
 - [ ] etf-vs-mutual-fund — ETF vs. Mutual Fund — explainer — investing-guides (getting started)
 - [ ] what-is-a-brokerage-account — What Is a Brokerage Account? — explainer — investing-guides (getting started)
