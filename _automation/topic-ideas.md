@@ -9,9 +9,9 @@ Format: `- [ ] slug — working title — type — hub`
 - [x] tax-brackets-2026 — 2026 Federal Income Tax Brackets and Rates — explainer — money-guides (taxes)
 - [x] standard-deduction-2026 — 2026 Standard Deduction by Filing Status — explainer — money-guides (taxes)
 - [x] capital-gains-tax-rates-2026 — 2026 Capital Gains Tax Rates and Brackets — explainer — investing-guides
-- [ ] social-security-cola-2027 — Social Security COLA for 2027: How Much Checks Rise — stats — stats
-- [ ] required-minimum-distributions-2026 — Required Minimum Distributions (RMDs) in 2026 — explainer — investing-guides (retirement)
-- [ ] tax-filing-deadline-2027 — When Are Taxes Due in 2027? Key IRS Deadlines — explainer — money-guides (taxes)
+- [x] social-security-cola-2027 — Social Security COLA for 2027: How Much Checks Rise — stats — stats
+- [x] required-minimum-distributions-2026 — Required Minimum Distributions (RMDs) in 2026 — explainer — investing-guides (retirement)
+- [x] tax-filing-deadline-2027 — When Are Taxes Due in 2027? Key IRS Deadlines — explainer — money-guides (taxes)
 - [ ] how-to-file-taxes-for-free — How to File Your Taxes for Free — how-to — money-guides (taxes)
 - [ ] open-enrollment-checklist — Open Enrollment Checklist: Health, HSA, FSA and 401(k) — how-to — money-guides (planning)
 - [ ] average-wedding-cost-2026 — Average Wedding Cost in 2026 — stats — stats

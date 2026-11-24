@@ -1168,3 +1168,39 @@ Updated: November 2026
 Summary: The 2026 long-term capital gains tax brackets for every filing status from IRS Revenue Procedure 2025-32, plus short-term gains, the 25%/28% special rates and the $3,000 capital loss rule.
 Key facts: Long-term (held more than one year) rates 0%/15%/20%. 0% up to taxable income of $49,450 single/MFS, $98,900 MFJ, $66,200 HOH. 20% above $545,500 single, $613,700 MFJ, $579,600 HOH, $306,850 MFS. Estates/trusts: 0% to $3,300, 20% over $16,250. Short-term gains taxed as ordinary income (10%-37%). Collectibles and section 1202 stock max 28%; unrecaptured section 1250 gain max 25%. Net capital losses offset up to $3,000 of other income ($1,500 MFS), remainder carried forward. Example: single with $40,000 ordinary taxable income + $20,000 long-term gain owes $1,582.50 on the gain.
 Key FAQs: What are the capital gains tax rates for 2026? How are short-term capital gains taxed in 2026? How long do I have to hold an investment for long-term rates? How much in capital losses can I deduct? Can I pay 0% tax on capital gains?
+
+---
+
+### Social Security COLA 2027: 3.6% Raise and New Benefit Amounts
+URL: https://topmoneyapps.com/social-security-cola-2027.html
+Title: Social Security COLA 2027: 3.6% Raise and New Benefit Amounts | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: The 2027 Social Security cost-of-living adjustment from the SSA (announced October 14, 2026), with average benefits before and after, SSI amounts, the 2027 taxable maximum, earnings test limits and notice dates.
+Key facts: COLA 3.6% for 2027 (2.8% for 2026). Applies to Social Security benefits payable January 2027 (nearly 72 million people) and SSI payments from December 31, 2026 (about 7.3 million); about 76 million total. Average retired worker $2,095 to $2,170/month (+$75); aged couple $3,238 to $3,355; aged widow(er) $1,936 to $2,005; all disabled workers $1,642 to $1,701. Taxable maximum $184,500 to $192,300. Earnings test under FRA $24,480 to $25,560 ($1 per $2); year reaching FRA $65,160 to $67,920 ($1 per $3). Max benefit at FRA $4,152 to $4,188. SSI individual $994 to $1,029, couple $1,491 to $1,544. Calculated from CPI-W Q3 2025 to Q3 2026.
+Key FAQs: What is the Social Security COLA for 2027? How much will my Social Security check go up in 2027? When will I get my 2027 COLA notice? What is the Social Security wage base for 2027? How is the Social Security COLA calculated?
+
+
+---
+
+### Required Minimum Distributions (RMDs) in 2026: Rules and Table
+URL: https://topmoneyapps.com/required-minimum-distributions-2026.html
+Title: Required Minimum Distributions (RMDs) in 2026: Rules and Table | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: Required minimum distribution rules for 2026: RMD age by birth year, deadlines, covered accounts, Uniform Lifetime Table distribution periods, worked examples, aggregation, the missed-RMD penalty and QCDs.
+Key facts: RMD age 73 for those born 1951-1959, 75 for born after 1959. First RMD due April 1 of the year after reaching RMD age (turn 73 in 2026 -> April 1, 2027); later RMDs by December 31; delaying the first means two RMDs in one year. Covers traditional/SEP/SIMPLE IRAs, 401(k), 403(b), 457(b). Roth IRAs exempt during owner's life; designated Roth 401(k)/403(b) exempt since 2024. RMD = prior Dec 31 balance / Uniform Lifetime distribution period (73: 26.5; 75: 24.6; 80: 20.2; 85: 16.0; 90: 12.2). Example: $400,000 at 73 -> $15,094.34. IRAs can be aggregated; 403(b)s only with 403(b)s; 401(k)s separately. Missed RMD: 25% excise tax, 10% if corrected within about two years (Form 5329). QCD at 70 1/2, up to $111,000 for 2026 (Schwab).
+Key FAQs: What age do RMDs start in 2026? When is the 2026 RMD deadline? How do I calculate my RMD? Do Roth IRAs have required minimum distributions? What happens if I miss an RMD?
+
+
+---
+
+### When Are Taxes Due in 2027? Key IRS Deadlines
+URL: https://topmoneyapps.com/tax-filing-deadline-2027.html
+Title: When Are Taxes Due in 2027? Key IRS Deadlines | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: Federal tax deadlines in 2027 for 2026 returns: filing and payment, extension, estimated tax dates, W-2 timing, the June 15 abroad deadline and IRA/HSA contribution cutoffs.
+Key facts: 2026 returns due Thursday, April 15, 2027 (IRS); tax owed due same day even with an extension. Form 4868 extends filing to Friday, October 15, 2027. Estimated tax: Q4 2026 January 15, 2027; 2027 payments April 15, June 15, September 15, 2027, final in January 2028. W-2s to employees by February 1, 2027 (January 31 is a Sunday). Taxpayers abroad: June 15, 2027. 2026 IRA and HSA contributions until April 15, 2027 (no extension). IRS had not announced the 2027 filing season start as of November 2026.
+Key FAQs: When are taxes due in 2027? What is the tax extension deadline in 2027? When are estimated tax payments due in 2027? Can I still contribute to an IRA for 2026 in 2027? When can I start filing my 2026 taxes?
+
