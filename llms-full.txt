@@ -1263,3 +1263,36 @@ Updated: November 2026
 Summary: Step-by-step guide to rolling over a 401(k): options for an old plan, direct vs. 60-day rollovers, 20% withholding, IRS rollover rules, rolling into a Roth IRA and what cannot be rolled over.
 Key facts: Direct rollover: plan pays the new plan/IRA, no withholding. Indirect: plan must withhold 20%; 60 days to deposit; replace the withheld 20% to roll over the full amount (IRS example: $10,000 distribution, $2,000 withheld). IRS may waive the 60-day deadline for circumstances beyond your control. One-rollover-per-12-months applies only to IRA-to-IRA rollovers, not plan-to-IRA, plan-to-plan, trustee-to-trustee or Roth conversions. Can't roll over RMDs, hardship distributions, loans treated as distributions, excess contributions. Plans may auto-roll $1,000-$5,000 balances to an IRA and pay out $1,000 or less. Plans must offer direct transfer for eligible distributions of $200+. Pre-tax to Roth IRA is a taxable conversion with its own 5-year clock.
 Key FAQs: How long do I have to roll over a 401(k)? Do I pay taxes when I roll over a 401(k)? What is the difference between a direct and an indirect rollover? Can I roll a 401(k) into a Roth IRA? Does the one-rollover-per-year rule apply to 401(k) rollovers?
+
+---
+
+### Backdoor Roth IRA Explained: Steps, Taxes and the Pro-Rata Rule
+URL: https://topmoneyapps.com/backdoor-roth-ira.html
+Title: Backdoor Roth IRA Explained: Steps, Taxes and the Pro-Rata Rule | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: How a backdoor Roth IRA works in 2026: a nondeductible traditional IRA contribution followed by a Roth conversion, the 2026 Roth income limits, the three steps, Form 8606 reporting, the pro-rata rule with examples, the 5-year rule for conversions and pitfalls.
+Key facts: Not a separate account type (Fidelity). 2026 direct Roth contributions not allowed at MAGI $168,000+ single, $252,000+ MFJ; partial from $153,000 / $242,000; MFS under $10,000 partial (Fidelity). Fidelity lists 2027 upper limits of $173,000 single and $260,000 MFJ. 2026 IRA limit $7,500, $1,100 catch-up at 50+. Form 8606 required for nondeductible contributions and Roth conversions, filed with Form 1040. Pro-rata rule covers all pre-tax traditional, rollover, SEP and SIMPLE IRAs (Schwab); Schwab example: $7,000 after-tax + $93,000 pre-tax, converting $7,000 = $6,510 taxable. Conversion must be completed by Dec 31 to count that year (Fidelity). Each conversion has its own 5-year clock. No recharacterization of conversions made in 2018 or later (IRS). IRS has no formal guidance on step-transaction question (Schwab).
+Key FAQs: Is a backdoor Roth IRA allowed? What are the 2026 income limits that make a backdoor Roth useful? What is the pro-rata rule? Do I need to file Form 8606 for a backdoor Roth? Can I undo a backdoor Roth conversion?
+
+---
+
+### What Is an Index Fund? How It Works, Costs and Risks
+URL: https://topmoneyapps.com/what-is-an-index-fund.html
+Title: What Is an Index Fund? How It Works, Costs and Risks | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: Plain-English explainer of index funds based on SEC Investor.gov guidance: definition, common indexes, how funds track an index, passive vs. active, costs, risks, smart beta and other non-traditional index funds, and questions to ask before buying.
+Key facts: An index fund is a mutual fund or ETF that seeks to track a market index (SEC). Example indexes: S&P 500, Russell 2000, Wilshire 5000 Total Market Index. Market-cap weighted vs. price weighted (Dow) indexes. Funds hold all index securities or a sample; some use derivatives. Passive management can lower costs, but not all index funds cost less than active funds (SEC). Risks: underlying market risk, lack of flexibility, tracking error, underperformance from fees and trading costs. Smart beta/quant/ESG index funds track custom indexes and typically have higher expenses. Hypothetical: $10,000 for 20 years at an assumed 6% before fees grows to about $31,770 at 0.05%, $29,178 at 0.50%, $26,533 at 1.00%.
+Key FAQs: What is an index fund in simple terms? Are index funds cheaper than actively managed funds? Can an index fund lose money? Is an index fund a mutual fund or an ETF? What is tracking error?
+
+---
+
+### ETF vs. Mutual Fund: Key Differences and Which to Choose
+URL: https://topmoneyapps.com/etf-vs-mutual-fund.html
+Title: ETF vs. Mutual Fund: Key Differences and Which to Choose | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: Side-by-side comparison of ETFs and mutual funds based on SEC and FINRA guidance: trading and pricing, NAV and premiums/discounts, authorized participants, fees and bid-ask spreads, tax efficiency and how to choose.
+Key facts: Mutual funds price at NAV once per business day, typically after the close; ETFs trade on exchanges intraday at market prices that can be above or below NAV. Both can be passive or active and charge expense ratios. ETFs generally charge no fund fee to trade but may carry commissions and bid-ask spreads. ETFs typically distribute fewer capital gains due to in-kind exchanges; no tax difference in tax-advantaged accounts (SEC). iShares citing Morningstar: ETFs paid about 1% (0.62%) of fund industry capital gains distributions in 2025 while holding 30% of U.S. managed fund assets; 80% of active mutual funds vs. 18% of active ETFs paid capital gains in the last five years.
+Key FAQs: What is the main difference between an ETF and a mutual fund? Are ETFs cheaper than mutual funds? Why are ETFs more tax-efficient than mutual funds? Can an ETF trade at a different price than its NAV? Are index funds ETFs or mutual funds?
