@@ -1009,4 +1009,23 @@
     <priority>0.8</priority>
   </url>
 
+  <url>
+    <loc>https://topmoneyapps.com/tax-brackets-2026.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topmoneyapps.com/standard-deduction-2026.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topmoneyapps.com/capital-gains-tax-rates-2026.html</loc>
+    <lastmod>2026-11-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
