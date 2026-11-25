@@ -4,6 +4,25 @@ Take ideas from the top. Change `[ ]` to `[x]` when published, or to `[-]` with 
 reason when skipped. Keep at least 20 unclaimed ideas; add new ones at the bottom.
 Format: `- [ ] slug — working title — type — hub`
 
+## Life insurance (priority: one per run until this list is used up)
+
+Each run takes ONE topic from this section plus two from the regular order below.
+Don't overlap life-insurance-guide.html ("why you need it", term vs. whole life,
+how much coverage), life-insurance-calculator.html or trust-and-will-review.html.
+Where it fits, mention Everyday Life (see the affiliate links in CLAUDE.md),
+described neutrally from its own site: no score or rank, it is not in scores.json.
+
+- [ ] life-insurance-statistics-2026 — Life Insurance Statistics 2026: Who Has Coverage and How Big the Gap Is — stats — stats
+- [ ] is-life-insurance-taxable — Is Life Insurance Taxable? What the IRS Says — explainer — money-guides (insurance)
+- [ ] how-to-file-a-life-insurance-claim — How to File a Life Insurance Claim, Step by Step — how-to — money-guides (insurance)
+- [ ] how-to-find-a-lost-life-insurance-policy — How to Find a Lost Life Insurance Policy — how-to — money-guides (insurance)
+- [ ] life-insurance-through-work — Life Insurance Through Work: How Group Coverage Works and Its Limits — explainer — money-guides (insurance)
+- [ ] average-life-insurance-cost-by-age-2026 — Average Life Insurance Cost by Age in 2026 — stats — stats
+- [ ] life-insurance-beneficiary-guide — How to Choose a Life Insurance Beneficiary — explainer — money-guides (insurance)
+- [ ] accidental-death-vs-life-insurance — AD&D Insurance vs. Life Insurance: What Each Covers — explainer — money-guides (insurance)
+- [ ] final-expense-life-insurance — Final Expense Life Insurance Explained — explainer — money-guides (insurance)
+- [ ] average-funeral-cost-2026 — Average Funeral Cost in 2026 — stats — stats
+
 ## Timely (November–April)
 
 - [x] tax-brackets-2026 — 2026 Federal Income Tax Brackets and Rates — explainer — money-guides (taxes)

@@ -39,8 +39,10 @@ Mike's affiliate links.
   `best-budgeting-app-couples.html`, `best-ai-budgeting-apps-2026.html`,
   `best-app-track-net-worth.html`, `best-budgeting-method.html`.
 - **Life-insurance pool**: `life-insurance-guide.html`,
-  `life-insurance-calculator.html`, `trust-and-will-review.html`, plus any new page
-  with `life-insurance` in its file name (add new ones at the end).
+  `life-insurance-calculator.html`, `trust-and-will-review.html`, then, once
+  published, every page from the "Life insurance (priority)" section of
+  `_automation/topic-ideas.md` (marked `[x]`) and any other new page with
+  `life-insurance` in its file name, in the order they were published.
 - How to apply it: for each day you schedule posts on, check `social-log.md` for
   rows dated that day with cycle `pool:life` or `pool:monarch` (and for queue rows
   that happen to be a pool page). If the day has no life-insurance post, the first

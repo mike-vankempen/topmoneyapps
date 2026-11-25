@@ -35,6 +35,8 @@ Owner and editor: Mike Van Kempen. Every article is published under his byline.
   current-year rules ("2026 tax brackets"), and head-to-head comparisons of apps
   that already have a score in `_automation/scores.json`.
 - Prefer what is timely for today's date (tax season, open enrollment, year-end).
+- While the "Life insurance (priority)" section of `topic-ideas.md` has unclaimed
+  ideas, one of each run's 3 topics comes from it; the other two follow the normal order.
 
 ## Never publish (log the topic as "needs Mike" instead)
 
@@ -103,6 +105,10 @@ Every new page must have:
   `rel="sponsored noopener"`. Other app links go to the official site with
   `rel="sponsored noopener" target="_blank"`. Pages with any `rel="sponsored"` link
   keep the template's affiliate disclosure.
+- Mike's affiliate links (use these instead of the official site, same `rel` and
+  `target`): Monarch Money `https://monarchmoney.sjv.io/c/7140280/2395636/14860`;
+  Everyday Life (life insurance) `https://everyday-life.sjv.io/c/7140280/3760028/18495`.
+  Mention them only where they genuinely fit the topic, described neutrally.
 
 ## Wiring a new page into the site
 
