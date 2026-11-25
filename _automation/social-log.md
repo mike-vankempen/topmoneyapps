@@ -16,3 +16,11 @@ Format: `| scheduled (America/Chicago) | cycle | file | Buffer post ID | first w
 | 2026-11-25 05:00 | 1 | open-enrollment-checklist.html | 6b065dec40e1d58d12f762c6 | Open enrollment: sign up on HealthCare.gov... |
 | 2026-11-25 06:00 | 1 | average-wedding-cost-2026.html | 6b065ded608549ccf25dba5d | The average wedding now costs $34,200... |
 | 2026-11-25 07:00 | 1 | roth-ira-vs-traditional-ira.html | 6b065def9cddd8483aa88145 | Roth or traditional IRA?... |
+| 2026-11-25 08:00 | 1 | life-insurance-statistics-2026.html | 6b06c4e77fa2898b626c3b63 | 52% of American adults have some life insurance... |
+| 2026-11-25 09:00 | pool:monarch | monarch-money-review.html | 6b06c4e884d9eccde03fc1cb | Monarch Money costs $14.99 a month... |
+| 2026-11-25 10:00 | 1 | average-retirement-age-2026.html | 6b06c4e8446bb0c12e588f35 | Retirees say they retired at 61 on average... |
+| 2026-11-25 11:00 | 1 | social-security-full-retirement-age.html | 6b06c4e8446bb0c12e588f96 | Born in 1960 or later?... |
+| 2026-11-25 12:00 | 1 | is-life-insurance-taxable.html | 6b06c4e97fa2898b626c3bde | Is a life insurance payout taxable?... |
+| 2026-11-25 13:00 | 1 | how-to-save-for-a-house.html | 6b06c4e9446bb0c12e589008 | First-time home buyers put down a median 9%... |
+| 2026-11-25 14:00 | 1 | apr-vs-apy.html | 6b06c4ea7fa2898b626c3c24 | APR is what borrowing costs you... |
+| 2026-11-25 15:00 | 1 | 401k-vs-roth-ira.html | 6b06c4ea7a073d108549bfed | You can contribute to both a 401(k) and a Roth IRA... |
