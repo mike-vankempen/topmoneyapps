@@ -24,3 +24,11 @@ Format: `| scheduled (America/Chicago) | cycle | file | Buffer post ID | first w
 | 2026-11-25 13:00 | 1 | how-to-save-for-a-house.html | 6b06c4e9446bb0c12e589008 | First-time home buyers put down a median 9%... |
 | 2026-11-25 14:00 | 1 | apr-vs-apy.html | 6b06c4ea7fa2898b626c3c24 | APR is what borrowing costs you... |
 | 2026-11-25 15:00 | 1 | 401k-vs-roth-ira.html | 6b06c4ea7a073d108549bfed | You can contribute to both a 401(k) and a Roth IRA... |
+| 2026-11-25 16:00 | 1 | how-to-roll-over-a-401k.html | 6b073544c06d6883dad9c8ee | Leaving a job? If your old 401(k) cuts you a check... |
+| 2026-11-25 17:00 | 1 | backdoor-roth-ira.html | 6b073545650fcc0cfee40a02 | A backdoor Roth IRA isn't a separate account... |
+| 2026-11-25 18:00 | 1 | what-is-an-index-fund.html | 6b073545b1da0f86e497ab0b | You can't invest in the S&P 500 directly... |
+| 2026-11-25 19:00 | 1 | etf-vs-mutual-fund.html | 6b07354603e79bc5c6fab6d3 | ETFs trade all day at market prices... |
+| 2026-11-25 20:00 | 1 | what-is-a-brokerage-account.html | 6b073546636c52154b9a61ba | SIPC covers up to $500,000 per customer... |
+| 2026-11-25 21:00 | 1 | dollar-cost-averaging.html | 6b073546636c52154b9a61e8 | If you contribute to a 401(k) from every paycheck... |
+| 2026-11-25 22:00 | 1 | 529-plan-explained.html | 6b07354703e79bc5c6fab735 | New for 2026: you can withdraw up to $20,000 a year... |
+| 2026-11-25 23:00 | 1 | ynab-review.html | 6b073547b1da0f86e497abf2 | Zero-based budgeting: give every dollar of income a job... |
