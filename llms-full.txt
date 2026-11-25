@@ -1296,3 +1296,36 @@ Updated: November 2026
 Summary: Side-by-side comparison of ETFs and mutual funds based on SEC and FINRA guidance: trading and pricing, NAV and premiums/discounts, authorized participants, fees and bid-ask spreads, tax efficiency and how to choose.
 Key facts: Mutual funds price at NAV once per business day, typically after the close; ETFs trade on exchanges intraday at market prices that can be above or below NAV. Both can be passive or active and charge expense ratios. ETFs generally charge no fund fee to trade but may carry commissions and bid-ask spreads. ETFs typically distribute fewer capital gains due to in-kind exchanges; no tax difference in tax-advantaged accounts (SEC). iShares citing Morningstar: ETFs paid about 1% (0.62%) of fund industry capital gains distributions in 2025 while holding 30% of U.S. managed fund assets; 80% of active mutual funds vs. 18% of active ETFs paid capital gains in the last five years.
 Key FAQs: What is the main difference between an ETF and a mutual fund? Are ETFs cheaper than mutual funds? Why are ETFs more tax-efficient than mutual funds? Can an ETF trade at a different price than its NAV? Are index funds ETFs or mutual funds?
+
+---
+
+### What Is a Brokerage Account? How It Works, Types and Costs
+URL: https://topmoneyapps.com/what-is-a-brokerage-account.html
+Title: What Is a Brokerage Account? How It Works, Types and Costs | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: Plain-English explainer of brokerage accounts based on SEC Investor.gov, FINRA and SIPC guidance: definition, cash vs. margin accounts, margin rules and risks, how to open an account, fees, SIPC protection and ACATS transfers.
+Key facts: A brokerage account is an investment account at a registered brokerage firm for buying and selling stocks, bonds, mutual funds and ETFs (SEC). Cash account: pay in full; margin account: firm lends money using securities as collateral. Regulation T: borrow up to 50% of purchase price; FINRA minimum deposit $2,000 or 100% of purchase price, whichever is less; FINRA maintenance requirement at least 25%, many firms 30%-40%; you can lose more than you invest on margin. SIPC protects up to $500,000 including $250,000 cash at a failed member firm; does not cover market losses; not the same as FDIC insurance. ACATS transfers generally take about three to four business days (FINRA).
+Key FAQs: What is a brokerage account in simple terms? What is the difference between a cash account and a margin account? Is money in a brokerage account insured? Can you lose more than you invest in a brokerage account? How long does it take to transfer a brokerage account?
+
+---
+
+### Dollar-Cost Averaging Explained: How It Works, Pros and Cons
+URL: https://topmoneyapps.com/dollar-cost-averaging.html
+Title: Dollar-Cost Averaging Explained: How It Works, Pros and Cons | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: Explainer of dollar-cost averaging based on FINRA guidance and Vanguard and Dimensional research, with hypothetical worked examples, pros and cons, and lump-sum comparison.
+Key facts: Dollar-cost averaging = investing equal amounts at regular intervals regardless of market conditions (FINRA). 401(k) paycheck contributions are dollar-cost averaging. FINRA: can lower risk but often produces lower returns than lump-sum investing. Vanguard (Feb 2023, 1976-2022): lump sum beat 3-month cost averaging 68% of the time globally (MSCI World) and 66.4% in U.S. stocks; cost averaging beat cash 69% of the time; $100,000 60/40 portfolio averaged $109,360 lump sum vs. $107,453 cost averaging after one year; lump sum won 73.7% vs. a 6-month U.S. split. Hypothetical: $200/month for 5 months at $20/$16/$10/$16/$20 buys 65 shares at $15.38 average cost.
+Key FAQs: What is dollar-cost averaging in simple terms? Is dollar-cost averaging better than investing a lump sum? Is contributing to a 401(k) dollar-cost averaging? Does dollar-cost averaging guarantee a profit? How long should you dollar-cost average a lump sum?
+
+---
+
+### What Is a 529 Plan? How It Works, Rules and 2026 Changes
+URL: https://topmoneyapps.com/529-plan-explained.html
+Title: What Is a 529 Plan? How It Works, Rules and 2026 Changes | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: Explainer of 529 education savings plans based on IRS Topic 313, the MSRB 529 investor guide and SEC guidance: plan types, tax treatment, qualified expenses, 2026 K-12 limit, Roth IRA rollovers, non-qualified withdrawals, financial aid, gifting and fees.
+Key facts: 529 plans (qualified tuition programs) are state-sponsored; contributions are not federally deductible, earnings grow tax-free, qualified withdrawals are tax-free (IRS). K-12 limit is $20,000 per year per beneficiary from 2026 (was $10,000). Expanded K-12 expenses and postsecondary credential programs qualify as of July 5, 2025. Student loan repayments up to $10,000 lifetime. Roth IRA rollover: $35,000 lifetime, account open 15+ years, subject to annual Roth limit. Non-qualified withdrawals: earnings taxed plus additional 10% federal tax. Parent-owned 529s count as parental assets on FAFSA, at most 5.64% counted (MSRB). 2026 annual gift exclusion $19,000; 5-year election up to $95,000 per beneficiary ($190,000 couple). Plan maximums typically $350,000 to more than $600,000.
+Key FAQs: What is a 529 plan in simple terms? How much can you use from a 529 plan for K-12 in 2026? What happens if you use 529 money for something else? Can you roll a 529 plan into a Roth IRA? Is there a limit on how much you can put in a 529 plan?

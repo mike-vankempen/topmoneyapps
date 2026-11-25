@@ -26,11 +26,11 @@ Format: `- [ ] slug — working title — type — hub`
 - [-] roth-ira-income-limits-2026 — Roth IRA Income Limits for 2026 — explainer — investing-guides (retirement) — skipped 2026-11-24: covered by 2026-contribution-limits.html (Roth IRA income limits section)
 - [x] what-is-an-index-fund — What Is an Index Fund? — explainer — investing-guides (getting started)
 - [x] etf-vs-mutual-fund — ETF vs. Mutual Fund — explainer — investing-guides (getting started)
-- [ ] what-is-a-brokerage-account — What Is a Brokerage Account? — explainer — investing-guides (getting started)
-- [ ] what-is-compound-interest — What Is Compound Interest? (With Examples) — explainer — investing-guides (getting started)
-- [ ] dollar-cost-averaging — Dollar-Cost Averaging Explained — explainer — investing-guides (by strategy)
-- [ ] how-to-invest-1000-dollars — How to Invest $1,000 — how-to — investing-guides (getting started)
-- [ ] 529-plan-explained — What Is a 529 Plan? — explainer — money-guides (planning)
+- [x] what-is-a-brokerage-account — What Is a Brokerage Account? — explainer — investing-guides (getting started)
+- [-] what-is-compound-interest — What Is Compound Interest? (With Examples) — explainer — investing-guides (getting started) — skipped 2026-11-25: overlaps tools.html (compound interest calculator with "What is compound interest?" FAQ)
+- [x] dollar-cost-averaging — Dollar-Cost Averaging Explained — explainer — investing-guides (by strategy)
+- [-] how-to-invest-1000-dollars — How to Invest $1,000 — how-to — investing-guides (getting started) — skipped 2026-11-25: overlaps how-to-start-investing.html ("Best Investing App by Starting Amount" section incl. $500–$1,000 tier)
+- [x] 529-plan-explained — What Is a 529 Plan? — explainer — money-guides (planning)
 - [ ] average-retirement-age-2026 — Average Retirement Age in the U.S. — stats — stats
 - [ ] social-security-full-retirement-age — Social Security Full Retirement Age by Birth Year — explainer — investing-guides (retirement)
 
