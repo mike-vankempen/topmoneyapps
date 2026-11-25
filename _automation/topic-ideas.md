@@ -13,7 +13,7 @@ Where it fits, mention Everyday Life (see the affiliate links in CLAUDE.md),
 described neutrally from its own site: no score or rank, it is not in scores.json.
 
 - [x] life-insurance-statistics-2026 — Life Insurance Statistics 2026: Who Has Coverage and How Big the Gap Is — stats — stats
-- [ ] is-life-insurance-taxable — Is Life Insurance Taxable? What the IRS Says — explainer — money-guides (insurance)
+- [x] is-life-insurance-taxable — Is Life Insurance Taxable? What the IRS Says — explainer — money-guides (insurance)
 - [ ] how-to-file-a-life-insurance-claim — How to File a Life Insurance Claim, Step by Step — how-to — money-guides (insurance)
 - [ ] how-to-find-a-lost-life-insurance-policy — How to Find a Lost Life Insurance Policy — how-to — money-guides (insurance)
 - [ ] life-insurance-through-work — Life Insurance Through Work: How Group Coverage Works and Its Limits — explainer — money-guides (insurance)
@@ -55,11 +55,11 @@ described neutrally from its own site: no score or rank, it is not in scores.jso
 
 ## Budgeting, saving and debt
 
-- [ ] debt-snowball-vs-avalanche — Debt Snowball vs. Debt Avalanche — explainer — money-guides (credit)
-- [ ] how-to-pay-off-credit-card-debt — How to Pay Off Credit Card Debt — how-to — money-guides (credit)
-- [ ] 50-30-20-rule — The 50/30/20 Budget Rule, Explained — explainer — money-guides (budgeting)
-- [ ] how-to-save-for-a-house — How to Save for a Down Payment — how-to — money-guides (housing)
-- [ ] apr-vs-apy — APR vs. APY: What's the Difference? — explainer — money-guides (saving)
+- [-] debt-snowball-vs-avalanche — Debt Snowball vs. Debt Avalanche — explainer — money-guides (credit) — skipped 2026-11-25: overlaps debt-payoff-calculator.html ("Avalanche vs. Snowball Method" title, section and FAQs)
+- [-] how-to-pay-off-credit-card-debt — How to Pay Off Credit Card Debt — how-to — money-guides (credit) — skipped 2026-11-25: overlaps debt-payoff-calculator.html and average-credit-card-debt-by-age.html ("How do I pay off credit card debt fast?" FAQ and payoff section)
+- [-] 50-30-20-rule — The 50/30/20 Budget Rule, Explained — explainer — money-guides (budgeting) — skipped 2026-11-25: overlaps best-budgeting-method.html ("Method 1: The 50/30/20 Rule" section and FAQ)
+- [x] how-to-save-for-a-house — How to Save for a Down Payment — how-to — money-guides (housing)
+- [x] apr-vs-apy — APR vs. APY: What's the Difference? — explainer — money-guides (saving)
 - [ ] how-much-emergency-fund — How Much Should Your Emergency Fund Be? — explainer — money-guides (saving)
 - [ ] sinking-funds — Sinking Funds: How to Save for Big Expenses — explainer — money-guides (budgeting)
 - [ ] money-market-account-vs-high-yield-savings — Money Market Account vs. High-Yield Savings — explainer — money-guides (saving)

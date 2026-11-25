@@ -1362,3 +1362,36 @@ Updated: November 2026
 Summary: Social Security full retirement age by year of birth from the SSA, with early claiming reductions, spousal reductions, delayed retirement credits, the 2026 and 2027 earnings test limits, the 1983 law and how to apply.
 Key facts: FRA: 1937 or earlier 65; 1938-1942 rises 2 months per year (65 and 2 months to 65 and 10 months); 1943-1954 66; 1955 66+2 mo; 1956 66+4; 1957 66+6; 1958 66+8; 1959 66+10; 1960 and later 67. Born January 1: use previous year. Early reduction: 5/9 of 1% per month for first 36 months, 5/12 of 1% beyond; at 62 with FRA 67 worker gets 70% (30% cut), FRA 66 gets 75%; spouse at 62 with FRA 67 gets 32.5% of worker's full benefit. Delayed credits 8%/year (2/3 of 1% per month) for born 1943+, stop at 70: FRA 67 = 124% at 70, FRA 66 = 132%. Earnings test 2026: $24,480 ($1 per $2), $65,160 in FRA year ($1 per $3); 2027: $25,560 and $67,920. 1983 Amendments (signed April 20, 1983) raised FRA to 67; born 1938 first affected; earliest age stays 62. Medicare age remains 65. 2025 awards: 22.3% of men and 23.8% of women claimed at 62. Apply up to 4 months before benefits start.
 Key FAQs: What is my full retirement age if I was born in 1960? What is the full retirement age for someone born in 1958? How much is Social Security reduced if I claim at 62? How much more do you get by waiting until 70? Does full retirement age affect Medicare?
+
+---
+
+### Is Life Insurance Taxable? What the IRS Says
+URL: https://topmoneyapps.com/is-life-insurance-taxable.html
+Title: Is Life Insurance Taxable? What the IRS Says | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: Explainer of how life insurance is taxed, based on IRS Publication 525, the IRS proceeds FAQ, Publication 15-B and the Form 706 instructions.
+Key facts: Death benefits paid to a beneficiary are generally not taxable income (IRS Pub 525). Interest on proceeds is taxable (Form 1099-INT); installment payouts: amount held / number of installments is excluded, rest is interest. Surrender: proceeds above cost (premiums paid, less refunds/dividends) taxable, Form 1099-R. Non-MEC policy loans generally not income; can become taxable if policy lapses/surrenders with loan outstanding. MEC: 7-pay test in first 7 years; gains out first; possible 10% penalty before 59 1/2 (Northwestern Mutual). Transfer for value: death benefit minus consideration and later premiums taxable. Accelerated death benefits fully excludable if terminally ill (death expected within 24 months). Employer group-term: up to $50,000 coverage tax-free; excess cost added to wages using Pub 15-B Table 2-2 ($0.05 under 25 to $2.06 at 70+ per $1,000/month). Proceeds in gross estate if payable to estate or insured held incidents of ownership; Form 712; 3-year rule; ILIT. 2026 estate basic exclusion $15,000,000 (2025: $13,990,000); 2026 annual gift exclusion $19,000.
+Key FAQs: Do beneficiaries pay taxes on life insurance? Is the cash value of life insurance taxable? Is employer-provided life insurance taxable? Is life insurance subject to estate tax? Are life insurance policy loans taxable?
+
+---
+
+### How to Save for a Down Payment on a House
+URL: https://topmoneyapps.com/how-to-save-for-a-house.html
+Title: How to Save for a Down Payment on a House | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: How-to guide for saving a home down payment using NAR 2026 data and CFPB, HUD, VA, USDA, Fannie Mae, Freddie Mac and IRS rules.
+Key facts: NAR 2026 Profile: median down payment 9% first-time buyers, 19% repeat; first-time buyer median age 40; first-time buyer down payment sources: savings 62%, financial assets 30%, gifts/loans from family and friends 25%, inheritance 10%. NAR median existing-home price October 2026: $416,700 (9% = $37,503; 20% = $83,340). Minimums: FHA 3.5% (580+ credit score; 500-579 = 10%), HomeReady and Home Possible 3% (income up to 80% AMI), VA and USDA 0% (USDA income up to 115% of area median). Closing costs typically 2%-5% (CFPB). PMI with under 20% down; request cancellation below 80% of original value, automatic at 78% LTV. FDIC national averages Nov 2026: savings 0.39%, money market 0.64%. IRA first-time homebuyer exception up to $10,000 (10% additional tax only, not 401(k)). 401(k) loan max lesser of $50,000 or greater of $10,000 or 50% of vested balance. Fannie Mae gift letter rules.
+Key FAQs: How much should I save for a down payment? Do you need 20% down to buy a house? Where should I keep my down payment savings? Can I use my IRA for a down payment? Can family help with a down payment?
+
+---
+
+### APR vs. APY: What's the Difference?
+URL: https://topmoneyapps.com/apr-vs-apy.html
+Title: APR vs. APY: What's the Difference? | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: Explainer of APR vs. APY based on Regulation DD, CFPB guidance, Federal Reserve G.19, FDIC national rates and Freddie Mac PMMS.
+Key facts: APR = yearly cost of borrowing, no compounding; for credit cards APR is the yearly interest rate (CFPB). APY = total interest on a deposit account based on rate and compounding over 365 days (Reg DD); formula APY = 100[(1 + Interest/Principal)^(365/Days in term) - 1]. 5% compounded monthly = 5.12% APY; daily = 5.13%. Mortgage APR includes points, broker fees and other charges (CFPB). Credit cards: daily periodic rate = APR/360 or 365, compounds daily; 22.36% APR compounded daily for a year = about 25.05% effective. Rates: FDIC national savings 0.39%, money market 0.64% (Nov 2026); credit cards 22.36% accounts assessed interest, 21.19% all accounts; 24-month personal loan 11.90%; 60-month new car 7.54% (Fed G.19, Aug 2026); 30-year fixed mortgage 7.28% (Freddie Mac PMMS, Nov 19, 2026).
+Key FAQs: What is the difference between APR and APY? Is a higher APY better? Why is my mortgage APR higher than the interest rate? Does credit card interest compound? How do you convert APR to APY?
