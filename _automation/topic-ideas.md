@@ -12,7 +12,7 @@ how much coverage), life-insurance-calculator.html or trust-and-will-review.html
 Where it fits, mention Everyday Life (see the affiliate links in CLAUDE.md),
 described neutrally from its own site: no score or rank, it is not in scores.json.
 
-- [ ] life-insurance-statistics-2026 — Life Insurance Statistics 2026: Who Has Coverage and How Big the Gap Is — stats — stats
+- [x] life-insurance-statistics-2026 — Life Insurance Statistics 2026: Who Has Coverage and How Big the Gap Is — stats — stats
 - [ ] is-life-insurance-taxable — Is Life Insurance Taxable? What the IRS Says — explainer — money-guides (insurance)
 - [ ] how-to-file-a-life-insurance-claim — How to File a Life Insurance Claim, Step by Step — how-to — money-guides (insurance)
 - [ ] how-to-find-a-lost-life-insurance-policy — How to Find a Lost Life Insurance Policy — how-to — money-guides (insurance)
@@ -50,8 +50,8 @@ described neutrally from its own site: no score or rank, it is not in scores.jso
 - [x] dollar-cost-averaging — Dollar-Cost Averaging Explained — explainer — investing-guides (by strategy)
 - [-] how-to-invest-1000-dollars — How to Invest $1,000 — how-to — investing-guides (getting started) — skipped 2026-11-25: overlaps how-to-start-investing.html ("Best Investing App by Starting Amount" section incl. $500–$1,000 tier)
 - [x] 529-plan-explained — What Is a 529 Plan? — explainer — money-guides (planning)
-- [ ] average-retirement-age-2026 — Average Retirement Age in the U.S. — stats — stats
-- [ ] social-security-full-retirement-age — Social Security Full Retirement Age by Birth Year — explainer — investing-guides (retirement)
+- [x] average-retirement-age-2026 — Average Retirement Age in the U.S. — stats — stats
+- [x] social-security-full-retirement-age — Social Security Full Retirement Age by Birth Year — explainer — investing-guides (retirement)
 
 ## Budgeting, saving and debt
 
