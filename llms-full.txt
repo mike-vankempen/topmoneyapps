@@ -1395,3 +1395,30 @@ Updated: November 2026
 Summary: Explainer of APR vs. APY based on Regulation DD, CFPB guidance, Federal Reserve G.19, FDIC national rates and Freddie Mac PMMS.
 Key facts: APR = yearly cost of borrowing, no compounding; for credit cards APR is the yearly interest rate (CFPB). APY = total interest on a deposit account based on rate and compounding over 365 days (Reg DD); formula APY = 100[(1 + Interest/Principal)^(365/Days in term) - 1]. 5% compounded monthly = 5.12% APY; daily = 5.13%. Mortgage APR includes points, broker fees and other charges (CFPB). Credit cards: daily periodic rate = APR/360 or 365, compounds daily; 22.36% APR compounded daily for a year = about 25.05% effective. Rates: FDIC national savings 0.39%, money market 0.64% (Nov 2026); credit cards 22.36% accounts assessed interest, 21.19% all accounts; 24-month personal loan 11.90%; 60-month new car 7.54% (Fed G.19, Aug 2026); 30-year fixed mortgage 7.28% (Freddie Mac PMMS, Nov 19, 2026).
 Key FAQs: What is the difference between APR and APY? Is a higher APY better? Why is my mortgage APR higher than the interest rate? Does credit card interest compound? How do you convert APR to APY?
+
+### How to File a Life Insurance Claim, Step by Step
+URL: https://topmoneyapps.com/how-to-file-a-life-insurance-claim.html
+Title: How to File a Life Insurance Claim, Step by Step | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: How-to guide to filing a life insurance death claim based on the Washington Office of the Insurance Commissioner, the NAIC Life Insurance Policy Locator and insurer claim guides (MassMutual, Mutual of Omaha, NerdWallet).
+Key facts: Notify the insurer or agent; send a claim form and certified death certificate; each beneficiary completes a claim form (WA OIC). Policy number not required; insurer can look it up (NerdWallet). Death certificate can take 2-4 weeks (Mutual of Omaha). Most claims processed within 30-60 days (MassMutual); 14-60 days (Mutual of Omaha). Washington: insurers must pay at least 8% interest from date of death, plus 3% on claims not settled within 90 days of proof of death. Payout options: lump sum, installments, interest only, annuity, retained asset account. Two-year contestability period; exclusions such as war, military service, suicide within two years (not group policies). NAIC Life Insurance Policy Locator is free; 1.5 million+ requests, 780,000+ matches, $16,991,229,586 matched through July 31, 2026; searches may take 90 business days or more. Death benefits generally tax-free; interest on delayed benefits can be taxable (MassMutual).
+Key FAQs: How long do you have to file a life insurance claim? How long does it take to get paid? Do I need the original policy to file a claim? What if I do not know which company issued the policy? Can a life insurance claim be denied?
+
+### Sinking Funds: How to Save for Big Expenses
+URL: https://topmoneyapps.com/sinking-funds.html
+Title: Sinking Funds: How to Save for Big Expenses | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: Explainer on sinking funds in a personal budget based on Capital One, Experian, Synchrony, SoFi and Chime guidance and FDIC national savings rate data.
+Key facts: A sinking fund is money set aside regularly for a specific planned expense (Experian, SoFi). Monthly amount = total cost / months until needed; $1,000 tires in 10 months = $100/month (Synchrony); $280 registration in 10 months = $28 (Experian); $1,200 vacation in 10 months = $120 (Chime). Emergency fund is for unexpected costs; SoFi suggests 3-6 months of living expenses. Keep sinking funds in high-yield savings, money market accounts or savings subaccounts; SoFi says CDs usually not the best place. FDIC national average savings rate 0.39% (Nov 2026).
+Key FAQs: What is a sinking fund? How do you calculate a sinking fund? Is a sinking fund the same as an emergency fund? Where should I keep my sinking funds? How many sinking funds should I have?
+
+### Money Market Account vs. High-Yield Savings Account
+URL: https://topmoneyapps.com/money-market-account-vs-high-yield-savings.html
+Title: Money Market Account vs. High-Yield Savings Account | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: Comparison of money market deposit accounts and high-yield savings accounts based on the CFPB, Federal Reserve Regulation D guidance, FDIC national rates via FRED, and Chase, U.S. Bank and Ally guides.
+Key facts: Both insured by FDIC or NCUA up to $250,000 per depositor, per institution, per ownership category. Money market accounts typically offer check-writing and often a debit card; savings accounts usually do not. MMAs may require higher minimums (often $100 or more, U.S. Bank) and may use tiered rates. High-yield savings often match or exceed MMA rates (U.S. Bank). FDIC national averages Nov 2026: savings 0.39%, money market 0.64%. Fed deleted the six-per-month transfer limit from Regulation D on April 24, 2020; banks may still set limits. Money market mutual funds are investments, not FDIC-insured (CFPB).
+Key FAQs: Is a money market account better than a high-yield savings account? Are money market accounts FDIC-insured? Can you write checks from a high-yield savings account? Do savings accounts still have a six-withdrawal limit? What is the average money market account rate?

@@ -14,7 +14,7 @@ described neutrally from its own site: no score or rank, it is not in scores.jso
 
 - [x] life-insurance-statistics-2026 — Life Insurance Statistics 2026: Who Has Coverage and How Big the Gap Is — stats — stats
 - [x] is-life-insurance-taxable — Is Life Insurance Taxable? What the IRS Says — explainer — money-guides (insurance)
-- [ ] how-to-file-a-life-insurance-claim — How to File a Life Insurance Claim, Step by Step — how-to — money-guides (insurance)
+- [x] how-to-file-a-life-insurance-claim — How to File a Life Insurance Claim, Step by Step — how-to — money-guides (insurance)
 - [ ] how-to-find-a-lost-life-insurance-policy — How to Find a Lost Life Insurance Policy — how-to — money-guides (insurance)
 - [ ] life-insurance-through-work — Life Insurance Through Work: How Group Coverage Works and Its Limits — explainer — money-guides (insurance)
 - [ ] average-life-insurance-cost-by-age-2026 — Average Life Insurance Cost by Age in 2026 — stats — stats
@@ -60,9 +60,9 @@ described neutrally from its own site: no score or rank, it is not in scores.jso
 - [-] 50-30-20-rule — The 50/30/20 Budget Rule, Explained — explainer — money-guides (budgeting) — skipped 2026-11-25: overlaps best-budgeting-method.html ("Method 1: The 50/30/20 Rule" section and FAQ)
 - [x] how-to-save-for-a-house — How to Save for a Down Payment — how-to — money-guides (housing)
 - [x] apr-vs-apy — APR vs. APY: What's the Difference? — explainer — money-guides (saving)
-- [ ] how-much-emergency-fund — How Much Should Your Emergency Fund Be? — explainer — money-guides (saving)
-- [ ] sinking-funds — Sinking Funds: How to Save for Big Expenses — explainer — money-guides (budgeting)
-- [ ] money-market-account-vs-high-yield-savings — Money Market Account vs. High-Yield Savings — explainer — money-guides (saving)
+- [-] how-much-emergency-fund — How Much Should Your Emergency Fund Be? — explainer — money-guides (saving) — skipped 2026-11-25: overlaps emergency-fund-calculator.html ("Emergency Fund Calculator 2026 — How Much Do You Need?") and emergency-fund-statistics-2026.html ("How Much Emergency Fund Do You Need?" section)
+- [x] sinking-funds — Sinking Funds: How to Save for Big Expenses — explainer — money-guides (budgeting)
+- [x] money-market-account-vs-high-yield-savings — Money Market Account vs. High-Yield Savings — explainer — money-guides (saving)
 - [ ] i-bonds — I Bonds: Current Rate and How to Buy — explainer — money-guides (saving)
 - [ ] treasury-bills — How to Buy Treasury Bills — how-to — money-guides (saving)
 
