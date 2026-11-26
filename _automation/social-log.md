@@ -32,3 +32,11 @@ Format: `| scheduled (America/Chicago) | cycle | file | Buffer post ID | first w
 | 2026-11-25 21:00 | 1 | dollar-cost-averaging.html | 6b073546636c52154b9a61e8 | If you contribute to a 401(k) from every paycheck... |
 | 2026-11-25 22:00 | 1 | 529-plan-explained.html | 6b07354703e79bc5c6fab735 | New for 2026: you can withdraw up to $20,000 a year... |
 | 2026-11-25 23:00 | 1 | ynab-review.html | 6b073547b1da0f86e497abf2 | Zero-based budgeting: give every dollar of income a job... |
+| 2026-11-26 00:00 | 1 | how-to-file-a-life-insurance-claim.html | 6b07a5cc07071a60674e56d4 | How long does a life insurance claim take to pay?... |
+| 2026-11-26 01:00 | 1 | sinking-funds.html | 6b07a5cdd4eda4b659d33462 | Need $1,000 for new tires in 10 months?... |
+| 2026-11-26 02:00 | 1 | money-market-account-vs-high-yield-savings.html | 6b07a5cda791bea1b24cdc73 | In November 2026 the FDIC national average rate was 0.39%... |
+| 2026-11-26 03:00 | 1 | life-insurance-through-work.html | 6b07a5cdd4eda4b659d334b7 | In March 2026, 63% of civilian workers had access to life insurance... |
+| 2026-11-26 04:00 | 1 | i-bonds.html | 6b07a5cea791bea1b24cdcbf | I bonds issued Nov. 1, 2026 through April 30, 2027 earn 5.51%... |
+| 2026-11-26 05:00 | 1 | treasury-bills.html | 6b07a5ceb8e2338b85872983 | Interest on Treasury bills is subject to federal income tax but... |
+| 2026-11-26 06:00 | 1 | chime-vs-sofi.html | 6b07a5cf9f6dda31ccbcb387 | Neither Chime nor SoFi charges a monthly fee... |
+| 2026-11-26 07:00 | 1 | chase-sapphire-reserve-vs-amex-platinum.html | 6b07a5cfb8e2338b858729c6 | Chase Sapphire Reserve and Amex Platinum both carry high annual fees... |
