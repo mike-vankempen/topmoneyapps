@@ -19,7 +19,7 @@ described neutrally from its own site: no score or rank, it is not in scores.jso
 - [x] life-insurance-through-work — Life Insurance Through Work: How Group Coverage Works and Its Limits — explainer — money-guides (insurance)
 - [x] average-life-insurance-cost-by-age-2026 — Average Life Insurance Cost by Age in 2026 — stats — stats
 - [x] life-insurance-beneficiary-guide — How to Choose a Life Insurance Beneficiary — explainer — money-guides (insurance)
-- [ ] accidental-death-vs-life-insurance — AD&D Insurance vs. Life Insurance: What Each Covers — explainer — money-guides (insurance)
+- [x] accidental-death-vs-life-insurance — AD&D Insurance vs. Life Insurance: What Each Covers — explainer — money-guides (insurance)
 - [ ] final-expense-life-insurance — Final Expense Life Insurance Explained — explainer — money-guides (insurance)
 - [ ] average-funeral-cost-2026 — Average Funeral Cost in 2026 — stats — stats
 
@@ -72,11 +72,11 @@ described neutrally from its own site: no score or rank, it is not in scores.jso
 - [x] how-to-dispute-a-credit-report-error — How to Dispute a Credit Report Error — how-to — money-guides (credit)
 - [x] how-credit-utilization-works — Credit Utilization: How It Affects Your Score — explainer — money-guides (credit)
 - [x] hard-inquiry-vs-soft-inquiry — Hard vs. Soft Credit Inquiries — explainer — money-guides (credit)
-- [ ] secured-credit-card-explained — How Secured Credit Cards Work — explainer — money-guides (credit)
+- [x] secured-credit-card-explained — How Secured Credit Cards Work — explainer — money-guides (credit)
 
 ## Statistics (government or primary sources only)
 
-- [ ] average-water-bill-by-state-2026 — Average Water Bill by State — stats — stats
+- [x] average-water-bill-by-state-2026 — Average Water Bill by State — stats — stats
 - [ ] average-internet-bill-2026 — Average Internet Bill — stats — stats
 - [ ] average-cell-phone-bill-2026 — Average Cell Phone Bill — stats — stats
 - [ ] median-household-income-by-state-2026 — Median Household Income by State — stats — stats
