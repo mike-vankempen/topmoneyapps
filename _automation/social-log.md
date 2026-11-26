@@ -48,3 +48,11 @@ Format: `| scheduled (America/Chicago) | cycle | file | Buffer post ID | first w
 | 2026-11-26 13:00 | 1 | how-credit-utilization-works.html | 6b08165005cbe5363640b869 | $2,000 owed on $10,000 of card limits = 20% credit utilization... |
 | 2026-11-26 14:00 | 1 | hard-inquiry-vs-soft-inquiry.html | 6b08165105cbe5363640b8ba | Checking your own credit is a soft inquiry... |
 | 2026-11-26 15:00 | 1 | best-budgeting-apps.html | 6b08165230d46b36a99c089f | After Mint shut down in early 2024... |
+| 2026-11-26 16:00 | 1 | accidental-death-vs-life-insurance.html | 6b0886e79068b6e0795a5f1c | AD&D insurance pays only for death or listed injuries... |
+| 2026-11-26 17:00 | 1 | secured-credit-card-explained.html | 6b0886e89068b6e0795a5f44 | A secured credit card's limit typically equals your cash deposit... |
+| 2026-11-26 18:00 | 1 | average-water-bill-by-state-2026.html | 6b0886e83accdac92cf37e3f | The median U.S. household water and sewer bill is $88 a month... |
+| 2026-11-26 19:00 | 1 | best-app-stock-trading.html | 6b0886e8c81617797dd8095a | Fidelity and Charles Schwab share the top TopMoneyApps score... |
+| 2026-11-26 20:00 | 1 | best-app-etf-investing.html | 6b0886e9f0a96d0f218409a2 | All five ETF investing apps we compared charge $0... |
+| 2026-11-26 21:00 | 1 | best-app-dividend-investing.html | 6b0886ea9068b6e0795a5fd7 | Want dividends reinvested automatically?... |
+| 2026-11-26 22:00 | 1 | best-app-crypto-investing.html | 6b0886eac81617797dd80a1c | Crypto held on an exchange is not FDIC- or SIPC-insured... |
+| 2026-11-26 23:00 | 1 | best-app-retirement-ira.html | 6b0886eace64081689e7d0b0 | Opening an IRA? Fidelity offers zero-fee index funds... |
