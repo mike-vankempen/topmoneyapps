@@ -40,3 +40,11 @@ Format: `| scheduled (America/Chicago) | cycle | file | Buffer post ID | first w
 | 2026-11-26 05:00 | 1 | treasury-bills.html | 6b07a5ceb8e2338b85872983 | Interest on Treasury bills is subject to federal income tax but... |
 | 2026-11-26 06:00 | 1 | chime-vs-sofi.html | 6b07a5cf9f6dda31ccbcb387 | Neither Chime nor SoFi charges a monthly fee... |
 | 2026-11-26 07:00 | 1 | chase-sapphire-reserve-vs-amex-platinum.html | 6b07a5cfb8e2338b858729c6 | Chase Sapphire Reserve and Amex Platinum both carry high annual fees... |
+| 2026-11-26 08:00 | 1 | average-life-insurance-cost-by-age-2026.html | 6b08164e05cbe5363640b666 | About 3 in 4 consumers overestimate the cost of life insurance... |
+| 2026-11-26 09:00 | pool:monarch | ynab-vs-monarch-money.html | 6b08164f30d46b36a99c0664 | YNAB or Monarch Money? YNAB costs $14.99 a month... |
+| 2026-11-26 10:00 | 1 | how-to-freeze-your-credit.html | 6b08164fbb834d5e8e9ec9d2 | Freezing your credit is free at Equifax, Experian and TransUnion... |
+| 2026-11-26 11:00 | 1 | how-to-dispute-a-credit-report-error.html | 6b08164f30d46b36a99c06b3 | Found an error on your credit report?... |
+| 2026-11-26 12:00 | 1 | life-insurance-beneficiary-guide.html | 6b0816503d35a6c490d1ff4b | Who gets a life insurance payout if no beneficiary is named?... |
+| 2026-11-26 13:00 | 1 | how-credit-utilization-works.html | 6b08165005cbe5363640b869 | $2,000 owed on $10,000 of card limits = 20% credit utilization... |
+| 2026-11-26 14:00 | 1 | hard-inquiry-vs-soft-inquiry.html | 6b08165105cbe5363640b8ba | Checking your own credit is a soft inquiry... |
+| 2026-11-26 15:00 | 1 | best-budgeting-apps.html | 6b08165230d46b36a99c089f | After Mint shut down in early 2024... |
