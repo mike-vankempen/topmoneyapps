@@ -18,7 +18,7 @@ described neutrally from its own site: no score or rank, it is not in scores.jso
 - [-] how-to-find-a-lost-life-insurance-policy — How to Find a Lost Life Insurance Policy — how-to — money-guides (insurance) — skipped 2026-11-26: overlaps how-to-file-a-life-insurance-claim.html ("Can't Find the Policy? Use the NAIC Locator" section and "What if I do not know which company issued the policy?" FAQ) and life-insurance-statistics-2026.html ("Lost and Unclaimed Life Insurance" section)
 - [x] life-insurance-through-work — Life Insurance Through Work: How Group Coverage Works and Its Limits — explainer — money-guides (insurance)
 - [x] average-life-insurance-cost-by-age-2026 — Average Life Insurance Cost by Age in 2026 — stats — stats
-- [ ] life-insurance-beneficiary-guide — How to Choose a Life Insurance Beneficiary — explainer — money-guides (insurance)
+- [x] life-insurance-beneficiary-guide — How to Choose a Life Insurance Beneficiary — explainer — money-guides (insurance)
 - [ ] accidental-death-vs-life-insurance — AD&D Insurance vs. Life Insurance: What Each Covers — explainer — money-guides (insurance)
 - [ ] final-expense-life-insurance — Final Expense Life Insurance Explained — explainer — money-guides (insurance)
 - [ ] average-funeral-cost-2026 — Average Funeral Cost in 2026 — stats — stats
@@ -70,8 +70,8 @@ described neutrally from its own site: no score or rank, it is not in scores.jso
 
 - [x] how-to-freeze-your-credit — How to Freeze Your Credit at All Three Bureaus — how-to — money-guides (credit)
 - [x] how-to-dispute-a-credit-report-error — How to Dispute a Credit Report Error — how-to — money-guides (credit)
-- [ ] how-credit-utilization-works — Credit Utilization: How It Affects Your Score — explainer — money-guides (credit)
-- [ ] hard-inquiry-vs-soft-inquiry — Hard vs. Soft Credit Inquiries — explainer — money-guides (credit)
+- [x] how-credit-utilization-works — Credit Utilization: How It Affects Your Score — explainer — money-guides (credit)
+- [x] hard-inquiry-vs-soft-inquiry — Hard vs. Soft Credit Inquiries — explainer — money-guides (credit)
 - [ ] secured-credit-card-explained — How Secured Credit Cards Work — explainer — money-guides (credit)
 
 ## Statistics (government or primary sources only)

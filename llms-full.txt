@@ -1476,3 +1476,30 @@ Updated: November 2026
 Summary: How-to guide to disputing credit report errors with the bureaus and furnishers based on the Fair Credit Reporting Act (15 U.S.C. 1681i, 1681j, 1681s-2), Regulation V 12 CFR 1022.43, CFPB and FTC guidance, the CFPB 2025 Consumer Response Annual Report, the 2013 FTC accuracy study and bureau dispute pages.
 Key facts: Free weekly reports at AnnualCreditReport.com (permanent; 1-877-322-8228). Bureau must investigate within 30 days (up to 15 more days if you send information during the period; 45 days after a free annual report), notify the furnisher within 5 business days, and send results within 5 business days after finishing. Inaccurate, incomplete or unverifiable information must be corrected or deleted. Statement of dispute may be limited to 100 words. CFPB 2025: ~6.6 million complaints, ~88% about credit or consumer reporting; top issue incorrect information. FTC 2013 study: 1 in 5 had an error; 5% had errors that could mean worse terms. Negative information generally 7 years, bankruptcy 10 years. CFPB medical debt rule vacated July 11, 2025; bureaus' voluntary policy removes paid medical collections and those under $500. Disputes are free.
 Key FAQs: How long does a credit bureau have to investigate a dispute? Does it cost money to dispute a credit report error? Should I dispute online or by mail? What if the credit bureau says the information is accurate? Can I remove accurate negative information from my credit report?
+
+### Credit Utilization: How It Affects Your Credit Score
+URL: https://topmoneyapps.com/how-credit-utilization-works.html
+Title: Credit Utilization: How It Affects Your Credit Score | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: Explainer on credit utilization based on myFICO, VantageScore, CFPB, Experian, FICO and New York Fed sources.
+Key facts: Utilization = revolving balances / revolving limits x 100 (e.g., $2,000 on $10,000 = 20%). FICO "amounts owed" = 30% of score; FICO looks at overall and highest per-card utilization. VantageScore 4.0: utilization 20%, balances 6%, available credit 2%. CFPB: many experts recommend under 30%. People with 850 FICO Scores average ~4.1% utilization (myFICO); excellent scores tend to be under 10% (Experian). Issuers generally report balances at statement close; paying before then lowers reported utilization. FICO 10 T and VantageScore 4.0 use trended data. Only revolving accounts count. Closing a card can raise utilization. U.S. credit card balances $1.285 trillion in Q3 2026 (NY Fed).
+Key FAQs: What is a good credit utilization ratio? How do I calculate my credit utilization? Does paying my card in full every month mean my utilization is zero? Do installment loans count toward credit utilization? Will closing a credit card hurt my utilization?
+
+### Hard vs. Soft Credit Inquiries: What's the Difference?
+URL: https://topmoneyapps.com/hard-inquiry-vs-soft-inquiry.html
+Title: Hard vs. Soft Credit Inquiries: What's the Difference? | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: Explainer on hard and soft credit inquiries based on CFPB, myFICO, Experian, VantageScore, FTC, Equifax, TransUnion and FCRA (15 U.S.C. 1681b).
+Key facts: Hard inquiries come from credit applications (cards, line increases, auto loans, mortgages) and can lower scores; soft inquiries (own checks, prescreened offers, employment screening, existing-account reviews) do not. One extra hard inquiry costs most people less than 5 FICO points (myFICO); Experian says 5-10 VantageScore points. Hard inquiries stay up to 2 years; FICO counts 12 months, VantageScore up to 24. New credit = 10% of FICO. Rate shopping: newer FICO 45 days, older FICO 14 days (mortgage, auto, student loans); VantageScore 14-day rolling window; FICO ignores such inquiries in the 30 days before scoring; credit cards not grouped. Opt out of prescreened offers for 5 years at OptOutPrescreen.com or 1-888-5-OPT-OUT; permanent by mail.
+Key FAQs: How many points does a hard inquiry take off your credit score? How long does a hard inquiry stay on your credit report? Does checking my own credit score hurt it? Does shopping for a mortgage or car loan hurt my credit? Can I remove a hard inquiry from my credit report?
+
+### How to Choose a Life Insurance Beneficiary
+URL: https://topmoneyapps.com/life-insurance-beneficiary-guide.html
+Title: How to Choose a Life Insurance Beneficiary | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: General-information explainer on naming life insurance beneficiaries based on NAIC, OPM, IRS, SSA, Guardian Life, New York Life, Western & Southern, MetLife, Nolo, NCOA and Supreme Court cases.
+Key facts: Primary beneficiary is paid first; contingent only if all primaries have died. Shares at each level must total 100% (MetLife form). Per stirpes passes a deceased beneficiary's share to their heirs; per capita splits among survivors. Irrevocable beneficiaries must consent to changes. No beneficiary = proceeds typically go to the estate and probate (NAIC). Most insurers won't pay minors directly; UTMA custodian (age usually 18-21) or trust are alternatives. Beneficiary form generally overrides a will. FEGLI default order: spouse, children, parents, estate executor, next of kin. Nine community property states (IRS). Egelhoff (2001): ERISA preempted a state divorce-revocation statute; Sveen v. Melin (2018) upheld Minnesota's. SSI resource limit $2,000 individual / $3,000 couple; third-party special needs trusts not counted.
+Key FAQs: What is the difference between a primary and contingent beneficiary? What happens if a life insurance policy has no beneficiary? Can I name a minor child as my life insurance beneficiary? Does my will override my life insurance beneficiary? How often should I review my life insurance beneficiaries?
