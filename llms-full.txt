@@ -1449,3 +1449,30 @@ Updated: November 2026
 Summary: How-to guide to buying Treasury bills based on Treasury's Q4 2026 auction schedule, IRS Publication 550, 31 CFR Parts 356 and 363, Fiscal Service, FRED rates, and Schwab, Fidelity and Kiplinger guides.
 Key facts: Terms: 4, 6, 8, 13, 17, 26 and 52 weeks; 52-week auctioned every four weeks, others weekly. Sold at a discount in $100 multiples; interest = face value minus price (IRS Pub 550). Noncompetitive bids capped at $10 million per auction (31 CFR 356.12). TreasuryDirect requires SSN, age 18+, U.S. address and U.S. bank account (31 CFR 363.11); bills can't be transferred out for 45 days after issue or the term, whichever is less (31 CFR 363.203). Brokerages: Schwab $0 online new-issue and secondary Treasury trades ($25 broker-assisted); Fidelity online auction orders free ($19.95 with a rep), minimum $1,000 face (Nov 2026). FRED discount rates: 4-week 4.04% (Nov 23, 2026), 3-month 4.18% (Nov 24, 2026), 6-month 4.33% (Nov 23, 2026). Interest federally taxable, exempt from state and local income tax; Form 1099-INT box 3.
 Key FAQs: What is the minimum to buy a Treasury bill? Is it better to buy T-bills on TreasuryDirect or through a broker? Are T-bills taxed? Can I sell a T-bill before it matures? What is the current 3-month T-bill rate?
+
+### Average Life Insurance Cost by Age in 2026
+URL: https://topmoneyapps.com/average-life-insurance-cost-by-age-2026.html
+Title: Average Life Insurance Cost by Age (2026): Monthly Rates | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: Statistics page on term and whole life insurance premiums by age based on MoneyGeek (Nov 2026) and NerdWallet/LifeStein (Oct 2026) rate surveys, ValuePenguin and Insurify, the 2026 Insurance Barometer Study (LIMRA and Life Happens), the NAIC Life Insurance Buyer's Guide, and Connecticut and Massachusetts insurance regulators.
+Key facts: MoneyGeek Nov 2026, $500,000 20-year term, nonsmoker in good health, monthly (women/men): 25 $23/$29; 30 $24/$30; 35 $29/$36; 40 $37/$44; 45 $54/$67; 50 $79/$103; 55 $127/$174; 60 $204/$293; 65 $336/$500; 70 $637/$871. Smokers pay about 180%-270% more (age 40: $119 women, $154 men). Doubling coverage to $1M raised a 40-year-old woman's premium 76% ($37 to $65). NerdWallet Oct 2026 annual, 20-year $500K nonsmoker (men/women): 30 $213/$182; 40 $321/$278; 50 $810/$636; 60 $2,335/$1,640; whole life $500K at 40: $3,180/$2,849. ValuePenguin: rates up ~6% from 25 to 30 vs ~86% from 60 to 65. 2026 Insurance Barometer: roughly three-quarters overestimate cost; cost is top barrier (45%). NAIC: free look usually 10 days.
+Key FAQs: How much is life insurance per month for a 30-year-old? How much does life insurance cost at age 50? Why does life insurance get more expensive with age? How much more do smokers pay for life insurance? Is whole life insurance more expensive than term?
+
+### How to Freeze Your Credit at All Three Bureaus
+URL: https://topmoneyapps.com/how-to-freeze-your-credit.html
+Title: How to Freeze Your Credit at All Three Bureaus (Free) | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: How-to guide to placing and lifting a security freeze at Equifax, Experian and TransUnion based on FTC, CFPB, USAGov, Massachusetts consumer affairs, the bureaus' own pages, SSA and IRS.
+Key facts: Freezes are free at all three bureaus since Sept. 21, 2018 (Economic Growth, Regulatory Relief, and Consumer Protection Act). Online/phone requests: placed within 1 business day, lifted within 1 hour; mail: 3 business days. Contact each bureau separately; a freeze does not affect credit scores; existing creditors can still see the file (CFPB). Fraud alerts: initial 1 year, extended 7 years, active duty 1 year. Equifax Lock & Alert is free; Experian CreditLock is part of Experian Premium ($24.99/month after 7-day trial, Nov 2026); CFPB says locks are no more effective than freezes. Parents can freeze credit for children under 16 free. Other freezes: NCTUE, ChexSystems, Innovis; SSA Block Electronic Access; IRS IP PIN (online tool offline Nov 16, 2026 to mid-January 2027). FTC: 3 million fraud reports and $15.9 billion losses in 2025.
+Key FAQs: Does freezing your credit hurt your credit score? How long does it take to unfreeze your credit? Is a credit freeze free? What is the difference between a credit freeze and a credit lock? Can I freeze my child's credit?
+
+### How to Dispute a Credit Report Error
+URL: https://topmoneyapps.com/how-to-dispute-a-credit-report-error.html
+Title: How to Dispute a Credit Report Error: Steps and Deadlines | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: How-to guide to disputing credit report errors with the bureaus and furnishers based on the Fair Credit Reporting Act (15 U.S.C. 1681i, 1681j, 1681s-2), Regulation V 12 CFR 1022.43, CFPB and FTC guidance, the CFPB 2025 Consumer Response Annual Report, the 2013 FTC accuracy study and bureau dispute pages.
+Key facts: Free weekly reports at AnnualCreditReport.com (permanent; 1-877-322-8228). Bureau must investigate within 30 days (up to 15 more days if you send information during the period; 45 days after a free annual report), notify the furnisher within 5 business days, and send results within 5 business days after finishing. Inaccurate, incomplete or unverifiable information must be corrected or deleted. Statement of dispute may be limited to 100 words. CFPB 2025: ~6.6 million complaints, ~88% about credit or consumer reporting; top issue incorrect information. FTC 2013 study: 1 in 5 had an error; 5% had errors that could mean worse terms. Negative information generally 7 years, bankruptcy 10 years. CFPB medical debt rule vacated July 11, 2025; bureaus' voluntary policy removes paid medical collections and those under $500. Disputes are free.
+Key FAQs: How long does a credit bureau have to investigate a dispute? Does it cost money to dispute a credit report error? Should I dispute online or by mail? What if the credit bureau says the information is accurate? Can I remove accurate negative information from my credit report?
