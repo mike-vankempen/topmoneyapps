@@ -1422,3 +1422,30 @@ Updated: November 2026
 Summary: Comparison of money market deposit accounts and high-yield savings accounts based on the CFPB, Federal Reserve Regulation D guidance, FDIC national rates via FRED, and Chase, U.S. Bank and Ally guides.
 Key facts: Both insured by FDIC or NCUA up to $250,000 per depositor, per institution, per ownership category. Money market accounts typically offer check-writing and often a debit card; savings accounts usually do not. MMAs may require higher minimums (often $100 or more, U.S. Bank) and may use tiered rates. High-yield savings often match or exceed MMA rates (U.S. Bank). FDIC national averages Nov 2026: savings 0.39%, money market 0.64%. Fed deleted the six-per-month transfer limit from Regulation D on April 24, 2020; banks may still set limits. Money market mutual funds are investments, not FDIC-insured (CFPB).
 Key FAQs: Is a money market account better than a high-yield savings account? Are money market accounts FDIC-insured? Can you write checks from a high-yield savings account? Do savings accounts still have a six-withdrawal limit? What is the average money market account rate?
+
+### Life Insurance Through Work: How Group Coverage Works and Its Limits
+URL: https://topmoneyapps.com/life-insurance-through-work.html
+Title: Life Insurance Through Work: How Group Coverage Works | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: Explainer on employer group term life insurance based on BLS (March 2026), LIMRA 2026 workplace facts, IRS Publication 15-B, OPM FEGLI rules, NAIC, Department of Labor ERISA pages, and MetLife, Principal and Guardian plan guides.
+Key facts: BLS March 2026: 63% of civilian workers had access to employer life insurance (62% participated, 98% take-up); private industry 59%, state and local government 84%. LIMRA 2026: 47% of insured Americans have workplace coverage; 27% have only workplace coverage; 38% of adults say they need (more) life insurance. BLS March 2011 data: 59% of full-time private workers with basic coverage had salary-multiple plans, 36% flat-amount plans (median $15,000). FEGLI Basic = annual basic pay rounded up to next $1,000 plus $2,000 (OPM). Employer-paid coverage above $50,000 creates imputed income subject to Social Security and Medicare tax (IRS Pub 15-B; Table 2-2 rates $0.05 to $2.06 per $1,000 per month). Portability and conversion: generally 31 days after coverage ends to convert without medical exam (MetLife, Principal); Principal portability 60 days (31 in New York). NAIC: employer death benefit usually less than you need.
+Key FAQs: How much life insurance do you usually get through work? Is life insurance through work enough? What happens to my work life insurance when I quit? Is employer-paid life insurance taxable? What is supplemental life insurance at work?
+
+### I Bonds: Current Rate (5.51%) and How to Buy
+URL: https://topmoneyapps.com/i-bonds.html
+Title: I Bonds: Current Rate and How to Buy | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: Explainer on Series I savings bonds based on 31 CFR Parts 359 and 363, IRS refund and Form 8815 guidance, and November 2026 rate reporting from NerdWallet, Tipswatch, Money.com and Wolf Street.
+Key facts: Nov 1, 2026 to Apr 30, 2027: composite rate 5.51% (1.40% fixed + 2.04% semiannual inflation); announced Oct 30, 2026. May to Oct 2026: 4.26% composite, 0.90% fixed. Fixed rate lasts for the life of the bond; inflation rate resets every six months (announced May 1 and Nov 1, based on non-seasonally adjusted CPI-U); composite rate floor 0%. Limit $10,000 electronic per person per calendar year; minimum $25 to the penny. Paper I bonds via tax refund discontinued Jan 1, 2025 (IRS). Must hold 12 months; lose last 3 months of interest if redeemed before 5 years; 30-year maturity. Interest federally taxable, exempt from state and local income tax; education exclusion 2025 phase-out $99,500-$114,500 single, $149,250-$179,250 joint (Form 8815).
+Key FAQs: What is the current I bond rate? How much can I invest in I bonds per year? Can I cash out I bonds early? Are I bonds taxed? When do I bond rates change?
+
+### How to Buy Treasury Bills (T-Bills): TreasuryDirect or a Broker
+URL: https://topmoneyapps.com/treasury-bills.html
+Title: How to Buy Treasury Bills: TreasuryDirect or a Broker | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: How-to guide to buying Treasury bills based on Treasury's Q4 2026 auction schedule, IRS Publication 550, 31 CFR Parts 356 and 363, Fiscal Service, FRED rates, and Schwab, Fidelity and Kiplinger guides.
+Key facts: Terms: 4, 6, 8, 13, 17, 26 and 52 weeks; 52-week auctioned every four weeks, others weekly. Sold at a discount in $100 multiples; interest = face value minus price (IRS Pub 550). Noncompetitive bids capped at $10 million per auction (31 CFR 356.12). TreasuryDirect requires SSN, age 18+, U.S. address and U.S. bank account (31 CFR 363.11); bills can't be transferred out for 45 days after issue or the term, whichever is less (31 CFR 363.203). Brokerages: Schwab $0 online new-issue and secondary Treasury trades ($25 broker-assisted); Fidelity online auction orders free ($19.95 with a rep), minimum $1,000 face (Nov 2026). FRED discount rates: 4-week 4.04% (Nov 23, 2026), 3-month 4.18% (Nov 24, 2026), 6-month 4.33% (Nov 23, 2026). Interest federally taxable, exempt from state and local income tax; Form 1099-INT box 3.
+Key FAQs: What is the minimum to buy a Treasury bill? Is it better to buy T-bills on TreasuryDirect or through a broker? Are T-bills taxed? Can I sell a T-bill before it matures? What is the current 3-month T-bill rate?
