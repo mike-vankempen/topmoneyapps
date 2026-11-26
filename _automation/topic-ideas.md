@@ -20,7 +20,7 @@ described neutrally from its own site: no score or rank, it is not in scores.jso
 - [x] average-life-insurance-cost-by-age-2026 — Average Life Insurance Cost by Age in 2026 — stats — stats
 - [x] life-insurance-beneficiary-guide — How to Choose a Life Insurance Beneficiary — explainer — money-guides (insurance)
 - [x] accidental-death-vs-life-insurance — AD&D Insurance vs. Life Insurance: What Each Covers — explainer — money-guides (insurance)
-- [ ] final-expense-life-insurance — Final Expense Life Insurance Explained — explainer — money-guides (insurance)
+- [x] final-expense-life-insurance — Final Expense Life Insurance Explained — explainer — money-guides (insurance)
 - [ ] average-funeral-cost-2026 — Average Funeral Cost in 2026 — stats — stats
 
 ## Timely (November–April)
@@ -77,8 +77,8 @@ described neutrally from its own site: no score or rank, it is not in scores.jso
 ## Statistics (government or primary sources only)
 
 - [x] average-water-bill-by-state-2026 — Average Water Bill by State — stats — stats
-- [ ] average-internet-bill-2026 — Average Internet Bill — stats — stats
-- [ ] average-cell-phone-bill-2026 — Average Cell Phone Bill — stats — stats
+- [x] average-internet-bill-2026 — Average Internet Bill — stats — stats
+- [x] average-cell-phone-bill-2026 — Average Cell Phone Bill — stats — stats
 - [ ] median-household-income-by-state-2026 — Median Household Income by State — stats — stats
 - [ ] median-home-price-by-state-2026 — Median Home Price by State — stats — stats
 - [ ] property-tax-by-state-2026 — Property Tax Rates by State — stats — stats

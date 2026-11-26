@@ -1530,3 +1530,27 @@ Updated: November 2026
 Summary: 50-state table of median monthly water and sewer bills from doxo's 2026 state-by-state bill pay report, with BLS CPI and Consumer Expenditure data, EPA WaterSense usage data, Food & Water Watch, Bluefield Research and UNC Environmental Finance Center figures.
 Key facts: U.S. median water and sewer bill $88/month, $1,056/year; 72% of households pay it (doxo 2026; July 2026 update $89/$1,065, +2.8%). Highest: Maryland $244, Vermont $168, Washington $152, Wisconsin $144, Hawaii $142. Lowest: Alabama $53, South Carolina $56, Colorado $58, Tennessee $58. BLS CPI water, sewer and trash +4.8% Sep 2025-Sep 2026 (no October 12-month change published). Drinking water bills averaged $531 in 2025 at the 500 largest systems, up 62% since 2015 (Food & Water Watch). Combined bills rose 5.1% in 2025 (Bluefield). BLS CE: $883 spent on water and other public services in 2025. EPA: 82 gallons per person per day at home; leaks waste 9,400 gallons a year per family; fixing leaks saves about 10%.
 Key FAQs: What is the average water bill per month? Which state has the highest water bill? Which state has the cheapest water bill? Why are water bills going up? How many gallons of water does a person use per day?
+
+### Final Expense Life Insurance Explained: Costs and Catches
+URL: https://topmoneyapps.com/final-expense-life-insurance.html
+Title: Final Expense Life Insurance Explained: Costs and Catches | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: Final expense (burial) insurance is a small whole life policy, usually sold to people 45 and older, with coverage typically up to about $25,000 paid to the beneficiary you name. Guaranteed issue policies such as Mutual of Omaha's and USAA's accept ages 45-85 with no health questions but pay only premiums plus 10% for a natural-cause death in the first two years. Mutual of Omaha's rate chart (checked November 2026) shows $10,000 of coverage costs $40.20/month for a 50-year-old man and $86.70/month for a 70-year-old man, against an NFDA 2023 median of $8,300 for a funeral with viewing and burial ($6,280 with cremation).
+Key FAQs: How much does final expense insurance cost? Does final expense insurance pay out right away? Is a preneed funeral contract the same as final expense insurance?
+
+### Average Internet Bill in 2026: Monthly Cost by State
+URL: https://topmoneyapps.com/average-internet-bill-2026.html
+Title: Average Internet Bill in 2026: Monthly Cost by State | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: The average U.S. home internet bill is $62.72 a month in 2026, down 8% from 2025 (Reviews.org). The average advertised internet-only plan price is $81.16 a month, about $973 a year (BroadbandNow, March 2026), ranging from New Jersey ($65.43) to Alaska ($109.88). doxo's 2026 median cable and internet bill is $124 a month. The BLS internet services price index rose 0.2% from September 2025 to September 2026. The Affordable Connectivity Program ended June 1, 2024; Lifeline still offers up to $9.25 a month ($34.25 on Tribal lands).
+Key FAQs: What is the average internet bill per month? Which state has the most expensive internet? Is there still a government discount on internet bills?
+
+### Average Cell Phone Bill (2026): Monthly Cost by State
+URL: https://topmoneyapps.com/average-cell-phone-bill-2026.html
+Title: Average Cell Phone Bill (2026): Monthly Cost by State | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: The median U.S. household mobile phone bill is $100 a month ($1,200 a year), and 88% of households pay one (doxo 2026). BLS Consumer Expenditure Survey households spent an average of $1,390 on cellular phone service in 2025 (about $116 a month), up from $1,359 in 2024. Montana has the highest state median ($133 a month) and Wisconsin the lowest ($77). Wireless telephone service prices rose 3.2% from September 2025 to September 2026 (BLS CPI). FCC Lifeline gives eligible households up to $9.25 a month off ($34.25 on Tribal lands).
+Key FAQs: What is the average cell phone bill per month? Which state has the highest cell phone bill? Can I get a discount on my phone bill if I have a low income?
