@@ -83,11 +83,11 @@ described neutrally from its own site: no score or rank, it is not in scores.jso
 - [ ] median-home-price-by-state-2026 — Median Home Price by State — stats — stats
 - [ ] property-tax-by-state-2026 — Property Tax Rates by State — stats — stats
 - [x] sales-tax-by-state-2026 — Sales Tax Rates by State — stats — stats
-- [ ] average-cost-of-college-2026 — Average Cost of College — stats — stats
+- [x] average-cost-of-college-2026 — Average Cost of College — stats — stats
 - [-] average-cost-of-a-funeral-2026 — Average Cost of a Funeral — stats — stats — skipped 2026-11-27: duplicate of average-funeral-cost-2026 (published)
-- [ ] average-cost-of-owning-a-dog-2026 — Average Cost of Owning a Dog — stats — stats
-- [ ] average-auto-loan-interest-rate-2026 — Average Auto Loan Interest Rate — stats — stats
-- [ ] average-mortgage-rate-history — Mortgage Rates by Year — stats — stats
+- [x] average-cost-of-owning-a-dog-2026 — Average Cost of Owning a Dog — stats — stats
+- [-] average-auto-loan-interest-rate-2026 — Average Auto Loan Interest Rate — stats — stats — skipped 2026-11-27: overlaps average-car-payment-2026.html ("Car Payment & Interest Rate by Credit Score" section and FAQ)
+- [x] average-mortgage-rate-history — Mortgage Rates by Year — stats — stats
 
 ## App comparisons (apps in scores.json only; no Acorns head-to-heads)
 
