@@ -1650,3 +1650,33 @@ Author: Mike Van Kempen
 Updated: November 2026
 Summary: Year-by-year 30-year fixed mortgage rate averages since 1971 and 15-year averages since 1992 from Freddie Mac's Primary Mortgage Market Survey (via FRED). The 30-year rate has averaged 6.57% in 2026 through November 25, after 6.60% in 2025 and 6.72% in 2024. Record yearly average high 16.64% (1981), record weekly high 18.63% (October 9, 1981); record yearly low 2.96% (2021), weekly low 2.65% (January 7, 2021). Long-run average of all weekly readings since April 1971 is 7.68%; decade averages range from 12.71% (1980s) to 4.09% (2010s). On November 25, 2026, the 30-year rate was 7.21% and the 15-year 6.54%, vs. 6.23% and 5.51% a year earlier. At 7.21%, principal and interest on a $300,000 30-year loan is about $2,038 a month vs. $1,258 at 2.96%.
 Key FAQs: What is the average 30-year mortgage rate in 2026? What was the highest mortgage rate in history? What was the lowest mortgage rate ever?
+
+---
+
+### Empower vs. YNAB
+URL: https://topmoneyapps.com/empower-vs-ynab.html
+Title: Empower vs. YNAB (2026): Free Tracker or Paid Budget App? | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: Empower (TopMoneyApps score 4.33/5) offers a free Personal Dashboard with net worth, portfolio analysis and a retirement planner, but only basic budgeting; its optional Personal Strategy advisory service requires $100,000 and charges 0.89% a year on balances under $1M. YNAB (3.58/5) costs $14.99/month or $109/year as of November 2026, with a 34-day free trial (365 days for college students), detailed zero-based budgeting, sharing for up to six people and limited investment tracking. Apple App Store, November 2026: YNAB 4.8 (62K ratings), Empower 4.6 (47K ratings).
+Key FAQs: Is Empower free to use? How much does YNAB cost in 2026? Is Empower or YNAB better for budgeting? Can YNAB track investments and net worth? Will Empower call me about its advisory service?
+
+---
+
+### Chase Freedom Flex vs. Sapphire Reserve
+URL: https://topmoneyapps.com/chase-freedom-flex-vs-chase-sapphire-reserve.html
+Title: Chase Freedom Flex vs. Sapphire Reserve (2026): Fees and Rewards | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: As of November 2026, Chase Freedom Flex (TopMoneyApps score 4.63/5) has a $0 annual fee, earns 5% on up to $1,500 a quarter in activated rotating categories, 5% on Chase Travel, 3% on dining and drugstores, and has a 0% intro APR for 15 months, then 18.49%-27.99% variable. Sapphire Reserve (4.33/5) costs $795 a year ($195 per authorized user), earns 8x on Chase Travel, 4x on flights and hotels booked direct and 3x on dining, and includes up to $300 a year in travel credits and lounge access. Neither card charges a foreign transaction fee. Freedom Flex points can be combined into a Reserve account and transferred to Chase's 16 partners. Chase Mobile app: Apple App Store 4.8 (Nov. 2026).
+Key FAQs: Can you have both the Chase Freedom Flex and the Sapphire Reserve? Is the Sapphire Reserve worth the $795 annual fee? Does the Chase Freedom Flex have a foreign transaction fee? Can Freedom Flex points be transferred to airlines and hotels? What APR do the Freedom Flex and Sapphire Reserve charge?
+
+---
+
+### tastytrade vs. Schwab
+URL: https://topmoneyapps.com/tastytrade-vs-schwab.html
+Title: tastytrade vs. Schwab for Options (2026): Fees, Margin, Tools | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: As of November 2026, tastytrade charges $1 per stock/ETF option contract to open, capped at $10 per leg, and $0 to close; Schwab charges $0.65 per contract on each side. Schwab lists $0 commission on exercise and assignment; tastytrade charges $5 per strike. Futures cost $2.25 per contract at Schwab vs. $1.00 per side at tastytrade ($1.25 for futures options). Schwab margin 12.075%-10.325% (base rate 10.25%); tastytrade standard 11%-8%, or a 6.75% flat rate for qualifying accounts. Both have $0 minimums and SIPC coverage. TopMoneyApps scores: Schwab 4.93/5, tastytrade 4.13/5.
+Key FAQs: Is tastytrade or Schwab cheaper for options? Does Schwab or tastytrade charge for option exercise and assignment? Is thinkorswim free to use? What is the minimum to trade options at tastytrade or Schwab? Are tastytrade and Schwab accounts SIPC protected?

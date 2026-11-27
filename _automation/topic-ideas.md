@@ -98,9 +98,9 @@ described neutrally from its own site: no score or rank, it is not in scores.jso
 - [x] m1-finance-vs-fidelity — M1 Finance vs. Fidelity — comparison — comparisons
 - [x] kraken-vs-crypto-com — Kraken vs. Crypto.com — comparison — comparisons
 - [x] fundrise-vs-arrived — Fundrise vs. Arrived — comparison — comparisons
-- [ ] empower-vs-ynab — Empower vs. YNAB — comparison — comparisons
-- [ ] chase-freedom-flex-vs-chase-sapphire-reserve — Chase Freedom Flex vs. Sapphire Reserve — comparison — comparisons
-- [ ] tastytrade-vs-schwab — tastytrade vs. Schwab for Options — comparison — comparisons
+- [x] empower-vs-ynab — Empower vs. YNAB — comparison — comparisons
+- [x] chase-freedom-flex-vs-chase-sapphire-reserve — Chase Freedom Flex vs. Sapphire Reserve — comparison — comparisons
+- [x] tastytrade-vs-schwab — tastytrade vs. Schwab for Options — comparison — comparisons
 
 ## Added 2026-11-27 (check overlap with existing pages before claiming)
 
