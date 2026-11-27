@@ -61,6 +61,9 @@ etrade-vs-fidelity.html
 webull-vs-public.html
 robinhood-vs-public.html
 best-app-index-funds.html
+fundrise-vs-arrived.html
+kraken-vs-crypto-com.html
+m1-finance-vs-fidelity.html
 best-app-esg-investing.html
 best-app-real-estate-investing.html
 robinhood-vs-webull.html

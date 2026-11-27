@@ -72,3 +72,11 @@ Format: `| scheduled (America/Chicago) | cycle | file | Buffer post ID | first w
 | 2026-11-27 13:00 | 1 | webull-vs-public.html | 6b0967ea1fd46e62e73ae21e | Webull Premium costs $40 a year... |
 | 2026-11-27 14:00 | 1 | robinhood-vs-public.html | 6b0967ea1fd46e62e73ae257 | Robinhood Gold ($50 a year) raises the IRA match to 3%... |
 | 2026-11-27 15:00 | 1 | best-app-index-funds.html | 6b0967eb1fd46e62e73ae27f | An index fund with a 0.00% expense ratio... |
+| 2026-11-27 16:00 | 1 | fundrise-vs-arrived.html | 6b09d8422ea34800c28a15d1 | Real estate from $10? Fundrise's taxable-account minimum is $10... |
+| 2026-11-27 17:00 | 1 | kraken-vs-crypto-com.html | 6b09d843585cafb820d5a0a5 | Live in New York? Neither Kraken nor Crypto.com is available there... |
+| 2026-11-27 18:00 | 1 | m1-finance-vs-fidelity.html | 6b09d8432ea34800c28a1612 | Moving an IRA out of M1 Finance in full costs $200... |
+| 2026-11-27 19:00 | 1 | best-app-esg-investing.html | 6b09d8432ea34800c28a1656 | Want your portfolio to skip fossil fuels, weapons and tobacco?... |
+| 2026-11-27 20:00 | 1 | best-app-real-estate-investing.html | 6b09d844b5cd052fe284bbef | None of these real estate investments are FDIC- or SIPC-insured... |
+| 2026-11-27 21:00 | 1 | robinhood-vs-webull.html | 6b09d844b5cd052fe284bc16 | Webull's extended-hours window runs from 4:00 AM to 8:00 PM ET... |
+| 2026-11-27 22:00 | 1 | ynab-vs-monarch-money.html | 6b09d84571e8cc12a6c36e60 | Does YNAB track investments?... |
+| 2026-11-27 23:00 | 1 | betterment-vs-wealthfront.html | 6b09d8452ea34800c28a17c3 | Starting with a small amount? Betterment has no account minimum... |
