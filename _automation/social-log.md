@@ -64,3 +64,11 @@ Format: `| scheduled (America/Chicago) | cycle | file | Buffer post ID | first w
 | 2026-11-27 05:00 | 1 | sales-tax-by-state-2026.html | 6b08f72f1fd46e62e70b194a | Five states have no statewide sales tax... |
 | 2026-11-27 06:00 | 1 | best-app-robo-advisor.html | 6b08f72f062ed764a8dc7a44 | Robo-advisor fees vary: Betterment and Wealthfront charge 0.25%... |
 | 2026-11-27 07:00 | 1 | best-app-options-trading.html | 6b08f730776ce21276dfcc76 | Options trading costs differ by app... |
+| 2026-11-27 08:00 | 1 | average-cost-of-college-2026.html | 6b0967e8062ed764a80cbe71 | Published tuition and fees for 2026-27: $12,290... |
+| 2026-11-27 09:00 | pool:monarch | monarch-vs-empower.html | 6b0967e8e94385a8fd9bfe30 | Budgeting as a couple? Monarch Money's $14.99/month subscription includes two users... |
+| 2026-11-27 10:00 | 1 | average-cost-of-owning-a-dog-2026.html | 6b0967e8776ce212760fea79 | Owning a dog costs $1,390 to $5,295 a year... |
+| 2026-11-27 11:00 | 1 | average-mortgage-rate-history.html | 6b0967e9658222306c09426d | The 30-year fixed mortgage rate averaged 7.21% on Nov. 25, 2026... |
+| 2026-11-27 12:00 | 1 | etrade-vs-fidelity.html | 6b0967e9049983dcfbb35cc5 | Where does your uninvested cash sit?... |
+| 2026-11-27 13:00 | 1 | webull-vs-public.html | 6b0967ea1fd46e62e73ae21e | Webull Premium costs $40 a year... |
+| 2026-11-27 14:00 | 1 | robinhood-vs-public.html | 6b0967ea1fd46e62e73ae257 | Robinhood Gold ($50 a year) raises the IRA match to 3%... |
+| 2026-11-27 15:00 | 1 | best-app-index-funds.html | 6b0967eb1fd46e62e73ae27f | An index fund with a 0.00% expense ratio... |

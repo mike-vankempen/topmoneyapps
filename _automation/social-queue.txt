@@ -54,6 +54,12 @@ median-household-income-by-state-2026.html
 sales-tax-by-state-2026.html
 best-app-robo-advisor.html
 best-app-options-trading.html
+average-cost-of-college-2026.html
+average-cost-of-owning-a-dog-2026.html
+average-mortgage-rate-history.html
+etrade-vs-fidelity.html
+webull-vs-public.html
+robinhood-vs-public.html
 best-app-index-funds.html
 best-app-esg-investing.html
 best-app-real-estate-investing.html
