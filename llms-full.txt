@@ -194,6 +194,30 @@ Updated: November 2026
 Summary: Both charge $0 on U.S. stocks, ETFs and stock options. Robinhood Gold costs $5/month or $50/year for 3.60% APY on cash (Gold only) and a 3% IRA match; Public Reserve costs $20/month or $200/year for 3.75% APY and a 4% match, and Public's free tier pays 3.30% APY (Sept 17, 2026). Public pays a $0.06-$0.18 options rebate per contract. Margin 5.25% (Robinhood) vs. 5.15% (Public) up to $50,000. Fractional shares from $1 (Robinhood) vs. $5 (Public). Both charge $100 to transfer out and both receive payment for order flow. TopMoneyApps scores: Public.com 4.12/5, Robinhood 4.00/5. Verdict: Public if you won't pay for a subscription; Robinhood if you will pay for Gold.
 Key FAQs: Is Robinhood or Public better for beginners? Is Robinhood Gold or Public Reserve worth it? Does Public pay you for options trades? Do Robinhood and Public sell your orders? Are Robinhood and Public safe?
 
+### M1 Finance vs. Fidelity
+URL: https://topmoneyapps.com/m1-finance-vs-fidelity.html
+Title: M1 Finance vs. Fidelity (2026): Fees, Cash and Automation | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: Both charge $0 commission on U.S. stocks and ETFs and offer fractional shares from $1. M1 charges a $3 monthly platform or IRA fee unless you hold $10,000+ in M1 assets (M1 Plus ended in 2024); minimum first deposit $100 ($500 IRA); all trades execute in scheduled windows (about 9:30 a.m. and 3 p.m. ET; one window under $25,000); $100 transfer-out fee plus $100 IRA closing fee; High-Yield Cash 3.35% APY (Sept 2026); advertised margin 5.90%; no options or mutual funds (per NerdWallet); crypto via Bakkt at 1%. Fidelity: no minimum, $0 account fee, $0 transfers out, $0.65 per options contract, SPAXX 7-day yield 3.61% (Nov 25, 2026), margin 12.075% under $25,000 (base 10.825% since Sept 18, 2026), HSAs, 529s, crypto in IRAs. App Store: M1 4.7 (76K), Fidelity 4.8 (3.4M), Nov 2026. TopMoneyApps scores: Fidelity 4.93/5, M1 Finance 3.92/5. Verdict: Fidelity for most investors; M1 for automated pie portfolios at $10,000+.
+Key FAQs: Is M1 Finance or Fidelity cheaper? Does M1 Finance let you trade in real time? Does M1 Finance still have M1 Plus? Which pays more on cash? Can I buy mutual funds or options on M1 Finance?
+
+### Kraken vs. Crypto.com
+URL: https://topmoneyapps.com/kraken-vs-crypto-com.html
+Title: Kraken vs. Crypto.com (2026): Fees, Coins and Safety | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: Kraken Pro lowest tier 0.40% maker / 0.80% taker; Kraken app 1% on instant and recurring buys (1.5% custom) plus spread. Crypto.com app advertises zero trading fees up to a tier limit with spread possible; exchange Level 1 0.25%/0.50% (U.S. applicability not stated); debit card top-ups 1.49%; bank transfers free. Coins: Kraken app page 633 assets globally; Crypto.com 400+ for U.S. Kraken not available in Maine or New York; Crypto.com not in New York. Kraken relaunched U.S. staking Jan 30, 2025 (37 states, 2 territories, 17 assets). Stocks: Kraken 11,000+, Crypto.com 12,000+, commission-free. Kraken proof of reserves Sept 30, 2026 (BTC 103.2%); Crypto.com U.S. proof-of-reserves page shows Dec 7, 2022. Kraken paid $30M SEC staking settlement (Feb 2023); SEC dismissed its 2023 case (Mar 2025); SEC closed Crypto.com probe with no action (Mar 27, 2025). App Store 4.7 for both (37K vs. 337K ratings), Nov 2026. TopMoneyApps scores: Kraken 4.07/5, Crypto.com 3.57/5. Verdict: Kraken for low Pro fees and reserve transparency; Crypto.com for an all-in-one app and card.
+Key FAQs: Is Kraken or Crypto.com cheaper? Can I use Kraken or Crypto.com in New York? Does Kraken offer staking in the U.S.? Is my crypto insured? Which has more coins?
+
+### Fundrise vs. Arrived
+URL: https://topmoneyapps.com/fundrise-vs-arrived.html
+Title: Fundrise vs. Arrived (2026): Fees, Minimums and Liquidity | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: Neither requires accreditation. Fundrise minimum $10 ($1,000 IRA); fees 0.15% advisory + 0.85% management a year on real estate funds; Flagship and Income interval funds allow penalty-free quarterly withdrawals (subject to limits); Innovation Fund (VCX) now NYSE-listed; advisory client returns 6.24% (2025), 5.75% (2024), -7.45% (2023); traditional/Roth IRA via Inspira; 1099-DIV. Arrived minimum $100; asset management 0.1%-0.30% per quarter (0.15%/quarter on single-family homes), one-time sourcing fee in share price, property management 8% of rent (single-family); 6-month minimum hold then monthly one-week secondary-market window, no guaranteed buyer; funds redeem 4 times a year (about 5%/quarter, 20%/year caps); monthly property distributions; Real Estate Income Fund trailing 12-month yield 8.35% (Aug 2026); IRA only via Rocket Dollar checkbook IRA. App Store 4.8 for both (38K vs. 1.2K ratings), Nov 2026. TopMoneyApps scores: Fundrise 3.83/5, Arrived 3.33/5. Verdict: Fundrise for low-minimum diversified funds; Arrived for picking individual rental homes.
+Key FAQs: Is Fundrise or Arrived cheaper? Do you need to be accredited? Can I withdraw money anytime? Can I invest with an IRA? What returns has Fundrise had?
+
 ---
 
 ## "BEST OF" GUIDES

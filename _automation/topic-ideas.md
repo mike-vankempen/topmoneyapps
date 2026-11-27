@@ -95,9 +95,9 @@ described neutrally from its own site: no score or rank, it is not in scores.jso
 - [x] etrade-vs-fidelity — E*TRADE vs. Fidelity — comparison — comparisons
 - [x] webull-vs-public — Webull vs. Public.com — comparison — comparisons
 - [x] robinhood-vs-public — Robinhood vs. Public.com — comparison — comparisons
-- [ ] m1-finance-vs-fidelity — M1 Finance vs. Fidelity — comparison — comparisons
-- [ ] kraken-vs-crypto-com — Kraken vs. Crypto.com — comparison — comparisons
-- [ ] fundrise-vs-arrived — Fundrise vs. Arrived — comparison — comparisons
+- [x] m1-finance-vs-fidelity — M1 Finance vs. Fidelity — comparison — comparisons
+- [x] kraken-vs-crypto-com — Kraken vs. Crypto.com — comparison — comparisons
+- [x] fundrise-vs-arrived — Fundrise vs. Arrived — comparison — comparisons
 - [ ] empower-vs-ynab — Empower vs. YNAB — comparison — comparisons
 - [ ] chase-freedom-flex-vs-chase-sapphire-reserve — Chase Freedom Flex vs. Sapphire Reserve — comparison — comparisons
 - [ ] tastytrade-vs-schwab — tastytrade vs. Schwab for Options — comparison — comparisons
