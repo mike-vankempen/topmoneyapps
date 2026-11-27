@@ -21,7 +21,7 @@ described neutrally from its own site: no score or rank, it is not in scores.jso
 - [x] life-insurance-beneficiary-guide — How to Choose a Life Insurance Beneficiary — explainer — money-guides (insurance)
 - [x] accidental-death-vs-life-insurance — AD&D Insurance vs. Life Insurance: What Each Covers — explainer — money-guides (insurance)
 - [x] final-expense-life-insurance — Final Expense Life Insurance Explained — explainer — money-guides (insurance)
-- [ ] average-funeral-cost-2026 — Average Funeral Cost in 2026 — stats — stats
+- [x] average-funeral-cost-2026 — Average Funeral Cost in 2026 — stats — stats
 
 ## Timely (November–April)
 
@@ -79,12 +79,12 @@ described neutrally from its own site: no score or rank, it is not in scores.jso
 - [x] average-water-bill-by-state-2026 — Average Water Bill by State — stats — stats
 - [x] average-internet-bill-2026 — Average Internet Bill — stats — stats
 - [x] average-cell-phone-bill-2026 — Average Cell Phone Bill — stats — stats
-- [ ] median-household-income-by-state-2026 — Median Household Income by State — stats — stats
+- [x] median-household-income-by-state-2026 — Median Household Income by State — stats — stats
 - [ ] median-home-price-by-state-2026 — Median Home Price by State — stats — stats
 - [ ] property-tax-by-state-2026 — Property Tax Rates by State — stats — stats
-- [ ] sales-tax-by-state-2026 — Sales Tax Rates by State — stats — stats
+- [x] sales-tax-by-state-2026 — Sales Tax Rates by State — stats — stats
 - [ ] average-cost-of-college-2026 — Average Cost of College — stats — stats
-- [ ] average-cost-of-a-funeral-2026 — Average Cost of a Funeral — stats — stats
+- [-] average-cost-of-a-funeral-2026 — Average Cost of a Funeral — stats — stats — skipped 2026-11-27: duplicate of average-funeral-cost-2026 (published)
 - [ ] average-cost-of-owning-a-dog-2026 — Average Cost of Owning a Dog — stats — stats
 - [ ] average-auto-loan-interest-rate-2026 — Average Auto Loan Interest Rate — stats — stats
 - [ ] average-mortgage-rate-history — Mortgage Rates by Year — stats — stats
@@ -101,3 +101,26 @@ described neutrally from its own site: no score or rank, it is not in scores.jso
 - [ ] empower-vs-ynab — Empower vs. YNAB — comparison — comparisons
 - [ ] chase-freedom-flex-vs-chase-sapphire-reserve — Chase Freedom Flex vs. Sapphire Reserve — comparison — comparisons
 - [ ] tastytrade-vs-schwab — tastytrade vs. Schwab for Options — comparison — comparisons
+
+## Added 2026-11-27 (check overlap with existing pages before claiming)
+
+- [ ] w4-form-explained — How to Fill Out a W-4 in 2026 — how-to — money-guides (taxes)
+- [ ] estimated-tax-payments-2026 — Quarterly Estimated Tax Payments: Due Dates and How to Pay — explainer — money-guides (taxes)
+- [ ] wash-sale-rule — The Wash Sale Rule, Explained — explainer — investing-guides (by strategy)
+- [ ] roth-401k-vs-traditional-401k — Roth 401(k) vs. Traditional 401(k) — explainer — investing-guides (retirement)
+- [ ] spousal-ira — Spousal IRA: How It Works and Who Qualifies — explainer — investing-guides (retirement)
+- [ ] sep-ira-vs-solo-401k — SEP IRA vs. Solo 401(k) for the Self-Employed — explainer — investing-guides (retirement)
+- [ ] what-is-an-annuity — What Is an Annuity? Types, Fees and Trade-Offs — explainer — investing-guides (retirement)
+- [ ] stock-split-explained — What Is a Stock Split? — explainer — investing-guides (getting started)
+- [ ] cd-ladder — How to Build a CD Ladder — how-to — money-guides (saving)
+- [ ] fdic-insurance-explained — FDIC Insurance: What It Covers and the $250,000 Limit — explainer — money-guides (saving)
+- [ ] credit-union-vs-bank — Credit Union vs. Bank — explainer — money-guides (saving)
+- [ ] balance-transfer-credit-card-explained — How Balance Transfers Work — explainer — money-guides (credit)
+- [ ] heloc-vs-home-equity-loan — HELOC vs. Home Equity Loan — explainer — money-guides (housing)
+- [ ] what-is-pmi — What Is PMI and How to Get Rid of It — explainer — money-guides (housing)
+- [ ] 15-vs-30-year-mortgage — 15-Year vs. 30-Year Mortgage — explainer — money-guides (housing)
+- [ ] average-homeowners-insurance-cost-2026 — Average Homeowners Insurance Cost by State — stats — stats
+- [ ] average-renters-insurance-cost-2026 — Average Renters Insurance Cost — stats — stats
+- [ ] federal-poverty-level-2026 — Federal Poverty Guidelines for 2026 — explainer — money-guides (planning)
+- [ ] unemployment-benefits-by-state-2026 — Maximum Unemployment Benefits by State — stats — stats
+- [ ] inflation-rate-by-year — U.S. Inflation Rate by Year — stats — stats
