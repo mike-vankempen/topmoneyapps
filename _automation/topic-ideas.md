@@ -91,10 +91,10 @@ described neutrally from its own site: no score or rank, it is not in scores.jso
 
 ## App comparisons (apps in scores.json only; no Acorns head-to-heads)
 
-- [ ] vanguard-vs-schwab — Vanguard vs. Charles Schwab — comparison — comparisons
-- [ ] etrade-vs-fidelity — E*TRADE vs. Fidelity — comparison — comparisons
-- [ ] webull-vs-public — Webull vs. Public.com — comparison — comparisons
-- [ ] robinhood-vs-public — Robinhood vs. Public.com — comparison — comparisons
+- [-] vanguard-vs-schwab — Vanguard vs. Charles Schwab — comparison — comparisons — skipped 2026-11-27: overlaps fidelity-vs-vanguard.html ("Fidelity vs Vanguard vs Schwab" three-way comparison)
+- [x] etrade-vs-fidelity — E*TRADE vs. Fidelity — comparison — comparisons
+- [x] webull-vs-public — Webull vs. Public.com — comparison — comparisons
+- [x] robinhood-vs-public — Robinhood vs. Public.com — comparison — comparisons
 - [ ] m1-finance-vs-fidelity — M1 Finance vs. Fidelity — comparison — comparisons
 - [ ] kraken-vs-crypto-com — Kraken vs. Crypto.com — comparison — comparisons
 - [ ] fundrise-vs-arrived — Fundrise vs. Arrived — comparison — comparisons

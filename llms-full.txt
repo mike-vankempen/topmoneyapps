@@ -170,6 +170,30 @@ Title: Chase Sapphire Reserve vs. Amex Platinum: Which Premium Card Wins in 2026
 Summary: Both are premium travel cards. Chase Sapphire Reserve ($795/yr): 3x on dining and travel, $300 annual travel credit, Priority Pass, points transfer to 14 airline/hotel partners, best overall value for everyday travelers. Amex Platinum ($895/yr): 5x on flights booked direct/through Amex, Centurion Lounge access (1,400+ lounges), $200 airline fee credit, $200 hotel credit, $240 digital entertainment credit. Verdict: Chase Sapphire Reserve for dining-heavy travelers and flexible rewards; Amex Platinum for frequent flyers who value lounge access above all else.
 Key FAQs: Which is better in 2026? Annual fee comparison? Which has better lounge access? Travel credits breakdown?
 
+### E*TRADE vs. Fidelity
+URL: https://topmoneyapps.com/etrade-vs-fidelity.html
+Title: E*TRADE vs. Fidelity (2026): Fees, Cash Yield and Tools | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: Both charge $0 for online U.S. stock and ETF trades with no account minimum. Options cost $0.65 per contract at both; E*TRADE drops to $0.50 at 30+ trades a quarter. Fidelity's default money market fund SPAXX had a 3.61% 7-day yield (Nov 25, 2026) vs. a 0.01%-0.15% E*TRADE default sweep (NerdWallet, July 2026). Fractional shares from $1 at Fidelity vs. $5 at E*TRADE; full transfer out $0 vs. $75. Smallest-tier margin 12.075% (Fidelity, under $25k) vs. 12.70% (E*TRADE, under $10k). E*TRADE offers futures at $1.50 per contract per side; crypto fees 1% at Fidelity vs. 0.50% at E*TRADE. TopMoneyApps scores: Fidelity 4.93/5, E*TRADE 4.87/5. Verdict: Fidelity for most long-term investors; E*TRADE for active options and futures traders.
+Key FAQs: Is E*TRADE or Fidelity cheaper? Which pays more interest on cash? Does E*TRADE or Fidelity have fractional shares? Can you trade futures on E*TRADE? Are Fidelity and E*TRADE safe?
+
+### Webull vs. Public.com
+URL: https://topmoneyapps.com/webull-vs-public.html
+Title: Webull vs. Public.com (2026): Fees, Cash APY and Features | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: Both charge $0 on U.S. stocks, ETFs and stock options with no minimum, trade 24/5 and clear through Apex. Public pays an options rebate of $0.06-$0.18 per stock/ETF contract and 3.30% APY on cash without a subscription (3.75% with Reserve, $20/month or $200/year; Sept 17, 2026). Webull Premium costs $40/year and raises the IRA contribution match from 1% to 3.5%; Public Reserve raises it from 1% to 4%. Webull adds paper trading, desktop platform, futures and UTMA custodial accounts; Public adds Treasuries, bonds and AI-built Generated Assets indexes. Outgoing transfer $75 (Webull) vs. $100 (Public). TopMoneyApps scores: Webull 4.27/5, Public.com 4.12/5. Verdict: Webull for active traders; Public for options rebates and cash yield.
+Key FAQs: Is Webull or Public cheaper? Does Public really pay you to trade options? Which has a higher IRA match? Does Webull have paper trading? Are Webull and Public safe?
+
+### Robinhood vs. Public.com
+URL: https://topmoneyapps.com/robinhood-vs-public.html
+Title: Robinhood vs. Public.com (2026): Fees, Cash APY and IRA Match | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: Both charge $0 on U.S. stocks, ETFs and stock options. Robinhood Gold costs $5/month or $50/year for 3.60% APY on cash (Gold only) and a 3% IRA match; Public Reserve costs $20/month or $200/year for 3.75% APY and a 4% match, and Public's free tier pays 3.30% APY (Sept 17, 2026). Public pays a $0.06-$0.18 options rebate per contract. Margin 5.25% (Robinhood) vs. 5.15% (Public) up to $50,000. Fractional shares from $1 (Robinhood) vs. $5 (Public). Both charge $100 to transfer out and both receive payment for order flow. TopMoneyApps scores: Public.com 4.12/5, Robinhood 4.00/5. Verdict: Public if you won't pay for a subscription; Robinhood if you will pay for Gold.
+Key FAQs: Is Robinhood or Public better for beginners? Is Robinhood Gold or Public Reserve worth it? Does Public pay you for options trades? Do Robinhood and Public sell your orders? Are Robinhood and Public safe?
+
 ---
 
 ## "BEST OF" GUIDES
