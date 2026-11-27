@@ -46,6 +46,12 @@ best-app-etf-investing.html
 best-app-dividend-investing.html
 best-app-crypto-investing.html
 best-app-retirement-ira.html
+final-expense-life-insurance.html
+average-internet-bill-2026.html
+average-cell-phone-bill-2026.html
+average-funeral-cost-2026.html
+median-household-income-by-state-2026.html
+sales-tax-by-state-2026.html
 best-app-robo-advisor.html
 best-app-options-trading.html
 best-app-index-funds.html

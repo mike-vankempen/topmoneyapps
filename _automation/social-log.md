@@ -56,3 +56,11 @@ Format: `| scheduled (America/Chicago) | cycle | file | Buffer post ID | first w
 | 2026-11-26 21:00 | 1 | best-app-dividend-investing.html | 6b0886ea9068b6e0795a5fd7 | Want dividends reinvested automatically?... |
 | 2026-11-26 22:00 | 1 | best-app-crypto-investing.html | 6b0886eac81617797dd80a1c | Crypto held on an exchange is not FDIC- or SIPC-insured... |
 | 2026-11-26 23:00 | 1 | best-app-retirement-ira.html | 6b0886eace64081689e7d0b0 | Opening an IRA? Fidelity offers zero-fee index funds... |
+| 2026-11-27 00:00 | 1 | final-expense-life-insurance.html | 6b08f72d658222306cd9b677 | Final expense insurance is a small whole life policy... |
+| 2026-11-27 01:00 | 1 | average-internet-bill-2026.html | 6b08f72d776ce21276dfcbf3 | The average U.S. internet bill is $62.72 a month in 2026... |
+| 2026-11-27 02:00 | 1 | average-cell-phone-bill-2026.html | 6b08f72ee94385a8fd6c6e5e | The median household mobile phone bill is $100 a month... |
+| 2026-11-27 03:00 | 1 | average-funeral-cost-2026.html | 6b08f72e776ce21276dfcc27 | The median funeral with viewing and burial costs $8,300... |
+| 2026-11-27 04:00 | 1 | median-household-income-by-state-2026.html | 6b08f72e1fd46e62e70b1924 | U.S. median household income was $84,780 in 2025... |
+| 2026-11-27 05:00 | 1 | sales-tax-by-state-2026.html | 6b08f72f1fd46e62e70b194a | Five states have no statewide sales tax... |
+| 2026-11-27 06:00 | 1 | best-app-robo-advisor.html | 6b08f72f062ed764a8dc7a44 | Robo-advisor fees vary: Betterment and Wealthfront charge 0.25%... |
+| 2026-11-27 07:00 | 1 | best-app-options-trading.html | 6b08f730776ce21276dfcc76 | Options trading costs differ by app... |
