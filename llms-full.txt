@@ -1746,3 +1746,36 @@ Updated: November 2026
 Summary: A neutral explainer on annuities based on SEC and FINRA guidance: immediate vs. deferred, fixed, fixed indexed, RILA and variable types, caps and participation rates, fees and surrender charges, taxes, 1035 exchanges, insurer risk and 2025 sales.
 Key facts: Annuity = contract with an insurer paying you starting immediately or later (Investor.gov, FINRA). Immediate income typically within one year; deferred has accumulation and payout (annuitization) phases; annuitizing generally irrevocable. Types: fixed and fixed indexed (state-regulated; FIA credited rate never below zero), RILA and variable (also SEC/FINRA securities; can lose money). SEC indexed examples: 75% participation on 10% gain = 7.5%; 7% cap on 12% = 7%; 3% spread on 9% = 6%; 10% floor on -12% = lose 10%; 10% buffer on -12% = lose 2%; dividends usually excluded. Fees: SEC example 1.25% base fee = $3,750/yr on $300,000; admin $25-$50 or ~0.15%; fund and rider fees; surrender periods typically 6-10+ years (indexed), 8+ years (variable, FINRA); bonus credits 1%-5%. Free look usually 10-30 days. Taxes: deferred, ordinary income rates, 10% penalty may apply before 59 1/2, no extra deferral inside IRA; 1035 exchange tax-free but may restart surrender period. Not FDIC/SIPC guaranteed. LIMRA (Mar 23, 2026): 2025 retail sales record $464.1B, +7%; fixed-rate deferred $165.3B, FIA $127.9B, RILA $79.5B, traditional VA $63.1B, SPIA $14.4B, DIA $4.8B.
 Key FAQs: What is an annuity in simple terms? What are the main types of annuities? Can you lose money in an annuity? What is a surrender charge? How are annuities taxed? Should I buy an annuity in my IRA?
+
+---
+
+### FDIC Insurance: What It Covers and the $250,000 Limit
+URL: https://topmoneyapps.com/fdic-insurance-explained.html
+Title: FDIC Insurance: What It Covers and the $250,000 Limit | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: A neutral explainer on FDIC deposit insurance: the $250,000 limit, ownership categories, joint and trust rules, what is and is not covered, bank failures, FDIC vs. NCUA vs. SIPC.
+Key facts: FDIC insures at least $250,000 per depositor, per insured bank, per ownership category; backed by full faith and credit of U.S. Seven categories: single, joint, certain retirement, trust, employee benefit plan, corporation/partnership/unincorporated association, government. Joint: $250,000 per co-owner share. Retirement: Traditional, Roth, SEP, SIMPLE IRAs, self-directed 401(k), Keogh, 457 combined to $250,000. Trust (since Apr 1, 2024): $250,000 per eligible beneficiary, max $1,250,000 per owner per bank. Covered: checking, NOW, savings, MMDAs, CDs, cashier's checks, money orders. Not covered: stocks, bonds, mutual funds, annuities, life insurance, crypto, Treasuries, municipal securities, safe deposit boxes. Payouts usually begin within a few days of closing when FDIC pays directly. Since 1933 no depositor has lost a penny of FDIC-insured funds. 2025: one failure (Pulaski Savings Bank, Jan 2025); 2026: six by late Sept per news reports. NCUA $250,000; SIPC $500,000 incl. $250,000 cash. S. 4198 (Mar 25, 2026) would raise coverage only for noninterest-bearing transaction accounts; not enacted as of Nov 2026. FDIC custodial-account recordkeeping rule proposed Sept 2024, no final rule found.
+Key FAQs: What is the FDIC insurance limit? How much is a joint account insured for? Is my money insured above $250,000? Are stocks and mutual funds FDIC-insured? How fast do you get your money back if a bank fails? Are credit unions FDIC-insured?
+
+---
+
+### What Is a Stock Split? How Splits and Reverse Splits Work
+URL: https://topmoneyapps.com/stock-split-explained.html
+Title: What Is a Stock Split? How Splits and Reverse Splits Work | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: A neutral explainer on stock splits and reverse splits: share math, key dates, fractional shares, taxes and cost basis, options, Nasdaq $1 rules and recent examples.
+Key facts: Split = more shares at proportionally lower price; position value and market cap unchanged (FINRA). Common ratios 2-for-1, 3-for-2, 3-for-1. 2-for-1: 10 shares at $200 -> 20 at $100. IRS: splits not taxable; reallocate basis (100 shares $1,500 basis -> 200 at $7.50). FINRA Rule 11140: ex-date is first business day after payable date for distributions of 25%+. Due bills when selling before ex-date. Reverse split 1-for-10: 10,000 -> 1,000 shares; FINRA 200:1 example; often low-priced high-risk stocks. Nasdaq $1.00 minimum bid; deficient after 30 business days; 180 days to cure; no compliance period if reverse split in prior year or cumulative 250:1 over two years (SEC approval Jan 17, 2025). Cash in lieu or fractional shares depending on terms and broker. Options adjusted (5-for-1: two $500 calls -> 10 $100 calls). Examples: Walmart 3-for-1 (Feb 26, 2024), Nvidia 10-for-1 (Jun 10, 2024), Chipotle 50-for-1 (Jun 26, 2024), Broadcom 10-for-1 (Jul 15, 2024), Netflix 10-for-1 (Nov 17, 2025).
+Key FAQs: Is a stock split good or bad for shareholders? Do you pay taxes on a stock split? What is a reverse stock split? What happens if I sell before a stock split? What happens to fractional shares in a split?
+
+---
+
+### Credit Union vs. Bank: Key Differences, Rates and Insurance
+URL: https://topmoneyapps.com/credit-union-vs-bank.html
+Title: Credit Union vs. Bank: Key Differences, Rates and Insurance | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: A neutral comparison of credit unions and banks: ownership, membership, NCUA vs. FDIC insurance, NCUA Q4 2025 rate averages, the 18% loan rate ceiling, PALs and tax status.
+Key facts: Credit unions: not-for-profit, member-owned, volunteer board; field of membership required. NCUA share insurance $250,000 via NCUSIF, full faith and credit; FDIC $250,000. Q2 2026: 4,214 federally insured credit unions, 146.1M members, $2.50T assets (NCUA); 4,238 FDIC-insured institutions (FDIC QBP). NCUA Q4 2025 averages (Dec 26, 2025), CU vs bank: 1-yr CD 2.95% vs 2.29%; 5-yr CD 2.83% vs 2.11%; savings 0.19% vs 0.32%; 60-mo new car 5.44% vs 7.41%; 48-mo used car 5.53% vs 7.73%; 36-mo unsecured 10.64% vs 12.00%; classic card 12.58% vs 15.27%; 30-yr mortgage 6.26% vs 6.50%. FCU loan ceiling 18% extended Feb 6, 2026 through Sept 10, 2027 (statutory 15%). PALs I $200-$1,000, 1-6 months; PALs II up to $2,000, 1-12 months; $20 max fee; 3 per rolling 6 months. FCUs exempt from federal and state income tax (NCUA legal opinion). CO-OP: 5,600+ shared branches, 30,000+ ATMs.
+Key FAQs: What is the main difference between a credit union and a bank? Is money safer in a credit union or a bank? Do credit unions have better rates than banks? Can anyone join a credit union? What is the maximum interest rate a federal credit union can charge?
