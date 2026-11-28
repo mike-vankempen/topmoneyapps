@@ -88,3 +88,11 @@ Format: `| scheduled (America/Chicago) | cycle | file | Buffer post ID | first w
 | 2026-11-28 05:00 | 1 | roth-401k-vs-traditional-401k.html | 6b0a48e0eab081a3f51c6974 | Roth and traditional 401(k) deferrals share one limit... |
 | 2026-11-28 06:00 | 1 | fidelity-vs-vanguard.html | 6b0a48e0eada83daa6bf39a0 | Fidelity's FZROX and FZILX index funds both carry a 0.00% expense ratio... |
 | 2026-11-28 07:00 | 1 | coinbase-vs-kraken.html | 6b0a48e070e80ae8f1cb0863 | Kraken Pro's entry-tier fees are 0.40% maker... |
+| 2026-11-28 08:00 | 1 | spousal-ira.html | 6b0ab951039273f88fc531f0 | No paycheck? You can still have an IRA... |
+| 2026-11-28 09:00 | pool:life | life-insurance-guide.html | 6b0ab952669c22f85dea0536 | Term life covers a set period, typically 10, 20 or 30 years... |
+| 2026-11-28 10:00 | pool:monarch | best-budgeting-app-couples.html | 6b0ab9528cbf0dfe50d4cf93 | Want to budget together without paying for an app? Honeydue is free... |
+| 2026-11-28 11:00 | 1 | sep-ira-vs-solo-401k.html | 6b0ab952e126bb7597241a79 | Self-employed? A SEP IRA and a solo 401(k) share the same $72,000 total cap... |
+| 2026-11-28 12:00 | 1 | what-is-an-annuity.html | 6b0ab9530a3bd455b42ad26b | The SEC's own example of an annuity base contract fee is 1.25% a year... |
+| 2026-11-28 13:00 | 1 | stock-split-explained.html | 6b0ab953039273f88fc5324c | Myth: a stock split makes your shares worth more... |
+| 2026-11-28 14:00 | 1 | fdic-insurance-explained.html | 6b0ab954669c22f85dea0585 | FDIC insurance covers at least $250,000 per depositor, per ownership category... |
+| 2026-11-28 15:00 | 1 | credit-union-vs-bank.html | 6b0ab9548cbf0dfe50d4cfcb | In NCUA's Q4 2025 data, 60-month new car loans averaged 5.44%... |
