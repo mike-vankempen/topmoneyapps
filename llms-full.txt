@@ -1680,3 +1680,36 @@ Author: Mike Van Kempen
 Updated: November 2026
 Summary: As of November 2026, tastytrade charges $1 per stock/ETF option contract to open, capped at $10 per leg, and $0 to close; Schwab charges $0.65 per contract on each side. Schwab lists $0 commission on exercise and assignment; tastytrade charges $5 per strike. Futures cost $2.25 per contract at Schwab vs. $1.00 per side at tastytrade ($1.25 for futures options). Schwab margin 12.075%-10.325% (base rate 10.25%); tastytrade standard 11%-8%, or a 6.75% flat rate for qualifying accounts. Both have $0 minimums and SIPC coverage. TopMoneyApps scores: Schwab 4.93/5, tastytrade 4.13/5.
 Key FAQs: Is tastytrade or Schwab cheaper for options? Does Schwab or tastytrade charge for option exercise and assignment? Is thinkorswim free to use? What is the minimum to trade options at tastytrade or Schwab? Are tastytrade and Schwab accounts SIPC protected?
+
+---
+
+### How to Fill Out a W-4 in 2026: Step-by-Step Guide
+URL: https://topmoneyapps.com/w4-form-explained.html
+Title: How to Fill Out a W-4 in 2026: Step-by-Step Guide | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: How to fill out the 2026 Form W-4: the five steps, multiple jobs or a working spouse, dependents, other income and deductions, when to submit a new form, claiming exempt and avoiding an underpayment penalty.
+Key facts: Only Step 1 and Step 5 are required. 2026 Step 3: $2,200 per qualifying child under 17, $500 per other dependent; complete if income $200,000 or less ($400,000 MFJ). Step 4(b) worksheet covers qualified tips, overtime, passenger vehicle loan interest and the 65+ deduction (IRS Pub 505). Step 2 options: IRS Tax Withholding Estimator, Multiple Jobs Worksheet, or checkbox for two jobs total (halves standard deduction and brackets per job). No W-4 = withheld as single/MFS with no adjustments. Employer must apply a new W-4 by the first payroll period ending on or after the 30th day. New W-4 within 10 days if a change reduces allowable withholding. Exempt status from the 2026 form must be renewed by Feb 16, 2027; draft 2027 form sets Feb 15, 2028. 2026 standard deduction $16,100 single/MFS, $32,200 MFJ, $24,150 HOH. Penalty safe harbors: owe under $1,000, or pay 90% of current-year or 100% of prior-year tax (110% if AGI over $150,000). Average refund $3,397 through Apr 10, 2026 (IRS).
+Key FAQs: Do I have to fill out every step of the W-4? How do I fill out a W-4 if my spouse and I both work? How much do I put for dependents on the 2026 W-4? What happens if I don't fill out a W-4? Can I claim exempt on my W-4? How often can I change my W-4?
+
+---
+
+### The Wash Sale Rule Explained: 30-Day Window and Examples
+URL: https://topmoneyapps.com/wash-sale-rule.html
+Title: The Wash Sale Rule Explained: 30-Day Window and Examples | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: How the IRS wash sale rule works: the 61-day window, substantially identical securities, what happens to the disallowed loss, spouse and IRA purchases, Form 1099-B and Form 8949 reporting, year-end tax-loss harvesting and crypto's status in 2026.
+Key facts: Wash sale: sell stock or securities at a loss and within 30 days before or after buy substantially identical ones, acquire them in a taxable trade, acquire an option to buy them, or buy them in an IRA/Roth IRA (IRS Pub 550). Loss disallowed and added to new shares' basis; holding period carries over. Pub 550 example: buy $1,000, sell $750, rebuy $800 = new basis $1,050. IRA replacement: no basis increase. Spouse or controlled corporation purchases count. Brokers report in 1099-B box 1g only for same CUSIP in same account; Form 8949 code W, column (g). Net capital loss offsets up to $3,000 of ordinary income ($1,500 MFS), rest carried forward. Last 2026 trading day Thursday Dec 31; markets closed Jan 1, 2027. Crypto: IRC 1091 covers stock or securities; H.R. 10357 (introduced Sept 14, 2026) would extend wash sale rules to traded digital assets, approved by Ways and Means 38-5, no House floor vote as of Nov 20, 2026.
+Key FAQs: What is the wash sale rule? How long do you have to wait to avoid a wash sale? Does the wash sale rule apply across different accounts? Does the wash sale rule apply to gains? Does the wash sale rule apply to crypto in 2026? What does code W mean on Form 8949?
+
+---
+
+### Roth 401(k) vs. Traditional 401(k): Taxes, Limits, Rules
+URL: https://topmoneyapps.com/roth-401k-vs-traditional-401k.html
+Title: Roth 401(k) vs. Traditional 401(k): Taxes, Limits, Rules | TopMoneyApps
+Author: Mike Van Kempen
+Updated: November 2026
+Summary: A comparison of Roth and traditional 401(k)s: tax treatment, qualified withdrawals, 2026 and 2027 limits, no income limits, RMDs, Roth employer contributions, the high-earner Roth catch-up rule, in-plan conversions and rollovers.
+Key facts: Traditional: before-tax contributions, taxed withdrawals. Roth: after-tax contributions, qualified withdrawals tax-free (5-taxable-year period plus age 59 1/2, disability or death). Shared deferral limit $24,500 (2026) and $25,500 (2027); catch-up 50+ $8,000 (2026) / $8,500 (2027); ages 60-63 $11,250 / $11,750; 415(c) total $72,000 / $75,000. No income limit. No lifetime RMDs on Roth 401(k)s since 2024. Plans may allow Roth employer contributions (Notice 2024-2), taxable when allocated, only if fully vested. Roth catch-up required from 2026 for prior-year wages over $150,000; $155,000 threshold for 2027. Roth 401(k) rolls to Roth IRA, not traditional IRA. Vanguard How America Saves 2026: 98% of plans offered Roth at year-end 2025, an estimated 18% of participants used it.
+Key FAQs: What is the difference between a Roth 401(k) and a traditional 401(k)? Can I contribute to both a Roth 401(k) and a traditional 401(k)? Is there an income limit for a Roth 401(k)? Do Roth 401(k)s have required minimum distributions? When is a Roth 401(k) withdrawal tax-free? Do high earners have to make Roth catch-up contributions?

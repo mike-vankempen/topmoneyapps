@@ -104,10 +104,10 @@ described neutrally from its own site: no score or rank, it is not in scores.jso
 
 ## Added 2026-11-27 (check overlap with existing pages before claiming)
 
-- [ ] w4-form-explained — How to Fill Out a W-4 in 2026 — how-to — money-guides (taxes)
-- [ ] estimated-tax-payments-2026 — Quarterly Estimated Tax Payments: Due Dates and How to Pay — explainer — money-guides (taxes)
-- [ ] wash-sale-rule — The Wash Sale Rule, Explained — explainer — investing-guides (by strategy)
-- [ ] roth-401k-vs-traditional-401k — Roth 401(k) vs. Traditional 401(k) — explainer — investing-guides (retirement)
+- [x] w4-form-explained — How to Fill Out a W-4 in 2026 — how-to — money-guides (taxes)
+- [-] estimated-tax-payments-2026 — Quarterly Estimated Tax Payments: Due Dates and How to Pay — explainer — money-guides (taxes) — skipped 2026-11-28: overlaps tax-filing-deadline-2027.html ("Estimated Tax Payment Dates" section)
+- [x] wash-sale-rule — The Wash Sale Rule, Explained — explainer — investing-guides (by strategy)
+- [x] roth-401k-vs-traditional-401k — Roth 401(k) vs. Traditional 401(k) — explainer — investing-guides (retirement)
 - [ ] spousal-ira — Spousal IRA: How It Works and Who Qualifies — explainer — investing-guides (retirement)
 - [ ] sep-ira-vs-solo-401k — SEP IRA vs. Solo 401(k) for the Self-Employed — explainer — investing-guides (retirement)
 - [ ] what-is-an-annuity — What Is an Annuity? Types, Fees and Trade-Offs — explainer — investing-guides (retirement)
@@ -124,3 +124,26 @@ described neutrally from its own site: no score or rank, it is not in scores.jso
 - [ ] federal-poverty-level-2026 — Federal Poverty Guidelines for 2026 — explainer — money-guides (planning)
 - [ ] unemployment-benefits-by-state-2026 — Maximum Unemployment Benefits by State — stats — stats
 - [ ] inflation-rate-by-year — U.S. Inflation Rate by Year — stats — stats
+
+## Added 2026-11-28 (check overlap with existing pages before claiming)
+
+- [ ] simple-ira-explained — SIMPLE IRA: How It Works, Limits and Rules — explainer — investing-guides (retirement)
+- [ ] 403b-vs-401k — 403(b) vs. 401(k): What's the Difference? — explainer — investing-guides (retirement)
+- [ ] inherited-ira-rules — Inherited IRA Rules: The 10-Year Rule and Who Is Exempt — explainer — investing-guides (retirement)
+- [ ] what-is-a-bond — What Is a Bond? How Bonds Work and Pay — explainer — investing-guides (getting started)
+- [ ] expense-ratio-explained — What Is an Expense Ratio? — explainer — investing-guides (getting started)
+- [ ] dividend-tax-rates-2026 — Qualified vs. Ordinary Dividends: 2026 Tax Rates — explainer — investing-guides (check capital-gains-tax-rates-2026.html first)
+- [ ] gift-tax-limit-2026 — Gift Tax Annual Exclusion for 2026 — explainer — money-guides (planning) (check year-end-tax-moves-2026.html first)
+- [ ] estate-tax-exemption-2026 — Federal Estate Tax Exemption for 2026 — explainer — money-guides (planning)
+- [ ] earned-income-tax-credit-2026 — Earned Income Tax Credit (EITC) 2026: Amounts and Limits — explainer — money-guides (taxes)
+- [ ] child-tax-credit-2026 — Child Tax Credit 2026: Amount and Who Qualifies — explainer — money-guides (taxes)
+- [ ] how-to-check-your-credit-report — How to Check Your Credit Report for Free — how-to — money-guides (credit) (check how-to-dispute-a-credit-report-error.html first)
+- [ ] average-new-car-price-2026 — Average New Car Price in 2026 — stats — stats
+- [ ] personal-saving-rate — U.S. Personal Saving Rate by Year — stats — stats
+- [ ] average-hourly-wage-2026 — Average Hourly Wage in the U.S. — stats — stats
+- [ ] unemployment-rate-by-state-2026 — Unemployment Rate by State — stats — stats
+- [ ] webull-vs-fidelity — Webull vs. Fidelity — comparison — comparisons
+- [ ] rocket-money-vs-monarch-money — Rocket Money vs. Monarch Money — comparison — comparisons
+- [ ] coinbase-vs-crypto-com — Coinbase vs. Crypto.com — comparison — comparisons
+- [ ] fundrise-vs-realtymogul — Fundrise vs. RealtyMogul — comparison — comparisons
+- [ ] betterment-vs-vanguard — Betterment vs. Vanguard Digital Advisor — comparison — comparisons
