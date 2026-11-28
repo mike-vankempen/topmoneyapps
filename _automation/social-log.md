@@ -80,3 +80,11 @@ Format: `| scheduled (America/Chicago) | cycle | file | Buffer post ID | first w
 | 2026-11-27 21:00 | 1 | robinhood-vs-webull.html | 6b09d844b5cd052fe284bc16 | Webull's extended-hours window runs from 4:00 AM to 8:00 PM ET... |
 | 2026-11-27 22:00 | 1 | ynab-vs-monarch-money.html | 6b09d84571e8cc12a6c36e60 | Does YNAB track investments?... |
 | 2026-11-27 23:00 | 1 | betterment-vs-wealthfront.html | 6b09d8452ea34800c28a17c3 | Starting with a small amount? Betterment has no account minimum... |
+| 2026-11-28 00:00 | 1 | empower-vs-ynab.html | 6b0a48d423fb5b770015a408 | The Empower Personal Dashboard app is free... |
+| 2026-11-28 01:00 | 1 | chase-freedom-flex-vs-chase-sapphire-reserve.html | 6b0a48d5eada83daa6bf35e6 | $0 vs. $795: that's the annual fee gap... |
+| 2026-11-28 02:00 | 1 | tastytrade-vs-schwab.html | 6b0a48d5eab081a3f51c6117 | Options fees, side by side: tastytrade charges $1.00... |
+| 2026-11-28 03:00 | 1 | w4-form-explained.html | 6b0a48d623fb5b770015a464 | Only two steps of Form W-4 are required... |
+| 2026-11-28 04:00 | 1 | wash-sale-rule.html | 6b0a48dfeab081a3f51c694e | Sold a stock at a loss?... |
+| 2026-11-28 05:00 | 1 | roth-401k-vs-traditional-401k.html | 6b0a48e0eab081a3f51c6974 | Roth and traditional 401(k) deferrals share one limit... |
+| 2026-11-28 06:00 | 1 | fidelity-vs-vanguard.html | 6b0a48e0eada83daa6bf39a0 | Fidelity's FZROX and FZILX index funds both carry a 0.00% expense ratio... |
+| 2026-11-28 07:00 | 1 | coinbase-vs-kraken.html | 6b0a48e070e80ae8f1cb0863 | Kraken Pro's entry-tier fees are 0.40% maker... |

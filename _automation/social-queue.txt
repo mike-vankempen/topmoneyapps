@@ -69,6 +69,12 @@ best-app-real-estate-investing.html
 robinhood-vs-webull.html
 ynab-vs-monarch-money.html
 betterment-vs-wealthfront.html
+empower-vs-ynab.html
+chase-freedom-flex-vs-chase-sapphire-reserve.html
+tastytrade-vs-schwab.html
+w4-form-explained.html
+wash-sale-rule.html
+roth-401k-vs-traditional-401k.html
 fidelity-vs-vanguard.html
 coinbase-vs-kraken.html
 best-free-budgeting-apps.html
